@@ -1,0 +1,79 @@
+{
+  "Collection Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Unclear scope of data collection",
+        "reasoning": "While it is known that income level, payment history, and insurance status are collected, the specific scope of other financial or personal data collected is not clear.",
+        "related_questions": [
+          "What other types of patient data are collected by the healthcare billing system?",
+          "Are there any limitations on the types of financial data collected?"
+        ]
+      }
+    ]
+  },
+  "Data Quality": {
+    "state": "No Issue",
+    "concerns": []
+  },
+  "Purpose Specification": {
+    "state": "No Issue",
+    "concerns": []
+  },
+  "Use Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Potential for data misuse",
+        "reasoning": "Access to data by insurance companies for claims analysis could pose risks if data is used beyond specified purposes.",
+        "related_questions": [
+          "How is patient data protected against unauthorized use by insurance companies?",
+          "Are there agreements in place to limit the use of shared data by insurance companies?"
+        ]
+      }
+    ]
+  },
+  "Security Safeguards": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of encryption details",
+        "reasoning": "There is no information regarding encryption of data at rest or during transmission, which is critical for ensuring data security.",
+        "related_questions": [
+          "Is data encrypted at rest within the healthcare billing system?",
+          "What encryption protocols are used for data transmission to insurance companies?"
+        ]
+      }
+    ]
+  },
+  "Openness": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of transparency on data handling practices",
+        "reasoning": "The absence of detailed information on encryption and data sharing practices suggests a need for greater transparency.",
+        "related_questions": [
+          "Where can patients find information about data handling practices?",
+          "Are patients informed about how their data is shared and secured?"
+        ]
+      }
+    ]
+  },
+  "Individual Participation": {
+    "state": "No Issue",
+    "concerns": []
+  },
+  "Accountability": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Unclear accountability measures",
+        "reasoning": "The data practice does not specify who is responsible for ensuring compliance with data protection standards.",
+        "related_questions": [
+          "Who is responsible for overseeing data protection and privacy compliance?",
+          "What are the consequences for non-compliance with data privacy regulations?"
+        ]
+      }
+    ]
+  }
+}

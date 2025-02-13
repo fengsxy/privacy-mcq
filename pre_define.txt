@@ -1,0 +1,173 @@
+flowchart LR
+    subgraph Core[Core Questions]
+        Q1{1.DataType?} --> Q2{2.Method?}
+        Q2 --> Q3{3.Location?}
+        Q3 --> Q4{4.Purpose?}
+        Q4 --> Q5{5.Receiver?}
+    end
+
+    subgraph Collection[Collection Details]
+        D11[Mode]
+        D12[Frequency]
+        D13[Time]
+        D14[Collector]
+        D15[Provider]
+    end
+
+    subgraph Process[Processing Details]
+        D21[Anonymization]
+        D22[Aggregation]
+        D23[Encryption]
+        D24[Derived Metrics]
+        D25[Threshold]
+    end
+
+    subgraph Storage[Storage Details]
+        D31[Encryption]
+        D32[Location]
+        D33[Post Retention]
+        D34[Duration]
+        D35[Security]
+    end
+
+    subgraph Usage[Usage Details]
+        D41[Visibility]
+        D42[Combining]
+        D43[Logging]
+        D44[Purpose]
+        D45[Access]
+    end
+
+    subgraph Share[Share Details]
+        D51[Method]
+        D52[Encryption]
+        D53[Purpose]
+        D54[DataType]
+        D55[Receiver]
+    end
+
+    subgraph Stakeholder[Stakeholder Interaction]
+        subgraph Notice[Notice]
+            N1[Timing]
+            N2[Form]
+            N3[Frequency]
+            N4[Retention]
+            N5[Channel]
+        end
+        
+        subgraph Consent[Consent]
+            C1[DefaultSetting]
+            C2[WithdrawalMech]
+            C3[Granularity]
+            C4[PeriodicRenewal]
+            C5[OptMethods]
+        end
+        
+        subgraph Control[Control]
+            CT1[PermissionMgmt]
+            CT2[RetentionControl]
+            CT3[SharingControl]
+            CT4[DeletionControl]
+            CT5[AccessControl]
+        end
+        
+        subgraph Audit[Audit]
+            A1[Frequency]
+            A2[Scope]
+            A3[Responsibility]
+        end
+    end
+
+    Q1 -->|Has Data| Collection
+    Q2 -->|Has Processing| Process
+    Q3 -->|Has Storage| Storage
+    Q4 -->|Has Usage| Usage
+    Q5 -->|Has Sharing| Share
+
+    Collection --> Stakeholder
+    Process --> Stakeholder
+    Storage --> Stakeholder
+    Usage --> Stakeholder
+    Share --> Stakeholder
+
+    Q1 -->|No Data| End1[End]
+    Q2 -->|Skip| Q3
+    Q3 -->|Skip| Q4
+    Q4 -->|Skip| Q5
+    Q5 -->|No Share| End2[End]
+
+
+Here is a logics to about privacy askinator
+every key is pointed to a question,
+ for the question we need to ask  a lof of question to navigate a data practice, you can based on user provided context and the control flow I give you to generate question.
+
+
+Here is key question list:
+Data Collection Stage	Data Action	Frequency	What is the frequency of data collection?	Where
+Data Collection Stage	Data Action	DataType	What types of data are collected?	What
+Data Collection Stage	Data Action	CollectionMode	What is the collection mode (implicit/explicit)?	How
+Data Collection Stage	Data Action	CollectionTime	When is the data collected (e.g., during app usage, at specific times)?	When
+Data Collection Stage	Data Action	Purpose	What is the purpose of the data collected?	Why
+Data Collection Stage	Data Action	Data Source	Where is the data collected?	Where
+				
+				
+Data Processing Stage	Data Action	InputDataType	What is the input data?	What
+Data Processing Stage	Data Action	OuptutDataType	What is target data?	What
+Data Processing Stage	Data Action	Processing Method	How is the data processed?	How
+Data Processing Stage	Data Action	Location	Where is data processed?	Where
+Data Processing Stage	Data Action	Anonymization	Is the data anonymized during processing?	How
+Data Processing Stage	Data Action	Aggregation	Is data aggregated as part of processing?	How
+Data Processing Stage	Data Action	Encryption	Is the data encrypted during processing?	How
+Data Processing Stage	Data Action	ThresholdDetermination	How are thresholds determined for specific processing decisions?	How
+Data Processing Stage	Data Action	DerivedMetrics	How are derived metrics calculated during processing?	How
+Data Processing Stage	Data Action	Frequency	What is the frequency of the data has been processed?	When
+Data Processing Stage	Data Action	ProcessedTime	When is the data processed?	When
+Data Processing Stage	Data Action	Purpose	Why is the data processed?	Why
+				
+Data Storage Stage	Data Action	DataType	What data  are storged?	What
+Data Storage Stage	Data Action	Retention Period	How long is the data retention?	When
+Data Storage Stage	Data Action	Encryption	What encryption measures are used to protect data at rest?	How
+Data Storage Stage	Data Action	PostRetentionActions	How is data handled after the retention period (e.g., deletion, anonymization)?	How
+Data Storage Stage	Data Action	Location	Where is data storged?	Where
+Data Storage Stage	Data Action	Purpose	Why is the data storged?	Why
+				
+				
+Data Sharing Stage	Data Action	Receiver	Who can see the data (e.g., owner, service providers, third parties)?	Who
+Data Sharing Stage	Data Action	DataType	What data can be shared?	What
+Data Sharing Stage	Data Action	Encryption	Is the data encrypted during sharing (e.g., end-to-end encryption)?	How
+Data Sharing Stage	Data Action	Method	How is the data shared (e.g., internal network, public network)?	How
+Data Sharing Stage	Data Action	Purpose	What is the purpose of sharing the data?	Why
+Data Sharing Stage	Data Action	SharingTime	When is the data shared?	When
+Data Sharing Stage	Data Action	SharingFrequency	What is the frequency of data sharing?	When
+				
+	Notice	Timing	When is the notice provided to users?	When
+	Notice	Form	In what form is the notice provided (e.g., popup, banner)?	How
+	Notice	Frequency	How often is the notice presented?	When
+	Notice	Channel	What channels are used to deliver notices to users (e.g., in-app interface, email, public website)?	Where
+	Notice	Content	What specific details are included in the notice?	What
+				
+	Consent	WithdrawalMech	How can users withdraw their consent?	How
+	Consent	DefaultSetting	Is the default setting opt-in or opt-out?	What
+	Consent	Granularity	Can users provide consent for specific data types or purposes?	What
+	Consent	PeriodicRenewal	Is user consent required to be renewed periodically?	When
+	Consent	OptInMethod	How is explicit opt-in consent obtained?	How
+	Consent	OptOutMethod	How is opt-out consent implemented?	How
+				
+	Control	PermissionManagement	Can users view and update the permissions they have granted?	What
+	Control	DataRetentionControl	Can users decide how long their data is stored (e.g., through retention settings or policies)?	How
+	Control	ThirdPartySharingControl	Can users control whether their data is shared with third parties, and if so, how?	How
+	Control	DataDeletionControl	Can users delete their data from the system, either partially or entirely?	How
+	Control	DataAccessControl	Can users manage who can access their data (e.g., specific roles, organizations, or apps)?	What
+	Control	DataCorrection	Can users request corrections to inaccurate or incomplete data? How are these corrections handled?	How
+	Control	Timing	When can users modify control settings?	When
+				
+	Audit	Frequency	How often are data-related processes audited (e.g., annually, quarterly)?	When
+	Audit	Scope	What specific aspects of data practices are included in regular audits (e.g., collection, processing, sharing)?	What
+	Audit	Responsibility	Who is responsible for conducting data audits (e.g., internal teams, external auditors)?	Who
+	Audit	AuditMethod 	How are data-related processes audited？	How
+
+
+
+Now let's start, you can ask me question one by one. 
+You should follow the logic map I send u, fisrt 5 question determin the data flow, then ask detialed question, then ask some stakeholder interaction question.
+After 10 questions, you can generate the data. For the qeustion please generate possible low level choice.

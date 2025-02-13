@@ -1,0 +1,809 @@
+[
+  {
+    "question": {
+      "text": "What types of data are collected for the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Video and audio data"
+        },
+        {
+          "id": "option2",
+          "label": "Mouse movements and clicks"
+        },
+        {
+          "id": "option3",
+          "label": "Keystrokes and typing patterns"
+        },
+        {
+          "id": "option4",
+          "label": "Screen activity and time spent on screen"
+        },
+        {
+          "id": "option5",
+          "label": "Facial recognition data"
+        }
+      ],
+      "category": "DataType"
+    },
+    "answer": {
+      "selected_options": [
+        "option4"
+      ],
+      "explanation": "The attendee attention tracking feature was designed to collect data on whether Zoom was the application in focus on a participant's computer. It specifically monitored screen activity and measured the time spent on the Zoom window to determine if it was in focus. This aligns with option 4: 'Screen activity and time spent on screen'. The feature did not involve collecting video, audio, mouse movements, clicks, keystrokes, or facial recognition data, as its primary focus was on the application usage and window focus status during meetings."
+    },
+    "timestamp": "2025-02-13T11:23:17.397594"
+  },
+  {
+    "question": {
+      "text": "How is the data processed for the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Data is processed locally on each participant's device"
+        },
+        {
+          "id": "option2",
+          "label": "Data is processed on a centralized server"
+        },
+        {
+          "id": "option3",
+          "label": "Data is processed using a hybrid approach (both local and server)"
+        },
+        {
+          "id": "option4",
+          "label": "Data is processed using edge computing techniques"
+        }
+      ],
+      "category": "Data Processing Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "The attention tracking feature in Zoom likely required data to be processed both locally and on a centralized server to function effectively. The local processing would involve detecting whether the Zoom application was in focus on the participant's device, which requires access to the device's state and applications. This is typically processed locally to determine if the participant is actively viewing the Zoom meeting window. Once this information is gathered, it would need to be communicated to a centralized server in order to generate the report for the host at the end of the meeting, indicating the percentage of time each participant had the presentation window in focus. This dual approach involves local processing to capture immediate user data and server-side processing to compile and provide the host with aggregated attention data, which aligns with conventional client-server architectures used in similar applications. Given the privacy concerns and backlash, it is important to consider how such data processing could impact user privacy, highlighting the necessity for transparency and user consent in data practices."
+    },
+    "timestamp": "2025-02-13T11:23:23.027165"
+  },
+  {
+    "question": {
+      "text": "Where is the data processed for the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Locally on the participant's device"
+        },
+        {
+          "id": "option2",
+          "label": "On a centralized server"
+        },
+        {
+          "id": "option3",
+          "label": "Both locally and on a centralized server"
+        },
+        {
+          "id": "option4",
+          "label": "In the cloud only"
+        }
+      ],
+      "category": "Data Processing Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "The attendee attention tracking feature likely involves processing on both the participant's device and on a centralized server. The local processing on the participant's device is necessary to detect whether Zoom is the application in focus. This local detection is then communicated to a centralized server to generate reports for the host, indicating the percentage of time each participant had the presentation window in focus. This dual processing approach raises privacy concerns as it involves monitoring user behavior locally and transmitting this information to a server, which can lead to privacy breaches and misuse of data. The backlash against this feature highlights users' expectations for privacy and the importance of ethical considerations in respecting user autonomy and consent."
+    },
+    "timestamp": "2025-02-13T11:23:28.400434"
+  },
+  {
+    "question": {
+      "text": "What is the purpose of processing the data collected by the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "To enhance user engagement by providing feedback to participants"
+        },
+        {
+          "id": "option2",
+          "label": "To generate reports for meeting hosts regarding participant attention levels"
+        },
+        {
+          "id": "option3",
+          "label": "To improve the application's performance and user experience"
+        },
+        {
+          "id": "option4",
+          "label": "To monitor and analyze usage patterns for future feature development"
+        }
+      ],
+      "category": "Data Processing Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data collected by the attendee attention tracking feature was primarily used to generate reports for meeting hosts regarding participant attention levels. This is evident from the fact that Zoom provided a report at the end of each meeting listing the percentage of time each participant had the presentation window in focus. While option 1 suggests enhancing user engagement by providing feedback, the feature was not designed to give direct feedback to participants but rather to inform the host about the participants' attention. The backlash and subsequent removal of the feature highlight privacy concerns and user discomfort with being monitored, which aligns more with generating reports for hosts rather than any direct engagement feedback to participants. Options 3 and 4 are less relevant as the feature was specifically tied to reporting attention to hosts and not explicitly aimed at improving performance, user experience, or aiding future feature development."
+    },
+    "timestamp": "2025-02-13T11:23:33.295529"
+  },
+  {
+    "question": {
+      "text": "Who can access the data collected by the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Only the meeting host"
+        },
+        {
+          "id": "option2",
+          "label": "The meeting host and co-hosts"
+        },
+        {
+          "id": "option3",
+          "label": "All participants in the meeting"
+        },
+        {
+          "id": "option4",
+          "label": "Authorized company administrators only"
+        },
+        {
+          "id": "option5",
+          "label": "External third-party service providers"
+        }
+      ],
+      "category": "Data Sharing Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "The attendee attention tracking feature was designed to provide feedback to the meeting host about the level of engagement of participants during screen sharing. Therefore, it is reasonable to conclude that the data collected by this feature was intended for the meeting host's use, as they are responsible for managing the meeting and might need such information to assess engagement. Co-hosts, who assist the host in managing the meeting, might also have access to this data to perform their duties effectively. Providing this information to all participants or external parties would not align with common user expectations or privacy norms, and could lead to misuse or privacy violations. The backlash and eventual removal of the feature further suggest that limiting access to the host and co-hosts would have been the most appropriate approach, respecting the privacy of individual participants."
+    },
+    "timestamp": "2025-02-13T11:23:39.222304"
+  },
+  {
+    "question": {
+      "text": "What encryption measures are used to protect data at rest in the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "AES-256 encryption"
+        },
+        {
+          "id": "option2",
+          "label": "No encryption"
+        },
+        {
+          "id": "option3",
+          "label": "Custom encryption algorithm"
+        },
+        {
+          "id": "option4",
+          "label": "Encryption based on user preferences"
+        }
+      ],
+      "category": "Data Storage Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The attendee attention tracking feature was criticized for privacy concerns, suggesting that proper encryption measures may not have been in place. The backlash from users focused on the privacy implications of tracking attention without explicit consent, and there is no mention of encryption measures being used to protect this data at rest. Given the feature's removal and the apology from Zoom for not meeting privacy expectations, it is likely that no encryption was applied to this specific data, or it was insufficiently communicated to users if it was. Therefore, 'No encryption' is the most appropriate option given the context and the lack of specific information about encryption being used for this feature."
+    },
+    "timestamp": "2025-02-13T11:23:43.617193"
+  },
+  {
+    "question": {
+      "text": "How is the data handled after the retention period (e.g., deletion, anonymization)?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Data is permanently deleted"
+        },
+        {
+          "id": "option2",
+          "label": "Data is anonymized for future use"
+        },
+        {
+          "id": "option3",
+          "label": "Data is archived with restricted access"
+        },
+        {
+          "id": "option4",
+          "label": "Data is retained indefinitely"
+        },
+        {
+          "id": "option5",
+          "label": "Data is transferred to a secure offline storage"
+        }
+      ],
+      "category": "Data Storage Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The attention tracker feature was removed permanently by Zoom due to privacy concerns and backlash from users. This indicates a commitment to respecting user privacy expectations. Given this context, it is most appropriate that any data collected from this feature prior to its removal should be permanently deleted to align with user privacy expectations and to mitigate any further privacy implications. Anonymization (option2) is not suitable in this scenario as the feature itself was deemed invasive, and retaining even anonymized data could still pose privacy concerns. Other options such as archiving, indefinite retention, or offline storage are not in line with addressing the privacy concerns that led to the removal of the feature."
+    },
+    "timestamp": "2025-02-13T11:23:48.121577"
+  },
+  {
+    "question": {
+      "text": "What specific details are included in the notice provided to users regarding the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Purpose of data collection and usage"
+        },
+        {
+          "id": "option2",
+          "label": "Data retention period and deletion policy"
+        },
+        {
+          "id": "option3",
+          "label": "Rights of users to access and control their data"
+        },
+        {
+          "id": "option4",
+          "label": "Sharing practices and potential recipients of the data"
+        },
+        {
+          "id": "option5",
+          "label": "Security measures and encryption used"
+        }
+      ],
+      "category": "Notice"
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The specific details likely included in the notice regarding the attendee attention tracking feature would focus on the purpose of data collection and usage. This is because the feature was designed to monitor user behavior (whether Zoom was the active application) and provide reports to the host, which directly relates to how and why the data is being used. Given the backlash and privacy concerns, users would expect to be informed about why this data was being collected and how it would be used, to assess its implications on their privacy. Other aspects such as data retention, user rights, sharing practices, and security measures are important but less directly tied to the specific functionality of attention tracking. The controversy and subsequent removal of the feature highlight that the primary concern was around the purpose and manner of data usage, making it the most relevant detail to include in user notifications."
+    },
+    "timestamp": "2025-02-13T11:23:54.488539"
+  },
+  {
+    "question": {
+      "text": "How often are data-related processes audited (e.g., annually, quarterly)?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Annually"
+        },
+        {
+          "id": "option2",
+          "label": "Quarterly"
+        },
+        {
+          "id": "option3",
+          "label": "Biannually"
+        },
+        {
+          "id": "option4",
+          "label": "Monthly"
+        }
+      ],
+      "category": "Audit"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "In the context of Zoom's attention tracking feature, which faced significant privacy backlash, it is important to ensure that data-related processes are regularly audited to maintain trust and compliance with privacy standards. An annual audit (option1) is a common practice for many organizations to ensure comprehensive review and compliance with privacy regulations. However, given the rapid changes and the sensitivity of user data involved, a more frequent audit, such as quarterly (option2), could better address potential privacy concerns promptly and ensure that any new features or changes undergo regular scrutiny. This frequency balances thoroughness with the ability to quickly respond to any privacy issues that may arise, aligning with user expectations and ethical considerations in data handling."
+    },
+    "timestamp": "2025-02-13T11:23:59.919813"
+  },
+  {
+    "question": {
+      "text": "How is explicit opt-in consent obtained for the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Users are required to check a box before the feature is activated"
+        },
+        {
+          "id": "option2",
+          "label": "Users are shown a popup with detailed information and must click 'Agree'"
+        },
+        {
+          "id": "option3",
+          "label": "A confirmation email is sent to users to opt-in before activation"
+        },
+        {
+          "id": "option4",
+          "label": "Users must navigate to settings and manually enable the feature"
+        }
+      ],
+      "category": "Consent"
+    },
+    "answer": {
+      "selected_options": [],
+      "explanation": "The question asks about how explicit opt-in consent is obtained for the attendee attention tracking feature. However, based on the data practice provided, there is no indication that Zoom implemented any form of explicit opt-in consent for this feature before it was removed. The feature was implemented without obtaining explicit consent from users, which led to significant backlash and its eventual removal. Therefore, none of the options listed (requiring a box to be checked, showing a popup, sending a confirmation email, or navigating to settings) were part of the original implementation according to the provided context."
+    },
+    "timestamp": "2025-02-13T11:24:04.799603"
+  },
+  {
+    "question": {
+      "text": "What is the collection mode for the attendee attention tracking feature (implicit/explicit)?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Implicit through application focus monitoring"
+        },
+        {
+          "id": "option2",
+          "label": "Explicit through user consent prompts"
+        },
+        {
+          "id": "option3",
+          "label": "Combination of implicit and explicit methods"
+        },
+        {
+          "id": "option4",
+          "label": "Not applicable as the feature is no longer in use"
+        }
+      ],
+      "category": "Data Collection Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The attendee attention tracking feature collected data implicitly by monitoring the application focus on a participant's computer. This means that the feature was tracking whether Zoom was the active application without requiring explicit consent or notification to the users at the moment this tracking was occurring. The significant backlash and privacy concerns arose because users were not explicitly informed or did not agree to this specific type of monitoring, which indicates that the collection was implicit. The feature was eventually removed due to these privacy implications, but at the time of its existence, it operated through implicit methods."
+    },
+    "timestamp": "2025-02-13T11:24:09.791647"
+  },
+  {
+    "question": {
+      "text": "How can users request corrections to inaccurate or incomplete data? How are these corrections handled?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Through a dedicated support ticket system"
+        },
+        {
+          "id": "option2",
+          "label": "Via email requests to a designated privacy officer"
+        },
+        {
+          "id": "option3",
+          "label": "Using in-app settings to submit correction requests"
+        },
+        {
+          "id": "option4",
+          "label": "By contacting customer support via phone"
+        }
+      ],
+      "category": "Control"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "Option 1, 'Through a dedicated support ticket system,' is selected because using a structured support ticket system allows for organized tracking and management of user requests. This method can ensure that requests are not lost and are addressed systematically, which aligns with user expectations for a transparent and reliable correction process. Option 2, 'Via email requests to a designated privacy officer,' is also selected as it provides a direct communication channel with a person responsible for privacy matters, ensuring that sensitive data concerns are handled by a knowledgeable individual. Both options reflect an understanding of privacy implications by providing clear avenues for users to address inaccuracies, aligning with ethical considerations of transparency and accountability in data handling. The other options were not selected because they may not provide as structured or direct a method for handling sensitive correction requests."
+    },
+    "timestamp": "2025-02-13T11:24:15.532610"
+  },
+  {
+    "question": {
+      "text": "How is user consent withdrawal implemented for the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Through a settings menu where users can disable tracking"
+        },
+        {
+          "id": "option2",
+          "label": "Via a support request to the company's privacy officer"
+        },
+        {
+          "id": "option3",
+          "label": "Automatically after a set period"
+        },
+        {
+          "id": "option4",
+          "label": "Not available"
+        }
+      ],
+      "category": "Consent"
+    },
+    "answer": {
+      "selected_options": [
+        "option4"
+      ],
+      "explanation": "The attendee attention tracking feature implemented by Zoom did not include an option for users to withdraw consent directly. Instead, the feature was enabled by default for hosts, and attendees had no direct mechanism to disable or opt-out of this tracking themselves. The lack of user control over this feature led to significant privacy concerns and backlash from the community. Given the feature has been permanently removed following this backlash, there is no current mechanism for user consent withdrawal. Thus, the most appropriate answer is 'Not available.'"
+    },
+    "timestamp": "2025-02-13T11:24:19.239248"
+  },
+  {
+    "question": {
+      "text": "Can users request corrections to inaccurate or incomplete data? How are these corrections handled?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Through a dedicated support ticket system"
+        },
+        {
+          "id": "option2",
+          "label": "Via email requests to a designated privacy officer"
+        },
+        {
+          "id": "option3",
+          "label": "By contacting customer support directly via chat or phone"
+        },
+        {
+          "id": "option4",
+          "label": "Through an automated online form on the website"
+        },
+        {
+          "id": "option5",
+          "label": "Corrections are not allowed for this feature"
+        }
+      ],
+      "category": "Control"
+    },
+    "answer": {
+      "selected_options": [
+        "option5"
+      ],
+      "explanation": "The feature in question is an attention tracker that was removed due to privacy concerns. Once the feature was removed, there would be no data generated by it to correct. Therefore, the question of users requesting corrections for this specific feature is moot since the feature no longer exists. The issue highlighted here was more about the privacy implications and user discomfort with the feature rather than inaccuracies in data, leading to the decision to remove it entirely. Thus, corrections are not applicable for this feature as it has been permanently removed."
+    },
+    "timestamp": "2025-02-13T11:24:23.110095"
+  },
+  {
+    "question": {
+      "text": "How is the data anonymized during processing for the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Data is pseudonymized by masking user identifiers"
+        },
+        {
+          "id": "option2",
+          "label": "Data is aggregated without individual identifiers"
+        },
+        {
+          "id": "option3",
+          "label": "No anonymization is applied during processing"
+        },
+        {
+          "id": "option4",
+          "label": "Data is fully anonymized using irreversible methods"
+        }
+      ],
+      "category": "Data Processing Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option3"
+      ],
+      "explanation": "The attendee attention tracking feature in Zoom involved monitoring whether participants had the Zoom application in focus and generating reports with this data linked to individual participants. This suggests that no anonymization or pseudonymization was applied during processing because the data was directly associated with individual users and reported to the host. The backlash and subsequent removal of the feature indicate that privacy expectations were not met, which aligns with the lack of anonymization practices in the feature's design."
+    },
+    "timestamp": "2025-02-13T11:24:26.265845"
+  },
+  {
+    "question": {
+      "text": "Can users delete their data from the system, either partially or entirely?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Users can delete their data entirely"
+        },
+        {
+          "id": "option2",
+          "label": "Users can delete specific parts of their data"
+        },
+        {
+          "id": "option3",
+          "label": "Users cannot delete their data"
+        },
+        {
+          "id": "option4",
+          "label": "Data deletion is handled by contacting support"
+        }
+      ],
+      "category": "Control"
+    },
+    "answer": {
+      "selected_options": [
+        "option4"
+      ],
+      "explanation": "The data practice described focuses on the attention tracking feature rather than the general data deletion policies of Zoom. While the feature was removed due to privacy concerns, the practice does not explicitly state whether users can delete their data directly through the platform. In many cases, applications like Zoom may require users to contact support to process data deletion requests, especially for specific or entire data removal. This aligns with common practices where platforms manage data requests through a support team to ensure compliance with privacy regulations and to verify the authenticity of the request. Therefore, 'Data deletion is handled by contacting support' is the most appropriate option, as it reflects a typical procedure for handling data deletion requests in the absence of explicit information about user-driven data deletion capabilities."
+    },
+    "timestamp": "2025-02-13T11:24:30.523262"
+  },
+  {
+    "question": {
+      "text": "How is data handled after the retention period (e.g., deletion, anonymization)?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Data is permanently deleted"
+        },
+        {
+          "id": "option2",
+          "label": "Data is anonymized for future use"
+        },
+        {
+          "id": "option3",
+          "label": "Data is archived securely"
+        },
+        {
+          "id": "option4",
+          "label": "Data is retained indefinitely"
+        }
+      ],
+      "category": "Data Storage Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "Given the backlash Zoom faced due to privacy concerns with the attention tracker feature, it is likely that the company would adopt a more privacy-conscious approach to data handling. Permanently deleting data after the retention period aligns with user privacy expectations and ethical considerations, ensuring that users' data is not used beyond its intended purpose. Anonymization (option2) could still pose privacy risks if re-identification is possible. Therefore, permanent deletion is the most appropriate choice to address privacy concerns and meet users' expectations."
+    },
+    "timestamp": "2025-02-13T11:24:34.700849"
+  },
+  {
+    "question": {
+      "text": "How often is the notice provided to users regarding the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "At the start of every meeting"
+        },
+        {
+          "id": "option2",
+          "label": "Only once during account setup"
+        },
+        {
+          "id": "option3",
+          "label": "Periodically, such as monthly or quarterly"
+        },
+        {
+          "id": "option4",
+          "label": "Every time the feature is updated"
+        }
+      ],
+      "category": "Notice"
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The attendee attention tracking feature directly impacts user privacy as it monitors participant behavior during meetings. Providing notice at the start of every meeting (option1) would ensure that all participants are informed about the feature in real-time, allowing them to make an informed decision about their participation and conduct during the meeting. This approach aligns with privacy best practices, ensuring transparency and respecting user autonomy. In contrast, notifying users only once during account setup (option2) may not be sufficient, as users may forget or not fully understand the implications of the feature over time. Regular notifications help maintain awareness and accountability. Periodic notifications (option3) or notifications only when the feature is updated (option4) are less effective in ensuring that all participants are consistently aware of the monitoring feature during each meeting session."
+    },
+    "timestamp": "2025-02-13T11:24:39.436617"
+  },
+  {
+    "question": {
+      "text": "How is explicit opt-in consent obtained for the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Requiring a box to be checked during initial setup"
+        },
+        {
+          "id": "option2",
+          "label": "Displaying a popup notification before each meeting"
+        },
+        {
+          "id": "option3",
+          "label": "Sending a confirmation email to users"
+        },
+        {
+          "id": "option4",
+          "label": "Providing an option in the settings menu"
+        }
+      ],
+      "category": "Consent"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "For a feature like attendee attention tracking, which can be considered intrusive, obtaining explicit opt-in consent is crucial to meet privacy expectations. Requiring a box to be checked during the initial setup (option1) ensures that users are informed about the feature from the start, and must consciously agree to it. This process is explicit and provides a clear record of consent. Additionally, displaying a popup notification before each meeting (option2) reinforces this consent by reminding users of the feature's existence and giving them another opportunity to consent or opt-out. This approach respects user autonomy and aligns with ethical considerations by keeping users informed and in control of their privacy. Sending a confirmation email (option3) or providing an option in the settings menu (option4) are less direct and may not sufficiently inform users prior to engaging with the feature, which is why they were not selected."
+    },
+    "timestamp": "2025-02-13T11:24:43.965891"
+  },
+  {
+    "question": {
+      "text": "How is data handled after the retention period for the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Permanently deleted"
+        },
+        {
+          "id": "option2",
+          "label": "Anonymized"
+        },
+        {
+          "id": "option3",
+          "label": "Archived in a separate storage"
+        },
+        {
+          "id": "option4",
+          "label": "Indefinite retention"
+        }
+      ],
+      "category": "Data Storage Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The attention tracking feature was controversial due to privacy concerns and ethical issues related to monitoring user behavior without adequate consent or transparency. After the backlash and the subsequent decision to remove the feature, it is most appropriate and expected that any data collected through this feature should be permanently deleted. This aligns with user expectations for privacy and ethical handling of sensitive information. Anonymization is not sufficient in this case because the feature itself was deemed inappropriate, thus any data from it should not be retained in any form."
+    },
+    "timestamp": "2025-02-13T11:24:47.480521"
+  },
+  {
+    "question": {
+      "text": "What specific aspects of data practices are included in regular audits (e.g., collection, processing, sharing)?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Data collection and retention practices"
+        },
+        {
+          "id": "option2",
+          "label": "Data processing and anonymization methods"
+        },
+        {
+          "id": "option3",
+          "label": "Data sharing protocols and encryption measures"
+        },
+        {
+          "id": "option4",
+          "label": "User consent and withdrawal mechanisms"
+        }
+      ],
+      "category": "Audit"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2",
+        "option4"
+      ],
+      "explanation": "The Zoom attention tracker feature involved monitoring user behavior during meetings, which directly relates to data collection and retention practices (option1). This feature collected data on whether the application was in focus, which implies processing of user activity data, making data processing and anonymization methods (option2) relevant. Additionally, the controversial nature of the feature highlights the importance of obtaining explicit user consent and providing easy mechanisms for consent withdrawal (option4), as users were not made sufficiently aware of this tracking, leading to backlash. While data sharing protocols (option3) are generally important, the primary concerns with this feature were about collection and consent, making options 1, 2, and 4 more pertinent for this specific data practice audit."
+    },
+    "timestamp": "2025-02-13T11:24:51.486157"
+  },
+  {
+    "question": {
+      "text": "How is data stored for the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "On local devices only"
+        },
+        {
+          "id": "option2",
+          "label": "On centralized servers only"
+        },
+        {
+          "id": "option3",
+          "label": "Both on local devices and centralized servers"
+        },
+        {
+          "id": "option4",
+          "label": "Data is not stored"
+        }
+      ],
+      "category": "Data Storage Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The attendee attention tracking feature involved generating a report for the host at the end of each meeting, listing the percentage of time each participant had the presentation window in focus. This implies that data related to attendee attention was collected and stored in a centralized manner to generate these reports. There is no indication that this data was stored on local devices, as the focus was on providing the host with a comprehensive report. Therefore, 'On centralized servers only' is the most appropriate option, as the feature required aggregation and analysis of data that would typically be handled by centralized servers. The option 'Data is not stored' is incorrect because the generation of reports clearly indicates some form of data storage. Ethical considerations and privacy implications stem from the unauthorized collection and use of attention data, which led to the removal of the feature following backlash."
+    },
+    "timestamp": "2025-02-13T11:25:02.023723"
+  },
+  {
+    "question": {
+      "text": "How is data encrypted during storage for the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "AES-256 encryption"
+        },
+        {
+          "id": "option2",
+          "label": "No encryption"
+        },
+        {
+          "id": "option3",
+          "label": "RSA encryption"
+        },
+        {
+          "id": "option4",
+          "label": "Data is not stored"
+        }
+      ],
+      "category": "Storage"
+    },
+    "answer": {
+      "selected_options": [
+        "option4"
+      ],
+      "explanation": "The question asks about how data is encrypted during storage for the attendee attention tracking feature. In the context of this feature, Zoom decided to remove it due to privacy concerns, which implies that they no longer store any data related to attendee attention tracking. Thus, 'Data is not stored' is the most appropriate option. The other options pertaining to encryption methods are not applicable because the feature\u2014and consequently, any associated data storage\u2014has been removed permanently."
+    },
+    "timestamp": "2025-02-13T11:25:09.603142"
+  },
+  {
+    "question": {
+      "text": "What are the specific details included in the notice provided to users regarding the attendee attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Purpose of data collection and usage"
+        },
+        {
+          "id": "option2",
+          "label": "Data retention period and deletion policies"
+        },
+        {
+          "id": "option3",
+          "label": "User rights and consent withdrawal options"
+        },
+        {
+          "id": "option4",
+          "label": "Data sharing practices and third-party access"
+        },
+        {
+          "id": "option5",
+          "label": "Security measures and data protection protocols"
+        }
+      ],
+      "category": "Notice"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option3"
+      ],
+      "explanation": "The attention tracking feature had significant privacy implications as it involved monitoring user behavior during meetings. Therefore, the most relevant details for users would be the 'Purpose of data collection and usage' (option1), as it directly relates to why the data was being collected and how it was being used. Additionally, 'User rights and consent withdrawal options' (option3) are crucial because users should be informed about their ability to opt-out or withdraw consent for such monitoring, especially given the backlash and privacy concerns. These aspects are fundamental to understanding the privacy implications and aligning with user expectations and ethical considerations. Other options like data retention, data sharing, and security measures are important but less directly related to the immediate concerns raised by the tracking feature itself."
+    },
+    "timestamp": "2025-02-13T11:25:14.816088"
+  },
+  {
+    "question": {
+      "text": "What specific aspects of data practices are included in regular audits (e.g., collection, processing, sharing)?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Data collection and retention practices"
+        },
+        {
+          "id": "option2",
+          "label": "Data processing and anonymization methods"
+        },
+        {
+          "id": "option3",
+          "label": "Data sharing protocols and agreements"
+        },
+        {
+          "id": "option4",
+          "label": "User consent management and withdrawal options"
+        }
+      ],
+      "category": "Audit"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "The Zoom attention tracker feature involved collecting data about users' application focus, which directly relates to data collection practices. Regular audits of data collection and retention practices (option1) would assess whether such data collection is necessary, how it is stored, and the duration it is retained. Additionally, data processing and anonymization methods (option2) are crucial in this context, as they involve how the collected data is used and whether it is adequately anonymized to protect user privacy. The backlash received by the feature highlights the importance of ensuring that data processing methods align with user privacy expectations and ethical standards. These options are selected because they address critical aspects of how user data is handled and protected, both of which were central concerns in the case of the attention tracker feature."
+    },
+    "timestamp": "2025-02-13T11:25:19.674378"
+  }
+]

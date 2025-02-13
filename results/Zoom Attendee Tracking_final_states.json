@@ -1,0 +1,106 @@
+{
+  "Collection Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Excessive collection of identifiable attention tracking data",
+        "reasoning": "The attention tracking feature collected identifiable data without explicit user consent, leading to privacy concerns.",
+        "related_questions": [
+          "What specific data is collected beyond focus status?",
+          "Are there any additional data collection mechanisms not mentioned?"
+        ]
+      }
+    ]
+  },
+  "Data Quality": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of mention of data accuracy and relevance",
+        "reasoning": "There is no discussion about how data accuracy and relevance were ensured, which is critical for maintaining data quality.",
+        "related_questions": [
+          "How was the accuracy of attention tracking data validated?",
+          "What measures were in place to ensure data relevance?"
+        ]
+      }
+    ]
+  },
+  "Purpose Specification": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Unclear communication of data collection purpose",
+        "reasoning": "The purpose of tracking attention was not clearly communicated to users, contributing to privacy backlash.",
+        "related_questions": [
+          "How was the purpose of data collection communicated to users?",
+          "Were users informed of the specific use cases for their data?"
+        ]
+      }
+    ]
+  },
+  "Use Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Data possibly used beyond intended purpose",
+        "reasoning": "The backlash suggests the data may have been used in ways users did not anticipate or consent to.",
+        "related_questions": [
+          "Were there any additional uses of the data beyond engagement monitoring?",
+          "Did any unauthorized entities access the data?"
+        ]
+      }
+    ]
+  },
+  "Security Safeguards": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Unclear security measures for data protection",
+        "reasoning": "The data practice does not specify the security safeguards in place to protect the attention tracking data.",
+        "related_questions": [
+          "What security measures were implemented to protect the data?",
+          "Was end-to-end encryption used for data transmission?"
+        ]
+      }
+    ]
+  },
+  "Openness": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of transparency about the feature",
+        "reasoning": "There was no clear communication or notice to users about the implementation and operation of the attention tracking feature.",
+        "related_questions": [
+          "What information was provided to users about the feature?",
+          "Were users notified about changes to the feature?"
+        ]
+      }
+    ]
+  },
+  "Individual Participation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "No user control over data collection and sharing",
+        "reasoning": "Users were not given options to consent or opt-out, nor control over data sharing with third parties.",
+        "related_questions": [
+          "Was there any mechanism for users to view or delete their data?",
+          "Could users opt-out of data collection at any point?"
+        ]
+      }
+    ]
+  },
+  "Accountability": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Unclear accountability measures",
+        "reasoning": "There is no mention of accountability mechanisms to ensure compliance with privacy standards.",
+        "related_questions": [
+          "What accountability measures were in place for data misuse?",
+          "Was there a privacy officer overseeing data practices?"
+        ]
+      }
+    ]
+  }
+}

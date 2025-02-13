@@ -1,0 +1,106 @@
+{
+  "Collection Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Excessive data collection from non-consenting users.",
+        "reasoning": "Data was collected not only from users who installed the app but also from their friends without explicit consent, leading to privacy breaches.",
+        "related_questions": [
+          "What specific data was collected from non-consenting users?",
+          "Were there any limitations on the types of data collected from friends of users?"
+        ]
+      }
+    ]
+  },
+  "Data Quality": {
+    "state": "Potential Issue",
+    "concerns": [
+      {
+        "description": "Potential inaccuracies in inferred psychological profiles.",
+        "reasoning": "Data was used to create psychological profiles, which may not accurately reflect the users' characteristics.",
+        "related_questions": [
+          "How is the accuracy of inferred profiles verified?",
+          "What measures are in place to correct inaccurate data?"
+        ]
+      }
+    ]
+  },
+  "Purpose Specification": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Data used for purposes beyond user expectations.",
+        "reasoning": "Data was used for political advertising, which may not have been the intended or expected use by users.",
+        "related_questions": [
+          "How are users informed about the specific purposes of data collection?",
+          "Are there checks to ensure data is used only for specified purposes?"
+        ]
+      }
+    ]
+  },
+  "Use Limitation": {
+    "state": "Potential Issue",
+    "concerns": [
+      {
+        "description": "Data shared and used without adequate control.",
+        "reasoning": "Data was shared with third-party developers and used by Cambridge Analytica without sufficient restrictions.",
+        "related_questions": [
+          "What policies are in place to restrict data use by third parties?",
+          "How is compliance with use limitations monitored?"
+        ]
+      }
+    ]
+  },
+  "Security Safeguards": {
+    "state": "Potential Issue",
+    "concerns": [
+      {
+        "description": "Lack of data encryption during sharing.",
+        "reasoning": "Data was shared without encryption, leading to unauthorized access and use.",
+        "related_questions": [
+          "What encryption methods are currently implemented for data sharing?",
+          "How is data security during sharing evaluated and improved?"
+        ]
+      }
+    ]
+  },
+  "Openness": {
+    "state": "Potential Issue",
+    "concerns": [
+      {
+        "description": "Limited transparency about data sharing practices.",
+        "reasoning": "Users may not have been fully informed about what data was shared and with whom.",
+        "related_questions": [
+          "How are users informed about data sharing practices?",
+          "What documentation is provided to users regarding data sharing?"
+        ]
+      }
+    ]
+  },
+  "Individual Participation": {
+    "state": "Potential Issue",
+    "concerns": [
+      {
+        "description": "Limited user control over data shared with third parties.",
+        "reasoning": "Only after policy changes, users gained more control, suggesting prior limitations.",
+        "related_questions": [
+          "How can users access and manage their shared data?",
+          "Are users able to opt-out of data sharing with third parties?"
+        ]
+      }
+    ]
+  },
+  "Accountability": {
+    "state": "Potential Issue",
+    "concerns": [
+      {
+        "description": "Lack of accountability in data sharing and misuse.",
+        "reasoning": "The Cambridge Analytica incident highlighted failures in enforcing accountability for data misuse.",
+        "related_questions": [
+          "What accountability measures are in place for third-party data handlers?",
+          "How is accountability enforced for data breaches?"
+        ]
+      }
+    ]
+  }
+}

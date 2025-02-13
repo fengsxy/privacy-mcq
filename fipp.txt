@@ -1,0 +1,35 @@
+Here is the information in a structured list format:
+
+1. **Collection Limitation**  
+   - There should be limits to the collection of personal data.  
+   - Data should be obtained by lawful and fair means.  
+   - Where appropriate, collection should happen with the knowledge or consent of the data subject.  
+
+2. **Data Quality**  
+   - Personal data should be relevant to the purposes for which it is to be used.  
+   - Data should be accurate, complete, and kept up-to-date.  
+
+3. **Purpose Specification**  
+   - The purposes for which personal data are collected should be specified at the time of collection.  
+   - Subsequent use should be limited to fulfilling those purposes.  
+
+4. **Use Limitation**  
+   - Personal data should not be disclosed, made available, or otherwise used for purposes other than those specified in accordance with the Purpose Specification principle, except:  
+     A. With the consent of the data subject.  
+     B. By the authority of law.  
+
+5. **Security Safeguards**  
+   - Personal data should be protected by reasonable security safeguards.  
+   - Safeguards should protect against risks such as loss, unauthorized access, destruction, use, modification, or disclosure.  
+
+6. **Openness**  
+   - There should be a general policy of openness about developments, practices, and policies regarding personal data.  
+   - This includes the main purposes of data use and the identity of the data controller.  
+
+7. **Individual Participation**  
+   - An individual should have the right:  
+     A. To obtain from a data controller the data the controller has about them.  
+     B. To challenge data relating to them, and if the challenge is successful, to have the data erased, rectified, completed, or amended.  
+
+8. **Accountability**  
+   - A data controller should be accountable for complying with these principles.

@@ -1,0 +1,362 @@
+[
+  {
+    "question": {
+      "text": "What types of data are collected by the integrated email and social networking system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Email addresses, contact lists, and frequently emailed contacts"
+        },
+        {
+          "id": "option2",
+          "label": "User-generated content such as posts and comments"
+        },
+        {
+          "id": "option3",
+          "label": "Location data and browsing history"
+        },
+        {
+          "id": "option4",
+          "label": "Device information and IP addresses"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The data practice describes how Google's Buzz automatically connected Gmail users with people they frequently emailed or chatted with, making these connections publicly visible. This indicates that email addresses, contact lists, and frequently emailed contacts were collected and used by the integrated email and social networking system. The exposure of users' most frequent Gmail contacts as public 'followers' without their consent highlights the privacy implications of such data collection. There is no mention of user-generated content, location data, browsing history, device information, or IP addresses being collected or used in the described data practice.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:02:11.834898"
+  },
+  {
+    "question": {
+      "text": "What is the purpose of collecting data in this integrated system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "To enhance user experience by suggesting connections and content"
+        },
+        {
+          "id": "option2",
+          "label": "To deliver targeted advertising and marketing"
+        },
+        {
+          "id": "option3",
+          "label": "To improve service features and functionality"
+        },
+        {
+          "id": "option4",
+          "label": "To sell data to third-party partners for revenue"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The data practice describes how Google Buzz automatically created public profiles for Gmail users and connected them with frequent contacts, which were made publicly visible. This was done without user consent, under the rationale of enhancing user experience by suggesting connections and content, as indicated by Google's initial defense of the auto-following feature. Although Google did not explicitly state that the purpose was to deliver targeted advertising or to sell data to third parties, the primary described intent was related to user experience enhancement through social connectivity. The privacy implications arose because this method exposed sensitive contacts, leading to significant backlash and changes to the service.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:02:15.256284"
+  },
+  {
+    "question": {
+      "text": "How is data processed in the email and social networking integration?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Automatically by algorithms without user intervention"
+        },
+        {
+          "id": "option2",
+          "label": "Manually reviewed by company employees"
+        },
+        {
+          "id": "option3",
+          "label": "Processed through third-party data analytics services"
+        },
+        {
+          "id": "option4",
+          "label": "Encrypted and processed only on user devices"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The data practice described in the case of Google Buzz indicates that the integration of the social networking service with Gmail was processed automatically by algorithms without user intervention. Specifically, Buzz automatically created public profiles and connected users with their frequent email contacts, making these connections visible publicly by default. This process was done without adequately informing users or obtaining their consent. There is no mention of manual review by company employees or the use of third-party data analytics services in the creation of these connections. Additionally, the data was not encrypted and processed only on user devices, as it was exposed publicly. The automatic nature of the process led to significant privacy concerns and subsequent changes by Google.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:02:20.618187"
+  },
+  {
+    "question": {
+      "text": "Is the data anonymized during processing in this integrated system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, data is fully anonymized before processing"
+        },
+        {
+          "id": "option2",
+          "label": "No, data is processed in its original form"
+        },
+        {
+          "id": "option3",
+          "label": "Partial anonymization applied to certain data types"
+        },
+        {
+          "id": "option4",
+          "label": "Users can choose anonymization as an option"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice describes how Google's Buzz automatically created public profiles and made users' frequent contacts publicly visible without their consent. This indicates that data was processed in its original form, as users' contact lists were exposed directly. There is no mention of anonymization being applied to the data during processing. Instead, the practice involved revealing actual user relationships, which led to privacy concerns. Therefore, option 2, 'No, data is processed in its original form,' accurately reflects the described data practices and their implications.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:02:23.951202"
+  },
+  {
+    "question": {
+      "text": "How long is the data retained in the integrated email and social networking system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Data is retained indefinitely until user deletion"
+        },
+        {
+          "id": "option2",
+          "label": "Data is retained for a maximum of 5 years"
+        },
+        {
+          "id": "option3",
+          "label": "Data is retained according to legal requirements only"
+        },
+        {
+          "id": "option4",
+          "label": "Data retention period is customizable by users"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The data practice involving Google Buzz did not specify a fixed retention period for data in the integrated email and social networking system. The automatic setup process that exposed Gmail users' contacts as public without consent suggests that the data was retained indefinitely until users decided to manually delete it or until Buzz was shut down. This aligns with the notion that data was retained indefinitely until user deletion. There is no indication in the data practice of a maximum retention period, legal requirements guiding retention, or user-customizable retention periods. Therefore, option1 best reflects the practice described, where data remained publicly visible unless users took action to remove it or Google made changes following privacy complaints.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:02:27.040341"
+  },
+  {
+    "question": {
+      "text": "What encryption measures are used to protect data at rest in this system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "AES-256 encryption for all data types"
+        },
+        {
+          "id": "option2",
+          "label": "No encryption applied to data at rest"
+        },
+        {
+          "id": "option3",
+          "label": "Basic encryption for non-sensitive data only"
+        },
+        {
+          "id": "option4",
+          "label": "User-controlled encryption keys for data at rest"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice described in the case of Google Buzz does not mention any specific encryption measures being applied to protect data at rest. The incident involved public exposure of users' email contacts without their consent, which suggests a lack of adequate privacy controls, including encryption. The lack of encryption measures for data at rest is consistent with the issues reported, such as the automatic and public exposure of sensitive relationships. Therefore, 'No encryption applied to data at rest' is the most accurate reflection of the privacy practices described, highlighting a significant oversight in protecting user data privacy.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:02:29.834249"
+  },
+  {
+    "question": {
+      "text": "Who can see the data collected in the integrated system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Only the data owner and authorized contacts"
+        },
+        {
+          "id": "option2",
+          "label": "Service providers and third-party partners"
+        },
+        {
+          "id": "option3",
+          "label": "Publicly visible to all platform users"
+        },
+        {
+          "id": "option4",
+          "label": "Limited to internal company use only"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option3"
+      ],
+      "explanation": "The data practice described in the incident with Google Buzz indicates that the data collected in the integrated system was publicly visible to all platform users by default. This is evident from the fact that Buzz automatically created a public profile for Gmail users and made their frequent contacts publicly visible as 'followers' without user consent. This setup led to sensitive relationships being exposed, as seen in the case of the blogger whose follower list included her abusive ex-boyfriend. Therefore, option 3, 'Publicly visible to all platform users,' accurately reflects the practice described.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:02:32.780338"
+  },
+  {
+    "question": {
+      "text": "Is the data encrypted during sharing in the email and social networking integration?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, end-to-end encryption is always used"
+        },
+        {
+          "id": "option2",
+          "label": "No, data is shared in plain text"
+        },
+        {
+          "id": "option3",
+          "label": "Encryption is optional and user-configurable"
+        },
+        {
+          "id": "option4",
+          "label": "Only sensitive data is encrypted during sharing"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice describes how Google Buzz automatically shared users' email contacts publicly without their consent, indicating that the data was shared in plain text. There is no mention of encryption being used during sharing, which led to privacy violations and exposed sensitive connections. The public sharing of contact information implies that encryption was not in place, as encrypted data would not have been easily accessible or visible to the public. Therefore, 'No, data is shared in plain text' is the most accurate option given the described practices and their privacy implications.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:02:35.210909"
+  },
+  {
+    "question": {
+      "text": "How can users withdraw their consent for data processing in this system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "By updating privacy settings in the user account"
+        },
+        {
+          "id": "option2",
+          "label": "Sending a request to customer support"
+        },
+        {
+          "id": "option3",
+          "label": "Consent cannot be withdrawn once given"
+        },
+        {
+          "id": "option4",
+          "label": "Automatic withdrawal after a certain period"
+        }
+      ],
+      "category": "Consent",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "In the case of Google Buzz, the privacy issues arose from a lack of informed consent and the automatic nature of data sharing. The system initially created public profiles and connections without adequately informing users or obtaining their consent, which led to widespread criticism. After facing these criticisms, Google made changes to the privacy settings, indicating that users were given the ability to manage their privacy preferences through account settings, supporting the selection of 'option1'. Additionally, contacting customer support would be a reasonable way for users to request changes or withdraw consent, especially in situations where automatic processes expose sensitive information, supporting the selection of 'option2'. Options 'option3' and 'option4' are not applicable as users had the ability to adjust settings and Google's subsequent changes show an effort to address consent withdrawal through updated processes.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:02:38.226010"
+  },
+  {
+    "question": {
+      "text": "Can users delete their data from the integrated system, either partially or entirely?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, users can delete all or selected data anytime"
+        },
+        {
+          "id": "option2",
+          "label": "No, data deletion is not permitted by the system"
+        },
+        {
+          "id": "option3",
+          "label": "Only partial data deletion is allowed"
+        },
+        {
+          "id": "option4",
+          "label": "Data deletion requires a formal request process"
+        }
+      ],
+      "category": "Control",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The data practice description does not provide specific details about the ability for users to delete their data from the Buzz system. However, the fact that Google made multiple changes to the privacy settings following the criticism suggests that users may have been given some control over their data, including the ability to delete or manage their public profiles and connections. The lack of explicit mention of a formal request process or restrictions on data deletion implies that users likely had the capability to delete all or selected data at their discretion. Therefore, option1 is selected as it aligns with the expectation that users could manage their data privacy following the backlash and changes made by Google.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:02:43.502192"
+  },
+  {
+    "question": {
+      "text": "What measures are in place to ensure data accuracy and relevance in automatically generated connections?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Regular audits and user feedback mechanisms to verify accuracy and relevance."
+        },
+        {
+          "id": "option2",
+          "label": "No specific measures are implemented to ensure data accuracy or relevance."
+        }
+      ],
+      "category": "data_quality_assessment",
+      "related_dimensions": [
+        "Data Quality"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice surrounding Google's Buzz did not include any specific measures to ensure data accuracy or relevance in the automatically generated connections. The automatic setup process of Buzz created public profiles and connections without adequately informing users or obtaining their consent. This demonstrates a lack of focus on data accuracy and relevance, as users' most frequent Gmail contacts were exposed as public 'followers' without verifying the relevance or appropriateness of these connections for public visibility.",
+      "impact_analysis": {
+        "Data Quality": "The lack of measures to ensure data accuracy and relevance significantly impacted data quality. Automatically generating connections without user consent or verification led to inappropriate exposures of sensitive relationships, highlighting a failure to maintain high data quality standards. This oversight contributed to the backlash and privacy complaints that ultimately led to Buzz's shutdown and regulatory action."
+      }
+    },
+    "timestamp": "2025-02-13T10:03:09.589463"
+  }
+]

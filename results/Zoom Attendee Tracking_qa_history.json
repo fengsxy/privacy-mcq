@@ -1,0 +1,388 @@
+[
+  {
+    "question": {
+      "text": "What types of data are collected by the attendee attention tracking feature in the video conferencing application?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Focus status of the application on participant's device"
+        },
+        {
+          "id": "option2",
+          "label": "Audio and video streams during the meeting"
+        },
+        {
+          "id": "option3",
+          "label": "Chat messages exchanged during the meeting"
+        },
+        {
+          "id": "option4",
+          "label": "Screen sharing content viewed by participants"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The data practice specifically mentions that the Zoom feature tracked the focus status of the application on a participant's device. If Zoom was not the application in focus for over 30 seconds, a clock icon was shown next to the participant's name, and a report was generated listing the percentage of time each participant had the presentation window in focus during the meeting. The practice does not mention collecting audio and video streams, chat messages, or screen sharing content as part of the attendee attention tracking feature.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T11:43:37.856077"
+  },
+  {
+    "question": {
+      "text": "What is the purpose of collecting data on attendees' attention during video conferences?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "To provide hosts with insights into participant engagement"
+        },
+        {
+          "id": "option2",
+          "label": "To improve the application's user interface"
+        },
+        {
+          "id": "option3",
+          "label": "To enhance security measures by detecting inactive users"
+        },
+        {
+          "id": "option4",
+          "label": "To personalize the advertisement experience for users"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The purpose of collecting data on attendees' attention during video conferences was to provide hosts with insights into participant engagement. This is evident from the feature that allowed the host to monitor if Zoom was the application in focus on a participant's computer during a presentation, and the report generated at the end of each meeting with the percentage of time each participant had the presentation window in focus. The backlash and subsequent removal of this feature highlight privacy concerns and suggest that the primary intent was related to engagement monitoring, not user interface improvement, security enhancement, or advertisement personalization.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T11:43:39.933684"
+  },
+  {
+    "question": {
+      "text": "Is the attention tracking data anonymized during processing to protect user privacy?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, all data is anonymized before processing"
+        },
+        {
+          "id": "option2",
+          "label": "No, data is processed with identifiable information"
+        },
+        {
+          "id": "option3",
+          "label": "Only certain aspects of the data are anonymized"
+        },
+        {
+          "id": "option4",
+          "label": "Data is pseudonymized but remains linked to user accounts"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice describes how Zoom's attention tracking feature identified individual participants' attention levels by showing a clock icon next to their name and generating a report for the host. This implies that the data was processed with identifiable information, as the attention status was directly linked to participant names and user accounts. There is no mention of any anonymization or pseudonymization process in place, which aligns with the backlash Zoom received regarding privacy concerns. Therefore, the data was processed with identifiable information, making option 2 the correct choice.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T11:43:43.429440"
+  },
+  {
+    "question": {
+      "text": "How long is the attention tracking data retained by the video conferencing application?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Data is deleted immediately after the meeting ends"
+        },
+        {
+          "id": "option2",
+          "label": "Data is retained for 30 days after meeting completion"
+        },
+        {
+          "id": "option3",
+          "label": "Data is stored indefinitely for historical analysis"
+        },
+        {
+          "id": "option4",
+          "label": "Data is retained for one year before deletion"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "Zoom's attention tracking feature was removed permanently due to privacy concerns and backlash from users. The data practice described does not specify any retention period for the attention tracking data. However, since the feature was removed, it implies that any data collected by this feature would not be retained beyond the end of a meeting. Therefore, the most appropriate option is 'Data is deleted immediately after the meeting ends,' as it aligns with the removal of the feature and the commitment to address privacy concerns.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T11:43:45.796185"
+  },
+  {
+    "question": {
+      "text": "Who can access the attention tracking data collected during video conferences?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Only the meeting host"
+        },
+        {
+          "id": "option2",
+          "label": "Host and the video conferencing service provider"
+        },
+        {
+          "id": "option3",
+          "label": "All participants of the meeting"
+        },
+        {
+          "id": "option4",
+          "label": "Authorized third-party partners"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "According to the data practice described, the attention tracking data was reported to the meeting host at the end of each meeting, listing the percentage of time each participant had the presentation window in focus. There is no mention of the video conferencing service provider (Zoom) accessing or using this data beyond providing it to the host, nor is there any indication that the data was shared with all participants or authorized third-party partners. Therefore, based on the information provided, only the meeting host had access to the attention tracking data.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T11:43:47.917933"
+  },
+  {
+    "question": {
+      "text": "How is the attention tracking data shared within the platform?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Through secure internal networks"
+        },
+        {
+          "id": "option2",
+          "label": "Via public networks accessible to authorized users"
+        },
+        {
+          "id": "option3",
+          "label": "Only stored locally on host devices"
+        },
+        {
+          "id": "option4",
+          "label": "Directly emailed to hosts post-meeting"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option4"
+      ],
+      "explanation": "The data practice describes that at the end of each meeting, Zoom generated a report for the host listing the percentage of time each participant had the presentation window in focus. This implies that the attention tracking data was shared directly with the hosts post-meeting. There is no mention of the data being shared through secure internal networks, via public networks, or only stored locally on host devices. The backlash and eventual removal of the feature suggest that sharing this data directly with hosts did not meet privacy expectations. Therefore, option 4 is the most accurate reflection of how the attention tracking data was shared within the platform.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T11:43:53.114709"
+  },
+  {
+    "question": {
+      "text": "What channels are used to deliver notices about the attention tracking feature to users?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "In-app interface notifications"
+        },
+        {
+          "id": "option2",
+          "label": "Email notifications to registered users"
+        },
+        {
+          "id": "option3",
+          "label": "Public website announcements"
+        },
+        {
+          "id": "option4",
+          "label": "SMS alerts to mobile numbers"
+        }
+      ],
+      "category": "Notice",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [],
+      "explanation": "The data practice does not provide specific details about the channels used to deliver notices about the attention tracking feature to users. It only mentions that the feature received backlash and was eventually removed, but does not specify how or if users were notified about the feature either before or after it was implemented. Therefore, none of the provided options can be selected with certainty based on the available information.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T11:43:55.307289"
+  },
+  {
+    "question": {
+      "text": "How is explicit opt-in consent obtained for using the attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Through a pop-up consent form before meetings"
+        },
+        {
+          "id": "option2",
+          "label": "Automatically assumed for all users by default"
+        },
+        {
+          "id": "option3",
+          "label": "Via terms of service agreement during account setup"
+        },
+        {
+          "id": "option4",
+          "label": "By asking users to email their consent"
+        }
+      ],
+      "category": "Consent",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice does not mention any explicit opt-in consent mechanism for the attention tracking feature, such as a pop-up consent form, terms of service agreement, or email consent. Instead, it reflects that the feature was implemented without obtaining explicit consent from users, which led to significant backlash and was perceived as falling short of privacy expectations. This implies that the use of the attention tracking feature was automatically assumed for all users by default, as no explicit opt-in process was described before the backlash and removal of the feature.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T11:43:57.721079"
+  },
+  {
+    "question": {
+      "text": "How is opt-out consent implemented for the attention tracking feature?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Users can disable it in the app settings"
+        },
+        {
+          "id": "option2",
+          "label": "Opt-out is available only through customer support requests"
+        },
+        {
+          "id": "option3",
+          "label": "Opt-out is not available once activated"
+        },
+        {
+          "id": "option4",
+          "label": "Users can opt-out by not participating in meetings"
+        }
+      ],
+      "category": "Consent",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option3"
+      ],
+      "explanation": "The data practice indicates that the attention tracking feature was implemented without an opt-out option for users once activated. The backlash and eventual removal of the feature suggest that users did not have control over this privacy-invasive feature, which aligns with option3: 'Opt-out is not available once activated.' The feature was permanently removed due to privacy concerns, highlighting that the initial implementation did not meet user expectations for privacy and consent.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T11:44:00.699442"
+  },
+  {
+    "question": {
+      "text": "Can users control whether their attention tracking data is shared with third parties, and if so, how?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, through privacy settings in the application"
+        },
+        {
+          "id": "option2",
+          "label": "No, data sharing with third parties is mandatory"
+        },
+        {
+          "id": "option3",
+          "label": "Yes, by contacting support to request restrictions"
+        },
+        {
+          "id": "option4",
+          "label": "Control is only available to premium account holders"
+        }
+      ],
+      "category": "Control",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [],
+      "explanation": "In the data practice described, Zoom developed an attention tracking feature that allowed hosts to monitor participants' focus during meetings. However, this feature received backlash due to privacy concerns, and Zoom subsequently removed it permanently. Since the feature no longer exists, there is no attention tracking data generated or shared with third parties. Therefore, the question about users controlling whether their attention tracking data is shared with third parties is not applicable because the attention tracking data is no longer collected or shared at all.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T11:44:03.307620"
+  },
+  {
+    "question": {
+      "text": "Were there any procedures to verify the accuracy of the attention tracking data collected by Zoom?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, there were regular procedures to ensure data accuracy."
+        },
+        {
+          "id": "option2",
+          "label": "No, there were no specific procedures to verify data accuracy."
+        }
+      ],
+      "category": "data_quality",
+      "related_dimensions": [
+        "Data Quality"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice description does not mention any specific procedures or measures taken by Zoom to verify the accuracy of the attention tracking data collected. The feature simply monitored whether Zoom was the application in focus and reported this to the host, without any indication of accuracy verification processes in place. The backlash and subsequent removal of the feature suggest that concerns about data quality and accuracy, among other privacy issues, were not adequately addressed.",
+      "impact_analysis": {
+        "Data Quality": "The absence of procedures to verify the accuracy of the attention tracking data impacts data quality negatively. It raises concerns about the reliability and validity of the data presented to the meeting host, potentially leading to incorrect assumptions about participant engagement. This can undermine trust in the platform and highlight a need for better data quality assurance practices."
+      }
+    },
+    "timestamp": "2025-02-13T11:44:31.230467"
+  },
+  {
+    "question": {
+      "text": "Were there any documented security measures implemented to protect the attention tracking data from unauthorized access or breaches?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, specific security measures were documented and implemented"
+        },
+        {
+          "id": "option2",
+          "label": "No, there were no documented security measures in place"
+        }
+      ],
+      "category": "security_safeguards",
+      "related_dimensions": [
+        "Security Safeguards",
+        "Accountability"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice description does not mention any specific security measures that were documented or implemented to protect the attention tracking data from unauthorized access or breaches. The focus of the description is on the feature itself and the backlash it received, leading to its removal, but it does not detail any security protocols that were in place for this data.",
+      "impact_analysis": {
+        "Security Safeguards": "The lack of documented security measures for the attention tracking feature indicates a potential gap in protecting this data from unauthorized access or breaches. This oversight could lead to privacy violations if the data were exposed.",
+        "Accountability": "The absence of documented security measures suggests a lack of accountability in ensuring the protection of user data. Organizations are expected to implement and communicate security measures to protect personal information, and failing to do so can undermine trust and accountability."
+      }
+    },
+    "timestamp": "2025-02-13T11:44:41.996884"
+  }
+]

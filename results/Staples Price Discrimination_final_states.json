@@ -1,0 +1,88 @@
+{
+  "Collection Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Collection of IP addresses without clear limitation",
+        "reasoning": "The system collects IP addresses to determine geographic location, but it's unclear if only necessary data is collected and if there are any limits to the data collection scope.",
+        "related_questions": [
+          "What specific geographic data is collected beyond IP addresses?",
+          "Are there any measures in place to limit the scope of data collection to what is strictly necessary for pricing purposes?"
+        ]
+      }
+    ]
+  },
+  "Data Quality": {
+    "state": "Has Issue",
+    "concerns": []
+  },
+  "Purpose Specification": {
+    "state": "Has Issue",
+    "concerns": []
+  },
+  "Use Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Data used for purposes not fully disclosed",
+        "reasoning": "While the primary use is for pricing, there may be other uses not disclosed or limited, raising concerns about further use of data.",
+        "related_questions": [
+          "Are there any secondary purposes for which the geographic data is used?",
+          "Is there a policy in place to limit the use of data to specified purposes?"
+        ]
+      }
+    ]
+  },
+  "Security Safeguards": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of encryption for stored and shared data",
+        "reasoning": "The data practice does not mention encryption, suggesting that data might be stored and shared in plaintext, raising significant security concerns.",
+        "related_questions": [
+          "What security measures are in place to protect data at rest?",
+          "Is data encrypted during transmission to prevent unauthorized access?"
+        ]
+      }
+    ]
+  },
+  "Openness": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of transparency about data practices",
+        "reasoning": "Users were unaware of the data practices, leading to public backlash, indicating a lack of transparency in how data is collected and used.",
+        "related_questions": [
+          "Are users informed about data collection and usage practices?",
+          "Is there a public privacy policy detailing how data is handled?"
+        ]
+      }
+    ]
+  },
+  "Individual Participation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "No user control over data sharing",
+        "reasoning": "Users cannot control whether their data is shared with third parties, which violates the principle of individual participation and autonomy.",
+        "related_questions": [
+          "Can users opt-out of data collection or sharing?",
+          "Are there mechanisms for users to access or correct their data?"
+        ]
+      }
+    ]
+  },
+  "Accountability": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Unclear accountability measures",
+        "reasoning": "The data practice does not clarify who is accountable for ensuring compliance with privacy standards, potentially leading to lapses in responsibility.",
+        "related_questions": [
+          "Who is responsible for data protection and privacy compliance?",
+          "Are there audits to ensure adherence to privacy policies?"
+        ]
+      }
+    ]
+  }
+}

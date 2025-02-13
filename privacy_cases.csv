@@ -1,0 +1,112 @@
+Case,Design Purpose,Data Practice,Key Questions
+Zoom Attendee Tracking,Design an attendee attention tracking feature for a video conferencing application.,"Zoom is a video conferencing platform which has seen a huge increase in usage and revenue since the beginning of the COVID-19 pandemic and has rapidly iterated its product to accommodate this growing user base. Zoom developed a feature that allowed the host to monitor the attendees' attention: if Zoom was not the application in focus on a participant's computer for over 30 seconds while someone else was sharing their screen, Zoom showed a clock icon next to the participant's name in the participant panel. At the end of each meeting, Zoom also generated a report for the host listing the percentage of time each participant had the presentation window in focus during the meeting. This feature received significant backlash after launch. The Zoom team later apologized for falling short of the community's privacy and security expectations and decided to remove the attention tracker feature permanently.","1. Opt-in or Opt-out?
+2. When should we send notification? Just-in-time, Install time, or Periodically?
+3. Only present aggregated data?
+4. Only enable the feature in the education setting?
+5. More salient notification? Always on?
+6. How to infer attention? Using a camera?
+7. Process data on the edge?
+8. Data retention? Where is data stored?
+9. Who can access the data? Attention Data Access control?
+10. Report attention prediction errors?
+11. Data collection interval?
+12. Data deletion request?
+13. What if I accidentally accept it? How to fix it?"
+Facebook Cambridge Analytics,Design a third-party application integration system that allows apps to collect and use user data from a social media platform.,"Facebook allowed third-party developers to collect user data through apps and quizzes, including not just the data of users who installed these apps, but also the data of their Facebook friends. Cambridge Analytica, a political consulting firm, obtained data from up to 87 million Facebook users through a personality quiz app called ""this is your digital life"" developed by researcher Aleksandr Kogan. While only around 270,000 users installed the app, Cambridge Analytica gained access to millions more users' data through Facebook's friend data sharing API policy at the time. The firm used this data to create psychological profiles of voters, which were then used to target political advertisements during the 2016 US presidential election and other political campaigns. When this practice was exposed in 2018, it led to widespread criticism of Facebook's data sharing policies, multiple investigations, and eventually resulted in Facebook paying a $5 billion fine to the FTC. Facebook subsequently changed its policies to restrict third-party access to user data and implemented stricter data sharing controls.","1. What data can third-party apps access? Whose data?
+2. Granularity of permissions?
+3. What is the default permission state?
+4. Access control mechanism?
+5. Does it require consent for all data subjects involved?
+6. Can users selectively grant access to specific data categories?
+7. What information is disclosed during the consent process?
+8. How can users review and revoke permissions?
+9. Audits/reviews on data usage of third-party apps?
+10. Data deletion request?
+11. Restriction on data retention period?
+12. Restriction on secondary use of data?
+13. Restriction on data sharing with external parties?"
+AirTag,Design a real-time location tracking system for personal items.,"Apple's AirTag, launched in 2021, is a small tracking device designed to help users locate personal items through Apple's Find My network. The device leverages a network of over a billion Apple devices worldwide to relay location data. When an AirTag is separated from its owner, it can communicate with nearby Apple devices, which then anonymously relay the AirTag's location back to the owner. While intended for finding lost items, the technology has been misused for unauthorized tracking of individuals. Reports emerged of AirTags being secretly placed in cars, bags, or personal belongings to track people's movements. Although Apple implemented various safety features like alerting iPhone users of unknown AirTags traveling with them and making AirTags play a sound after being away from their owner, concerns persisted about the delayed notifications (originally 72 hours, later reduced to a random time between 8-24 hours) and the fact that Android users initially had no way to detect AirTags. Apple later released an Android app called ""Tracker Detect"" and enhanced their safety features.","1. Which location technologies (GPS, Bluetooth, WiFi) should be used?
+2. Is the location data anonymized?
+3. Should tracking be continuous or only activated when requested?
+4. How frequently is location data updated?
+5. Where is location history stored? Data retention period?
+6. How is location data encrypted in transit and at rest?
+7. How to notify others near a tracked item? When?
+8. How can other users check if they are being tracked?
+9. How should other users disable the tracking if they found unknown tracking devices?
+10. Who can access location history? Access control?
+11. Data deletion request?"
+Target Pregnancy Prediction,Design a retail analytics system that processes customer purchase histories to automatically generate personalized coupons and recommendations.,"In 2012, Target's marketing analytics team developed a pregnancy prediction score system that could identify pregnant customers based on their shopping patterns. The system analyzed purchase history and assigned each customer a ""pregnancy prediction"" score by identifying approximately 25 products that, when analyzed together, allowed Target to predict not only pregnancy but also estimate the customer's due date. Key indicators included sudden purchases of unscented lotions, supplements like calcium and magnesium, and large bags of cotton balls in specific sequences. Target then used these predictions to send targeted pregnancy and baby-related marketing materials to these customers. The practice gained public attention when Target inadvertently revealed a teenage girl's pregnancy to her father by sending baby-related coupons to their house before she had told her family. After this incident and subsequent public backlash, Target modified their marketing approach to mix pregnancy-related advertisements with unrelated products to make their targeting less obvious, rather than abandoning the practice entirely.","1. What customer data is collected? Include personal identifier information?
+2. Combine data from different sources?
+3. Data retention period?
+4. Is purchase history tracking opt-in or opt-out?
+5. How is consent obtained for personalized recommendations?
+6. Review/delete what data is collected?
+7. How is the data processed to generate personalized recommendations?
+8. Exclude life events/conditions for predictive analytics?
+9. Exclude certain types of purchases from analysis?
+10. Can customers opt-out of specific types of predictions?
+11. Who can view the coupons and recommendations? Access control?"
+Facebook Emotional Contagion,Design a research experiment to study how exposure to emotional content affects users' own emotional expressions on a social media platform.,"In 2014, Facebook conducted a psychological experiment on 689,003 users without their explicit consent by manipulating their News Feed content to study emotional contagion. For one week in January 2012, Facebook's algorithm selectively removed either positive or negative emotional content from users' News Feeds. Users in the positive condition saw fewer negative posts, while those in the negative condition saw fewer positive posts. The researchers then analyzed these users' subsequent posts to see if reducing exposure to certain emotional content would affect their own emotional expressions. The study found that users who saw fewer negative posts wrote more positive posts, and those who saw fewer positive posts wrote more negative posts, demonstrating that emotional states could be transferred through social networks. When the study was published, it sparked significant controversy over research ethics, particularly regarding informed consent and the manipulation of users' emotional states. While Facebook defended the research as covered under their data use policy, the incident led to discussions about the ethics of large-scale social experiments on unwitting platform users and resulted in changes to Facebook's research review processes.","1. How are the participants selected for the control/experimental group?
+2. How long is the study?
+3. What data is collected? Anonymized?
+4. How long is experimental data retained? What happens to the data after the study?
+5. How is the data processed?
+6. How is emotional content selected? How to determine levels of emotional manipulation?
+7. Does it require informed consent from participants?
+8. How to handle withdrawal of consent?
+9. When and how is the manipulation disclosed?
+10. Limits on negative content manipulation?
+11. Identify and exclude vulnerable populations?
+12. Any deception? How to ensure it is ethically justified?
+13. Review the experiment?
+14. Who can access the user data? Access control?"
+Google Buzz,Design a system that integrates email services with social networking functionality.,"In 2010, Google launched Buzz, a social networking service integrated directly into Gmail. During its automatic setup process, Buzz created a public profile for Gmail users and automatically connected them with people they frequently emailed or chatted with, making these connections publicly visible by default. The system exposed users' most frequent Gmail contacts as public ""followers,"" without adequately informing users or obtaining their consent. This was particularly problematic for individuals like journalists, professionals, or abuse survivors whose email contact lists contained sensitive relationships. For example, one blogger discovered that Buzz had publicly exposed her follower list, which included her abusive ex-boyfriend and his friends. Google initially defended the auto-following feature as enhancing user experience but quickly faced widespread criticism and several privacy complaints. Within days, Google made multiple changes to the privacy settings and eventually shut down Buzz in 2011. The incident resulted in an FTC settlement requiring Google to implement a comprehensive privacy program and undergo regular privacy audits for 20 years.","1. Opt-in / Opt-out?
+2. Automatically enrolled / Suggestions?
+3. What user data is available to the public?
+4. Who can view the user contact lists by default?
+5. How can users control their contact list visibility?
+6. How to manage different types of contact groups?
+7. What data is combined across services?
+8. Review/delete data between services?
+9. How to obtain informed consent from users?
+10. Privacy audits?"
+OKCupid Score Manipulation,Design a research experiment to study how displayed compatibility scores influence user behavior and interactions on a dating platform.,"In 2014, OKCupid conducted experiments on its users by deliberately providing incorrect compatibility scores. The dating platform typically shows users a ""match percentage"" based on their answers to personality questions. During the experiment, OKCupid deliberately altered these scores, showing some users who were poor matches (30%) as excellent matches (90%), and vice versa. The platform then analyzed how the manipulated scores affected user behavior and interaction rates. When users were told they were highly compatible, they were more likely to engage in conversation and exchange contact information, even if their actual compatibility was low. OKCupid's co-founder Christian Rudder publicly defended these experiments in a blog post titled ""We Experiment On Human Beings!"", arguing that such testing was necessary for improving the service. The revelation sparked debates about informed consent in platform experiments, though the practice received less public backlash than similar experiments by other platforms.","1. How are the participants selected for the control/experimental group? Opt-in / Opt-out?
+2. How long is the study?
+3. What data is collected? Anonymized?
+4. How long is experimental data retained? What happens to the data after the study?
+5. Are users informed about potential data manipulation?
+6. When and how is the manipulation disclosed to users?
+7. How to handle withdrawal of consent?
+8. Ethical review of the research process?
+9. How to identify and exclude vulnerable users?
+10. Who can access the experiment data? Access control?
+11. Any deception? How to ensure it is ethically justified?"
+Uber Price Discrimination,Design a dynamic pricing system for a ride-sharing service.,"Uber's pricing algorithm has been found to potentially factor in users' phone battery levels when determining ride prices. The app, which requires battery level access to implement power-saving features, could detect when a user's phone was running low on battery. Research suggested that users with low battery levels might be charged higher prices, potentially exploiting their increased urgency to secure a ride before their phone dies. This practice raised concerns about the ethical implications of using battery status data to influence pricing decisions, especially since users in more vulnerable situations (low battery) could be charged premium rates. When this practice was revealed, it sparked discussions about the boundaries of acceptable data usage in dynamic pricing systems and the need for transparency in how personal device data influences service costs.","1. What data is collected? Anonymized?
+2. How long is the data retained?
+3. What factors should be excluded from pricing algorithms (e.g., personal user attributes)?
+4. How to communicate all pricing factors to users?
+5. Can users opt-out of optional data collection / mask certain status indicators?
+6. What oversight for pricing algorithms?"
+Staples Price Discrimination,Design an e-commerce pricing system that incorporates geographic and market data.,"Staples.com implemented location-based pricing by using visitors' IP addresses to estimate their distance from competing brick-and-mortar stores. The website would display different prices for identical products based on the customer's proximity to competitors' stores. If a customer was detected to be far from a competing store, they were shown higher prices, while those near competitors saw lower prices. The Wall Street Journal investigation found price differences of up to 10% between locations. When customers noticed these discrepancies and compared prices across different locations, it led to public backlash over the fairness of this digital price discrimination practice.","1. What data is collected? Anonymized?
+2. How long is the data retained?
+3. What factors should be excluded from pricing algorithms?
+4. How to communicate all pricing factors to users?
+5. Can users opt-out of optional data collection / mask certain status indicators?
+6. What oversight for pricing algorithms?"
+Expedia Price Discrimination,Design a dynamic pricing system for a travel booking platform.,"Expedia's website employed a dynamic pricing system that displayed different hotel rates based on user characteristics such as the type of device used for browsing. The system could show varying prices for the same hotel room when accessed from different devices (e.g., Mac vs. Windows computers). When users logged into their Expedia accounts, the displayed prices could also differ based on their booking history and member status. A 2012 investigation found that Mac users were sometimes shown higher-priced hotel options compared to Windows users viewing the same search results. When this practice became public, it highlighted how e-commerce platforms can use device fingerprinting and user data to implement differential pricing strategies.","1. What data is collected? Anonymized?
+2. How long is the data retained?
+3. What factors should be excluded from pricing algorithms?
+4. How to communicate all pricing factors to users?
+5. Can users opt-out of optional data collection / mask certain status indicators?
+6. What oversight for pricing algorithms?"
+Healthcare Price Discrimination,Design a healthcare billing system that processes patient financial information while maintaining compliance with healthcare billing regulations.,"Healthcare providers implemented systems that selectively waived patient copayments based on financial data. Their practice management software processed patient information including income level, payment history, and insurance status to determine copayment waiver eligibility. The system could flag patients who might qualify for financial assistance and automatically calculate adjusted payment amounts. Some providers used this data to routinely waive copayments for certain patient categories, while still billing insurance companies for the full amount. When insurance companies analyzed claims data patterns, they identified instances where providers consistently waived copayments for some patients while collecting them from others, raising questions about billing practices and insurance reimbursement.","1. What patient financial data is collected and processed?
+2. How is sensitive financial information protected?
+3. What factors determine copayment waiver eligibility?
+4. How is the waiver decision process documented?
+5. Who has access to patient financial data?
+6. How long is financial data retained?
+7. How can patients review their financial information?
+8. What mechanisms exist for correcting errors in financial data?
+9. How is compliance with healthcare billing regulations ensured?
+10. What audit trails are maintained for pricing decisions?"

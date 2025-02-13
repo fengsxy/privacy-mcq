@@ -1,0 +1,97 @@
+{
+  "Collection Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Collection of phone battery level data",
+        "reasoning": "The app collects phone battery level data, which may not be directly relevant to providing the core ride-sharing service, raising concerns about over-collection.",
+        "related_questions": [
+          "Is phone battery level data essential for the basic functioning of the ride-sharing service?",
+          "What other types of data are collected by the app?"
+        ]
+      }
+    ]
+  },
+  "Data Quality": {
+    "state": "No Issue",
+    "concerns": []
+  },
+  "Purpose Specification": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Ambiguity in purpose of collecting battery level data",
+        "reasoning": "Battery level data is collected ostensibly for power-saving features, but it is also used for pricing, which may not be clearly communicated to users.",
+        "related_questions": [
+          "Is the purpose of data collection clearly communicated to users?",
+          "Are users informed that battery level data may influence pricing?"
+        ]
+      }
+    ]
+  },
+  "Use Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Use of data beyond initial purpose",
+        "reasoning": "The use of battery level data for dynamic pricing goes beyond the initial purpose of power-saving, raising concerns about use limitation.",
+        "related_questions": [
+          "Is the use of battery data for pricing explicitly mentioned in the terms of service?",
+          "Are there any limitations on how collected data can be used?"
+        ]
+      }
+    ]
+  },
+  "Security Safeguards": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of information about data encryption",
+        "reasoning": "The data practice does not provide details on whether data is encrypted, especially when shared with third parties, which is a potential security concern.",
+        "related_questions": [
+          "Is the data encrypted when stored and transmitted?",
+          "What security measures are in place to protect user data?"
+        ]
+      }
+    ]
+  },
+  "Openness": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of transparency regarding data practices",
+        "reasoning": "There is insufficient information available to users about how their data is used, especially concerning dynamic pricing, leading to transparency concerns.",
+        "related_questions": [
+          "Is there a public policy detailing data use and sharing practices?",
+          "How are users informed about data usage and their rights?"
+        ]
+      }
+    ]
+  },
+  "Individual Participation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Limited control over data sharing",
+        "reasoning": "Users lack control over whether their data is shared for pricing purposes, which restricts their ability to manage their personal data actively.",
+        "related_questions": [
+          "Do users have options to manage or restrict data sharing?",
+          "How can users withdraw consent for specific data uses?"
+        ]
+      }
+    ]
+  },
+  "Accountability": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Unclear responsibility for data practices",
+        "reasoning": "There is a lack of clarity regarding who is accountable for data practices, especially in terms of how battery level data is used for pricing.",
+        "related_questions": [
+          "Who is responsible for ensuring compliance with data protection regulations?",
+          "What mechanisms are in place to hold the company accountable?"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "Collection Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Collection of user interaction and compatibility data without explicit mention of personal information or technical data.",
+        "reasoning": "The focus was on interaction and compatibility data, but it is unclear if other types of data were collected implicitly.",
+        "related_questions": [
+          "Is any personal or technical data collected implicitly during the experiment?",
+          "How is the scope of data collection defined and limited?"
+        ]
+      }
+    ]
+  },
+  "Data Quality": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Manipulation of compatibility scores may affect the accuracy and reliability of data.",
+        "reasoning": "Data was manipulated to observe user behavior, potentially compromising data integrity.",
+        "related_questions": [
+          "How is data quality maintained despite manipulation?",
+          "Are there measures to ensure the accuracy of manipulated data?"
+        ]
+      }
+    ]
+  },
+  "Purpose Specification": {
+    "state": "No Issue",
+    "concerns": []
+  },
+  "Use Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Data used for internal analysis without clear limitations on extent or scope.",
+        "reasoning": "Data was used for research and development, but there is no explicit mention of limitations on internal use.",
+        "related_questions": [
+          "Are there defined limits on how collected data can be used internally?",
+          "Is there any risk of data use beyond initial purposes?"
+        ]
+      }
+    ]
+  },
+  "Security Safeguards": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of mention of data anonymization or security measures during processing.",
+        "reasoning": "Data remained linked to user profiles, raising concerns about privacy and security.",
+        "related_questions": [
+          "What security measures are in place to protect user data?",
+          "Is there any anonymization of data during processing?"
+        ]
+      }
+    ]
+  },
+  "Openness": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of transparency regarding data processing and user consent.",
+        "reasoning": "Users were not informed about the experiment or given the option to consent.",
+        "related_questions": [
+          "How is information about data practices communicated to users?",
+          "Are users informed about the experiments conducted on their data?"
+        ]
+      }
+    ]
+  },
+  "Individual Participation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "No mechanism for users to withdraw consent or delete data post-experiment.",
+        "reasoning": "Users were not provided with options to opt-out or delete data, limiting their control over personal information.",
+        "related_questions": [
+          "Can users withdraw consent after data collection?",
+          "What options do users have to manage or delete their data?"
+        ]
+      }
+    ]
+  },
+  "Accountability": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Unclear if regular audits of data practices are conducted.",
+        "reasoning": "The experiment involved data manipulation without explicit mention of audits to ensure proper oversight.",
+        "related_questions": [
+          "Are there regular audits of data practices to ensure compliance?",
+          "Who is responsible for overseeing data practices and ensuring accountability?"
+        ]
+      }
+    ]
+  }
+}

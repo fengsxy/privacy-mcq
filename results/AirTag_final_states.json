@@ -1,0 +1,61 @@
+{
+  "Collection Limitation": {
+    "state": "No Issue",
+    "concerns": []
+  },
+  "Data Quality": {
+    "state": "No Issue",
+    "concerns": []
+  },
+  "Purpose Specification": {
+    "state": "No Issue",
+    "concerns": []
+  },
+  "Use Limitation": {
+    "state": "No Issue",
+    "concerns": []
+  },
+  "Security Safeguards": {
+    "state": "No Issue",
+    "concerns": []
+  },
+  "Openness": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of transparency regarding data retention policies.",
+        "reasoning": "The provided information does not specify how long location data is retained, which is crucial for understanding data privacy impacts.",
+        "related_questions": [
+          "What is the retention period for location data in the tracking system?",
+          "Is there a policy available to users about data retention?"
+        ]
+      }
+    ]
+  },
+  "Individual Participation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Users lack control over data sharing and deletion.",
+        "reasoning": "The data practice does not provide options for users to manage sharing settings or delete their location data, impacting user autonomy.",
+        "related_questions": [
+          "Can users opt-out of location data sharing even if it affects functionality?",
+          "Will there be future updates to allow data deletion or management by users?"
+        ]
+      }
+    ]
+  },
+  "Accountability": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Unclear accountability measures for data handling.",
+        "reasoning": "There is no information on who is responsible for ensuring compliance with data privacy standards.",
+        "related_questions": [
+          "Who is responsible for overseeing data privacy compliance in the tracking system?",
+          "Are there audits or assessments conducted to ensure privacy practices are upheld?"
+        ]
+      }
+    ]
+  }
+}

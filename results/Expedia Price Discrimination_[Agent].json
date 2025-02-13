@@ -1,0 +1,452 @@
+[
+  {
+    "question": {
+      "text": "What types of user data are collected to implement the dynamic pricing system on the travel booking platform?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Device type and operating system"
+        },
+        {
+          "id": "option2",
+          "label": "User's browsing and booking history"
+        },
+        {
+          "id": "option3",
+          "label": "IP address and geolocation data"
+        },
+        {
+          "id": "option4",
+          "label": "Payment information and credit card details"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "The data practice described indicates that Expedia's dynamic pricing system utilized user characteristics such as the type of device and operating system, as well as users' browsing and booking history to display different hotel rates. The system would show varying prices based on whether users were accessing the site from a Mac or Windows computer, and prices could also differ when users logged into their Expedia accounts, suggesting that their booking history and member status were considered. These practices are directly related to 'Device type and operating system' and 'User's browsing and booking history'.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:15:03.806828"
+  },
+  {
+    "question": {
+      "text": "What is the purpose of collecting user data for the travel booking platform's dynamic pricing system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "To customize pricing based on user characteristics"
+        },
+        {
+          "id": "option2",
+          "label": "To improve user experience by personalizing recommendations"
+        },
+        {
+          "id": "option3",
+          "label": "To comply with legal and regulatory requirements"
+        },
+        {
+          "id": "option4",
+          "label": "To aggregate data for marketing and advertising strategies"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The primary purpose of collecting user data for Expedia's dynamic pricing system, as described in the data practice, is to customize pricing based on user characteristics. This is evident from the fact that the website displayed different hotel rates depending on factors such as the type of device used (e.g., Mac vs. Windows) and user-specific attributes like booking history and member status. This form of differential pricing highlights the use of user data to tailor pricing strategies, which aligns directly with the purpose of 'customizing pricing based on user characteristics.' While personalizing recommendations (option 2) could be a secondary outcome, the specific practice discussed is centered around price customization, making option 1 the most relevant choice.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:15:07.526618"
+  },
+  {
+    "question": {
+      "text": "How is user data processed to enable dynamic pricing on the platform?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Data is analyzed in real-time to adjust prices dynamically"
+        },
+        {
+          "id": "option2",
+          "label": "Data is batch processed daily to update pricing algorithms"
+        },
+        {
+          "id": "option3",
+          "label": "Data is anonymized and aggregated before processing"
+        },
+        {
+          "id": "option4",
+          "label": "Data is stored and processed on external cloud services"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The data practice described involves a dynamic pricing system that adjusts hotel rates based on user characteristics such as the type of device used for browsing and the user's booking history. This suggests that data is analyzed in real-time to adjust prices dynamically, making option 1 the most appropriate choice. The practice of showing different prices based on real-time analysis of device and user data aligns with the description of dynamic pricing strategies employed by Expedia.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:15:09.396928"
+  },
+  {
+    "question": {
+      "text": "Is user data anonymized during the processing for dynamic pricing?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, data is fully anonymized to protect user identity"
+        },
+        {
+          "id": "option2",
+          "label": "No, data is processed with identifiable information"
+        },
+        {
+          "id": "option3",
+          "label": "Data is partially anonymized, retaining some identifiers"
+        },
+        {
+          "id": "option4",
+          "label": "Data anonymization depends on the data type and usage"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice described for Expedia's website indicates that user data is processed with identifiable information. The dynamic pricing system takes into account user characteristics such as the type of device used and the user's booking history and member status. These are identifiable attributes and suggest that the system personalizes pricing based on specific user profiles, which implies that user data is not anonymized. The practice of showing different prices based on device type, such as Mac or Windows, further supports that identifiable information is being used to differentiate users and tailor pricing, rather than anonymizing the data to protect user identity.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:15:12.112016"
+  },
+  {
+    "question": {
+      "text": "How long is user data retained in the travel booking platform's system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Data is retained for 6 months after the last activity"
+        },
+        {
+          "id": "option2",
+          "label": "Data is retained indefinitely unless the user requests deletion"
+        },
+        {
+          "id": "option3",
+          "label": "Data is retained for 2 years for compliance and auditing purposes"
+        },
+        {
+          "id": "option4",
+          "label": "Retention period varies based on data type and legal requirements"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option4"
+      ],
+      "explanation": "The data practice described does not specify a fixed retention period for user data. Expedia's use of dynamic pricing based on user characteristics suggests that data retention may vary depending on the type of data and its use in pricing strategies. Given the complexity of legal and compliance requirements across different jurisdictions, it is reasonable to assume that the retention period could vary based on data type and legal requirements, as suggested by option4. This option also aligns with user expectations for transparency and compliance with privacy regulations.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:15:14.458900"
+  },
+  {
+    "question": {
+      "text": "What encryption measures are used to protect user data at rest in the travel booking platform?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "AES-256 encryption for all stored data"
+        },
+        {
+          "id": "option2",
+          "label": "Data is encrypted using proprietary algorithms"
+        },
+        {
+          "id": "option3",
+          "label": "Data is stored without encryption but with access controls"
+        },
+        {
+          "id": "option4",
+          "label": "Encryption varies by data sensitivity and storage location"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [],
+      "explanation": "The data practice provided does not mention any specific encryption measures used by Expedia to protect user data at rest. Therefore, none of the options can be selected based on the details given in the data practice. The practice discusses differential pricing strategies based on user characteristics and device fingerprinting but does not address encryption measures or data protection methods at rest. Without further information on encryption practices, it's not possible to choose an appropriate option.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:15:16.091796"
+  },
+  {
+    "question": {
+      "text": "Who can access user data collected by the dynamic pricing system on the travel booking platform?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Only authorized employees of the platform"
+        },
+        {
+          "id": "option2",
+          "label": "Service providers and third-party partners for processing"
+        },
+        {
+          "id": "option3",
+          "label": "Data is shared with marketing partners for targeted advertising"
+        },
+        {
+          "id": "option4",
+          "label": "Access is restricted to system administrators only"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "The data practice highlights that Expedia's dynamic pricing system uses user data, such as device type and booking history, to adjust pricing. It is reasonable to infer that only authorized employees of the platform (option1) would have access to this data to manage and operate the dynamic pricing system effectively. Additionally, service providers and third-party partners (option2) may need access to process this data for functionality such as price calculations and system maintenance. The practice does not explicitly mention sharing data with marketing partners or restricting access solely to system administrators, so options 3 and 4 are not selected.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:15:18.736449"
+  },
+  {
+    "question": {
+      "text": "Is user data encrypted during sharing between the travel booking platform and third parties?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, end-to-end encryption is used for all data transfers"
+        },
+        {
+          "id": "option2",
+          "label": "Data is shared using secure HTTPS connections"
+        },
+        {
+          "id": "option3",
+          "label": "No, data is shared as plain text for compatibility"
+        },
+        {
+          "id": "option4",
+          "label": "Encryption depends on the sensitivity of the data shared"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice described does not explicitly mention encryption during data sharing. However, it is standard industry practice for platforms like Expedia to use secure HTTPS connections to protect data in transit. This ensures that user information is encrypted while being transferred between the travel booking platform and third parties, providing a basic level of security and privacy. There is no indication in the data practice that end-to-end encryption (option1) or plain text sharing (option3) is used, nor is there a mention of variable encryption based on data sensitivity (option4). Therefore, option2 is the most plausible choice given the context.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:15:21.943270"
+  },
+  {
+    "question": {
+      "text": "Can users control whether their data is shared with third parties, and if so, how?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Users can opt-out through their account settings"
+        },
+        {
+          "id": "option2",
+          "label": "Users can request data sharing preferences via customer support"
+        },
+        {
+          "id": "option3",
+          "label": "No, data sharing is mandatory for service usage"
+        },
+        {
+          "id": "option4",
+          "label": "Users are informed and consent obtained during the initial data collection"
+        }
+      ],
+      "category": "Control",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [],
+      "explanation": "The provided data practice describes Expedia's use of dynamic pricing based on user characteristics, such as device type and booking history, but it does not specifically address whether users can control their data being shared with third parties. There is no information indicating that users can opt-out through account settings or request preferences via customer support, nor is there mention of mandatory data sharing or informed consent at the initial data collection stage. Therefore, none of the available options can be selected based on the given data practice.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T10:15:23.981768"
+  },
+  {
+    "question": {
+      "text": "Are users provided with clear information about how their data is used for dynamic pricing and given the choice to opt-out?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, users are clearly informed and can opt-out through their account settings."
+        },
+        {
+          "id": "option2",
+          "label": "No, users are not informed, and there is no opt-out option."
+        }
+      ],
+      "category": "user_control_and_transparency",
+      "related_dimensions": [
+        "Openness",
+        "Individual Participation"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice describes how Expedia's website used dynamic pricing based on user characteristics, such as device type and booking history, without mentioning any clear communication to users about these practices. The investigation highlighted differential pricing based on device type, but there is no indication that users were informed about this or given the option to opt-out. Therefore, the correct selection is 'No, users are not informed, and there is no opt-out option.'",
+      "impact_analysis": {
+        "Openness": "The lack of transparency in how Expedia uses user data for dynamic pricing directly impacts the Openness dimension. Users are not made aware of how their device type or booking history affects pricing, which means there is a lack of openness regarding the data practices employed by the platform.",
+        "Individual Participation": "Without being informed or given a choice to opt-out, users are unable to participate in decisions about how their data is used. This impacts the Individual Participation dimension negatively, as users cannot make informed decisions or express their preferences regarding dynamic pricing practices."
+      }
+    },
+    "timestamp": "2025-02-13T10:15:48.429323"
+  },
+  {
+    "question": {
+      "text": "How does the travel booking platform ensure accountability in its data practices for dynamic pricing?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "By appointing a designated data protection officer and conducting regular audits"
+        },
+        {
+          "id": "option2",
+          "label": "By relying solely on user agreements and terms of service without active monitoring"
+        }
+      ],
+      "category": "accountability",
+      "related_dimensions": [
+        "Accountability",
+        "Openness"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "To ensure accountability in its dynamic pricing practices, the travel booking platform should appoint a designated data protection officer and conduct regular audits. This approach allows for active oversight of how user data and device characteristics are used in pricing strategies. The practice outlined in the data practice indicates that the platform used device fingerprinting and user data to adjust prices, which can raise concerns about fairness and transparency. Implementing audits and having a responsible officer ensures that these practices are monitored and refined to maintain user trust and compliance with privacy regulations.",
+      "impact_analysis": {
+        "Accountability": "Appointing a data protection officer and conducting regular audits directly supports accountability by establishing clear oversight and responsibility for data practices. This approach ensures that the platform's dynamic pricing strategies are continually reviewed for fairness and compliance, which is crucial in maintaining user trust.",
+        "Openness": "While the data practice does not specifically mention transparency measures, having a designated officer and regular audits can also contribute to openness. These actions can lead to better communication with users about how their data is used and the rationale behind pricing differences, thus enhancing transparency."
+      }
+    },
+    "timestamp": "2025-02-13T10:16:11.785359"
+  },
+  {
+    "question": {
+      "text": "Is there a privacy policy available that clearly details how user data is collected, used, and shared for dynamic pricing on the travel booking platform?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, a comprehensive privacy policy is available and accessible to users."
+        },
+        {
+          "id": "option2",
+          "label": "No, there is no clear privacy policy available to users."
+        }
+      ],
+      "category": "openness_transparency",
+      "related_dimensions": [
+        "Openness",
+        "Collection Limitation"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice description does not mention the presence of a privacy policy that details how user data is collected, used, and shared for dynamic pricing. The practice of showing different prices based on device type and user characteristics like booking history suggests a lack of transparency. This, coupled with the fact that the practice only became known after an investigation, indicates that there likely isn't a clear privacy policy available to users regarding these specific practices.",
+      "impact_analysis": {
+        "Openness": "The lack of a clear privacy policy impacts the openness dimension negatively. Users are not informed about how their data is used to determine pricing, which limits their understanding and ability to make informed decisions.",
+        "Collection Limitation": "Without a transparent privacy policy, there is a risk that data collected for one purpose (e.g., booking) might be used for another (e.g., dynamic pricing) without user consent. This raises concerns about whether data collection is limited to what is necessary for the stated purposes."
+      }
+    },
+    "timestamp": "2025-02-13T10:16:36.669231"
+  },
+  {
+    "question": {
+      "text": "Are users given the option to limit data collection on the travel booking platform, and if so, how is this option presented to them?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, users are given clear options to limit data collection through account settings."
+        },
+        {
+          "id": "option2",
+          "label": "No, users are not provided with options to limit data collection."
+        }
+      ],
+      "category": "data_collection_control",
+      "related_dimensions": [
+        "Collection Limitation",
+        "Individual Participation"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice described does not mention any options provided to users to limit data collection on Expedia's platform. The practice instead focuses on how differential pricing is implemented based on device type and user data, such as booking history and member status, without indicating any user control over these data factors.",
+      "impact_analysis": {
+        "Collection Limitation": "The lack of options for users to limit data collection suggests that Expedia's system collects data based on device type and user history without user consent or control, raising concerns about transparency and user autonomy in data collection practices.",
+        "Individual Participation": "Without options to limit data collection, users have limited ability to participate in or influence how their data is used, impacting their capability to protect personal information and make informed choices about their privacy."
+      }
+    },
+    "timestamp": "2025-02-13T10:17:26.992434"
+  },
+  {
+    "question": {
+      "text": "Are there policies or mechanisms in place to ensure that user data used for dynamic pricing is only accessible to authorized personnel?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, there are strict access controls and regular audits to ensure only authorized personnel can access user data."
+        },
+        {
+          "id": "option2",
+          "label": "No, there are no specific policies or mechanisms in place to restrict access to user data."
+        }
+      ],
+      "category": "access_control",
+      "related_dimensions": [
+        "Use Limitation",
+        "Accountability"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice description does not provide any information about policies or mechanisms that limit access to user data to authorized personnel. The focus is on the use of device fingerprinting and user data for dynamic pricing strategies, with no mention of access controls or audits. Therefore, option2 is the most appropriate answer.",
+      "impact_analysis": {
+        "Use Limitation": "This dimension is impacted because the lack of specific policies or mechanisms to restrict access suggests that user data could potentially be used beyond the intended purpose of dynamic pricing. Without access controls, there is a risk of misuse or unauthorized access to user data.",
+        "Accountability": "The absence of policies or mechanisms also affects accountability, as it implies there may be insufficient oversight and responsibility for who can access user data. This could lead to privacy violations without clear accountability measures in place."
+      }
+    },
+    "timestamp": "2025-02-13T10:17:47.537841"
+  }
+]

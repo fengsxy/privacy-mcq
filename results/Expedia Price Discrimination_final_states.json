@@ -1,0 +1,96 @@
+{
+  "Collection Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Collection of identifiable user characteristics for dynamic pricing.",
+        "reasoning": "The system collects identifiable information such as device type and booking history without clear limitations or user consent.",
+        "related_questions": [
+          "What specific data is collected from users for dynamic pricing?",
+          "Are users informed about the extent of data collection for dynamic pricing purposes?"
+        ]
+      }
+    ]
+  },
+  "Data Quality": {
+    "state": "No Issue",
+    "concerns": []
+  },
+  "Purpose Specification": {
+    "state": "No Issue",
+    "concerns": [
+      {
+        "description": "Clear purpose for dynamic pricing.",
+        "reasoning": "The data is collected specifically for customizing pricing based on user characteristics.",
+        "related_questions": [
+          "Are users explicitly informed of the purpose for data collection related to pricing?"
+        ]
+      }
+    ]
+  },
+  "Use Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Potential use of data beyond specified purposes.",
+        "reasoning": "Data may be used for purposes other than dynamic pricing, such as marketing, without user consent.",
+        "related_questions": [
+          "Are there limitations on how user data can be used beyond dynamic pricing?",
+          "Is user consent obtained for data use outside of pricing?"
+        ]
+      }
+    ]
+  },
+  "Security Safeguards": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of specific information on encryption measures.",
+        "reasoning": "There is no detailed information on how user data is protected at rest or in transit, aside from standard practices like HTTPS.",
+        "related_questions": [
+          "What encryption measures are in place for data at rest?",
+          "How is data protected during processing and transfer?"
+        ]
+      }
+    ]
+  },
+  "Openness": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of transparency regarding data practices.",
+        "reasoning": "The data practice description lacks detailed information about data sharing, retention, and user control.",
+        "related_questions": [
+          "How is information about data practices communicated to users?",
+          "Are users informed about data retention policies?"
+        ]
+      }
+    ]
+  },
+  "Individual Participation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Users' inability to control data sharing.",
+        "reasoning": "There is no indication that users can opt-out or control how their data is shared with third parties.",
+        "related_questions": [
+          "Can users opt-out of data sharing with third parties?",
+          "What mechanisms are in place for users to manage their data?"
+        ]
+      }
+    ]
+  },
+  "Accountability": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Potential lack of accountability measures.",
+        "reasoning": "There is no information regarding who is responsible for ensuring compliance with data privacy regulations.",
+        "related_questions": [
+          "Who is responsible for data protection and compliance?",
+          "Are there audits or checks to ensure data practices comply with regulations?"
+        ]
+      }
+    ]
+  }
+}

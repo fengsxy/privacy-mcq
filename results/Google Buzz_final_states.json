@@ -1,0 +1,106 @@
+{
+  "Collection Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Excessive collection of user contact information without consent.",
+        "reasoning": "Google Buzz automatically connected Gmail users with their frequent contacts and made these connections publicly visible without user consent.",
+        "related_questions": [
+          "What specific user data is collected beyond contact lists?",
+          "Are there any limitations on data collection?"
+        ]
+      }
+    ]
+  },
+  "Data Quality": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Accuracy and relevance of automatically generated connections.",
+        "reasoning": "Automatically generated connections may not accurately reflect users' current or intended relationships.",
+        "related_questions": [
+          "How does the system ensure the accuracy of the generated connections?",
+          "Is there a process to update or correct inaccurate data?"
+        ]
+      }
+    ]
+  },
+  "Purpose Specification": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of clear purpose specification for data collection and processing.",
+        "reasoning": "The primary intent was stated as enhancing user experience, but there was no clear specification or communication to users.",
+        "related_questions": [
+          "What are the specific purposes for which user data is processed?",
+          "Is the purpose of data collection clearly communicated to users?"
+        ]
+      }
+    ]
+  },
+  "Use Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Data was used for public exposure without user consent.",
+        "reasoning": "User data was used to create public profiles and connections, which were visible to others without users' prior approval.",
+        "related_questions": [
+          "Are there limitations on how user data can be used?",
+          "Can users restrict the use of their data for specific purposes?"
+        ]
+      }
+    ]
+  },
+  "Security Safeguards": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of encryption for data at rest and during sharing.",
+        "reasoning": "Data was shared publicly in plain text, indicating inadequate security measures.",
+        "related_questions": [
+          "What security measures are in place to protect data at rest?",
+          "Is data encrypted during transmission and storage?"
+        ]
+      }
+    ]
+  },
+  "Openness": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of transparency regarding data processing practices.",
+        "reasoning": "Users were not adequately informed about the creation of public profiles and the visibility of their connections.",
+        "related_questions": [
+          "How are users informed about data processing practices?",
+          "Is there a privacy policy available to users?"
+        ]
+      }
+    ]
+  },
+  "Individual Participation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Limited user control over data processing and visibility.",
+        "reasoning": "Initial lack of consent and control over the visibility of connections, although later changes were made.",
+        "related_questions": [
+          "Can users fully control their data visibility and processing preferences?",
+          "Is there a user-friendly process for withdrawing consent?"
+        ]
+      }
+    ]
+  },
+  "Accountability": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Inadequate accountability measures for privacy violations.",
+        "reasoning": "The automatic exposure of user data without consent highlights a lack of accountability in data handling practices.",
+        "related_questions": [
+          "What accountability measures are in place for data mishandling?",
+          "Are there consequences for privacy breaches?"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "Collection Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Collection of detailed purchase history without explicit mention of limitations.",
+        "reasoning": "The practice involves collecting detailed purchase data to predict personal information like pregnancy status, without clear limits on the types of data collected.",
+        "related_questions": [
+          "What specific types of data are collected beyond purchase history?",
+          "Are there any restrictions on the types of data collected from customers?"
+        ]
+      }
+    ]
+  },
+  "Data Quality": {
+    "state": "No Issue",
+    "concerns": []
+  },
+  "Purpose Specification": {
+    "state": "Has Issue",
+    "concerns": []
+  },
+  "Use Limitation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Data used for predictive analytics without clear customer control.",
+        "reasoning": "Data is used to predict pregnancy and send targeted marketing without customer control over such specific uses.",
+        "related_questions": [
+          "Are there any limitations on how customer data is used beyond marketing?",
+          "Can customers specify which uses of their data they consent to?"
+        ]
+      }
+    ]
+  },
+  "Security Safeguards": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Lack of encryption for data at rest.",
+        "reasoning": "The data practice does not mention encryption measures, suggesting data may not be adequately protected.",
+        "related_questions": [
+          "What specific security measures are in place to protect data at rest?",
+          "Is data encryption implemented for customer data?"
+        ]
+      }
+    ]
+  },
+  "Openness": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Limited transparency regarding data practices.",
+        "reasoning": "There is a lack of detailed information available to customers about data collection, processing, and sharing practices.",
+        "related_questions": [
+          "Is there a publicly available privacy policy detailing data practices?",
+          "How are customers informed about changes in data practices?"
+        ]
+      }
+    ]
+  },
+  "Individual Participation": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Limited options for customer consent withdrawal and data control.",
+        "reasoning": "The practice does not provide clear options for customers to withdraw consent or control data sharing with third parties.",
+        "related_questions": [
+          "How can customers access and update their data?",
+          "Are there clear procedures for consent withdrawal?"
+        ]
+      }
+    ]
+  },
+  "Accountability": {
+    "state": "Has Issue",
+    "concerns": [
+      {
+        "description": "Unclear accountability for data protection measures.",
+        "reasoning": "The lack of information on security and consent suggests potential gaps in accountability for data protection.",
+        "related_questions": [
+          "Who is responsible for data protection oversight?",
+          "What accountability measures are in place for data breaches or misuse?"
+        ]
+      }
+    ]
+  }
+}

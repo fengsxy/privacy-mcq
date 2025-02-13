@@ -1,0 +1,119 @@
+Stage,Category,Key,Question,Property
+General,,,,
+Data Collection Stage,Data Action,Frequency,What is the frequency of data collection?,Where
+Data Collection Stage,Data Action,DataType,What types of data are collected?,What
+Data Collection Stage,Data Action,CollectionMode,What is the collection mode (implicit/explicit)?,How
+Data Collection Stage,Data Action,CollectionTime,"When is the data collected (e.g., during app usage, at specific times)?",When
+Data Collection Stage,Data Action,Purpose,What is the purpose of the data collected?,Why
+Data Collection Stage,Data Action,Data Source,Where is the data collected?,Where
+,,,,
+,,,,
+Data Processing Stage,Data Action,InputDataType,What is the input data?,What
+Data Processing Stage,Data Action,OuptutDataType,What is target data?,What
+Data Processing Stage,Data Action,Processing Method,How is the data processed?,How
+Data Processing Stage,Data Action,Location,Where is data processed?,Where
+Data Processing Stage,Data Action,Anonymization,Is the data anonymized during processing?,How
+Data Processing Stage,Data Action,Aggregation,Is data aggregated as part of processing?,How
+Data Processing Stage,Data Action,Encryption,Is the data encrypted during processing?,How
+Data Processing Stage,Data Action,ThresholdDetermination,How are thresholds determined for specific processing decisions?,How
+Data Processing Stage,Data Action,DerivedMetrics,How are derived metrics calculated during processing?,How
+Data Processing Stage,Data Action,Frequency,What is the frequency of the data has been processed?,When
+Data Processing Stage,Data Action,ProcessedTime,When is the data processed?,When
+Data Processing Stage,Data Action,Purpose,Why is the data processed?,Why
+,,,,
+Data Storage Stage,Data Action,DataType,What data  are storged?,What
+Data Storage Stage,Data Action,Retention Period,How long is the data retention?,When
+Data Storage Stage,Data Action,Encryption,What encryption measures are used to protect data at rest?,How
+Data Storage Stage,Data Action,PostRetentionActions,"How is data handled after the retention period (e.g., deletion, anonymization)?",How
+Data Storage Stage,Data Action,Location,Where is data storged?,Where
+Data Storage Stage,Data Action,Purpose,Why is the data storged?,Why
+,,,,
+,,,,
+Data Sharing Stage,Data Action,Receiver,"Who can see the data (e.g., owner, service providers, third parties)?",Who
+Data Sharing Stage,Data Action,DataType,What data can be shared?,What
+Data Sharing Stage,Data Action,Encryption,"Is the data encrypted during sharing (e.g., end-to-end encryption)?",How
+Data Sharing Stage,Data Action,Method,"How is the data shared (e.g., internal network, public network)?",How
+Data Sharing Stage,Data Action,Purpose,What is the purpose of sharing the data?,Why
+Data Sharing Stage,Data Action,SharingTime,When is the data shared?,When
+Data Sharing Stage,Data Action,SharingFrequency,What is the frequency of data sharing?,When
+,,,,
+,Notice,Timing,When is the notice provided to users?,When
+,Notice,Form,"In what form is the notice provided (e.g., popup, banner)?",How
+,Notice,Frequency,How often is the notice presented?,When
+,Notice,Channel,"What channels are used to deliver notices to users (e.g., in-app interface, email, public website)?",Where
+,Notice,Content,What specific details are included in the notice?,What
+,,,,
+,Consent,WithdrawalMech,How can users withdraw their consent?,How
+,Consent,DefaultSetting,Is the default setting opt-in or opt-out?,What
+,Consent,Granularity,Can users provide consent for specific data types or purposes?,What
+,Consent,PeriodicRenewal,Is user consent required to be renewed periodically?,When
+,Consent,OptInMethod,How is explicit opt-in consent obtained?,How
+,Consent,OptOutMethod,How is opt-out consent implemented?,How
+,,,,
+,Control,PermissionManagement,Can users view and update the permissions they have granted?,What
+,Control,DataRetentionControl,"Can users decide how long their data is stored (e.g., through retention settings or policies)?",How
+,Control,ThirdPartySharingControl,"Can users control whether their data is shared with third parties, and if so, how?",How
+,Control,DataDeletionControl,"Can users delete their data from the system, either partially or entirely?",How
+,Control,DataAccessControl,"Can users manage who can access their data (e.g., specific roles, organizations, or apps)?",What
+,Control,DataCorrection,Can users request corrections to inaccurate or incomplete data? How are these corrections handled?,How
+,Control,Timing,When can users modify control settings?,When
+,,,,
+,Audit,Frequency,"How often are data-related processes audited (e.g., annually, quarterly)?",When
+,Audit,Scope,"What specific aspects of data practices are included in regular audits (e.g., collection, processing, sharing)?",What
+,Audit,Responsibility,"Who is responsible for conducting data audits (e.g., internal teams, external auditors)?",Who
+,Audit,AuditMethod ,How are data-related processes audited？,How
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,Attention tracking for participants Opt-in or Opt-out?,
+,,,"When should we send notification? Just-in-time, Install time, or Periodically?",
+,,,Only present aggregated data?,
+,,,Only enable the feature in education setting?,
+,,,More salient notification? Always on?,
+,,,How to infer attention? Using camera?,
+,,,Process data on the edge?,
+,,,Data retention? Where is data stored?,
+,,,Who can access the data? Attention Data Access control?,
+,,,Report attention prediction errors?,
+,,,Data collection interval?,
+,,,Data deletion request?,
+,,,What if I accidentally accept it? How to fix it?,

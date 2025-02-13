@@ -1,0 +1,793 @@
+[
+  {
+    "question": {
+      "text": "What types of data are collected from the social media platform?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "User profile information (e.g., name, age, gender)"
+        },
+        {
+          "id": "option2",
+          "label": "User-generated content (e.g., posts, comments, likes)"
+        },
+        {
+          "id": "option3",
+          "label": "Behavioral data (e.g., browsing history, usage patterns)"
+        },
+        {
+          "id": "option4",
+          "label": "Location data (e.g., GPS coordinates, IP address)"
+        }
+      ],
+      "category": "Data Collection Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "The data practice described involved Facebook allowing third-party developers to collect user data, which included user profile information (such as name, age, and gender) and user-generated content (such as posts, comments, and likes). This is evident from the fact that Cambridge Analytica was able to access a significant amount of data from users and their friends, which would logically include personal details and content shared on the platform. These types of data are critical for creating psychological profiles and targeting advertisements. While behavioral and location data are also collected by social media platforms, the specific practice outlined in the scenario focused on the data accessible through the friend-sharing API, which primarily involved user profile and content data. The ethical considerations and privacy implications revolve around the unauthorized sharing of personal and content data with third parties, leading to the selection of these options."
+    },
+    "timestamp": "2025-02-13T11:25:26.329962"
+  },
+  {
+    "question": {
+      "text": "What is the location of the data processing for the third-party application integration system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "On-premises at the social media platform's data centers"
+        },
+        {
+          "id": "option2",
+          "label": "In a cloud environment managed by the third-party"
+        },
+        {
+          "id": "option3",
+          "label": "Distributed across multiple regions globally"
+        },
+        {
+          "id": "option4",
+          "label": "In a specific geographic location based on regulatory requirements"
+        }
+      ],
+      "category": "Data Processing Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The data practice involved Facebook allowing third-party developers to collect user data through apps and quizzes on its platform. Typically, data processing for such integrations happens on the social media platform's infrastructure, which in Facebook's case involves its own data centers. This is because Facebook controlled the API that allowed third-party apps to access data, and this data was stored and processed within Facebook's systems before being shared with third parties. While the third-party developers and entities like Cambridge Analytica may have processed the data in other locations, the initial data collection and sharing configurations were managed on-premises at Facebook's data centers. The involvement of Facebook's data centers is central to understanding how the data was accessed and shared, making 'On-premises at the social media platform's data centers' the most appropriate option. The other options are less relevant as they imply third-party managed environments or regulatory-based geographic data processing, which doesn't align with the described practice."
+    },
+    "timestamp": "2025-02-13T11:25:38.070773"
+  },
+  {
+    "question": {
+      "text": "Where is the data processed for the third-party application integration system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "On-premises at the social media platform's data centers"
+        },
+        {
+          "id": "option2",
+          "label": "In the cloud managed by the social media platform"
+        },
+        {
+          "id": "option3",
+          "label": "On the third-party application's infrastructure"
+        },
+        {
+          "id": "option4",
+          "label": "In multiple geographic locations based on regional data regulations"
+        }
+      ],
+      "category": "Data Processing Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "In the context of Facebook's historical data practices, it is likely that data for third-party application integration systems was processed either on-premises at Facebook's data centers or in the cloud managed by Facebook. This is because Facebook, as the social media platform, would have primary control over user data and its sharing through APIs. Given the scale of operations and the need for robust infrastructure, data processing would typically occur in Facebook's managed environments, either on-premises or in their cloud systems, to ensure security, compliance, and performance. The third-party application, like 'this is your digital life,' would likely collect and initially process data within Facebook's infrastructure before any data was transferred to the third party's own systems. This aligns with privacy implications and user expectations that data is securely managed by the platform they trust. The exposure of friend data through Facebook's API to third parties was a key issue that led to stricter controls post-2018. Options involving third-party infrastructure or region-based processing are less likely given the context of this specific data practice."
+    },
+    "timestamp": "2025-02-13T11:25:46.714694"
+  },
+  {
+    "question": {
+      "text": "What is the purpose of processing the collected user data from the social media platform?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "To provide personalized content and recommendations to users"
+        },
+        {
+          "id": "option2",
+          "label": "To enhance app functionality and user experience"
+        },
+        {
+          "id": "option3",
+          "label": "To conduct data analysis and generate insights for app improvement"
+        },
+        {
+          "id": "option4",
+          "label": "To share insights with third-party partners for marketing purposes"
+        }
+      ],
+      "category": "Data Processing Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option4"
+      ],
+      "explanation": "The primary purpose of processing the collected user data in this case was to share insights with third-party partners, specifically Cambridge Analytica, for marketing and political advertising purposes. The data was used to create psychological profiles of voters, which were then utilized to target political advertisements during the 2016 US presidential election and other campaigns. This data sharing with third parties, particularly for political and marketing purposes, aligns most closely with option 4. The other options focus on enhancing user experience or app functionality, which were not the primary objectives in this scenario. The ethical concerns and privacy implications arose due to the misuse of data for political advertising, which was not an expectation set by users when sharing their data on the platform."
+    },
+    "timestamp": "2025-02-13T11:25:51.945982"
+  },
+  {
+    "question": {
+      "text": "Who can see the data (e.g., owner, service providers, third parties)?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Only the app owner and authorized personnel"
+        },
+        {
+          "id": "option2",
+          "label": "Service providers and partners with agreements"
+        },
+        {
+          "id": "option3",
+          "label": "Third-party developers with API access"
+        },
+        {
+          "id": "option4",
+          "label": "All users of the social media platform"
+        }
+      ],
+      "category": "Data Sharing Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option3"
+      ],
+      "explanation": "In the described data practice, third-party developers with API access were able to see the data of Facebook users. This is evident from the fact that third-party developers, including Cambridge Analytica, accessed data not only of users who installed their app but also of those users' Facebook friends. This was made possible due to Facebook's friend data sharing API policy at the time. The situation highlights significant privacy implications as it allowed third parties to gather extensive user data beyond the immediate consent of the app installers, leading to ethical concerns and eventual policy changes by Facebook."
+    },
+    "timestamp": "2025-02-13T11:25:57.330440"
+  },
+  {
+    "question": {
+      "text": "How is the data shared (e.g., internal network, public network)?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Using an internal network within the social media platform"
+        },
+        {
+          "id": "option2",
+          "label": "Through a secure, encrypted public network"
+        },
+        {
+          "id": "option3",
+          "label": "Directly via third-party API integration"
+        },
+        {
+          "id": "option4",
+          "label": "Using a data exchange platform"
+        },
+        {
+          "id": "option5",
+          "label": "Through peer-to-peer connections"
+        }
+      ],
+      "category": "Data Sharing Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option3"
+      ],
+      "explanation": "The data sharing in this scenario occurred through direct third-party API integration. Facebook's API allowed third-party developers to access not just the data of users who installed their apps but also the data of those users' friends. This integration enabled developers like Aleksandr Kogan to collect extensive data without direct consent from all affected users, leading to significant privacy concerns. The data was not shared using an internal network, as it was accessed by external parties. It was also not shared through a secure, encrypted public network, as the focus here is on the API's role in granting access rather than the transport method. Options like using a data exchange platform or peer-to-peer connections do not accurately describe the mechanism used in this situation. Therefore, the most appropriate option is the direct third-party API integration, which aligns with the method by which data was accessed and shared in this case."
+    },
+    "timestamp": "2025-02-13T11:26:05.270575"
+  },
+  {
+    "question": {
+      "text": "What specific details are included in the notice provided to users?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Detailed data collection and sharing practices"
+        },
+        {
+          "id": "option2",
+          "label": "General summary of data usage"
+        },
+        {
+          "id": "option3",
+          "label": "Information on user rights and controls"
+        },
+        {
+          "id": "option4",
+          "label": "Contact information for privacy inquiries"
+        }
+      ],
+      "category": "Notice"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option3"
+      ],
+      "explanation": "The data practice described involves extensive collection and sharing of user data, including data from users' friends without explicit consent. Given the privacy implications and the ethical concerns raised by this practice, users would expect detailed information regarding how their data is collected and shared (option1). Additionally, after the backlash and subsequent policy changes, it is crucial for Facebook to inform users about their rights and available controls over their data to rebuild trust and comply with regulatory expectations (option3). While a general summary of data usage might also be provided, it would not sufficiently address the specific concerns raised by this incident, which necessitates more detailed information."
+    },
+    "timestamp": "2025-02-13T11:26:15.635335"
+  },
+  {
+    "question": {
+      "text": "What specific aspects of data practices are included in regular audits?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Data collection processes"
+        },
+        {
+          "id": "option2",
+          "label": "Data processing and anonymization methods"
+        },
+        {
+          "id": "option3",
+          "label": "Data sharing and third-party access"
+        },
+        {
+          "id": "option4",
+          "label": "User consent and control mechanisms"
+        }
+      ],
+      "category": "Audit"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option3",
+        "option4"
+      ],
+      "explanation": "The Facebook-Cambridge Analytica scandal involved critical issues related to data collection processes, data sharing, and third-party access, as well as user consent and control mechanisms. \n\n1. Data collection processes: The scandal highlighted how Facebook's data collection practices allowed third-party developers to gather extensive user data, not only from users who directly interacted with apps but also from their friends. Regular audits should evaluate the scope and methods of data collection to ensure they align with user expectations and privacy standards.\n\n2. Data sharing and third-party access: A major issue was the extent to which Facebook allowed third-party access to user data through its API, which was exploited by Cambridge Analytica. Audits must scrutinize how data is shared with third parties, ensuring that access is limited, controlled, and in line with user consent.\n\n3. User consent and control mechanisms: The scandal underscored the lack of transparency and control users had over their data. It is crucial for audits to assess whether users are adequately informed about data practices and have meaningful control over their personal information, including the ability to consent to or deny data sharing with third parties.\n\nWhile data processing and anonymization methods are important, they were not the primary focus of the critique and subsequent reforms following this incident, thus are not selected as primary options."
+    },
+    "timestamp": "2025-02-13T11:26:34.166202"
+  },
+  {
+    "question": {
+      "text": "What specific details are included in the notice provided to users regarding data sharing practices?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Detailed information about how data is collected and shared"
+        },
+        {
+          "id": "option2",
+          "label": "Information about users' rights and available controls over their data"
+        },
+        {
+          "id": "option3",
+          "label": "General summary of data usage and sharing practices"
+        }
+      ],
+      "category": "Notice"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "Given the privacy implications of the data sharing practices highlighted in the Facebook and Cambridge Analytica incident, it is crucial for users to receive detailed information about how their data is collected and shared. This includes understanding the scope and mechanisms of data access, particularly when third parties are involved. Moreover, users should be informed about their rights and the controls they have over their data to make informed decisions and manage their privacy effectively. Providing detailed information about data collection and sharing, alongside users' rights and controls, aligns with ethical considerations and user expectations for transparency and empowerment in managing their personal data. A general summary may not suffice to address users' concerns or the complex nature of data sharing practices as exposed in this case."
+    },
+    "timestamp": "2025-02-13T11:26:40.189776"
+  },
+  {
+    "question": {
+      "text": "Can users manage who can access their data (e.g., specific roles, organizations, or apps)?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, users can specify access for individual apps and organizations"
+        },
+        {
+          "id": "option2",
+          "label": "Yes, but only for specific roles within the platform"
+        },
+        {
+          "id": "option3",
+          "label": "No, access is managed solely by the platform"
+        },
+        {
+          "id": "option4",
+          "label": "Yes, users can manage access but with limited options"
+        }
+      ],
+      "category": "Control"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option4"
+      ],
+      "explanation": "Following the Cambridge Analytica scandal, Facebook implemented changes to allow users more control over who can access their data. Users can now specify which individual apps and organizations have access to their data, aligning with option1. However, this control is not entirely unrestricted, as there are still limitations in place regarding what specific data can be shared and how granular that control is, which aligns with option4. Users are typically able to manage app permissions and data sharing preferences in their settings, but they might not have full control over all types of data or the extent of data access, hence the selection of option4 to acknowledge the limitations. This reflects a balance between user control and platform-managed restrictions, taking into account the privacy implications and ethical considerations highlighted by past data practices."
+    },
+    "timestamp": "2025-02-13T11:26:48.742867"
+  },
+  {
+    "question": {
+      "text": "What is the collection mode (implicit/explicit)?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Implicit collection (data is collected automatically without explicit user interaction)"
+        },
+        {
+          "id": "option2",
+          "label": "Explicit collection (users provide data through direct interaction and consent)"
+        },
+        {
+          "id": "option3",
+          "label": "Hybrid collection (combination of implicit and explicit methods)"
+        }
+      ],
+      "category": "Data Collection Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option3"
+      ],
+      "explanation": "The data practice in question involved a hybrid collection mode. The explicit component was when users directly interacted with the 'this is your digital life' app by installing it and consenting to share their data. However, the implicit component arose from Facebook's API policy at the time, which allowed the app to collect data not just from the users who installed it, but also from their Facebook friends without explicit consent from those friends. This combination of explicit consent from app users and implicit data collection from their friends without their direct interaction or consent makes the practice a hybrid collection. This approach led to significant privacy concerns and ethical issues, as it went beyond user expectations and consent norms."
+    },
+    "timestamp": "2025-02-13T11:26:54.967381"
+  },
+  {
+    "question": {
+      "text": "How is the data shared with third-party applications (e.g., internal network, public network)?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Through a secure, encrypted public network"
+        },
+        {
+          "id": "option2",
+          "label": "Via direct third-party API integration"
+        },
+        {
+          "id": "option3",
+          "label": "Using a data exchange platform"
+        },
+        {
+          "id": "option4",
+          "label": "Through peer-to-peer connections"
+        }
+      ],
+      "category": "Data Sharing Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data shared with third-party applications, such as the case with Cambridge Analytica, was facilitated through Facebook's API integration. This allowed third-party developers to access user data, including data from users' friends, via direct API calls. This method of sharing data aligns with 'Via direct third-party API integration' as it involves the use of application programming interfaces to enable third-party access to Facebook's user data. While Facebook likely utilized secure methods for data transmission, the core issue was the API's data access permissions, which were overly permissive and allowed extensive data collection by third-party applications without adequate user consent. This practice led to significant privacy concerns and was a key factor in the eventual policy changes by Facebook to restrict data access."
+    },
+    "timestamp": "2025-02-13T11:27:07.842756"
+  },
+  {
+    "question": {
+      "text": "How often are data-related processes audited (e.g., annually, quarterly)?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Annually"
+        },
+        {
+          "id": "option2",
+          "label": "Quarterly"
+        },
+        {
+          "id": "option3",
+          "label": "Monthly"
+        },
+        {
+          "id": "option4",
+          "label": "Bi-annually"
+        }
+      ],
+      "category": "Audit"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "The data practice involving Facebook and Cambridge Analytica highlights significant privacy concerns where user data was accessed extensively without explicit consent. To prevent such breaches and ensure robust privacy protections, regular audits of data-related processes are crucial. Annual audits (option1) are a common standard for organizations to ensure compliance with privacy regulations and to review data handling practices. Quarterly audits (option2) provide a more frequent review, allowing for timely identification and rectification of any data management issues, thereby enhancing trust and accountability. Given the severity of the breach and its implications, both annual and quarterly audits are appropriate frequencies to ensure that data handling practices are consistently monitored and improved upon. These audit frequencies align with ethical considerations and user expectations for privacy and data protection."
+    },
+    "timestamp": "2025-02-13T11:27:13.497340"
+  },
+  {
+    "question": {
+      "text": "How is explicit opt-in consent obtained from users for data collection and sharing?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Through a detailed consent form presented upon app installation"
+        },
+        {
+          "id": "option2",
+          "label": "Via a popup notification requesting explicit consent during the first app use"
+        },
+        {
+          "id": "option3",
+          "label": "During account registration with a required checkbox for data consent"
+        },
+        {
+          "id": "option4",
+          "label": "Through an email confirmation link that users must click to provide consent"
+        }
+      ],
+      "category": "Consent"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "Explicit opt-in consent for data collection and sharing is most appropriately obtained through mechanisms that ensure users are fully informed and can make a conscious decision. 'Option1' involves presenting a detailed consent form upon app installation, which allows users to understand the scope of data collection and the purposes for which their data will be used before they choose to proceed. This aligns with privacy best practices and ethical considerations by ensuring transparency and informed consent at the point of data collection. 'Option2' involves a popup notification requesting explicit consent during the first app use, which provides an additional opportunity to inform users about data practices at a critical moment of engagement. Both options ensure that users are actively involved in the consent process and can make informed choices, which is crucial given the past issues with third-party data access as seen with Facebook and Cambridge Analytica. Options like email confirmation (option4) or during account registration (option3) are less immediate and may not provide the necessary context specific to the app's data practices, thus being less effective in securing explicit, informed consent."
+    },
+    "timestamp": "2025-02-13T11:27:20.288715"
+  },
+  {
+    "question": {
+      "text": "What specific aspects of user consent are addressed in the third-party application integration system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "How can users withdraw their consent?"
+        },
+        {
+          "id": "option2",
+          "label": "Is the default setting opt-in or opt-out?"
+        },
+        {
+          "id": "option3",
+          "label": "Can users provide consent for specific data types or purposes?"
+        },
+        {
+          "id": "option4",
+          "label": "Is user consent required to be renewed periodically?"
+        }
+      ],
+      "category": "Consent"
+    },
+    "answer": {
+      "selected_options": [
+        "option2",
+        "option3"
+      ],
+      "explanation": "The data practice involved third-party developers collecting not only the data of users who installed an app but also the data of their friends without explicit consent. This raises concerns about whether the default setting was opt-in or opt-out (option2), as users likely were not aware their data could be accessed without direct interaction with the app. Additionally, the ability for users to provide consent for specific data types or purposes (option3) is relevant because users should have control over what data is shared and for what purpose, which was not adequately addressed in the previous system. These aspects are crucial for ensuring user privacy and aligning with ethical standards for data sharing."
+    },
+    "timestamp": "2025-02-13T11:27:25.402569"
+  },
+  {
+    "question": {
+      "text": "What specific aspects of user consent are addressed in the third-party application integration system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Default setting opt-in or opt-out"
+        },
+        {
+          "id": "option2",
+          "label": "Ability to provide consent for specific data types or purposes"
+        },
+        {
+          "id": "option3",
+          "label": "Mechanisms for users to withdraw consent"
+        },
+        {
+          "id": "option4",
+          "label": "Periodic renewal of user consent"
+        }
+      ],
+      "category": "Consent"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "The data practice described highlights issues with Facebook's default setting, which allowed third-party apps to access not only the data of users who installed them but also their friends' data without explicit consent. This indicates a lack of an 'opt-in' consent mechanism, suggesting a 'default setting opt-out' system (option1). Additionally, the situation underscores the absence of granular consent where users could specify which data types or purposes they consent to share (option2). Users were not given the ability to control or limit the data accessed by these third-party applications, leading to broad access beyond what users may have anticipated or agreed to. These issues were central to the criticisms and subsequent policy changes made by Facebook to improve consent mechanisms and data protection."
+    },
+    "timestamp": "2025-02-13T11:27:32.933945"
+  },
+  {
+    "question": {
+      "text": "What specific details are included in the user consent for data collection and sharing?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Users are informed about the types of data collected and the purposes for which their data will be used"
+        },
+        {
+          "id": "option2",
+          "label": "Users have the ability to consent to data sharing with specific third parties"
+        },
+        {
+          "id": "option3",
+          "label": "Users are provided with detailed information on how their data will be processed and stored"
+        },
+        {
+          "id": "option4",
+          "label": "Users receive a summary of consent terms, but without detailed information on data usage"
+        }
+      ],
+      "category": "Consent"
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "In the context of the Facebook and Cambridge Analytica case, the primary issue was the lack of explicit user consent for the extent of data sharing, especially regarding friends' data. While Facebook's policies at the time allowed for broad data access through their API, users were not adequately informed about the types of data collected nor the purposes for which their data would be used. Therefore, the option that most aligns with an ethical approach to user consent would be 'Users are informed about the types of data collected and the purposes for which their data will be used' as it addresses the need for transparency and informed consent. Option 2, 'Users have the ability to consent to data sharing with specific third parties,' is not representative of the situation since users did not have such granular control over consent, particularly concerning their friends' data. While options 3 and 4 may include aspects of data processing and consent, they do not directly address the fundamental issue of informing users about data collection and usage purposes as clearly as option 1 does."
+    },
+    "timestamp": "2025-02-13T11:27:49.124926"
+  },
+  {
+    "question": {
+      "text": "Can users request corrections to inaccurate or incomplete data? How are these corrections handled?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, users can request corrections through an in-app form, and corrections are handled within 30 days."
+        },
+        {
+          "id": "option2",
+          "label": "Yes, users can contact support to request corrections, and they are handled on a case-by-case basis."
+        },
+        {
+          "id": "option3",
+          "label": "No, users cannot request corrections to their data."
+        },
+        {
+          "id": "option4",
+          "label": "Yes, users can request corrections directly through their profile settings with immediate effect."
+        }
+      ],
+      "category": "Control"
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "Given the context of Facebook's historical issues with data privacy and the changes made post-Cambridge Analytica scandal, it is likely that users can request corrections to their data, though it would not be as straightforward as an immediate in-app adjustment (option 4) or guaranteed within a strict timeline like 30 days (option 1). Typically, data correction requests would require user support intervention and be handled on a case-by-case basis, aligning with option 2. This option considers the complexity and potential volume of requests Facebook might handle, as well as the need for verification and validation of the requests. Option 3 is not selected because users have rights under various data protection regulations (e.g., GDPR) to request corrections to their data. Option 1 and option 4 are not selected due to the lack of evidence that such streamlined processes are in place for corrections."
+    },
+    "timestamp": "2025-02-13T11:28:01.366659"
+  },
+  {
+    "question": {
+      "text": "How is explicit opt-in consent obtained from users for data collection and sharing?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Through a detailed consent form upon app installation"
+        },
+        {
+          "id": "option2",
+          "label": "Via a popup notification requesting consent during first app use"
+        },
+        {
+          "id": "option3",
+          "label": "During account registration process"
+        },
+        {
+          "id": "option4",
+          "label": "By sending an email confirmation to the user"
+        }
+      ],
+      "category": "Consent"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "The practice of allowing third-party developers to collect user data and the subsequent misuse of this data by Cambridge Analytica highlights the importance of obtaining explicit opt-in consent in a clear and transparent manner. 'Through a detailed consent form upon app installation' (option1) ensures that users are informed about what data will be collected and how it will be used before they choose to install an app, aligning with privacy best practices and user expectations for informed consent. 'Via a popup notification requesting consent during first app use' (option2) provides another opportunity to inform users at a critical moment when the data collection begins, ensuring that they are aware and agreeable to the data practices. Both methods are direct and can help prevent scenarios like what occurred with Facebook's previous data sharing policies, where users and their friends' data were harvested without clear consent. These options prioritize user autonomy and transparency, which are key ethical considerations in data collection and sharing."
+    },
+    "timestamp": "2025-02-13T11:28:12.785626"
+  },
+  {
+    "question": {
+      "text": "What types of data are collected from the social media platform?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "User profile information (e.g., name, age, gender)"
+        },
+        {
+          "id": "option2",
+          "label": "User-generated content (e.g., posts, comments, likes)"
+        },
+        {
+          "id": "option3",
+          "label": "Behavioral data (e.g., browsing history, interactions)"
+        },
+        {
+          "id": "option4",
+          "label": "Location data (e.g., GPS coordinates, check-ins)"
+        }
+      ],
+      "category": "Data Collection Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2",
+        "option3"
+      ],
+      "explanation": "The data practice described involves Facebook allowing third-party developers to collect extensive user data through apps and quizzes. This included user profile information (option1), as users likely had to share basic information such as name, age, and gender when engaging with these apps. Additionally, user-generated content (option2) such as posts, comments, and likes could have been accessed, as these are typical data points collected by social media platforms to understand user engagement and preferences. Behavioral data (option3) is also relevant, as the ability to create psychological profiles and target political advertisements suggests that the firm used data on users' interactions and browsing history. While location data (option4) is not explicitly mentioned in the practice, it is possible but not confirmed based on the provided context. Therefore, options 1, 2, and 3 are the most appropriate selections based on the described data practices and the data types likely involved in creating psychological profiles for targeted advertising."
+    },
+    "timestamp": "2025-02-13T11:28:23.448046"
+  },
+  {
+    "question": {
+      "text": "What types of data are processed in the third-party application integration system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "User profile data (e.g., name, age, gender)"
+        },
+        {
+          "id": "option2",
+          "label": "User-generated content (e.g., posts, comments, likes)"
+        },
+        {
+          "id": "option3",
+          "label": "Behavioral data (e.g., interaction patterns, app usage)"
+        },
+        {
+          "id": "option4",
+          "label": "Location data (e.g., GPS coordinates, location history)"
+        }
+      ],
+      "category": "Data Processing Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "The data practice involved third-party developers accessing user data through Facebook's platform. Specifically, the data collected included user profile data, such as name, age, and gender, which is essential for creating psychological profiles. This aligns with option 1. Additionally, user-generated content like posts, comments, and likes was likely accessed as part of the data collection process, either directly or through derivative data insights, to build detailed user profiles and understand user preferences and behaviors, which corresponds to option 2. While behavioral data and location data might have been relevant to certain extent, the primary focus of the data collection was on profile information and user interactions, which were crucial for Cambridge Analytica's voter profiling and ad-targeting strategies. Therefore, options 1 and 2 are the most appropriate selections given the context of the data practice."
+    },
+    "timestamp": "2025-02-13T11:28:34.415700"
+  },
+  {
+    "question": {
+      "text": "What types of data are collected from the social media platform?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "User profile information (e.g., name, age, gender)"
+        },
+        {
+          "id": "option2",
+          "label": "User-generated content (e.g., posts, comments, likes)"
+        },
+        {
+          "id": "option3",
+          "label": "Behavioral data (e.g., interaction history, app usage patterns)"
+        },
+        {
+          "id": "option4",
+          "label": "Location data (e.g., GPS coordinates, check-ins)"
+        }
+      ],
+      "category": "Data Collection Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2",
+        "option3"
+      ],
+      "explanation": "The Cambridge Analytica scandal involved the collection of extensive user data through a Facebook app, including user profile information like name and age (option 1), user-generated content and interactions such as posts and likes (option 2), and behavioral data like interaction history and app usage patterns (option 3). While the specific mention of location data (option 4) is not highlighted in this case, the practice involved leveraging a broad array of data types to build psychological profiles. Thus, options 1, 2, and 3 are selected as they align closely with the types of data collected and used by Cambridge Analytica for targeting political advertisements. The ethical implications include unauthorized access to friends' data and the manipulation of personal information for political purposes, which violated user privacy expectations and led to significant regulatory and public backlash."
+    },
+    "timestamp": "2025-02-13T11:28:43.055160"
+  },
+  {
+    "question": {
+      "text": "What types of data are processed in the third-party application integration system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "User profile data (e.g., name, age, gender)"
+        },
+        {
+          "id": "option2",
+          "label": "User-generated content (e.g., posts, comments, likes)"
+        },
+        {
+          "id": "option3",
+          "label": "Behavioral data (e.g., interaction history, app usage patterns)"
+        },
+        {
+          "id": "option4",
+          "label": "Location data (e.g., geographic positioning)"
+        }
+      ],
+      "category": "Data Processing Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2",
+        "option3"
+      ],
+      "explanation": "The data practice involved Facebook allowing third-party developers to collect a wide range of user data through apps and quizzes. The types of data processed likely included 'User profile data' (option1) such as name, age, and gender, because these are basic pieces of information apps often request when accessing social media accounts. 'User-generated content' (option2), such as posts, comments, and likes, might also be accessed or inferred since these are part of the interactions that are visible on a user's profile and are often shared through Facebook's API. 'Behavioral data' (option3) like interaction history and app usage patterns would be relevant, as the purpose of the data collection by Cambridge Analytica was to create psychological profiles, which rely on understanding user behavior and patterns. Although 'Location data' (option4) could potentially be part of data accessed by apps, the description of the data practice does not explicitly mention geographic positioning as a focus or primary type of data involved in the Cambridge Analytica case. Therefore, option4 is not selected."
+    },
+    "timestamp": "2025-02-13T11:28:54.110114"
+  },
+  {
+    "question": {
+      "text": "What types of data are processed in the third-party application integration system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "User profile data (e.g., name, age, gender)"
+        },
+        {
+          "id": "option2",
+          "label": "User-generated content (e.g., posts, comments, likes)"
+        },
+        {
+          "id": "option3",
+          "label": "Behavioral data (e.g., interaction history, app usage patterns)"
+        },
+        {
+          "id": "option4",
+          "label": "Location data (e.g., geographic positioning)"
+        }
+      ],
+      "category": "Data Processing Stage"
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option3"
+      ],
+      "explanation": "The third-party application integration system, as exemplified by the Cambridge Analytica case, processed user profile data and behavioral data. User profile data (option1) includes basic information such as name, age, and gender, which was accessible to third-party developers through the API. Behavioral data (option3), such as interaction history and app usage patterns, was also likely inferred from the users' activities and interactions within the app and on Facebook, contributing to the creation of psychological profiles for targeted political advertising. While user-generated content (option2) and location data (option4) might also be processed in some integrations, the Cambridge Analytica case specifically highlights the use of user profile and behavioral data. The ethical concerns and privacy implications arose because this data was not only collected from users who directly interacted with the app but also from their friends, without explicit consent or awareness, leading to privacy violations and a significant breach of user trust."
+    },
+    "timestamp": "2025-02-13T11:29:03.953987"
+  },
+  {
+    "question": {
+      "text": "What specific aspects of user consent are addressed in the third-party application integration system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Default setting is opt-out, allowing data access without explicit consent"
+        },
+        {
+          "id": "option2",
+          "label": "Users can provide consent for specific data types or purposes"
+        },
+        {
+          "id": "option3",
+          "label": "Periodic renewal of user consent is required to ensure continued data access"
+        },
+        {
+          "id": "option4",
+          "label": "Users are informed about the types of data collected and the purposes for which their data will be used"
+        }
+      ],
+      "category": "Consent"
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The data practice described involves Facebook's previous policy where third-party developers could access not only the data of users who installed their apps but also the data of the users\u2019 Facebook friends without explicit consent from those friends. This suggests a default setting of opt-out, as users whose data was accessed through their friends' app installations were not asked for explicit consent. The lack of explicit consent for such a wide access aligns with option1, indicating that data access was allowed by default rather than requiring user consent. The other options (option2, option3, and option4) imply mechanisms for explicit consent, specific consent for data types or purposes, periodic renewal, and informing users about data collection, which were not evident in the practice described prior to the policy changes made after the Cambridge Analytica incident."
+    },
+    "timestamp": "2025-02-13T11:29:11.216498"
+  }
+]
