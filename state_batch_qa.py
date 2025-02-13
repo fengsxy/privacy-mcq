@@ -773,7 +773,7 @@ class PrivacyAnalyzer:
             # Phase 2: Dimension Analysis
             print("\nPhase 2: Starting dimension analysis...")
             question_count = len(base_qa_pairs)
-            max_questions = 15  # Maximum total questions
+            max_questions = 25  # Maximum total questions
             
             state_history = []
             
@@ -913,6 +913,8 @@ async def main():
     
     # Process each case
     for _, case in cases_df.iterrows():
+        if "Zoom" in case['Case'] :
+            continue
         try:
             print(f"\nProcessing case: {case['Case']}")
             results = await analyzer.analyze(

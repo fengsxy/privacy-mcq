@@ -1,0 +1,554 @@
+[
+  {
+    "11": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Continuous and real-time data collection",
+              "reasoning": "The system continuously collects location data in real-time, which could exceed what is necessary for the purpose of locating lost items.",
+              "related_questions": [
+                "Is there a mechanism to limit the frequency of data collection?",
+                "Can users control the granularity of location data collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users cannot control whether their data is shared with third parties, which might lead to unauthorized use.",
+              "related_questions": [
+                "Can users opt-out of data sharing with third parties?",
+                "Is data shared with entities outside of Apple devices involved in the Find My network?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of explicit information on encryption measures for data at rest",
+              "reasoning": "No details are provided about encryption for data at rest, which raises concerns about data protection.",
+              "related_questions": [
+                "What encryption methods are used for data at rest?",
+                "Are there any security certifications that the system complies with?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Insufficient information on data retention",
+              "reasoning": "The lack of clarity on data retention policies makes it difficult to assess the privacy risks.",
+              "related_questions": [
+                "How long is the location data retained?",
+                "Are users informed about the data retention policy?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Inability for users to delete their data",
+              "reasoning": "Users cannot delete their data, which limits their control over personal information.",
+              "related_questions": [
+                "Is there a plan to implement data deletion capabilities for users?",
+                "Are there any user rights to request data deletion?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on accountability measures",
+              "reasoning": "There is no information on how accountability for privacy practices is enforced.",
+              "related_questions": [
+                "Who is responsible for overseeing privacy practices within the system?",
+                "Are there audits conducted to ensure compliance with privacy policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "12": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Continuous and real-time data collection",
+              "reasoning": "The system continuously collects location data in real-time, which could exceed what is necessary for the purpose of locating lost items.",
+              "related_questions": [
+                "Is there a mechanism to limit the frequency of data collection?",
+                "Can users control the granularity of location data collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users cannot control whether their data is shared with third parties, which might lead to unauthorized use.",
+              "related_questions": [
+                "Can users opt-out of data sharing with third parties?",
+                "Is data shared with entities outside of Apple devices involved in the Find My network?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of explicit information on encryption measures for data at rest",
+              "reasoning": "No details are provided about encryption for data at rest, which raises concerns about data protection.",
+              "related_questions": [
+                "What encryption methods are used for data at rest?",
+                "Are there any security certifications that the system complies with?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient information on data retention",
+              "reasoning": "The lack of clarity on data retention policies makes it difficult to assess the privacy risks.",
+              "related_questions": [
+                "How long is the location data retained?",
+                "Are users informed about the data retention policy?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Inability for users to delete their data",
+              "reasoning": "Users cannot delete their data, which limits their control over personal information.",
+              "related_questions": [
+                "Is there a plan to implement data deletion capabilities for users?",
+                "Are there any user rights to request data deletion?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on accountability measures",
+              "reasoning": "There is no information on how accountability for privacy practices is enforced.",
+              "related_questions": [
+                "Who is responsible for overseeing privacy practices within the system?",
+                "Are there audits conducted to ensure compliance with privacy policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "13": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Continuous and real-time data collection",
+              "reasoning": "The system continuously collects location data in real-time, which could exceed what is necessary for the purpose of locating lost items.",
+              "related_questions": [
+                "Is there a mechanism to limit the frequency of data collection?",
+                "Can users control the granularity of location data collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users cannot control whether their data is shared with third parties, which might lead to unauthorized use.",
+              "related_questions": [
+                "Can users opt-out of data sharing with third parties?",
+                "Is data shared with entities outside of Apple devices involved in the Find My network?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of explicit information on encryption measures for data at rest",
+              "reasoning": "No details are provided about encryption for data at rest, which raises concerns about data protection.",
+              "related_questions": [
+                "What encryption methods are used for data at rest?",
+                "Are there any security certifications that the system complies with?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient information on data retention",
+              "reasoning": "The lack of clarity on data retention policies makes it difficult to assess the privacy risks.",
+              "related_questions": [
+                "How long is the location data retained?",
+                "Are users informed about the data retention policy?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Inability for users to delete their data",
+              "reasoning": "Users cannot delete their data, which limits their control over personal information.",
+              "related_questions": [
+                "Is there a plan to implement data deletion capabilities for users?",
+                "Are there any user rights to request data deletion?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on accountability measures",
+              "reasoning": "There is no information on how accountability for privacy practices is enforced.",
+              "related_questions": [
+                "Who is responsible for overseeing privacy practices within the system?",
+                "Are there audits conducted to ensure compliance with privacy policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "14": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Continuous and real-time data collection",
+              "reasoning": "The system continuously collects location data in real-time, which could exceed what is necessary for the purpose of locating lost items.",
+              "related_questions": [
+                "Is there a mechanism to limit the frequency of data collection?",
+                "Can users control the granularity of location data collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users cannot control whether their data is shared with third parties, which might lead to unauthorized use.",
+              "related_questions": [
+                "Can users opt-out of data sharing with third parties?",
+                "Is data shared with entities outside of Apple devices involved in the Find My network?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of explicit information on encryption measures for data at rest",
+              "reasoning": "No details are provided about encryption for data at rest, which raises concerns about data protection.",
+              "related_questions": [
+                "What encryption methods are used for data at rest?",
+                "Are there any security certifications that the system complies with?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient information on data retention",
+              "reasoning": "The lack of clarity on data retention policies makes it difficult to assess the privacy risks.",
+              "related_questions": [
+                "How long is the location data retained?",
+                "Are users informed about the data retention policy?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Inability for users to delete their data",
+              "reasoning": "Users cannot delete their data, which limits their control over personal information.",
+              "related_questions": [
+                "Is there a plan to implement data deletion capabilities for users?",
+                "Are there any user rights to request data deletion?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on accountability measures",
+              "reasoning": "There is no information on how accountability for privacy practices is enforced.",
+              "related_questions": [
+                "Who is responsible for overseeing privacy practices within the system?",
+                "Are there audits conducted to ensure compliance with privacy policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "15": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Continuous and real-time data collection",
+              "reasoning": "The system continuously collects location data in real-time, which could exceed what is necessary for the purpose of locating lost items.",
+              "related_questions": [
+                "Is there a mechanism to limit the frequency of data collection?",
+                "Can users control the granularity of location data collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users cannot control whether their data is shared with third parties, which might lead to unauthorized use.",
+              "related_questions": [
+                "Can users opt-out of data sharing with third parties?",
+                "Is data shared with entities outside of Apple devices involved in the Find My network?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of explicit information on encryption measures for data at rest",
+              "reasoning": "No details are provided about encryption for data at rest, which raises concerns about data protection.",
+              "related_questions": [
+                "What encryption methods are used for data at rest?",
+                "Are there any security certifications that the system complies with?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient information on data retention",
+              "reasoning": "The lack of clarity on data retention policies makes it difficult to assess the privacy risks.",
+              "related_questions": [
+                "How long is the location data retained?",
+                "Are users informed about the data retention policy?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Inability for users to delete their data",
+              "reasoning": "Users cannot delete their data, which limits their control over personal information.",
+              "related_questions": [
+                "Is there a plan to implement data deletion capabilities for users?",
+                "Are there any user rights to request data deletion?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on accountability measures",
+              "reasoning": "There is no information on how accountability for privacy practices is enforced.",
+              "related_questions": [
+                "Who is responsible for overseeing privacy practices within the system?",
+                "Are there audits conducted to ensure compliance with privacy policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "16": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Continuous and real-time data collection",
+              "reasoning": "The system continuously collects location data in real-time, which could exceed what is necessary for the purpose of locating lost items.",
+              "related_questions": [
+                "Is there a mechanism to limit the frequency of data collection?",
+                "Can users control the granularity of location data collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users cannot control whether their data is shared with third parties, which might lead to unauthorized use.",
+              "related_questions": [
+                "Can users opt-out of data sharing with third parties?",
+                "Is data shared with entities outside of Apple devices involved in the Find My network?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of explicit information on encryption measures for data at rest",
+              "reasoning": "No details are provided about encryption for data at rest, which raises concerns about data protection.",
+              "related_questions": [
+                "What encryption methods are used for data at rest?",
+                "Are there any security certifications that the system complies with?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient information on data retention",
+              "reasoning": "The lack of clarity on data retention policies makes it difficult to assess the privacy risks.",
+              "related_questions": [
+                "How long is the location data retained?",
+                "Are users informed about the data retention policy?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Inability for users to delete their data",
+              "reasoning": "Users cannot delete their data, which limits their control over personal information.",
+              "related_questions": [
+                "Is there a plan to implement data deletion capabilities for users?",
+                "Are there any user rights to request data deletion?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on accountability measures",
+              "reasoning": "There is no information on how accountability for privacy practices is enforced.",
+              "related_questions": [
+                "Who is responsible for overseeing privacy practices within the system?",
+                "Are there audits conducted to ensure compliance with privacy policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]

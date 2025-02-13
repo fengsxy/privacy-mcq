@@ -1,0 +1,1652 @@
+[
+  {
+    "11": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "12": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "13": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "14": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "15": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "16": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "17": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "18": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "19": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "20": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "21": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "22": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "23": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "24": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "25": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of battery level data.",
+              "reasoning": "The collection of battery level data could be seen as exceeding what is necessary for the core functionality of a ride-sharing service, raising ethical concerns.",
+              "related_questions": [
+                "Is the collection of battery level data necessary for service provision?",
+                "Are there any limits on what data can be collected by the app?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy and relevance of battery level data usage.",
+              "reasoning": "Using battery level data to adjust pricing might lead to inaccuracies if the data is not timely or relevant to the pricing decision.",
+              "related_questions": [
+                "How is the accuracy of battery level data ensured in real-time?",
+                "What measures are in place to maintain data relevance and accuracy?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Ambiguity in the purpose of collecting battery level data.",
+              "reasoning": "The primary purpose of collecting battery level data appears to be to adjust pricing based on user urgency, which may not be clearly communicated to users.",
+              "related_questions": [
+                "Is the purpose of battery level data collection clearly communicated to users?",
+                "Are there other purposes for collecting battery level data not mentioned?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of battery level data for pricing.",
+              "reasoning": "Using battery level data to potentially exploit users' urgent need for a ride raises ethical concerns about the limitations on data use.",
+              "related_questions": [
+                "What safeguards are in place to prevent misuse of user data?",
+                "Are there any restrictions on how battery level data can be used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on encryption measures.",
+              "reasoning": "The absence of specific details about encryption measures for protecting user data at rest suggests potential vulnerabilities.",
+              "related_questions": [
+                "What encryption standards are used to protect user data?",
+                "How is sensitive user data secured against unauthorized access?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Transparency about data sharing practices.",
+              "reasoning": "Uncertainty about how data is shared with third parties and within the service raises concerns about transparency.",
+              "related_questions": [
+                "How is user data shared with third parties?",
+                "What information is provided to users about data sharing practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "User control over data deletion.",
+              "reasoning": "The lack of clarity on whether users can delete their data, like battery level and location history, indicates potential issues with user control.",
+              "related_questions": [
+                "Can users request the deletion of their data?",
+                "What options are available for users to manage their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Responsibility for data practices.",
+              "reasoning": "The ethical concerns raised suggest potential issues with accountability in data practices, particularly regarding dynamic pricing.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection laws?",
+                "What mechanisms are in place to ensure accountability in data handling?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]

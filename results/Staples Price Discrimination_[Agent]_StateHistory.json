@@ -1,0 +1,738 @@
+[
+  {
+    "10": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Collection of IP addresses for pricing decisions",
+              "reasoning": "The collection and use of IP addresses for determining geographic location could potentially exceed what users expect when visiting an e-commerce site, particularly if they are unaware of this practice.",
+              "related_questions": [
+                "Are users informed about the collection of their IP addresses for pricing purposes?",
+                "Is there an option to opt-out of this data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used for mandatory location-based pricing",
+              "reasoning": "The practice of automatically using IP addresses to adjust pricing without user control indicates a lack of use limitation and user autonomy.",
+              "related_questions": [
+                "Can users opt out of location-based pricing?",
+                "Is user data used for purposes other than those specified at the time of collection?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on data encryption",
+              "reasoning": "There is no information provided on whether data is encrypted when shared with third parties, which raises security concerns.",
+              "related_questions": [
+                "Is the data encrypted during transmission to third parties?",
+                "What security measures are in place to protect user data?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited transparency about data handling practices",
+              "reasoning": "The lack of detailed information on data retention, sharing, and security practices suggests a potential issue with transparency.",
+              "related_questions": [
+                "Where can users find detailed information about data handling practices?",
+                "Is there a public privacy policy covering all data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No user control over data sharing",
+              "reasoning": "The absence of mechanisms for users to control or opt out of data sharing indicates a significant issue with individual participation and user rights.",
+              "related_questions": [
+                "What options do users have to manage their data preferences?",
+                "Can users request deletion or correction of their geographic data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "Without clear information on who is responsible for data handling and compliance, there is potential for accountability issues.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there penalties for non-compliance with data policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "11": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Collection of IP addresses for pricing decisions",
+              "reasoning": "The collection and use of IP addresses for determining geographic location could potentially exceed what users expect when visiting an e-commerce site, particularly if they are unaware of this practice.",
+              "related_questions": [
+                "Are users informed about the collection of their IP addresses for pricing purposes?",
+                "Is there an option to opt-out of this data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used for mandatory location-based pricing",
+              "reasoning": "The practice of automatically using IP addresses to adjust pricing without user control indicates a lack of use limitation and user autonomy.",
+              "related_questions": [
+                "Can users opt out of location-based pricing?",
+                "Is user data used for purposes other than those specified at the time of collection?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on data encryption",
+              "reasoning": "There is no information provided on whether data is encrypted when shared with third parties, which raises security concerns.",
+              "related_questions": [
+                "Is the data encrypted during transmission to third parties?",
+                "What security measures are in place to protect user data?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited transparency about data handling practices",
+              "reasoning": "The lack of detailed information on data retention, sharing, and security practices suggests a potential issue with transparency.",
+              "related_questions": [
+                "Where can users find detailed information about data handling practices?",
+                "Is there a public privacy policy covering all data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No user control over data sharing",
+              "reasoning": "The absence of mechanisms for users to control or opt out of data sharing indicates a significant issue with individual participation and user rights.",
+              "related_questions": [
+                "What options do users have to manage their data preferences?",
+                "Can users request deletion or correction of their geographic data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "Without clear information on who is responsible for data handling and compliance, there is potential for accountability issues.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there penalties for non-compliance with data policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "12": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Collection of IP addresses for pricing decisions",
+              "reasoning": "The collection and use of IP addresses for determining geographic location could potentially exceed what users expect when visiting an e-commerce site, particularly if they are unaware of this practice.",
+              "related_questions": [
+                "Are users informed about the collection of their IP addresses for pricing purposes?",
+                "Is there an option to opt-out of this data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used for mandatory location-based pricing",
+              "reasoning": "The practice of automatically using IP addresses to adjust pricing without user control indicates a lack of use limitation and user autonomy.",
+              "related_questions": [
+                "Can users opt out of location-based pricing?",
+                "Is user data used for purposes other than those specified at the time of collection?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on data encryption",
+              "reasoning": "There is no information provided on whether data is encrypted when shared with third parties, which raises security concerns.",
+              "related_questions": [
+                "Is the data encrypted during transmission to third parties?",
+                "What security measures are in place to protect user data?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited transparency about data handling practices",
+              "reasoning": "The lack of detailed information on data retention, sharing, and security practices suggests a potential issue with transparency.",
+              "related_questions": [
+                "Where can users find detailed information about data handling practices?",
+                "Is there a public privacy policy covering all data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No user control over data sharing",
+              "reasoning": "The absence of mechanisms for users to control or opt out of data sharing indicates a significant issue with individual participation and user rights.",
+              "related_questions": [
+                "What options do users have to manage their data preferences?",
+                "Can users request deletion or correction of their geographic data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "Without clear information on who is responsible for data handling and compliance, there is potential for accountability issues.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there penalties for non-compliance with data policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "13": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of IP addresses for pricing decisions",
+              "reasoning": "The collection and use of IP addresses for determining geographic location could potentially exceed what users expect when visiting an e-commerce site, particularly if they are unaware of this practice.",
+              "related_questions": [
+                "Are users informed about the collection of their IP addresses for pricing purposes?",
+                "Is there an option to opt-out of this data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used for mandatory location-based pricing",
+              "reasoning": "The practice of automatically using IP addresses to adjust pricing without user control indicates a lack of use limitation and user autonomy.",
+              "related_questions": [
+                "Can users opt out of location-based pricing?",
+                "Is user data used for purposes other than those specified at the time of collection?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on data encryption",
+              "reasoning": "There is no information provided on whether data is encrypted when shared with third parties, which raises security concerns.",
+              "related_questions": [
+                "Is the data encrypted during transmission to third parties?",
+                "What security measures are in place to protect user data?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited transparency about data handling practices",
+              "reasoning": "The lack of detailed information on data retention, sharing, and security practices suggests a potential issue with transparency.",
+              "related_questions": [
+                "Where can users find detailed information about data handling practices?",
+                "Is there a public privacy policy covering all data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No user control over data sharing",
+              "reasoning": "The absence of mechanisms for users to control or opt out of data sharing indicates a significant issue with individual participation and user rights.",
+              "related_questions": [
+                "What options do users have to manage their data preferences?",
+                "Can users request deletion or correction of their geographic data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "Without clear information on who is responsible for data handling and compliance, there is potential for accountability issues.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there penalties for non-compliance with data policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "14": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of IP addresses for pricing decisions",
+              "reasoning": "The collection and use of IP addresses for determining geographic location could potentially exceed what users expect when visiting an e-commerce site, particularly if they are unaware of this practice.",
+              "related_questions": [
+                "Are users informed about the collection of their IP addresses for pricing purposes?",
+                "Is there an option to opt-out of this data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used for mandatory location-based pricing",
+              "reasoning": "The practice of automatically using IP addresses to adjust pricing without user control indicates a lack of use limitation and user autonomy.",
+              "related_questions": [
+                "Can users opt out of location-based pricing?",
+                "Is user data used for purposes other than those specified at the time of collection?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on data encryption",
+              "reasoning": "There is no information provided on whether data is encrypted when shared with third parties, which raises security concerns.",
+              "related_questions": [
+                "Is the data encrypted during transmission to third parties?",
+                "What security measures are in place to protect user data?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited transparency about data handling practices",
+              "reasoning": "The lack of detailed information on data retention, sharing, and security practices suggests a potential issue with transparency.",
+              "related_questions": [
+                "Where can users find detailed information about data handling practices?",
+                "Is there a public privacy policy covering all data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No user control over data sharing",
+              "reasoning": "The absence of mechanisms for users to control or opt out of data sharing indicates a significant issue with individual participation and user rights.",
+              "related_questions": [
+                "What options do users have to manage their data preferences?",
+                "Can users request deletion or correction of their geographic data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "Without clear information on who is responsible for data handling and compliance, there is potential for accountability issues.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there penalties for non-compliance with data policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "15": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of IP addresses for pricing decisions",
+              "reasoning": "The collection and use of IP addresses for determining geographic location could potentially exceed what users expect when visiting an e-commerce site, particularly if they are unaware of this practice.",
+              "related_questions": [
+                "Are users informed about the collection of their IP addresses for pricing purposes?",
+                "Is there an option to opt-out of this data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used for mandatory location-based pricing",
+              "reasoning": "The practice of automatically using IP addresses to adjust pricing without user control indicates a lack of use limitation and user autonomy.",
+              "related_questions": [
+                "Can users opt out of location-based pricing?",
+                "Is user data used for purposes other than those specified at the time of collection?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on data encryption",
+              "reasoning": "There is no information provided on whether data is encrypted when shared with third parties, which raises security concerns.",
+              "related_questions": [
+                "Is the data encrypted during transmission to third parties?",
+                "What security measures are in place to protect user data?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited transparency about data handling practices",
+              "reasoning": "The lack of detailed information on data retention, sharing, and security practices suggests a potential issue with transparency.",
+              "related_questions": [
+                "Where can users find detailed information about data handling practices?",
+                "Is there a public privacy policy covering all data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No user control over data sharing",
+              "reasoning": "The absence of mechanisms for users to control or opt out of data sharing indicates a significant issue with individual participation and user rights.",
+              "related_questions": [
+                "What options do users have to manage their data preferences?",
+                "Can users request deletion or correction of their geographic data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "Without clear information on who is responsible for data handling and compliance, there is potential for accountability issues.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there penalties for non-compliance with data policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "16": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of IP addresses for pricing decisions",
+              "reasoning": "The collection and use of IP addresses for determining geographic location could potentially exceed what users expect when visiting an e-commerce site, particularly if they are unaware of this practice.",
+              "related_questions": [
+                "Are users informed about the collection of their IP addresses for pricing purposes?",
+                "Is there an option to opt-out of this data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used for mandatory location-based pricing",
+              "reasoning": "The practice of automatically using IP addresses to adjust pricing without user control indicates a lack of use limitation and user autonomy.",
+              "related_questions": [
+                "Can users opt out of location-based pricing?",
+                "Is user data used for purposes other than those specified at the time of collection?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on data encryption",
+              "reasoning": "There is no information provided on whether data is encrypted when shared with third parties, which raises security concerns.",
+              "related_questions": [
+                "Is the data encrypted during transmission to third parties?",
+                "What security measures are in place to protect user data?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited transparency about data handling practices",
+              "reasoning": "The lack of detailed information on data retention, sharing, and security practices suggests a potential issue with transparency.",
+              "related_questions": [
+                "Where can users find detailed information about data handling practices?",
+                "Is there a public privacy policy covering all data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No user control over data sharing",
+              "reasoning": "The absence of mechanisms for users to control or opt out of data sharing indicates a significant issue with individual participation and user rights.",
+              "related_questions": [
+                "What options do users have to manage their data preferences?",
+                "Can users request deletion or correction of their geographic data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "Without clear information on who is responsible for data handling and compliance, there is potential for accountability issues.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there penalties for non-compliance with data policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "17": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of IP addresses for pricing decisions",
+              "reasoning": "The collection and use of IP addresses for determining geographic location could potentially exceed what users expect when visiting an e-commerce site, particularly if they are unaware of this practice.",
+              "related_questions": [
+                "Are users informed about the collection of their IP addresses for pricing purposes?",
+                "Is there an option to opt-out of this data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used for mandatory location-based pricing",
+              "reasoning": "The practice of automatically using IP addresses to adjust pricing without user control indicates a lack of use limitation and user autonomy.",
+              "related_questions": [
+                "Can users opt out of location-based pricing?",
+                "Is user data used for purposes other than those specified at the time of collection?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of information on data encryption",
+              "reasoning": "There is no information provided on whether data is encrypted when shared with third parties, which raises security concerns.",
+              "related_questions": [
+                "Is the data encrypted during transmission to third parties?",
+                "What security measures are in place to protect user data?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited transparency about data handling practices",
+              "reasoning": "The lack of detailed information on data retention, sharing, and security practices suggests a potential issue with transparency.",
+              "related_questions": [
+                "Where can users find detailed information about data handling practices?",
+                "Is there a public privacy policy covering all data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No user control over data sharing",
+              "reasoning": "The absence of mechanisms for users to control or opt out of data sharing indicates a significant issue with individual participation and user rights.",
+              "related_questions": [
+                "What options do users have to manage their data preferences?",
+                "Can users request deletion or correction of their geographic data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "Without clear information on who is responsible for data handling and compliance, there is potential for accountability issues.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there penalties for non-compliance with data policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]

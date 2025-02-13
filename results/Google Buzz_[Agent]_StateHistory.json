@@ -1,0 +1,1102 @@
+[
+  {
+    "11": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Automatic collection of email contacts and connections",
+              "reasoning": "Google Buzz automatically collected and exposed email contacts and connections without explicit user consent.",
+              "related_questions": [
+                "What mechanisms were in place for users to opt-in to data collection?",
+                "Were users informed about the data being collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy of user connections",
+              "reasoning": "Automatic connections may not accurately represent the user's intended social network, potentially leading to erroneous public exposure.",
+              "related_questions": [
+                "How was data accuracy ensured?",
+                "Were users able to correct or verify the data?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clear purpose specification for data use",
+              "reasoning": "The integration aimed to enhance user experience but did not clearly define how data would be used, leading to privacy concerns.",
+              "related_questions": [
+                "Was the purpose of data collection clearly communicated to users?",
+                "Were users given options to consent to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used without explicit consent",
+              "reasoning": "The data was used to publicly expose user connections without adequate user consent or options to limit this use.",
+              "related_questions": [
+                "What limitations were put in place for data use?",
+                "Did users have control over how their data was used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption for data at rest",
+              "reasoning": "The system did not specify encryption measures for data at rest, raising concerns about data protection.",
+              "related_questions": [
+                "What security measures were implemented to protect data?",
+                "Was data encryption a part of the security protocol?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient user information about data practices",
+              "reasoning": "Users were not adequately informed about the data collection and sharing practices, leading to a lack of transparency.",
+              "related_questions": [
+                "How were users informed about data practices?",
+                "Was there a privacy policy detailing the data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users did not have control or options to manage how their data was shared, which was mandatory by default.",
+              "related_questions": [
+                "What options were available for users to manage data sharing?",
+                "Could users opt-out of data sharing?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accountability mechanisms",
+              "reasoning": "The automatic and mandatory nature of data sharing suggests inadequate accountability measures for privacy protection.",
+              "related_questions": [
+                "What accountability measures were in place for privacy breaches?",
+                "How were privacy concerns addressed by the organization?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "12": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Automatic collection of email contacts and connections",
+              "reasoning": "Google Buzz automatically collected and exposed email contacts and connections without explicit user consent.",
+              "related_questions": [
+                "What mechanisms were in place for users to opt-in to data collection?",
+                "Were users informed about the data being collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy of user connections",
+              "reasoning": "Automatic connections may not accurately represent the user's intended social network, potentially leading to erroneous public exposure.",
+              "related_questions": [
+                "How was data accuracy ensured?",
+                "Were users able to correct or verify the data?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clear purpose specification for data use",
+              "reasoning": "The integration aimed to enhance user experience but did not clearly define how data would be used, leading to privacy concerns.",
+              "related_questions": [
+                "Was the purpose of data collection clearly communicated to users?",
+                "Were users given options to consent to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used without explicit consent",
+              "reasoning": "The data was used to publicly expose user connections without adequate user consent or options to limit this use.",
+              "related_questions": [
+                "What limitations were put in place for data use?",
+                "Did users have control over how their data was used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption for data at rest",
+              "reasoning": "The system did not specify encryption measures for data at rest, raising concerns about data protection.",
+              "related_questions": [
+                "What security measures were implemented to protect data?",
+                "Was data encryption a part of the security protocol?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient user information about data practices",
+              "reasoning": "Users were not adequately informed about the data collection and sharing practices, leading to a lack of transparency.",
+              "related_questions": [
+                "How were users informed about data practices?",
+                "Was there a privacy policy detailing the data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users did not have control or options to manage how their data was shared, which was mandatory by default.",
+              "related_questions": [
+                "What options were available for users to manage data sharing?",
+                "Could users opt-out of data sharing?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accountability mechanisms",
+              "reasoning": "The automatic and mandatory nature of data sharing suggests inadequate accountability measures for privacy protection.",
+              "related_questions": [
+                "What accountability measures were in place for privacy breaches?",
+                "How were privacy concerns addressed by the organization?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "13": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Automatic collection of email contacts and connections",
+              "reasoning": "Google Buzz automatically collected and exposed email contacts and connections without explicit user consent.",
+              "related_questions": [
+                "What mechanisms were in place for users to opt-in to data collection?",
+                "Were users informed about the data being collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy of user connections",
+              "reasoning": "Automatic connections may not accurately represent the user's intended social network, potentially leading to erroneous public exposure.",
+              "related_questions": [
+                "How was data accuracy ensured?",
+                "Were users able to correct or verify the data?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clear purpose specification for data use",
+              "reasoning": "The integration aimed to enhance user experience but did not clearly define how data would be used, leading to privacy concerns.",
+              "related_questions": [
+                "Was the purpose of data collection clearly communicated to users?",
+                "Were users given options to consent to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used without explicit consent",
+              "reasoning": "The data was used to publicly expose user connections without adequate user consent or options to limit this use.",
+              "related_questions": [
+                "What limitations were put in place for data use?",
+                "Did users have control over how their data was used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption for data at rest",
+              "reasoning": "The system did not specify encryption measures for data at rest, raising concerns about data protection.",
+              "related_questions": [
+                "What security measures were implemented to protect data?",
+                "Was data encryption a part of the security protocol?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient user information about data practices",
+              "reasoning": "Users were not adequately informed about the data collection and sharing practices, leading to a lack of transparency.",
+              "related_questions": [
+                "How were users informed about data practices?",
+                "Was there a privacy policy detailing the data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users did not have control or options to manage how their data was shared, which was mandatory by default.",
+              "related_questions": [
+                "What options were available for users to manage data sharing?",
+                "Could users opt-out of data sharing?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accountability mechanisms",
+              "reasoning": "The automatic and mandatory nature of data sharing suggests inadequate accountability measures for privacy protection.",
+              "related_questions": [
+                "What accountability measures were in place for privacy breaches?",
+                "How were privacy concerns addressed by the organization?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "14": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Automatic collection of email contacts and connections",
+              "reasoning": "Google Buzz automatically collected and exposed email contacts and connections without explicit user consent.",
+              "related_questions": [
+                "What mechanisms were in place for users to opt-in to data collection?",
+                "Were users informed about the data being collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy of user connections",
+              "reasoning": "Automatic connections may not accurately represent the user's intended social network, potentially leading to erroneous public exposure.",
+              "related_questions": [
+                "How was data accuracy ensured?",
+                "Were users able to correct or verify the data?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clear purpose specification for data use",
+              "reasoning": "The integration aimed to enhance user experience but did not clearly define how data would be used, leading to privacy concerns.",
+              "related_questions": [
+                "Was the purpose of data collection clearly communicated to users?",
+                "Were users given options to consent to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used without explicit consent",
+              "reasoning": "The data was used to publicly expose user connections without adequate user consent or options to limit this use.",
+              "related_questions": [
+                "What limitations were put in place for data use?",
+                "Did users have control over how their data was used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption for data at rest",
+              "reasoning": "The system did not specify encryption measures for data at rest, raising concerns about data protection.",
+              "related_questions": [
+                "What security measures were implemented to protect data?",
+                "Was data encryption a part of the security protocol?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient user information about data practices",
+              "reasoning": "Users were not adequately informed about the data collection and sharing practices, leading to a lack of transparency.",
+              "related_questions": [
+                "How were users informed about data practices?",
+                "Was there a privacy policy detailing the data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users did not have control or options to manage how their data was shared, which was mandatory by default.",
+              "related_questions": [
+                "What options were available for users to manage data sharing?",
+                "Could users opt-out of data sharing?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accountability mechanisms",
+              "reasoning": "The automatic and mandatory nature of data sharing suggests inadequate accountability measures for privacy protection.",
+              "related_questions": [
+                "What accountability measures were in place for privacy breaches?",
+                "How were privacy concerns addressed by the organization?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "15": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Automatic collection of email contacts and connections",
+              "reasoning": "Google Buzz automatically collected and exposed email contacts and connections without explicit user consent.",
+              "related_questions": [
+                "What mechanisms were in place for users to opt-in to data collection?",
+                "Were users informed about the data being collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy of user connections",
+              "reasoning": "Automatic connections may not accurately represent the user's intended social network, potentially leading to erroneous public exposure.",
+              "related_questions": [
+                "How was data accuracy ensured?",
+                "Were users able to correct or verify the data?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clear purpose specification for data use",
+              "reasoning": "The integration aimed to enhance user experience but did not clearly define how data would be used, leading to privacy concerns.",
+              "related_questions": [
+                "Was the purpose of data collection clearly communicated to users?",
+                "Were users given options to consent to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used without explicit consent",
+              "reasoning": "The data was used to publicly expose user connections without adequate user consent or options to limit this use.",
+              "related_questions": [
+                "What limitations were put in place for data use?",
+                "Did users have control over how their data was used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption for data at rest",
+              "reasoning": "The system did not specify encryption measures for data at rest, raising concerns about data protection.",
+              "related_questions": [
+                "What security measures were implemented to protect data?",
+                "Was data encryption a part of the security protocol?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient user information about data practices",
+              "reasoning": "Users were not adequately informed about the data collection and sharing practices, leading to a lack of transparency.",
+              "related_questions": [
+                "How were users informed about data practices?",
+                "Was there a privacy policy detailing the data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users did not have control or options to manage how their data was shared, which was mandatory by default.",
+              "related_questions": [
+                "What options were available for users to manage data sharing?",
+                "Could users opt-out of data sharing?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accountability mechanisms",
+              "reasoning": "The automatic and mandatory nature of data sharing suggests inadequate accountability measures for privacy protection.",
+              "related_questions": [
+                "What accountability measures were in place for privacy breaches?",
+                "How were privacy concerns addressed by the organization?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "16": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Automatic collection of email contacts and connections",
+              "reasoning": "Google Buzz automatically collected and exposed email contacts and connections without explicit user consent.",
+              "related_questions": [
+                "What mechanisms were in place for users to opt-in to data collection?",
+                "Were users informed about the data being collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy of user connections",
+              "reasoning": "Automatic connections may not accurately represent the user's intended social network, potentially leading to erroneous public exposure.",
+              "related_questions": [
+                "How was data accuracy ensured?",
+                "Were users able to correct or verify the data?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clear purpose specification for data use",
+              "reasoning": "The integration aimed to enhance user experience but did not clearly define how data would be used, leading to privacy concerns.",
+              "related_questions": [
+                "Was the purpose of data collection clearly communicated to users?",
+                "Were users given options to consent to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used without explicit consent",
+              "reasoning": "The data was used to publicly expose user connections without adequate user consent or options to limit this use.",
+              "related_questions": [
+                "What limitations were put in place for data use?",
+                "Did users have control over how their data was used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption for data at rest",
+              "reasoning": "The system did not specify encryption measures for data at rest, raising concerns about data protection.",
+              "related_questions": [
+                "What security measures were implemented to protect data?",
+                "Was data encryption a part of the security protocol?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient user information about data practices",
+              "reasoning": "Users were not adequately informed about the data collection and sharing practices, leading to a lack of transparency.",
+              "related_questions": [
+                "How were users informed about data practices?",
+                "Was there a privacy policy detailing the data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users did not have control or options to manage how their data was shared, which was mandatory by default.",
+              "related_questions": [
+                "What options were available for users to manage data sharing?",
+                "Could users opt-out of data sharing?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accountability mechanisms",
+              "reasoning": "The automatic and mandatory nature of data sharing suggests inadequate accountability measures for privacy protection.",
+              "related_questions": [
+                "What accountability measures were in place for privacy breaches?",
+                "How were privacy concerns addressed by the organization?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "17": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Automatic collection of email contacts and connections",
+              "reasoning": "Google Buzz automatically collected and exposed email contacts and connections without explicit user consent.",
+              "related_questions": [
+                "What mechanisms were in place for users to opt-in to data collection?",
+                "Were users informed about the data being collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy of user connections",
+              "reasoning": "Automatic connections may not accurately represent the user's intended social network, potentially leading to erroneous public exposure.",
+              "related_questions": [
+                "How was data accuracy ensured?",
+                "Were users able to correct or verify the data?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clear purpose specification for data use",
+              "reasoning": "The integration aimed to enhance user experience but did not clearly define how data would be used, leading to privacy concerns.",
+              "related_questions": [
+                "Was the purpose of data collection clearly communicated to users?",
+                "Were users given options to consent to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used without explicit consent",
+              "reasoning": "The data was used to publicly expose user connections without adequate user consent or options to limit this use.",
+              "related_questions": [
+                "What limitations were put in place for data use?",
+                "Did users have control over how their data was used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption for data at rest",
+              "reasoning": "The system did not specify encryption measures for data at rest, raising concerns about data protection.",
+              "related_questions": [
+                "What security measures were implemented to protect data?",
+                "Was data encryption a part of the security protocol?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient user information about data practices",
+              "reasoning": "Users were not adequately informed about the data collection and sharing practices, leading to a lack of transparency.",
+              "related_questions": [
+                "How were users informed about data practices?",
+                "Was there a privacy policy detailing the data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users did not have control or options to manage how their data was shared, which was mandatory by default.",
+              "related_questions": [
+                "What options were available for users to manage data sharing?",
+                "Could users opt-out of data sharing?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accountability mechanisms",
+              "reasoning": "The automatic and mandatory nature of data sharing suggests inadequate accountability measures for privacy protection.",
+              "related_questions": [
+                "What accountability measures were in place for privacy breaches?",
+                "How were privacy concerns addressed by the organization?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "18": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Automatic collection of email contacts and connections",
+              "reasoning": "Google Buzz automatically collected and exposed email contacts and connections without explicit user consent.",
+              "related_questions": [
+                "What mechanisms were in place for users to opt-in to data collection?",
+                "Were users informed about the data being collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy of user connections",
+              "reasoning": "Automatic connections may not accurately represent the user's intended social network, potentially leading to erroneous public exposure.",
+              "related_questions": [
+                "How was data accuracy ensured?",
+                "Were users able to correct or verify the data?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clear purpose specification for data use",
+              "reasoning": "The integration aimed to enhance user experience but did not clearly define how data would be used, leading to privacy concerns.",
+              "related_questions": [
+                "Was the purpose of data collection clearly communicated to users?",
+                "Were users given options to consent to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used without explicit consent",
+              "reasoning": "The data was used to publicly expose user connections without adequate user consent or options to limit this use.",
+              "related_questions": [
+                "What limitations were put in place for data use?",
+                "Did users have control over how their data was used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption for data at rest",
+              "reasoning": "The system did not specify encryption measures for data at rest, raising concerns about data protection.",
+              "related_questions": [
+                "What security measures were implemented to protect data?",
+                "Was data encryption a part of the security protocol?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient user information about data practices",
+              "reasoning": "Users were not adequately informed about the data collection and sharing practices, leading to a lack of transparency.",
+              "related_questions": [
+                "How were users informed about data practices?",
+                "Was there a privacy policy detailing the data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users did not have control or options to manage how their data was shared, which was mandatory by default.",
+              "related_questions": [
+                "What options were available for users to manage data sharing?",
+                "Could users opt-out of data sharing?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accountability mechanisms",
+              "reasoning": "The automatic and mandatory nature of data sharing suggests inadequate accountability measures for privacy protection.",
+              "related_questions": [
+                "What accountability measures were in place for privacy breaches?",
+                "How were privacy concerns addressed by the organization?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "19": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Automatic collection of email contacts and connections",
+              "reasoning": "Google Buzz automatically collected and exposed email contacts and connections without explicit user consent.",
+              "related_questions": [
+                "What mechanisms were in place for users to opt-in to data collection?",
+                "Were users informed about the data being collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Accuracy of user connections",
+              "reasoning": "Automatic connections may not accurately represent the user's intended social network, potentially leading to erroneous public exposure.",
+              "related_questions": [
+                "How was data accuracy ensured?",
+                "Were users able to correct or verify the data?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clear purpose specification for data use",
+              "reasoning": "The integration aimed to enhance user experience but did not clearly define how data would be used, leading to privacy concerns.",
+              "related_questions": [
+                "Was the purpose of data collection clearly communicated to users?",
+                "Were users given options to consent to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used without explicit consent",
+              "reasoning": "The data was used to publicly expose user connections without adequate user consent or options to limit this use.",
+              "related_questions": [
+                "What limitations were put in place for data use?",
+                "Did users have control over how their data was used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption for data at rest",
+              "reasoning": "The system did not specify encryption measures for data at rest, raising concerns about data protection.",
+              "related_questions": [
+                "What security measures were implemented to protect data?",
+                "Was data encryption a part of the security protocol?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient user information about data practices",
+              "reasoning": "Users were not adequately informed about the data collection and sharing practices, leading to a lack of transparency.",
+              "related_questions": [
+                "How were users informed about data practices?",
+                "Was there a privacy policy detailing the data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users did not have control or options to manage how their data was shared, which was mandatory by default.",
+              "related_questions": [
+                "What options were available for users to manage data sharing?",
+                "Could users opt-out of data sharing?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accountability mechanisms",
+              "reasoning": "The automatic and mandatory nature of data sharing suggests inadequate accountability measures for privacy protection.",
+              "related_questions": [
+                "What accountability measures were in place for privacy breaches?",
+                "How were privacy concerns addressed by the organization?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "20": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Automatic collection of email contacts and connections",
+              "reasoning": "Google Buzz automatically collected and exposed email contacts and connections without explicit user consent.",
+              "related_questions": [
+                "What mechanisms were in place for users to opt-in to data collection?",
+                "Were users informed about the data being collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Accuracy of user connections",
+              "reasoning": "Automatic connections may not accurately represent the user's intended social network, potentially leading to erroneous public exposure.",
+              "related_questions": [
+                "How was data accuracy ensured?",
+                "Were users able to correct or verify the data?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clear purpose specification for data use",
+              "reasoning": "The integration aimed to enhance user experience but did not clearly define how data would be used, leading to privacy concerns.",
+              "related_questions": [
+                "Was the purpose of data collection clearly communicated to users?",
+                "Were users given options to consent to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data used without explicit consent",
+              "reasoning": "The data was used to publicly expose user connections without adequate user consent or options to limit this use.",
+              "related_questions": [
+                "What limitations were put in place for data use?",
+                "Did users have control over how their data was used?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption for data at rest",
+              "reasoning": "The system did not specify encryption measures for data at rest, raising concerns about data protection.",
+              "related_questions": [
+                "What security measures were implemented to protect data?",
+                "Was data encryption a part of the security protocol?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Insufficient user information about data practices",
+              "reasoning": "Users were not adequately informed about the data collection and sharing practices, leading to a lack of transparency.",
+              "related_questions": [
+                "How were users informed about data practices?",
+                "Was there a privacy policy detailing the data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of user control over data sharing",
+              "reasoning": "Users did not have control or options to manage how their data was shared, which was mandatory by default.",
+              "related_questions": [
+                "What options were available for users to manage data sharing?",
+                "Could users opt-out of data sharing?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accountability mechanisms",
+              "reasoning": "The automatic and mandatory nature of data sharing suggests inadequate accountability measures for privacy protection.",
+              "related_questions": [
+                "What accountability measures were in place for privacy breaches?",
+                "How were privacy concerns addressed by the organization?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]

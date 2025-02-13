@@ -1,0 +1,305 @@
+[
+  {
+    "10": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Excessive data collection without user consent",
+              "reasoning": "Users were not informed about the manipulation of their compatibility scores or the collection of interaction data, which goes beyond standard profile information. This raises concerns about the scope and necessity of the data collected.",
+              "related_questions": [
+                "What specific user data is necessary for the compatibility score experiments?",
+                "Were users informed about all types of data being collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in purpose specification",
+              "reasoning": "Users were not informed about the purpose of manipulating compatibility scores, indicating a lack of clarity and transparency in how their data would be used.",
+              "related_questions": [
+                "Was the purpose of the data collection clearly communicated to users?",
+                "Were users aware that their data would be used for behavioral analysis?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of data beyond experimental analysis",
+              "reasoning": "While the data is used for internal analysis, there is no clear indication of whether it could be repurposed for other analyses or shared outside the immediate team.",
+              "related_questions": [
+                "Are there restrictions on how the data from experiments can be used?",
+                "Is there any oversight on the use of data collected during experiments?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of mention of data security measures",
+              "reasoning": "There is no information on security protocols to protect the data collected during experiments, which raises potential concerns about data protection.",
+              "related_questions": [
+                "What security measures are in place to protect data collected during experiments?",
+                "Is user data encrypted during storage and processing?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of openness in data practices",
+              "reasoning": "The experiments were conducted without user consent or transparency about data manipulation, indicating a lack of openness in the platform's data handling practices.",
+              "related_questions": [
+                "Is there a public document that outlines the data practices for experiments?",
+                "How are users informed about the data practices of OKCupid?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No mechanism for user consent or withdrawal",
+              "reasoning": "Users were not informed or given the option to consent to or withdraw from the experiments, limiting their participation and control over their data.",
+              "related_questions": [
+                "What mechanisms are available for users to provide consent for data collection?",
+                "Can users opt-out of data collection for specific experiments?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "There is no mention of accountability measures or oversight for the data practices during experiments, which could lead to irresponsible data handling.",
+              "related_questions": [
+                "Who is responsible for overseeing data practices during experiments?",
+                "Are there any accountability measures in place for data misuse?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "11": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Excessive data collection without user consent",
+              "reasoning": "Users were not informed about the manipulation of their compatibility scores or the collection of interaction data, which goes beyond standard profile information. This raises concerns about the scope and necessity of the data collected.",
+              "related_questions": [
+                "What specific user data is necessary for the compatibility score experiments?",
+                "Were users informed about all types of data being collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in purpose specification",
+              "reasoning": "Users were not informed about the purpose of manipulating compatibility scores, indicating a lack of clarity and transparency in how their data would be used.",
+              "related_questions": [
+                "Was the purpose of the data collection clearly communicated to users?",
+                "Were users aware that their data would be used for behavioral analysis?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of data beyond experimental analysis",
+              "reasoning": "While the data is used for internal analysis, there is no clear indication of whether it could be repurposed for other analyses or shared outside the immediate team.",
+              "related_questions": [
+                "Are there restrictions on how the data from experiments can be used?",
+                "Is there any oversight on the use of data collected during experiments?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of mention of data security measures",
+              "reasoning": "There is no information on security protocols to protect the data collected during experiments, which raises potential concerns about data protection.",
+              "related_questions": [
+                "What security measures are in place to protect data collected during experiments?",
+                "Is user data encrypted during storage and processing?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of openness in data practices",
+              "reasoning": "The experiments were conducted without user consent or transparency about data manipulation, indicating a lack of openness in the platform's data handling practices.",
+              "related_questions": [
+                "Is there a public document that outlines the data practices for experiments?",
+                "How are users informed about the data practices of OKCupid?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No mechanism for user consent or withdrawal",
+              "reasoning": "Users were not informed or given the option to consent to or withdraw from the experiments, limiting their participation and control over their data.",
+              "related_questions": [
+                "What mechanisms are available for users to provide consent for data collection?",
+                "Can users opt-out of data collection for specific experiments?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "There is no mention of accountability measures or oversight for the data practices during experiments, which could lead to irresponsible data handling.",
+              "related_questions": [
+                "Who is responsible for overseeing data practices during experiments?",
+                "Are there any accountability measures in place for data misuse?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "12": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Excessive data collection without user consent",
+              "reasoning": "Users were not informed about the manipulation of their compatibility scores or the collection of interaction data, which goes beyond standard profile information. This raises concerns about the scope and necessity of the data collected.",
+              "related_questions": [
+                "What specific user data is necessary for the compatibility score experiments?",
+                "Were users informed about all types of data being collected?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in purpose specification",
+              "reasoning": "Users were not informed about the purpose of manipulating compatibility scores, indicating a lack of clarity and transparency in how their data would be used.",
+              "related_questions": [
+                "Was the purpose of the data collection clearly communicated to users?",
+                "Were users aware that their data would be used for behavioral analysis?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential misuse of data beyond experimental analysis",
+              "reasoning": "While the data is used for internal analysis, there is no clear indication of whether it could be repurposed for other analyses or shared outside the immediate team.",
+              "related_questions": [
+                "Are there restrictions on how the data from experiments can be used?",
+                "Is there any oversight on the use of data collected during experiments?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of mention of data security measures",
+              "reasoning": "There is no information on security protocols to protect the data collected during experiments, which raises potential concerns about data protection.",
+              "related_questions": [
+                "What security measures are in place to protect data collected during experiments?",
+                "Is user data encrypted during storage and processing?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of openness in data practices",
+              "reasoning": "The experiments were conducted without user consent or transparency about data manipulation, indicating a lack of openness in the platform's data handling practices.",
+              "related_questions": [
+                "Is there a public document that outlines the data practices for experiments?",
+                "How are users informed about the data practices of OKCupid?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No mechanism for user consent or withdrawal",
+              "reasoning": "Users were not informed or given the option to consent to or withdraw from the experiments, limiting their participation and control over their data.",
+              "related_questions": [
+                "What mechanisms are available for users to provide consent for data collection?",
+                "Can users opt-out of data collection for specific experiments?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "There is no mention of accountability measures or oversight for the data practices during experiments, which could lead to irresponsible data handling.",
+              "related_questions": [
+                "Who is responsible for overseeing data practices during experiments?",
+                "Are there any accountability measures in place for data misuse?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,23 +1,23 @@
 [
   {
     "question": {
-      "text": "What types of data are collected from customers to generate personalized coupons and recommendations?",
+      "text": "What types of data are collected for generating personalized coupons and recommendations in the retail analytics system?",
       "options": [
         {
           "id": "option1",
-          "label": "Purchase history and product preferences"
+          "label": "Purchase history including items, quantities, and purchase dates"
         },
         {
           "id": "option2",
-          "label": "Demographic information such as age and gender"
+          "label": "Personal information such as name, address, and email"
         },
         {
           "id": "option3",
-          "label": "Browsing behavior on the retail website"
+          "label": "Browsing behavior on the retailer's website"
         },
         {
           "id": "option4",
-          "label": "Data from external social media profiles"
+          "label": "Social media interactions and mentions of the retailer"
         }
       ],
       "category": "Data Action",
@@ -27,10 +27,10 @@
       "selected_options": [
         "option1"
       ],
-      "explanation": "The data practice described involves analyzing purchase history to generate personalized coupons and recommendations. Target's pregnancy prediction score system specifically utilized shopping patterns by identifying certain products that customers purchased, such as unscented lotions, supplements, and cotton balls, to predict pregnancy and send targeted marketing materials. The practice does not mention the use of demographic information, browsing behavior, or data from social media profiles, thus making 'Purchase history and product preferences' the most relevant option based on the details provided.",
+      "explanation": "The data practice specifically mentions that Target's marketing analytics team used customers' purchase history to generate a pregnancy prediction score. This involved analyzing the purchase history for specific items like unscented lotions, supplements like calcium and magnesium, and cotton balls. There is no mention of collecting personal information such as name, address, or email (option2), browsing behavior on the retailer's website (option3), or social media interactions (option4) being used in the prediction system. Therefore, the relevant type of data collected is the purchase history, which includes items, quantities, and purchase dates (option1). This aligns with the privacy implication of analyzing shopping patterns to deduce personal information such as pregnancy status, which was central to the public backlash Target faced.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T09:51:56.116761"
+    "timestamp": "2025-02-13T13:14:19.498208"
   },
   {
     "question": {
@@ -38,19 +38,19 @@
       "options": [
         {
           "id": "option1",
-          "label": "To generate personalized coupons and recommendations"
+          "label": "To generate personalized coupons and product recommendations"
         },
         {
           "id": "option2",
-          "label": "To improve customer service and support"
+          "label": "To analyze market trends and improve inventory management"
         },
         {
           "id": "option3",
-          "label": "To sell data to third-party advertisers"
+          "label": "To assess customer satisfaction and improve service quality"
         },
         {
           "id": "option4",
-          "label": "To conduct market research and product development"
+          "label": "To share data with third-party advertisers for additional revenue"
         }
       ],
       "category": "Data Action",
@@ -60,63 +60,30 @@
       "selected_options": [
         "option1"
       ],
-      "explanation": "The data practice described involves Target's use of customer purchase histories to generate personalized marketing materials, specifically targeting pregnant customers with pregnancy and baby-related coupons and recommendations. This is evidenced by the development of the pregnancy prediction score system, which analyzed purchase patterns to estimate pregnancy status and due dates, subsequently allowing Target to send targeted marketing materials. There is no indication in the practice that purchase histories were used to improve customer service or support, nor is there mention of data being sold to third-party advertisers or used for market research and product development. Therefore, the primary purpose aligns with generating personalized coupons and recommendations, reflecting the practice's focus on targeted marketing based on purchase behavior.",
+      "explanation": "The primary purpose of collecting customer purchase histories in Target's retail analytics system, as described in the data practice, was to generate personalized coupons and product recommendations. This is evidenced by the development of a pregnancy prediction score system that analyzed purchase patterns to send targeted pregnancy and baby-related marketing materials to customers. The focus was on identifying specific customer needs based on their shopping behavior to tailor marketing efforts, which aligns with the purpose of generating personalized offers. While option 2 mentions analyzing market trends, the specific practice described in the data was more about individual customer targeting rather than broader market trend analysis or inventory management improvements.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T09:52:02.275902"
+    "timestamp": "2025-02-13T13:14:22.025006"
   },
   {
     "question": {
-      "text": "How is the customer purchase data processed to create personalized recommendations?",
+      "text": "Is the customer data anonymized during the processing of generating personalized recommendations?",
       "options": [
         {
           "id": "option1",
-          "label": "Using machine learning algorithms to identify purchase patterns"
+          "label": "Yes, data is anonymized by removing personal identifiers"
         },
         {
           "id": "option2",
-          "label": "Manual analysis by a team of data analysts"
+          "label": "No, data is processed with customer identities intact"
         },
         {
           "id": "option3",
-          "label": "Real-time processing and recommendation generation"
+          "label": "Data is pseudonymized, allowing for re-identification if necessary"
         },
         {
           "id": "option4",
-          "label": "Batch processing at regular intervals"
-        }
-      ],
-      "category": "Data Action",
-      "related_dimensions": []
-    },
-    "answer": {
-      "selected_options": [
-        "option1"
-      ],
-      "explanation": "The data practice described involves Target's marketing analytics team using a system to analyze purchase history and assign a 'pregnancy prediction' score based on identified purchase patterns. This indicates the use of machine learning algorithms, as these systems typically involve analyzing large datasets to identify patterns and make predictions. The practice of predicting pregnancy based on purchase history and sending targeted marketing materials is consistent with using machine learning to process customer purchase data and create personalized recommendations. There is no indication of manual analysis or real-time processing in the description, and the focus on identifying patterns suggests the use of machine learning rather than periodic batch processing.",
-      "impact_analysis": {}
-    },
-    "timestamp": "2025-02-13T09:52:05.074588"
-  },
-  {
-    "question": {
-      "text": "Is customer data anonymized during the processing stage in the retail analytics system?",
-      "options": [
-        {
-          "id": "option1",
-          "label": "Yes, data is fully anonymized to prevent identification"
-        },
-        {
-          "id": "option2",
-          "label": "No, data is processed with identifiable information"
-        },
-        {
-          "id": "option3",
-          "label": "Data is pseudo-anonymized with reversible identifiers"
-        },
-        {
-          "id": "option4",
-          "label": "Anonymization is applied only to sensitive data fields"
+          "label": "Anonymization is optional and depends on customer consent"
         }
       ],
       "category": "Data Action",
@@ -126,10 +93,43 @@
       "selected_options": [
         "option2"
       ],
-      "explanation": "The data practice described indicates that Target's marketing analytics team used shopping patterns to assign a 'pregnancy prediction' score to individual customers and sent targeted advertisements to them based on these scores. This implies that the data was processed with identifiable information, as the marketing materials were sent directly to customers' addresses, revealing personal insights such as pregnancy status to others in the household. This would not be possible if the data were fully or pseudo-anonymized, as those methods would prevent linking back to specific individuals. The incident of revealing a teenage girl\u2019s pregnancy to her father further supports that identifiable information was used in processing the data.",
+      "explanation": "The data practice as described involved analyzing purchase history and assigning a 'pregnancy prediction' score to individual customers, which indicates that customer identities were used in the processing. The example provided, where Target inadvertently revealed a teenage girl's pregnancy to her father, further supports that customer data was processed with identities intact, as the marketing materials were sent directly to the household. There is no mention of anonymization or pseudonymization in the process, and the ability to send targeted advertisements suggests that customer identities were necessary for execution of the marketing strategy. Therefore, option 2 is the most accurate reflection of the practice.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T09:52:11.169704"
+    "timestamp": "2025-02-13T13:14:25.119539"
+  },
+  {
+    "question": {
+      "text": "Is customer data aggregated as part of the processing in the retail analytics system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Yes, data is aggregated to identify general trends"
+        },
+        {
+          "id": "option2",
+          "label": "No, data is processed on an individual level"
+        },
+        {
+          "id": "option3",
+          "label": "Aggregation is only done for specific campaigns"
+        },
+        {
+          "id": "option4",
+          "label": "Data aggregation is performed after initial analysis"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice described in the scenario focuses on analyzing individual shopping patterns to assign a 'pregnancy prediction' score to each customer. This indicates that data is processed on an individual level rather than aggregated to identify general trends. The system looks at specific products purchased by individual customers to predict pregnancy and due dates, which implies a personalized analysis rather than aggregation. The privacy implication here is that individual customer data is used to make personal predictions, which can lead to privacy concerns, as demonstrated by the incident where a teenage girl's pregnancy was inadvertently revealed to her family. Therefore, 'No, data is processed on an individual level' is the most accurate reflection of the data practice described.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T13:14:38.728751"
   },
   {
     "question": {
@@ -137,19 +137,52 @@
       "options": [
         {
           "id": "option1",
-          "label": "Data is retained indefinitely unless users request deletion"
+          "label": "Data is retained for one year before deletion"
         },
         {
           "id": "option2",
-          "label": "Data is retained for 5 years then automatically deleted"
+          "label": "Data is retained as long as the customer account is active"
         },
         {
           "id": "option3",
-          "label": "Data is retained for 1 year for analysis purposes"
+          "label": "Data retention period is indefinite unless the customer requests deletion"
         },
         {
           "id": "option4",
-          "label": "Retention period varies based on data type and legal requirements"
+          "label": "Data is retained for three years in compliance with industry standards"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option3"
+      ],
+      "explanation": "The data practice described does not specify a clear retention period for customer data. The use of a pregnancy prediction system implies continuous analysis of shopping patterns, suggesting that data may be kept indefinitely to refine predictions and improve marketing strategies. Furthermore, the practice of sending targeted marketing materials indicates ongoing data retention, as the system would need to maintain access to historical purchase data to function effectively. Therefore, option 3, which states that data retention is indefinite unless the customer requests deletion, best aligns with the described practice, given the lack of specified limitations on data retention and the need for sustained data analysis.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T13:14:41.809834"
+  },
+  {
+    "question": {
+      "text": "Who can access the customer data collected by the retail analytics system?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Only the retailer's marketing team and authorized personnel"
+        },
+        {
+          "id": "option2",
+          "label": "Third-party service providers for analytics purposes"
+        },
+        {
+          "id": "option3",
+          "label": "Retailer employees at all levels for operational use"
+        },
+        {
+          "id": "option4",
+          "label": "Data is accessible to partners for collaborative marketing efforts"
         }
       ],
       "category": "Data Action",
@@ -159,63 +192,30 @@
       "selected_options": [
         "option1"
       ],
-      "explanation": "The data practice described does not provide explicit information about the retention period for customer data. However, the capability of Target's marketing analytics to track detailed shopping patterns and predict pregnancy suggests that data could be retained indefinitely to refine algorithms and improve marketing strategies over time. The lack of mention of a specific retention period implies that data might remain in the system unless customers take action to request deletion, aligning with option1. This practice poses privacy concerns, as it suggests continuous usage of personal data without an endpoint, unless explicitly stated otherwise in their privacy policy.",
+      "explanation": "The data practice described focuses on Target's marketing analytics team using a pregnancy prediction score to analyze customer data and target marketing efforts. This suggests that access to customer data is primarily for the retailer's marketing team and authorized personnel involved in creating and implementing targeted marketing campaigns. The data practice does not mention the involvement of third-party service providers, retailer employees at all levels, or partners for collaborative marketing efforts. Therefore, option 1 is selected as it aligns with the described practice where access is restricted to the retailer's marketing team and authorized personnel, reflecting user expectations of privacy and controlled access to sensitive information.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T09:52:14.425873"
+    "timestamp": "2025-02-13T13:14:44.425827"
   },
   {
     "question": {
-      "text": "What encryption measures are used to protect customer data at rest in the retail analytics system?",
+      "text": "How is customer data shared within the retail analytics system?",
       "options": [
         {
           "id": "option1",
-          "label": "Data is encrypted using AES-256 encryption standard"
+          "label": "Shared via secure internal network"
         },
         {
           "id": "option2",
-          "label": "No encryption is applied to data at rest"
+          "label": "Shared through encrypted public network connections"
         },
         {
           "id": "option3",
-          "label": "Data is encrypted with a proprietary encryption method"
+          "label": "Not shared outside the retail organization"
         },
         {
           "id": "option4",
-          "label": "Data is protected using disk-level encryption"
-        }
-      ],
-      "category": "Data Action",
-      "related_dimensions": []
-    },
-    "answer": {
-      "selected_options": [
-        "option2"
-      ],
-      "explanation": "The data practice described does not mention any specific encryption measures for protecting customer data at rest. Instead, it focuses on the analysis of purchase history to predict pregnancy and target marketing materials accordingly. The lack of mention of encryption suggests that no encryption is applied to data at rest, as the focus was on data analysis and marketing strategies rather than data protection measures. Therefore, 'No encryption is applied to data at rest' is selected, reflecting a lack of information on encryption practices in the provided context.",
-      "impact_analysis": {}
-    },
-    "timestamp": "2025-02-13T09:52:16.859386"
-  },
-  {
-    "question": {
-      "text": "Who can access customer data within the retail analytics system?",
-      "options": [
-        {
-          "id": "option1",
-          "label": "Only authorized employees within the marketing department"
-        },
-        {
-          "id": "option2",
-          "label": "External service providers under strict confidentiality agreements"
-        },
-        {
-          "id": "option3",
-          "label": "Data is accessible by third-party partners for joint marketing efforts"
-        },
-        {
-          "id": "option4",
-          "label": "Access is restricted to system administrators only"
+          "label": "Shared with third-party partners via API integrations"
         }
       ],
       "category": "Data Action",
@@ -224,32 +224,32 @@
     "answer": {
       "selected_options": [
         "option1",
-        "option2"
+        "option3"
       ],
-      "explanation": "The data practice indicates that Target's marketing analytics team was responsible for developing the pregnancy prediction system, which implies that authorized employees within the marketing department had access to customer data (option1). Additionally, the use of analytics systems often involves external service providers who may have access under strict confidentiality agreements to assist with data processing and analytics tasks (option2). There is no mention of third-party partners accessing data for joint marketing efforts or a restriction to only system administrators, making options 3 and 4 less relevant to the described practice.",
+      "explanation": "The data practice describes how Target's marketing analytics team used customer shopping patterns to generate pregnancy prediction scores, which were used internally to send targeted marketing materials. The practice does not mention sharing customer data outside the organization or with third-party partners, suggesting that the data was likely shared within Target via a secure internal network. The incident where a teenage girl's pregnancy was revealed suggests a focus on internal data use rather than external sharing, aligning with option1 and option3. There is no indication that customer data was shared through public networks or with third-party partners, thus supporting the selection of 'Not shared outside the retail organization.'",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T09:52:19.451314"
+    "timestamp": "2025-02-13T13:14:47.292288"
   },
   {
     "question": {
-      "text": "How can customers withdraw their consent to data processing in the retail analytics system?",
+      "text": "How can customers withdraw their consent for data collection and processing in the retail analytics system?",
       "options": [
         {
           "id": "option1",
-          "label": "By contacting customer support to request consent withdrawal"
+          "label": "By accessing their account settings and updating preferences"
         },
         {
           "id": "option2",
-          "label": "Through a privacy settings page in their online account"
+          "label": "Contacting customer support for assistance"
         },
         {
           "id": "option3",
-          "label": "Consent cannot be withdrawn once given"
+          "label": "Automatically withdrawn after a defined period of inactivity"
         },
         {
           "id": "option4",
-          "label": "By sending a written request to the company's data protection officer"
+          "label": "Consent cannot be withdrawn once given"
         }
       ],
       "category": "Consent",
@@ -257,60 +257,91 @@
     },
     "answer": {
       "selected_options": [
-        "option1"
+        "option2"
       ],
-      "explanation": "The data practice described does not explicitly mention a method for customers to withdraw consent, but given the nature of consumer rights and privacy expectations, contacting customer support would be a reasonable method for customers to request withdrawal of consent. The practice of Target using predictive analytics for targeted marketing, especially after public backlash, implies that customers might seek direct communication with the company to address privacy concerns. Therefore, the option 'By contacting customer support to request consent withdrawal' aligns with likely real-world practices where consumers would reach out to customer service to opt-out of data processing. The other options, such as a privacy settings page or sending a written request to a data protection officer, are not supported by the specific practices described in the data practice provided.",
+      "explanation": "The data practice described does not explicitly mention how customers can withdraw their consent for data collection and processing. However, given the privacy implications and user expectations, contacting customer support for assistance (option2) is a plausible method for customers to express their desire to withdraw consent. This option aligns with general practices where customer support teams handle such requests. Since the data practice does not mention any online account systems or automatic withdrawal mechanisms, options 1 and 3 are not applicable. Additionally, given the public backlash from Target's practices, it is unlikely that consent cannot be withdrawn (option4), as companies typically allow for some form of consent management in response to privacy concerns.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T09:52:22.321108"
+    "timestamp": "2025-02-13T13:14:49.998387"
   },
   {
     "question": {
-      "text": "Can customers control whether their data is shared with third parties, and if so, how?",
+      "text": "Can customers control whether their data is shared with third parties in the retail analytics system, and if so, how?",
       "options": [
         {
           "id": "option1",
-          "label": "Yes, through opting out on their account settings page"
+          "label": "Yes, through privacy settings in their account profile"
         },
         {
           "id": "option2",
-          "label": "No, data sharing is mandatory for all customers"
+          "label": "Yes, by opting out through a dedicated privacy portal"
         },
         {
           "id": "option3",
-          "label": "Customers can control data sharing by contacting support"
+          "label": "No, data sharing is mandatory for service functionality"
         },
         {
           "id": "option4",
-          "label": "Yes, but only for non-essential data sharing activities"
+          "label": "Yes, by providing explicit consent during checkout"
         }
       ],
       "category": "Control",
       "related_dimensions": []
     },
     "answer": {
-      "selected_options": [
-        "option2"
-      ],
-      "explanation": "The data practice described does not mention any option for customers to control whether their data is shared with third parties. The focus is on Target's use of customer purchase data to predict pregnancies and send targeted marketing materials. There is no indication that customers have the ability to opt-out of data sharing or control it, either through account settings, by contacting support, or for non-essential data sharing activities. The practice reveals a lack of transparency and control over customer data usage, suggesting that data sharing is effectively mandatory for customers, as they are not provided with options to manage or opt-out of this specific data analysis and marketing practice.",
+      "selected_options": [],
+      "explanation": "The data practice described does not mention any specific mechanisms for customers to control whether their data is shared with third parties. The practice focuses on Target's internal use of purchase history data to predict pregnancy and send targeted marketing materials without explicit consent from the customers. There is no mention of privacy settings, dedicated privacy portals, or any explicit consent process during checkout. Therefore, none of the available options reflect the actual practices as described in the data practice.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T09:52:25.040904"
+    "timestamp": "2025-02-13T13:14:52.372622"
   },
   {
     "question": {
-      "text": "What mechanisms are in place to ensure customers are informed and can consent to the collection and use of their purchase history for predictive analytics?",
+      "text": "How are customers informed about the specific purposes for which their purchase histories are used in the retail analytics system?",
       "options": [
         {
           "id": "option1",
-          "label": "Customers are informed through the company's privacy policy and must opt-in to data collection."
+          "label": "Through a detailed privacy policy accessible on the company's website"
         },
         {
           "id": "option2",
-          "label": "Customers are automatically enrolled, but can opt-out at any time through their account settings."
+          "label": "During the checkout process or account registration"
         }
       ],
-      "category": "consent_and_information",
+      "category": "Purpose Specification",
+      "related_dimensions": [
+        "Purpose Specification",
+        "Openness"
+      ]
+    },
+    "answer": {
+      "selected_options": [],
+      "explanation": "The data practice description does not provide any information or evidence that Target informs customers about the specific purposes for which their purchase histories are used in the retail analytics system. There is no mention of a detailed privacy policy or any communication during checkout or account registration that discloses the use of purchase history for pregnancy prediction or targeted marketing. The practice appears to have operated without explicit customer knowledge, leading to privacy concerns and public backlash when the targeting was discovered.",
+      "impact_analysis": {
+        "Purpose Specification": "The lack of information on how customers are informed about the specific purposes for which their purchase histories are used suggests a deficiency in purpose specification. Customers are not made aware of how their data is being utilized for predictive analytics, which is a crucial aspect of transparency and informed consent.",
+        "Openness": "The absence of any disclosed practices or policies regarding the use of customer data for predictive analytics reflects a lack of openness. Without clear communication on the use of personal data, customers cannot make informed decisions about their interactions with the retailer."
+      }
+    },
+    "timestamp": "2025-02-13T13:15:14.818147"
+  },
+  {
+    "question": {
+      "text": "What measures are in place to ensure customer consent is obtained before using their purchase history for inferring personal information?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Explicit consent is obtained through a clear opt-in process"
+        },
+        {
+          "id": "option2",
+          "label": "Implied consent is assumed based on continued use of the service"
+        },
+        {
+          "id": "option3",
+          "label": "No specific consent is required beyond general terms and conditions acceptance"
+        }
+      ],
+      "category": "consent_management",
       "related_dimensions": [
         "Collection Limitation",
         "Use Limitation",
@@ -321,60 +352,62 @@
       "selected_options": [
         "option2"
       ],
-      "explanation": "The data practice indicates that Target used purchase history for predictive analytics without explicit consent from customers. There is no mention of an opt-in process, implying automatic enrollment in data collection. However, it is common for companies to offer opt-out options through account settings to comply with privacy laws, which aligns with option2.",
+      "explanation": "The data practice described implies consent based on the customer's continued use of Target's services, as there is no mention of an explicit opt-in process for using purchase history to infer personal information like pregnancy status. Target's adjustment after public backlash was to make the marketing less obvious, not to obtain explicit consent.",
       "impact_analysis": {
-        "Collection Limitation": "Automatic enrollment without explicit consent suggests a lack of collection limitation, as customer data is used without initial restriction or permission.",
-        "Use Limitation": "The predictive analytics use of purchase history goes beyond typical transaction processing, raising concerns about the scope of data use without prior consent.",
-        "Individual Participation": "The lack of an opt-in mechanism limits customer involvement in deciding how their data is used, although the potential opt-out option provides a minimal level of participation."
+        "Collection Limitation": "The practice does not appear to have explicit limitations on collection beyond general customer data acquired through purchases, potentially leading to over-collection of sensitive information without explicit consent.",
+        "Use Limitation": "Target's use of purchase history to predict pregnancy and send targeted ads without explicit consent raises concerns about the limitations of data use, as it goes beyond expected use of data for transaction purposes.",
+        "Individual Participation": "There is limited opportunity for customers to participate in or control how their data is used for predictive analytics, as consent is implied and not explicitly obtained."
       }
     },
-    "timestamp": "2025-02-13T09:52:51.528396"
+    "timestamp": "2025-02-13T13:15:52.563240"
   },
   {
     "question": {
-      "text": "What measures are in place to ensure customers are informed about the specific types of data being collected and their rights regarding data use?",
+      "text": "What steps has the organization taken to enhance transparency in its data practices following public backlash?",
       "options": [
         {
           "id": "option1",
-          "label": "Detailed privacy policy accessible on the website"
+          "label": "Implemented clear communication strategies, such as updated privacy policies and customer notifications"
         },
         {
           "id": "option2",
-          "label": "Regular email updates about data practices and rights"
+          "label": "No significant changes made to transparency or communication strategies"
         }
       ],
-      "category": "Customer Awareness and Rights",
+      "category": "Openness",
       "related_dimensions": [
-        "Collection Limitation",
-        "Openness"
+        "Openness",
+        "Purpose Specification"
       ]
     },
     "answer": {
-      "selected_options": [],
-      "explanation": "The data practice described does not mention any specific measures in place to inform customers about the types of data being collected or their rights regarding data use. There is no indication of a privacy policy or regular communication to customers about data practices in the scenario described. Instead, the practice focused on using purchase patterns for predictive analytics without overt disclosure to customers, leading to privacy concerns as evidenced by the incident involving the teenage girl. Therefore, neither of the provided options can be selected as reflective of the described practice.",
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice description indicates that Target responded to the public backlash not by enhancing transparency through clear communication strategies or updated privacy policies, but by modifying their marketing approach to obscure their targeting methods. They mixed pregnancy-related advertisements with other unrelated products to make the targeting less obvious. There is no mention of efforts to enhance transparency or openly communicate their data practices to customers.",
       "impact_analysis": {
-        "Collection Limitation": "The lack of transparency and informed consent in Target's data collection practices demonstrates a failure to adhere to the principle of collection limitation, which suggests that data should be collected by lawful and fair means with the knowledge or consent of the data subject.",
-        "Openness": "The practice lacks openness because customers were not informed about the specific data being collected or how it would be used. Openness requires transparency in data collection and use practices, which was not evidenced in this scenario."
+        "Openness": "This choice reflects a lack of openness, as Target did not implement any measures to inform customers about how their data was being used or how targeting decisions were made. The obfuscation of targeted marketing suggests an attempt to mitigate backlash without increasing transparency.",
+        "Purpose Specification": "The practice impacts this dimension negatively as there is no indication that Target clarified the purpose of their data collection and use to the customers. Instead of specifying the purpose of data-driven marketing, the company adjusted their methods to make the targeting less detectable, which does not align with the principle of purpose specification."
       }
     },
-    "timestamp": "2025-02-13T09:53:20.377243"
+    "timestamp": "2025-02-13T13:16:23.147405"
   },
   {
     "question": {
-      "text": "Are customers explicitly informed about how their purchase data is used for predictive analytics and targeted marketing?",
+      "text": "What specific measures has the organization implemented to allow customers to view and manage their own data collected by the retail analytics system?",
       "options": [
         {
           "id": "option1",
-          "label": "Yes, customers are informed through a detailed privacy policy and consent forms."
+          "label": "A dedicated online portal for customers to access and manage their data"
         },
         {
           "id": "option2",
-          "label": "No, customers are not explicitly informed about the specific uses of their data."
+          "label": "No specific measures have been implemented for customer data access and management"
         }
       ],
-      "category": "Use Limitation & Openness",
+      "category": "Data Access and Management",
       "related_dimensions": [
-        "Use Limitation",
+        "Individual Participation",
         "Openness"
       ]
     },
@@ -382,12 +415,103 @@
       "selected_options": [
         "option2"
       ],
-      "explanation": "Customers are not explicitly informed about the specific uses of their data for predictive analytics and targeted marketing, as evidenced by the incident where Target's marketing strategy revealed a teenage girl's pregnancy to her family without her prior knowledge or consent. This suggests a lack of transparency and explicit communication to customers regarding how their purchase data is used to predict personal information like pregnancy and subsequently target them with specific marketing materials.",
+      "explanation": "The data practice description does not mention any specific measures that Target implemented to allow customers to access and manage their own data collected by the retail analytics system. Instead, the focus was on modifying the marketing approach to make targeting less obvious after public backlash.",
       "impact_analysis": {
-        "Use Limitation": "The practice of using purchase data to predict pregnancies and target customers with specific marketing materials without explicit consent from customers indicates a potential overreach in the use of personal data. This raises concerns about whether Target's use of data respects the principle of use limitation, which advocates that personal data should be used only for the purposes for which it was collected, and any additional uses should be clearly communicated and consented to by the data subjects.",
-        "Openness": "The lack of explicit communication to customers about how their data is being used for predictive analytics and targeted marketing reflects poorly on the openness dimension. Openness requires organizations to be transparent about their data practices, including how data is collected, used, and shared. The incident involving the teenage girl highlights a gap in openness, as neither she nor her family was aware of how Target was using their purchase data to make sensitive predictions."
+        "Individual Participation": "The lack of specific measures for customer data access and management indicates a low level of individual participation. Customers are not given the opportunity to view or control the data collected about them, which limits their ability to manage their privacy preferences.",
+        "Openness": "Openness is affected negatively because the organization has not taken steps to transparently provide customers with access to their data. Without explicit measures for data management, customers remain unaware of the details of the data collected about them and how it is used."
       }
     },
-    "timestamp": "2025-02-13T09:53:52.652760"
+    "timestamp": "2025-02-13T13:16:51.625443"
+  },
+  {
+    "question": {
+      "text": "How does the organization ensure that inferred data, such as pregnancy predictions, is used only for the intended marketing purposes and not for other applications?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "There are strict internal policies and audits to monitor data use."
+        },
+        {
+          "id": "option2",
+          "label": "Inferred data is used freely across different departments."
+        }
+      ],
+      "category": "use_limitation",
+      "related_dimensions": [
+        "Use Limitation",
+        "Accountability"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice describes how Target used inferred data to send targeted pregnancy and baby-related marketing materials. There is no mention of strict internal policies or audits to monitor the use of this data, nor any indication of limitations on its use across departments. Instead, the practice highlights that the company continued to use the pregnancy prediction system even after public backlash, simply modifying their approach to make the targeting less obvious. This suggests that inferred data was used freely for marketing purposes without significant internal restrictions.",
+      "impact_analysis": {
+        "Use Limitation": "The selection of option2 indicates a lack of use limitation, as inferred data is used broadly within the marketing department and potentially across other departments without stringent controls. This raises privacy concerns as the data could be repurposed beyond its original marketing intent.",
+        "Accountability": "With the selection of option2, there is an implied lack of accountability mechanisms, such as audits or policies, to ensure that inferred data is used responsibly and ethically. This could lead to privacy violations if data is misused or accessed by unauthorized parties."
+      }
+    },
+    "timestamp": "2025-02-13T13:17:11.567674"
+  },
+  {
+    "question": {
+      "text": "What steps has the organization taken to improve transparency in data collection and usage, and are these communicated effectively to customers?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Implemented a comprehensive privacy policy and communicated it through multiple channels"
+        },
+        {
+          "id": "option2",
+          "label": "Relied on implicit consent through continued service use without clear communication"
+        }
+      ],
+      "category": "transparency_and_communication",
+      "related_dimensions": [
+        "Openness",
+        "Purpose Specification"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The practice described indicates that Target did not take explicit steps to improve transparency in data collection and usage. Instead, they adjusted their marketing approach by mixing unrelated products with pregnancy-related advertisements to mask their targeting, without clear communication to customers about how their data was being used. This suggests reliance on implicit consent through continued service use rather than explicit communication of a comprehensive privacy policy.",
+      "impact_analysis": {
+        "Openness": "The practice impacts openness negatively as there is a lack of transparent communication to customers about how their data is collected and used. By not clearly informing customers of the data practices, Target does not fulfill the openness requirement.",
+        "Purpose Specification": "The absence of clear communication regarding the purpose of data collection and usage means that customers are not adequately informed about the specific purposes for which their data is being used. This impacts the Purpose Specification dimension negatively."
+      }
+    },
+    "timestamp": "2025-02-13T13:17:40.542118"
+  },
+  {
+    "question": {
+      "text": "What mechanisms are in place to ensure customer data security, and have there been any recent audits or assessments to evaluate their effectiveness?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Regular security audits are conducted and findings are shared with stakeholders."
+        },
+        {
+          "id": "option2",
+          "label": "Security measures are internally reviewed but not independently audited."
+        }
+      ],
+      "category": "security_safeguards",
+      "related_dimensions": [
+        "Security Safeguards",
+        "Accountability"
+      ]
+    },
+    "answer": {
+      "selected_options": [],
+      "explanation": "The data practice described does not provide specific information about the mechanisms in place to ensure customer data security or any recent audits or assessments to evaluate their effectiveness. Therefore, neither option can be accurately selected based on the provided information.",
+      "impact_analysis": {
+        "Security Safeguards": "The data practice does not mention any specific security safeguards or audits related to the protection of customer data. Without this information, it is unclear how Target ensures the security of the data used in their pregnancy prediction score system.",
+        "Accountability": "The lack of explicit mention of security audits or assessments in the data practice raises concerns about accountability. Without independent audits or transparent security measures, it is difficult to ascertain how Target holds itself accountable for protecting customer data."
+      }
+    },
+    "timestamp": "2025-02-13T13:18:04.962428"
   }
 ]

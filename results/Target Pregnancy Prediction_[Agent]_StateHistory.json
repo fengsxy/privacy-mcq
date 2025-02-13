@@ -1,0 +1,709 @@
+[
+  {
+    "10": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Use of customer purchase history without explicit consent",
+              "reasoning": "Data is collected and used to infer sensitive information like pregnancy status without explicit customer consent, raising privacy concerns.",
+              "related_questions": [
+                "What mechanisms are in place to ensure customer consent is obtained before data collection?",
+                "Are customers informed about what specific data is being collected and how it will be used?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data use purpose",
+              "reasoning": "The primary purpose is targeted marketing, but the extent to which customers are informed about this purpose is unclear.",
+              "related_questions": [
+                "Are customers explicitly informed about the purpose of data collection?",
+                "Is there a clear policy detailing the purposes for which data will be used?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Use of data for inferring personal information",
+              "reasoning": "Data is used to infer sensitive personal information, like pregnancy, potentially beyond what customers expect or consent to.",
+              "related_questions": [
+                "What restrictions are in place to prevent misuse of inferred data?",
+                "Are there any limitations on how inferred data can be used by the marketing team?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of strong security measures",
+              "reasoning": "Data sharing within the organization raises questions about the adequacy of security measures to protect sensitive information.",
+              "related_questions": [
+                "What security measures are in place to protect customer data?",
+                "Are there protocols for secure data sharing within the organization?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data practices",
+              "reasoning": "Customers may not be fully informed about data collection, processing, and sharing practices, leading to privacy concerns.",
+              "related_questions": [
+                "Is there a publicly available privacy policy detailing data practices?",
+                "How are changes to data practices communicated to customers?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited customer control over data use and sharing",
+              "reasoning": "Customers lack clear mechanisms to control data use and withdraw consent, leading to potential privacy infringements.",
+              "related_questions": [
+                "What options do customers have to control the use of their data?",
+                "How can customers access and rectify their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability mechanisms",
+              "reasoning": "There is no clear indication of accountability measures for data handling and privacy protection, which may lead to lapses in responsibility.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there any audits or assessments to ensure accountability?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "11": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Use of customer purchase history without explicit consent",
+              "reasoning": "Data is collected and used to infer sensitive information like pregnancy status without explicit customer consent, raising privacy concerns.",
+              "related_questions": [
+                "What mechanisms are in place to ensure customer consent is obtained before data collection?",
+                "Are customers informed about what specific data is being collected and how it will be used?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data use purpose",
+              "reasoning": "The primary purpose is targeted marketing, but the extent to which customers are informed about this purpose is unclear.",
+              "related_questions": [
+                "Are customers explicitly informed about the purpose of data collection?",
+                "Is there a clear policy detailing the purposes for which data will be used?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Use of data for inferring personal information",
+              "reasoning": "Data is used to infer sensitive personal information, like pregnancy, potentially beyond what customers expect or consent to.",
+              "related_questions": [
+                "What restrictions are in place to prevent misuse of inferred data?",
+                "Are there any limitations on how inferred data can be used by the marketing team?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of strong security measures",
+              "reasoning": "Data sharing within the organization raises questions about the adequacy of security measures to protect sensitive information.",
+              "related_questions": [
+                "What security measures are in place to protect customer data?",
+                "Are there protocols for secure data sharing within the organization?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data practices",
+              "reasoning": "Customers may not be fully informed about data collection, processing, and sharing practices, leading to privacy concerns.",
+              "related_questions": [
+                "Is there a publicly available privacy policy detailing data practices?",
+                "How are changes to data practices communicated to customers?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited customer control over data use and sharing",
+              "reasoning": "Customers lack clear mechanisms to control data use and withdraw consent, leading to potential privacy infringements.",
+              "related_questions": [
+                "What options do customers have to control the use of their data?",
+                "How can customers access and rectify their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability mechanisms",
+              "reasoning": "There is no clear indication of accountability measures for data handling and privacy protection, which may lead to lapses in responsibility.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there any audits or assessments to ensure accountability?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "12": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Use of customer purchase history without explicit consent",
+              "reasoning": "Data is collected and used to infer sensitive information like pregnancy status without explicit customer consent, raising privacy concerns.",
+              "related_questions": [
+                "What mechanisms are in place to ensure customer consent is obtained before data collection?",
+                "Are customers informed about what specific data is being collected and how it will be used?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data use purpose",
+              "reasoning": "The primary purpose is targeted marketing, but the extent to which customers are informed about this purpose is unclear.",
+              "related_questions": [
+                "Are customers explicitly informed about the purpose of data collection?",
+                "Is there a clear policy detailing the purposes for which data will be used?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Use of data for inferring personal information",
+              "reasoning": "Data is used to infer sensitive personal information, like pregnancy, potentially beyond what customers expect or consent to.",
+              "related_questions": [
+                "What restrictions are in place to prevent misuse of inferred data?",
+                "Are there any limitations on how inferred data can be used by the marketing team?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of strong security measures",
+              "reasoning": "Data sharing within the organization raises questions about the adequacy of security measures to protect sensitive information.",
+              "related_questions": [
+                "What security measures are in place to protect customer data?",
+                "Are there protocols for secure data sharing within the organization?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data practices",
+              "reasoning": "Customers may not be fully informed about data collection, processing, and sharing practices, leading to privacy concerns.",
+              "related_questions": [
+                "Is there a publicly available privacy policy detailing data practices?",
+                "How are changes to data practices communicated to customers?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited customer control over data use and sharing",
+              "reasoning": "Customers lack clear mechanisms to control data use and withdraw consent, leading to potential privacy infringements.",
+              "related_questions": [
+                "What options do customers have to control the use of their data?",
+                "How can customers access and rectify their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability mechanisms",
+              "reasoning": "There is no clear indication of accountability measures for data handling and privacy protection, which may lead to lapses in responsibility.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there any audits or assessments to ensure accountability?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "13": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Use of customer purchase history without explicit consent",
+              "reasoning": "Data is collected and used to infer sensitive information like pregnancy status without explicit customer consent, raising privacy concerns.",
+              "related_questions": [
+                "What mechanisms are in place to ensure customer consent is obtained before data collection?",
+                "Are customers informed about what specific data is being collected and how it will be used?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data use purpose",
+              "reasoning": "The primary purpose is targeted marketing, but the extent to which customers are informed about this purpose is unclear.",
+              "related_questions": [
+                "Are customers explicitly informed about the purpose of data collection?",
+                "Is there a clear policy detailing the purposes for which data will be used?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Use of data for inferring personal information",
+              "reasoning": "Data is used to infer sensitive personal information, like pregnancy, potentially beyond what customers expect or consent to.",
+              "related_questions": [
+                "What restrictions are in place to prevent misuse of inferred data?",
+                "Are there any limitations on how inferred data can be used by the marketing team?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of strong security measures",
+              "reasoning": "Data sharing within the organization raises questions about the adequacy of security measures to protect sensitive information.",
+              "related_questions": [
+                "What security measures are in place to protect customer data?",
+                "Are there protocols for secure data sharing within the organization?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data practices",
+              "reasoning": "Customers may not be fully informed about data collection, processing, and sharing practices, leading to privacy concerns.",
+              "related_questions": [
+                "Is there a publicly available privacy policy detailing data practices?",
+                "How are changes to data practices communicated to customers?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited customer control over data use and sharing",
+              "reasoning": "Customers lack clear mechanisms to control data use and withdraw consent, leading to potential privacy infringements.",
+              "related_questions": [
+                "What options do customers have to control the use of their data?",
+                "How can customers access and rectify their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability mechanisms",
+              "reasoning": "There is no clear indication of accountability measures for data handling and privacy protection, which may lead to lapses in responsibility.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there any audits or assessments to ensure accountability?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "14": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Use of customer purchase history without explicit consent",
+              "reasoning": "Data is collected and used to infer sensitive information like pregnancy status without explicit customer consent, raising privacy concerns.",
+              "related_questions": [
+                "What mechanisms are in place to ensure customer consent is obtained before data collection?",
+                "Are customers informed about what specific data is being collected and how it will be used?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data use purpose",
+              "reasoning": "The primary purpose is targeted marketing, but the extent to which customers are informed about this purpose is unclear.",
+              "related_questions": [
+                "Are customers explicitly informed about the purpose of data collection?",
+                "Is there a clear policy detailing the purposes for which data will be used?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Use of data for inferring personal information",
+              "reasoning": "Data is used to infer sensitive personal information, like pregnancy, potentially beyond what customers expect or consent to.",
+              "related_questions": [
+                "What restrictions are in place to prevent misuse of inferred data?",
+                "Are there any limitations on how inferred data can be used by the marketing team?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of strong security measures",
+              "reasoning": "Data sharing within the organization raises questions about the adequacy of security measures to protect sensitive information.",
+              "related_questions": [
+                "What security measures are in place to protect customer data?",
+                "Are there protocols for secure data sharing within the organization?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data practices",
+              "reasoning": "Customers may not be fully informed about data collection, processing, and sharing practices, leading to privacy concerns.",
+              "related_questions": [
+                "Is there a publicly available privacy policy detailing data practices?",
+                "How are changes to data practices communicated to customers?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited customer control over data use and sharing",
+              "reasoning": "Customers lack clear mechanisms to control data use and withdraw consent, leading to potential privacy infringements.",
+              "related_questions": [
+                "What options do customers have to control the use of their data?",
+                "How can customers access and rectify their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability mechanisms",
+              "reasoning": "There is no clear indication of accountability measures for data handling and privacy protection, which may lead to lapses in responsibility.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there any audits or assessments to ensure accountability?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "15": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Use of customer purchase history without explicit consent",
+              "reasoning": "Data is collected and used to infer sensitive information like pregnancy status without explicit customer consent, raising privacy concerns.",
+              "related_questions": [
+                "What mechanisms are in place to ensure customer consent is obtained before data collection?",
+                "Are customers informed about what specific data is being collected and how it will be used?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data use purpose",
+              "reasoning": "The primary purpose is targeted marketing, but the extent to which customers are informed about this purpose is unclear.",
+              "related_questions": [
+                "Are customers explicitly informed about the purpose of data collection?",
+                "Is there a clear policy detailing the purposes for which data will be used?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Use of data for inferring personal information",
+              "reasoning": "Data is used to infer sensitive personal information, like pregnancy, potentially beyond what customers expect or consent to.",
+              "related_questions": [
+                "What restrictions are in place to prevent misuse of inferred data?",
+                "Are there any limitations on how inferred data can be used by the marketing team?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of strong security measures",
+              "reasoning": "Data sharing within the organization raises questions about the adequacy of security measures to protect sensitive information.",
+              "related_questions": [
+                "What security measures are in place to protect customer data?",
+                "Are there protocols for secure data sharing within the organization?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data practices",
+              "reasoning": "Customers may not be fully informed about data collection, processing, and sharing practices, leading to privacy concerns.",
+              "related_questions": [
+                "Is there a publicly available privacy policy detailing data practices?",
+                "How are changes to data practices communicated to customers?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited customer control over data use and sharing",
+              "reasoning": "Customers lack clear mechanisms to control data use and withdraw consent, leading to potential privacy infringements.",
+              "related_questions": [
+                "What options do customers have to control the use of their data?",
+                "How can customers access and rectify their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability mechanisms",
+              "reasoning": "There is no clear indication of accountability measures for data handling and privacy protection, which may lead to lapses in responsibility.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there any audits or assessments to ensure accountability?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "16": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Use of customer purchase history without explicit consent",
+              "reasoning": "Data is collected and used to infer sensitive information like pregnancy status without explicit customer consent, raising privacy concerns.",
+              "related_questions": [
+                "What mechanisms are in place to ensure customer consent is obtained before data collection?",
+                "Are customers informed about what specific data is being collected and how it will be used?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data use purpose",
+              "reasoning": "The primary purpose is targeted marketing, but the extent to which customers are informed about this purpose is unclear.",
+              "related_questions": [
+                "Are customers explicitly informed about the purpose of data collection?",
+                "Is there a clear policy detailing the purposes for which data will be used?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Use of data for inferring personal information",
+              "reasoning": "Data is used to infer sensitive personal information, like pregnancy, potentially beyond what customers expect or consent to.",
+              "related_questions": [
+                "What restrictions are in place to prevent misuse of inferred data?",
+                "Are there any limitations on how inferred data can be used by the marketing team?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of strong security measures",
+              "reasoning": "Data sharing within the organization raises questions about the adequacy of security measures to protect sensitive information.",
+              "related_questions": [
+                "What security measures are in place to protect customer data?",
+                "Are there protocols for secure data sharing within the organization?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data practices",
+              "reasoning": "Customers may not be fully informed about data collection, processing, and sharing practices, leading to privacy concerns.",
+              "related_questions": [
+                "Is there a publicly available privacy policy detailing data practices?",
+                "How are changes to data practices communicated to customers?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Limited customer control over data use and sharing",
+              "reasoning": "Customers lack clear mechanisms to control data use and withdraw consent, leading to potential privacy infringements.",
+              "related_questions": [
+                "What options do customers have to control the use of their data?",
+                "How can customers access and rectify their data?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability mechanisms",
+              "reasoning": "There is no clear indication of accountability measures for data handling and privacy protection, which may lead to lapses in responsibility.",
+              "related_questions": [
+                "Who is responsible for ensuring compliance with data protection regulations?",
+                "Are there any audits or assessments to ensure accountability?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,709 @@
+[
+  {
+    "11": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of emotional content without explicit consent",
+              "reasoning": "The study involved manipulating users' News Feeds without their explicit consent, raising concerns about the ethical collection of data.",
+              "related_questions": [
+                "Were users informed about the data collection process?",
+                "Was there any mechanism for users to consent to data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accuracy and relevance in collected data",
+              "reasoning": "The data was collected during a specific research period and may not accurately represent user behavior outside of that period.",
+              "related_questions": [
+                "How was the accuracy of emotional data ensured?",
+                "Were there any checks for data relevance and accuracy during the study?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on the usage constraints of data",
+              "reasoning": "The data practice does not specify any limitations on the use of collected data beyond the study.",
+              "related_questions": [
+                "Is the data being used for any purposes other than the study?",
+                "Are there any policies restricting the use of data to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear data anonymization and security measures",
+              "reasoning": "The description lacks detail on how data is protected and whether anonymization is implemented during processing.",
+              "related_questions": [
+                "What specific security measures are in place to protect user data?",
+                "Is there a policy for anonymizing data during processing?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency about data practices",
+              "reasoning": "Users were not informed about data collection and processing, reflecting a lack of openness in the data practices.",
+              "related_questions": [
+                "How are users informed about data practices?",
+                "Is there a public record of the data practices and study methodology?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No mechanism for user consent withdrawal or data deletion",
+              "reasoning": "Users were not given the option to withdraw consent or delete their data from the study, infringing on their rights.",
+              "related_questions": [
+                "Is there any process for users to request data deletion?",
+                "Can users retrospectively withdraw consent for data use?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "The practice does not specify who is accountable for ensuring compliance with ethical standards and data protection.",
+              "related_questions": [
+                "Who is responsible for overseeing data collection and processing?",
+                "Are there any oversight bodies monitoring data practices?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "12": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of emotional content without explicit consent",
+              "reasoning": "The study involved manipulating users' News Feeds without their explicit consent, raising concerns about the ethical collection of data.",
+              "related_questions": [
+                "Were users informed about the data collection process?",
+                "Was there any mechanism for users to consent to data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accuracy and relevance in collected data",
+              "reasoning": "The data was collected during a specific research period and may not accurately represent user behavior outside of that period.",
+              "related_questions": [
+                "How was the accuracy of emotional data ensured?",
+                "Were there any checks for data relevance and accuracy during the study?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on the usage constraints of data",
+              "reasoning": "The data practice does not specify any limitations on the use of collected data beyond the study.",
+              "related_questions": [
+                "Is the data being used for any purposes other than the study?",
+                "Are there any policies restricting the use of data to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear data anonymization and security measures",
+              "reasoning": "The description lacks detail on how data is protected and whether anonymization is implemented during processing.",
+              "related_questions": [
+                "What specific security measures are in place to protect user data?",
+                "Is there a policy for anonymizing data during processing?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency about data practices",
+              "reasoning": "Users were not informed about data collection and processing, reflecting a lack of openness in the data practices.",
+              "related_questions": [
+                "How are users informed about data practices?",
+                "Is there a public record of the data practices and study methodology?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No mechanism for user consent withdrawal or data deletion",
+              "reasoning": "Users were not given the option to withdraw consent or delete their data from the study, infringing on their rights.",
+              "related_questions": [
+                "Is there any process for users to request data deletion?",
+                "Can users retrospectively withdraw consent for data use?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "The practice does not specify who is accountable for ensuring compliance with ethical standards and data protection.",
+              "related_questions": [
+                "Who is responsible for overseeing data collection and processing?",
+                "Are there any oversight bodies monitoring data practices?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "13": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of emotional content without explicit consent",
+              "reasoning": "The study involved manipulating users' News Feeds without their explicit consent, raising concerns about the ethical collection of data.",
+              "related_questions": [
+                "Were users informed about the data collection process?",
+                "Was there any mechanism for users to consent to data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accuracy and relevance in collected data",
+              "reasoning": "The data was collected during a specific research period and may not accurately represent user behavior outside of that period.",
+              "related_questions": [
+                "How was the accuracy of emotional data ensured?",
+                "Were there any checks for data relevance and accuracy during the study?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on the usage constraints of data",
+              "reasoning": "The data practice does not specify any limitations on the use of collected data beyond the study.",
+              "related_questions": [
+                "Is the data being used for any purposes other than the study?",
+                "Are there any policies restricting the use of data to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear data anonymization and security measures",
+              "reasoning": "The description lacks detail on how data is protected and whether anonymization is implemented during processing.",
+              "related_questions": [
+                "What specific security measures are in place to protect user data?",
+                "Is there a policy for anonymizing data during processing?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency about data practices",
+              "reasoning": "Users were not informed about data collection and processing, reflecting a lack of openness in the data practices.",
+              "related_questions": [
+                "How are users informed about data practices?",
+                "Is there a public record of the data practices and study methodology?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No mechanism for user consent withdrawal or data deletion",
+              "reasoning": "Users were not given the option to withdraw consent or delete their data from the study, infringing on their rights.",
+              "related_questions": [
+                "Is there any process for users to request data deletion?",
+                "Can users retrospectively withdraw consent for data use?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "The practice does not specify who is accountable for ensuring compliance with ethical standards and data protection.",
+              "related_questions": [
+                "Who is responsible for overseeing data collection and processing?",
+                "Are there any oversight bodies monitoring data practices?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "14": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of emotional content without explicit consent",
+              "reasoning": "The study involved manipulating users' News Feeds without their explicit consent, raising concerns about the ethical collection of data.",
+              "related_questions": [
+                "Were users informed about the data collection process?",
+                "Was there any mechanism for users to consent to data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accuracy and relevance in collected data",
+              "reasoning": "The data was collected during a specific research period and may not accurately represent user behavior outside of that period.",
+              "related_questions": [
+                "How was the accuracy of emotional data ensured?",
+                "Were there any checks for data relevance and accuracy during the study?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on the usage constraints of data",
+              "reasoning": "The data practice does not specify any limitations on the use of collected data beyond the study.",
+              "related_questions": [
+                "Is the data being used for any purposes other than the study?",
+                "Are there any policies restricting the use of data to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear data anonymization and security measures",
+              "reasoning": "The description lacks detail on how data is protected and whether anonymization is implemented during processing.",
+              "related_questions": [
+                "What specific security measures are in place to protect user data?",
+                "Is there a policy for anonymizing data during processing?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency about data practices",
+              "reasoning": "Users were not informed about data collection and processing, reflecting a lack of openness in the data practices.",
+              "related_questions": [
+                "How are users informed about data practices?",
+                "Is there a public record of the data practices and study methodology?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No mechanism for user consent withdrawal or data deletion",
+              "reasoning": "Users were not given the option to withdraw consent or delete their data from the study, infringing on their rights.",
+              "related_questions": [
+                "Is there any process for users to request data deletion?",
+                "Can users retrospectively withdraw consent for data use?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "The practice does not specify who is accountable for ensuring compliance with ethical standards and data protection.",
+              "related_questions": [
+                "Who is responsible for overseeing data collection and processing?",
+                "Are there any oversight bodies monitoring data practices?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "15": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of emotional content without explicit consent",
+              "reasoning": "The study involved manipulating users' News Feeds without their explicit consent, raising concerns about the ethical collection of data.",
+              "related_questions": [
+                "Were users informed about the data collection process?",
+                "Was there any mechanism for users to consent to data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accuracy and relevance in collected data",
+              "reasoning": "The data was collected during a specific research period and may not accurately represent user behavior outside of that period.",
+              "related_questions": [
+                "How was the accuracy of emotional data ensured?",
+                "Were there any checks for data relevance and accuracy during the study?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on the usage constraints of data",
+              "reasoning": "The data practice does not specify any limitations on the use of collected data beyond the study.",
+              "related_questions": [
+                "Is the data being used for any purposes other than the study?",
+                "Are there any policies restricting the use of data to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear data anonymization and security measures",
+              "reasoning": "The description lacks detail on how data is protected and whether anonymization is implemented during processing.",
+              "related_questions": [
+                "What specific security measures are in place to protect user data?",
+                "Is there a policy for anonymizing data during processing?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency about data practices",
+              "reasoning": "Users were not informed about data collection and processing, reflecting a lack of openness in the data practices.",
+              "related_questions": [
+                "How are users informed about data practices?",
+                "Is there a public record of the data practices and study methodology?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No mechanism for user consent withdrawal or data deletion",
+              "reasoning": "Users were not given the option to withdraw consent or delete their data from the study, infringing on their rights.",
+              "related_questions": [
+                "Is there any process for users to request data deletion?",
+                "Can users retrospectively withdraw consent for data use?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "The practice does not specify who is accountable for ensuring compliance with ethical standards and data protection.",
+              "related_questions": [
+                "Who is responsible for overseeing data collection and processing?",
+                "Are there any oversight bodies monitoring data practices?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "16": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of emotional content without explicit consent",
+              "reasoning": "The study involved manipulating users' News Feeds without their explicit consent, raising concerns about the ethical collection of data.",
+              "related_questions": [
+                "Were users informed about the data collection process?",
+                "Was there any mechanism for users to consent to data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accuracy and relevance in collected data",
+              "reasoning": "The data was collected during a specific research period and may not accurately represent user behavior outside of that period.",
+              "related_questions": [
+                "How was the accuracy of emotional data ensured?",
+                "Were there any checks for data relevance and accuracy during the study?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on the usage constraints of data",
+              "reasoning": "The data practice does not specify any limitations on the use of collected data beyond the study.",
+              "related_questions": [
+                "Is the data being used for any purposes other than the study?",
+                "Are there any policies restricting the use of data to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear data anonymization and security measures",
+              "reasoning": "The description lacks detail on how data is protected and whether anonymization is implemented during processing.",
+              "related_questions": [
+                "What specific security measures are in place to protect user data?",
+                "Is there a policy for anonymizing data during processing?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency about data practices",
+              "reasoning": "Users were not informed about data collection and processing, reflecting a lack of openness in the data practices.",
+              "related_questions": [
+                "How are users informed about data practices?",
+                "Is there a public record of the data practices and study methodology?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No mechanism for user consent withdrawal or data deletion",
+              "reasoning": "Users were not given the option to withdraw consent or delete their data from the study, infringing on their rights.",
+              "related_questions": [
+                "Is there any process for users to request data deletion?",
+                "Can users retrospectively withdraw consent for data use?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "The practice does not specify who is accountable for ensuring compliance with ethical standards and data protection.",
+              "related_questions": [
+                "Who is responsible for overseeing data collection and processing?",
+                "Are there any oversight bodies monitoring data practices?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "17": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Collection of emotional content without explicit consent",
+              "reasoning": "The study involved manipulating users' News Feeds without their explicit consent, raising concerns about the ethical collection of data.",
+              "related_questions": [
+                "Were users informed about the data collection process?",
+                "Was there any mechanism for users to consent to data collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Potential lack of accuracy and relevance in collected data",
+              "reasoning": "The data was collected during a specific research period and may not accurately represent user behavior outside of that period.",
+              "related_questions": [
+                "How was the accuracy of emotional data ensured?",
+                "Were there any checks for data relevance and accuracy during the study?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on the usage constraints of data",
+              "reasoning": "The data practice does not specify any limitations on the use of collected data beyond the study.",
+              "related_questions": [
+                "Is the data being used for any purposes other than the study?",
+                "Are there any policies restricting the use of data to specific purposes?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear data anonymization and security measures",
+              "reasoning": "The description lacks detail on how data is protected and whether anonymization is implemented during processing.",
+              "related_questions": [
+                "What specific security measures are in place to protect user data?",
+                "Is there a policy for anonymizing data during processing?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency about data practices",
+              "reasoning": "Users were not informed about data collection and processing, reflecting a lack of openness in the data practices.",
+              "related_questions": [
+                "How are users informed about data practices?",
+                "Is there a public record of the data practices and study methodology?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No mechanism for user consent withdrawal or data deletion",
+              "reasoning": "Users were not given the option to withdraw consent or delete their data from the study, infringing on their rights.",
+              "related_questions": [
+                "Is there any process for users to request data deletion?",
+                "Can users retrospectively withdraw consent for data use?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "No Issue",
+          "concerns": [
+            {
+              "description": "Unclear accountability for data practices",
+              "reasoning": "The practice does not specify who is accountable for ensuring compliance with ethical standards and data protection.",
+              "related_questions": [
+                "Who is responsible for overseeing data collection and processing?",
+                "Are there any oversight bodies monitoring data practices?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]

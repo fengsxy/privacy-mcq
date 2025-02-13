@@ -1,0 +1,281 @@
+[
+  {
+    "11": {
+      "states": {
+        "Collection Limitation": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No explicit mention of data accuracy, completeness, or timeliness measures.",
+              "reasoning": "Ensuring high data quality is crucial for the correct determination of copayment waivers.",
+              "related_questions": [
+                "What measures are in place to ensure the accuracy and completeness of patient financial data?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No mention of limitations on data use beyond determining copayment waivers.",
+              "reasoning": "Data could potentially be used for other purposes if not explicitly limited.",
+              "related_questions": [
+                "Are there policies that restrict the use of patient financial data to only the stated purpose?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption during processing and sharing.",
+              "reasoning": "Sensitive financial data is at risk of unauthorized access and breaches.",
+              "related_questions": [
+                "What encryption measures are in place during data sharing?"
+              ]
+            },
+            {
+              "description": "No specific encryption measures mentioned for data at rest.",
+              "reasoning": "Patient data could be vulnerable to access if not properly encrypted.",
+              "related_questions": [
+                "Are there any plans to implement encryption for data at rest?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on data handling post-retention.",
+              "reasoning": "Transparency about data lifecycle is important for trust and compliance.",
+              "related_questions": [
+                "How is patient financial data disposed of after the retention period?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "No mention of a user-friendly consent management system.",
+              "reasoning": "Patients may not find it easy to manage their consent.",
+              "related_questions": [
+                "Is there an online portal where patients can manage their consent preferences?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Audits are potentially reactive rather than proactive.",
+              "reasoning": "Proactive audits are essential for ensuring ongoing compliance and data protection.",
+              "related_questions": [
+                "Are there plans to implement a regular audit schedule?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "12": {
+      "states": {
+        "Collection Limitation": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No explicit mention of data accuracy, completeness, or timeliness measures.",
+              "reasoning": "Ensuring high data quality is crucial for the correct determination of copayment waivers.",
+              "related_questions": [
+                "What measures are in place to ensure the accuracy and completeness of patient financial data?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No mention of limitations on data use beyond determining copayment waivers.",
+              "reasoning": "Data could potentially be used for other purposes if not explicitly limited.",
+              "related_questions": [
+                "Are there policies that restrict the use of patient financial data to only the stated purpose?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption during processing and sharing.",
+              "reasoning": "Sensitive financial data is at risk of unauthorized access and breaches.",
+              "related_questions": [
+                "What encryption measures are in place during data sharing?"
+              ]
+            },
+            {
+              "description": "No specific encryption measures mentioned for data at rest.",
+              "reasoning": "Patient data could be vulnerable to access if not properly encrypted.",
+              "related_questions": [
+                "Are there any plans to implement encryption for data at rest?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on data handling post-retention.",
+              "reasoning": "Transparency about data lifecycle is important for trust and compliance.",
+              "related_questions": [
+                "How is patient financial data disposed of after the retention period?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "No mention of a user-friendly consent management system.",
+              "reasoning": "Patients may not find it easy to manage their consent.",
+              "related_questions": [
+                "Is there an online portal where patients can manage their consent preferences?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Audits are potentially reactive rather than proactive.",
+              "reasoning": "Proactive audits are essential for ensuring ongoing compliance and data protection.",
+              "related_questions": [
+                "Are there plans to implement a regular audit schedule?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "13": {
+      "states": {
+        "Collection Limitation": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No explicit mention of data accuracy, completeness, or timeliness measures.",
+              "reasoning": "Ensuring high data quality is crucial for the correct determination of copayment waivers.",
+              "related_questions": [
+                "What measures are in place to ensure the accuracy and completeness of patient financial data?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No mention of limitations on data use beyond determining copayment waivers.",
+              "reasoning": "Data could potentially be used for other purposes if not explicitly limited.",
+              "related_questions": [
+                "Are there policies that restrict the use of patient financial data to only the stated purpose?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption during processing and sharing.",
+              "reasoning": "Sensitive financial data is at risk of unauthorized access and breaches.",
+              "related_questions": [
+                "What encryption measures are in place during data sharing?"
+              ]
+            },
+            {
+              "description": "No specific encryption measures mentioned for data at rest.",
+              "reasoning": "Patient data could be vulnerable to access if not properly encrypted.",
+              "related_questions": [
+                "Are there any plans to implement encryption for data at rest?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of clarity on data handling post-retention.",
+              "reasoning": "Transparency about data lifecycle is important for trust and compliance.",
+              "related_questions": [
+                "How is patient financial data disposed of after the retention period?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "No mention of a user-friendly consent management system.",
+              "reasoning": "Patients may not find it easy to manage their consent.",
+              "related_questions": [
+                "Is there an online portal where patients can manage their consent preferences?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Audits are potentially reactive rather than proactive.",
+              "reasoning": "Proactive audits are essential for ensuring ongoing compliance and data protection.",
+              "related_questions": [
+                "Are there plans to implement a regular audit schedule?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]

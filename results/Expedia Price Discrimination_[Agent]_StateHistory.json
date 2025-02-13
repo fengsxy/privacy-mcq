@@ -1,0 +1,1517 @@
+[
+  {
+    "11": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "12": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "13": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "14": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "15": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "16": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "17": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "18": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "19": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "20": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "21": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "22": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "23": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "24": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "25": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The system collects specific data points such as device type and user booking history.",
+              "reasoning": "The collection of device-specific data and user history raises concerns about the breadth of data being collected without explicit user consent or notification.",
+              "related_questions": [
+                "What explicit user consent mechanisms are in place for data collection?",
+                "Is there a limit to the types of data the system collects?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "The accuracy and currency of user data used for pricing decisions.",
+              "reasoning": "If the data is not accurate or up-to-date, it could lead to incorrect price adjustments and potential user dissatisfaction.",
+              "related_questions": [
+                "How is data accuracy and currency ensured?",
+                "Are there checks in place for data validation?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data is used for differential pricing based on identifiable characteristics.",
+              "reasoning": "Using identifiable user characteristics for pricing raises concerns about fairness and discrimination in pricing strategies.",
+              "related_questions": [
+                "What safeguards are in place to prevent discriminatory pricing?",
+                "Is user data used for any purposes beyond pricing?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Data sharing occurs internally but lacks explicit mention of security measures.",
+              "reasoning": "Without explicit details on security measures, there is uncertainty about the protection of personal data against unauthorized access or breaches.",
+              "related_questions": [
+                "What security protocols are in place to protect user data?",
+                "Is data encrypted during transmission and storage?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of detailed transparency about data practices.",
+              "reasoning": "Users may not have sufficient information about how their data is used and shared, leading to concerns about transparency.",
+              "related_questions": [
+                "Is there a public privacy policy detailing data practices?",
+                "How are users informed about changes to data practices?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Unclear mechanisms for user control over data sharing.",
+              "reasoning": "Without clear options for users to manage their data sharing preferences, users may feel disempowered regarding their personal information.",
+              "related_questions": [
+                "Can users easily access and modify their data sharing preferences?",
+                "What options are available for users to opt-out of certain data uses?"
+              ]
+            }
+          ]
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "The description of audits lacks detail on accountability measures.",
+              "reasoning": "Without clear accountability mechanisms, there is a risk of non-compliance with data protection standards and user expectations.",
+              "related_questions": [
+                "Who is responsible for overseeing data protection compliance?",
+                "What are the consequences for non-compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]
