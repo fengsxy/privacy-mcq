@@ -6,63 +6,45 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Data collected without user consent",
-              "reasoning": "The attention tracking feature was implemented without obtaining user consent, which violates the principle of collecting data only with permission.",
+              "description": "Automatic data collection without explicit user consent",
+              "reasoning": "The attention tracking feature was opt-out, meaning users were automatically subjected to data collection without needing their explicit consent, raising privacy concerns.",
               "related_questions": [
-                "Was any form of consent obtained from users at any point?",
-                "Were users informed about the data collection before it began?"
+                "What data was collected without consent?",
+                "Were there any notifications provided to users regarding data collection?"
               ]
             }
           ]
         },
         "Data Quality": {
-          "state": "Potential Issue",
+          "state": "Has Issue",
           "concerns": [
             {
-              "description": "Accuracy and relevance of collected data",
-              "reasoning": "The data collected was specific to whether the Zoom application was in focus, which may not accurately reflect participant engagement or attention.",
+              "description": "Accuracy and relevance of attention tracking data",
+              "reasoning": "The method of tracking attention by checking if the application was in focus may not accurately reflect participant engagement or attentiveness.",
               "related_questions": [
-                "How was the accuracy of attention data ensured?",
-                "Was there any verification process for the relevance of collected data?"
+                "How accurate was the attention tracking data in reflecting actual participant engagement?",
+                "Were there any efforts to validate the relevance of this data?"
               ]
             }
           ]
         },
         "Purpose Specification": {
-          "state": "Has Issue",
-          "concerns": [
-            {
-              "description": "Lack of clear purpose communicated to users",
-              "reasoning": "The feature was implemented to provide engagement insights to hosts but was not clearly communicated to users, leading to backlash.",
-              "related_questions": [
-                "Was the purpose of data collection explicitly communicated to users?",
-                "How was the purpose aligned with users' expectations?"
-              ]
-            }
-          ]
+          "state": "No Issue",
+          "concerns": []
         },
         "Use Limitation": {
-          "state": "Has Issue",
-          "concerns": [
-            {
-              "description": "Data used without user control or awareness",
-              "reasoning": "Participants had no control over the use of their attention data, and it was used to generate reports for hosts.",
-              "related_questions": [
-                "Were there any limits on how the collected data could be used?",
-                "Did users have any say in how their data was utilized?"
-              ]
-            }
-          ]
+          "state": "No Issue",
+          "concerns": []
         },
         "Security Safeguards": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Lack of encryption for collected data",
-              "reasoning": "The data was stored in plain text, indicating inadequate security measures for protecting participant information.",
+              "description": "Security measures for collected attention tracking data",
+              "reasoning": "There is no mention of specific security measures implemented to protect the attention tracking data, which could pose a risk to user privacy.",
               "related_questions": [
-                "Was any encryption method considered for the data?",
-                "Why was the data stored without encryption?"
+                "What security measures were in place to protect attention tracking data?",
+                "Were there any incidents of data breaches related to this feature?"
               ]
             }
           ]
@@ -71,11 +53,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Lack of transparency about data collection practices",
-              "reasoning": "Zoom did not adequately disclose the presence and functionalities of the attention tracking feature to users.",
+              "description": "Lack of transparency regarding attention tracking practices",
+              "reasoning": "The automatic nature of the feature and its subsequent removal due to backlash suggest a lack of transparency in informing users about the practices.",
               "related_questions": [
-                "Was there any public documentation about the feature before its implementation?",
-                "How were users informed about the feature after backlash?"
+                "How were users informed about the attention tracking feature?",
+                "What information was provided to users about data handling practices?"
               ]
             }
           ]
@@ -84,24 +66,24 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "No user control over data collection and sharing",
-              "reasoning": "Users could not manage or control the collection or sharing of their attention data, leading to privacy concerns.",
+              "description": "Inability for users to control or delete their attention tracking data",
+              "reasoning": "Users were not given the ability to opt-in, withdraw consent, or delete their attention tracking data, indicating a lack of control over their personal data.",
               "related_questions": [
-                "Were there any tools provided to users to manage their data?",
-                "Could users opt-out of data collection or sharing?"
+                "What options were available for users to manage their attention tracking data?",
+                "Could users request deletion of their data while the feature was active?"
               ]
             }
           ]
         },
         "Accountability": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Inadequate accountability measures for privacy violations",
-              "reasoning": "The implementation and subsequent removal of the feature suggest insufficient accountability for privacy breaches.",
+              "description": "Lack of accountability mechanisms for attention tracking data",
+              "reasoning": "The backlash and removal of the feature suggest potential gaps in accountability regarding user privacy and data protection.",
               "related_questions": [
-                "What accountability mechanisms were in place for privacy violations?",
-                "How did Zoom address the privacy concerns raised by users?"
+                "Who was responsible for overseeing the attention tracking feature?",
+                "Were there any accountability measures in place for data handling?"
               ]
             }
           ]
@@ -116,63 +98,45 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Data collected without user consent",
-              "reasoning": "The attention tracking feature was implemented without obtaining user consent, which violates the principle of collecting data only with permission.",
+              "description": "Automatic data collection without explicit user consent",
+              "reasoning": "The attention tracking feature was opt-out, meaning users were automatically subjected to data collection without needing their explicit consent, raising privacy concerns.",
               "related_questions": [
-                "Was any form of consent obtained from users at any point?",
-                "Were users informed about the data collection before it began?"
+                "What data was collected without consent?",
+                "Were there any notifications provided to users regarding data collection?"
               ]
             }
           ]
         },
         "Data Quality": {
-          "state": "Potential Issue",
+          "state": "Has Issue",
           "concerns": [
             {
-              "description": "Accuracy and relevance of collected data",
-              "reasoning": "The data collected was specific to whether the Zoom application was in focus, which may not accurately reflect participant engagement or attention.",
+              "description": "Accuracy and relevance of attention tracking data",
+              "reasoning": "The method of tracking attention by checking if the application was in focus may not accurately reflect participant engagement or attentiveness.",
               "related_questions": [
-                "How was the accuracy of attention data ensured?",
-                "Was there any verification process for the relevance of collected data?"
+                "How accurate was the attention tracking data in reflecting actual participant engagement?",
+                "Were there any efforts to validate the relevance of this data?"
               ]
             }
           ]
         },
         "Purpose Specification": {
-          "state": "Has Issue",
-          "concerns": [
-            {
-              "description": "Lack of clear purpose communicated to users",
-              "reasoning": "The feature was implemented to provide engagement insights to hosts but was not clearly communicated to users, leading to backlash.",
-              "related_questions": [
-                "Was the purpose of data collection explicitly communicated to users?",
-                "How was the purpose aligned with users' expectations?"
-              ]
-            }
-          ]
+          "state": "No Issue",
+          "concerns": []
         },
         "Use Limitation": {
-          "state": "Has Issue",
-          "concerns": [
-            {
-              "description": "Data used without user control or awareness",
-              "reasoning": "Participants had no control over the use of their attention data, and it was used to generate reports for hosts.",
-              "related_questions": [
-                "Were there any limits on how the collected data could be used?",
-                "Did users have any say in how their data was utilized?"
-              ]
-            }
-          ]
+          "state": "No Issue",
+          "concerns": []
         },
         "Security Safeguards": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Lack of encryption for collected data",
-              "reasoning": "The data was stored in plain text, indicating inadequate security measures for protecting participant information.",
+              "description": "Security measures for collected attention tracking data",
+              "reasoning": "There is no mention of specific security measures implemented to protect the attention tracking data, which could pose a risk to user privacy.",
               "related_questions": [
-                "Was any encryption method considered for the data?",
-                "Why was the data stored without encryption?"
+                "What security measures were in place to protect attention tracking data?",
+                "Were there any incidents of data breaches related to this feature?"
               ]
             }
           ]
@@ -181,11 +145,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Lack of transparency about data collection practices",
-              "reasoning": "Zoom did not adequately disclose the presence and functionalities of the attention tracking feature to users.",
+              "description": "Lack of transparency regarding attention tracking practices",
+              "reasoning": "The automatic nature of the feature and its subsequent removal due to backlash suggest a lack of transparency in informing users about the practices.",
               "related_questions": [
-                "Was there any public documentation about the feature before its implementation?",
-                "How were users informed about the feature after backlash?"
+                "How were users informed about the attention tracking feature?",
+                "What information was provided to users about data handling practices?"
               ]
             }
           ]
@@ -194,11 +158,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "No user control over data collection and sharing",
-              "reasoning": "Users could not manage or control the collection or sharing of their attention data, leading to privacy concerns.",
+              "description": "Inability for users to control or delete their attention tracking data",
+              "reasoning": "Users were not given the ability to opt-in, withdraw consent, or delete their attention tracking data, indicating a lack of control over their personal data.",
               "related_questions": [
-                "Were there any tools provided to users to manage their data?",
-                "Could users opt-out of data collection or sharing?"
+                "What options were available for users to manage their attention tracking data?",
+                "Could users request deletion of their data while the feature was active?"
               ]
             }
           ]
@@ -207,11 +171,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Inadequate accountability measures for privacy violations",
-              "reasoning": "The implementation and subsequent removal of the feature suggest insufficient accountability for privacy breaches.",
+              "description": "Lack of accountability mechanisms for attention tracking data",
+              "reasoning": "The backlash and removal of the feature suggest potential gaps in accountability regarding user privacy and data protection.",
               "related_questions": [
-                "What accountability mechanisms were in place for privacy violations?",
-                "How did Zoom address the privacy concerns raised by users?"
+                "Who was responsible for overseeing the attention tracking feature?",
+                "Were there any accountability measures in place for data handling?"
               ]
             }
           ]
@@ -226,63 +190,45 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Data collected without user consent",
-              "reasoning": "The attention tracking feature was implemented without obtaining user consent, which violates the principle of collecting data only with permission.",
+              "description": "Automatic data collection without explicit user consent",
+              "reasoning": "The attention tracking feature was opt-out, meaning users were automatically subjected to data collection without needing their explicit consent, raising privacy concerns.",
               "related_questions": [
-                "Was any form of consent obtained from users at any point?",
-                "Were users informed about the data collection before it began?"
+                "What data was collected without consent?",
+                "Were there any notifications provided to users regarding data collection?"
               ]
             }
           ]
         },
         "Data Quality": {
-          "state": "Potential Issue",
+          "state": "Has Issue",
           "concerns": [
             {
-              "description": "Accuracy and relevance of collected data",
-              "reasoning": "The data collected was specific to whether the Zoom application was in focus, which may not accurately reflect participant engagement or attention.",
+              "description": "Accuracy and relevance of attention tracking data",
+              "reasoning": "The method of tracking attention by checking if the application was in focus may not accurately reflect participant engagement or attentiveness.",
               "related_questions": [
-                "How was the accuracy of attention data ensured?",
-                "Was there any verification process for the relevance of collected data?"
+                "How accurate was the attention tracking data in reflecting actual participant engagement?",
+                "Were there any efforts to validate the relevance of this data?"
               ]
             }
           ]
         },
         "Purpose Specification": {
-          "state": "Has Issue",
-          "concerns": [
-            {
-              "description": "Lack of clear purpose communicated to users",
-              "reasoning": "The feature was implemented to provide engagement insights to hosts but was not clearly communicated to users, leading to backlash.",
-              "related_questions": [
-                "Was the purpose of data collection explicitly communicated to users?",
-                "How was the purpose aligned with users' expectations?"
-              ]
-            }
-          ]
+          "state": "No Issue",
+          "concerns": []
         },
         "Use Limitation": {
-          "state": "Has Issue",
-          "concerns": [
-            {
-              "description": "Data used without user control or awareness",
-              "reasoning": "Participants had no control over the use of their attention data, and it was used to generate reports for hosts.",
-              "related_questions": [
-                "Were there any limits on how the collected data could be used?",
-                "Did users have any say in how their data was utilized?"
-              ]
-            }
-          ]
+          "state": "No Issue",
+          "concerns": []
         },
         "Security Safeguards": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Lack of encryption for collected data",
-              "reasoning": "The data was stored in plain text, indicating inadequate security measures for protecting participant information.",
+              "description": "Security measures for collected attention tracking data",
+              "reasoning": "There is no mention of specific security measures implemented to protect the attention tracking data, which could pose a risk to user privacy.",
               "related_questions": [
-                "Was any encryption method considered for the data?",
-                "Why was the data stored without encryption?"
+                "What security measures were in place to protect attention tracking data?",
+                "Were there any incidents of data breaches related to this feature?"
               ]
             }
           ]
@@ -291,11 +237,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Lack of transparency about data collection practices",
-              "reasoning": "Zoom did not adequately disclose the presence and functionalities of the attention tracking feature to users.",
+              "description": "Lack of transparency regarding attention tracking practices",
+              "reasoning": "The automatic nature of the feature and its subsequent removal due to backlash suggest a lack of transparency in informing users about the practices.",
               "related_questions": [
-                "Was there any public documentation about the feature before its implementation?",
-                "How were users informed about the feature after backlash?"
+                "How were users informed about the attention tracking feature?",
+                "What information was provided to users about data handling practices?"
               ]
             }
           ]
@@ -304,11 +250,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "No user control over data collection and sharing",
-              "reasoning": "Users could not manage or control the collection or sharing of their attention data, leading to privacy concerns.",
+              "description": "Inability for users to control or delete their attention tracking data",
+              "reasoning": "Users were not given the ability to opt-in, withdraw consent, or delete their attention tracking data, indicating a lack of control over their personal data.",
               "related_questions": [
-                "Were there any tools provided to users to manage their data?",
-                "Could users opt-out of data collection or sharing?"
+                "What options were available for users to manage their attention tracking data?",
+                "Could users request deletion of their data while the feature was active?"
               ]
             }
           ]
@@ -317,11 +263,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Inadequate accountability measures for privacy violations",
-              "reasoning": "The implementation and subsequent removal of the feature suggest insufficient accountability for privacy breaches.",
+              "description": "Lack of accountability mechanisms for attention tracking data",
+              "reasoning": "The backlash and removal of the feature suggest potential gaps in accountability regarding user privacy and data protection.",
               "related_questions": [
-                "What accountability mechanisms were in place for privacy violations?",
-                "How did Zoom address the privacy concerns raised by users?"
+                "Who was responsible for overseeing the attention tracking feature?",
+                "Were there any accountability measures in place for data handling?"
               ]
             }
           ]
@@ -336,63 +282,45 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Data collected without user consent",
-              "reasoning": "The attention tracking feature was implemented without obtaining user consent, which violates the principle of collecting data only with permission.",
+              "description": "Automatic data collection without explicit user consent",
+              "reasoning": "The attention tracking feature was opt-out, meaning users were automatically subjected to data collection without needing their explicit consent, raising privacy concerns.",
               "related_questions": [
-                "Was any form of consent obtained from users at any point?",
-                "Were users informed about the data collection before it began?"
+                "What data was collected without consent?",
+                "Were there any notifications provided to users regarding data collection?"
               ]
             }
           ]
         },
         "Data Quality": {
-          "state": "Potential Issue",
+          "state": "Has Issue",
           "concerns": [
             {
-              "description": "Accuracy and relevance of collected data",
-              "reasoning": "The data collected was specific to whether the Zoom application was in focus, which may not accurately reflect participant engagement or attention.",
+              "description": "Accuracy and relevance of attention tracking data",
+              "reasoning": "The method of tracking attention by checking if the application was in focus may not accurately reflect participant engagement or attentiveness.",
               "related_questions": [
-                "How was the accuracy of attention data ensured?",
-                "Was there any verification process for the relevance of collected data?"
+                "How accurate was the attention tracking data in reflecting actual participant engagement?",
+                "Were there any efforts to validate the relevance of this data?"
               ]
             }
           ]
         },
         "Purpose Specification": {
-          "state": "Has Issue",
-          "concerns": [
-            {
-              "description": "Lack of clear purpose communicated to users",
-              "reasoning": "The feature was implemented to provide engagement insights to hosts but was not clearly communicated to users, leading to backlash.",
-              "related_questions": [
-                "Was the purpose of data collection explicitly communicated to users?",
-                "How was the purpose aligned with users' expectations?"
-              ]
-            }
-          ]
+          "state": "No Issue",
+          "concerns": []
         },
         "Use Limitation": {
-          "state": "Has Issue",
-          "concerns": [
-            {
-              "description": "Data used without user control or awareness",
-              "reasoning": "Participants had no control over the use of their attention data, and it was used to generate reports for hosts.",
-              "related_questions": [
-                "Were there any limits on how the collected data could be used?",
-                "Did users have any say in how their data was utilized?"
-              ]
-            }
-          ]
+          "state": "No Issue",
+          "concerns": []
         },
         "Security Safeguards": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Lack of encryption for collected data",
-              "reasoning": "The data was stored in plain text, indicating inadequate security measures for protecting participant information.",
+              "description": "Security measures for collected attention tracking data",
+              "reasoning": "There is no mention of specific security measures implemented to protect the attention tracking data, which could pose a risk to user privacy.",
               "related_questions": [
-                "Was any encryption method considered for the data?",
-                "Why was the data stored without encryption?"
+                "What security measures were in place to protect attention tracking data?",
+                "Were there any incidents of data breaches related to this feature?"
               ]
             }
           ]
@@ -401,11 +329,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Lack of transparency about data collection practices",
-              "reasoning": "Zoom did not adequately disclose the presence and functionalities of the attention tracking feature to users.",
+              "description": "Lack of transparency regarding attention tracking practices",
+              "reasoning": "The automatic nature of the feature and its subsequent removal due to backlash suggest a lack of transparency in informing users about the practices.",
               "related_questions": [
-                "Was there any public documentation about the feature before its implementation?",
-                "How were users informed about the feature after backlash?"
+                "How were users informed about the attention tracking feature?",
+                "What information was provided to users about data handling practices?"
               ]
             }
           ]
@@ -414,11 +342,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "No user control over data collection and sharing",
-              "reasoning": "Users could not manage or control the collection or sharing of their attention data, leading to privacy concerns.",
+              "description": "Inability for users to control or delete their attention tracking data",
+              "reasoning": "Users were not given the ability to opt-in, withdraw consent, or delete their attention tracking data, indicating a lack of control over their personal data.",
               "related_questions": [
-                "Were there any tools provided to users to manage their data?",
-                "Could users opt-out of data collection or sharing?"
+                "What options were available for users to manage their attention tracking data?",
+                "Could users request deletion of their data while the feature was active?"
               ]
             }
           ]
@@ -427,11 +355,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Inadequate accountability measures for privacy violations",
-              "reasoning": "The implementation and subsequent removal of the feature suggest insufficient accountability for privacy breaches.",
+              "description": "Lack of accountability mechanisms for attention tracking data",
+              "reasoning": "The backlash and removal of the feature suggest potential gaps in accountability regarding user privacy and data protection.",
               "related_questions": [
-                "What accountability mechanisms were in place for privacy violations?",
-                "How did Zoom address the privacy concerns raised by users?"
+                "Who was responsible for overseeing the attention tracking feature?",
+                "Were there any accountability measures in place for data handling?"
               ]
             }
           ]
@@ -446,63 +374,45 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Data collected without user consent",
-              "reasoning": "The attention tracking feature was implemented without obtaining user consent, which violates the principle of collecting data only with permission.",
+              "description": "Automatic data collection without explicit user consent",
+              "reasoning": "The attention tracking feature was opt-out, meaning users were automatically subjected to data collection without needing their explicit consent, raising privacy concerns.",
               "related_questions": [
-                "Was any form of consent obtained from users at any point?",
-                "Were users informed about the data collection before it began?"
+                "What data was collected without consent?",
+                "Were there any notifications provided to users regarding data collection?"
               ]
             }
           ]
         },
         "Data Quality": {
-          "state": "Potential Issue",
+          "state": "Has Issue",
           "concerns": [
             {
-              "description": "Accuracy and relevance of collected data",
-              "reasoning": "The data collected was specific to whether the Zoom application was in focus, which may not accurately reflect participant engagement or attention.",
+              "description": "Accuracy and relevance of attention tracking data",
+              "reasoning": "The method of tracking attention by checking if the application was in focus may not accurately reflect participant engagement or attentiveness.",
               "related_questions": [
-                "How was the accuracy of attention data ensured?",
-                "Was there any verification process for the relevance of collected data?"
+                "How accurate was the attention tracking data in reflecting actual participant engagement?",
+                "Were there any efforts to validate the relevance of this data?"
               ]
             }
           ]
         },
         "Purpose Specification": {
-          "state": "Has Issue",
-          "concerns": [
-            {
-              "description": "Lack of clear purpose communicated to users",
-              "reasoning": "The feature was implemented to provide engagement insights to hosts but was not clearly communicated to users, leading to backlash.",
-              "related_questions": [
-                "Was the purpose of data collection explicitly communicated to users?",
-                "How was the purpose aligned with users' expectations?"
-              ]
-            }
-          ]
+          "state": "No Issue",
+          "concerns": []
         },
         "Use Limitation": {
-          "state": "Has Issue",
-          "concerns": [
-            {
-              "description": "Data used without user control or awareness",
-              "reasoning": "Participants had no control over the use of their attention data, and it was used to generate reports for hosts.",
-              "related_questions": [
-                "Were there any limits on how the collected data could be used?",
-                "Did users have any say in how their data was utilized?"
-              ]
-            }
-          ]
+          "state": "No Issue",
+          "concerns": []
         },
         "Security Safeguards": {
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Lack of encryption for collected data",
-              "reasoning": "The data was stored in plain text, indicating inadequate security measures for protecting participant information.",
+              "description": "Security measures for collected attention tracking data",
+              "reasoning": "There is no mention of specific security measures implemented to protect the attention tracking data, which could pose a risk to user privacy.",
               "related_questions": [
-                "Was any encryption method considered for the data?",
-                "Why was the data stored without encryption?"
+                "What security measures were in place to protect attention tracking data?",
+                "Were there any incidents of data breaches related to this feature?"
               ]
             }
           ]
@@ -511,11 +421,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Lack of transparency about data collection practices",
-              "reasoning": "Zoom did not adequately disclose the presence and functionalities of the attention tracking feature to users.",
+              "description": "Lack of transparency regarding attention tracking practices",
+              "reasoning": "The automatic nature of the feature and its subsequent removal due to backlash suggest a lack of transparency in informing users about the practices.",
               "related_questions": [
-                "Was there any public documentation about the feature before its implementation?",
-                "How were users informed about the feature after backlash?"
+                "How were users informed about the attention tracking feature?",
+                "What information was provided to users about data handling practices?"
               ]
             }
           ]
@@ -524,11 +434,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "No user control over data collection and sharing",
-              "reasoning": "Users could not manage or control the collection or sharing of their attention data, leading to privacy concerns.",
+              "description": "Inability for users to control or delete their attention tracking data",
+              "reasoning": "Users were not given the ability to opt-in, withdraw consent, or delete their attention tracking data, indicating a lack of control over their personal data.",
               "related_questions": [
-                "Were there any tools provided to users to manage their data?",
-                "Could users opt-out of data collection or sharing?"
+                "What options were available for users to manage their attention tracking data?",
+                "Could users request deletion of their data while the feature was active?"
               ]
             }
           ]
@@ -537,11 +447,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Inadequate accountability measures for privacy violations",
-              "reasoning": "The implementation and subsequent removal of the feature suggest insufficient accountability for privacy breaches.",
+              "description": "Lack of accountability mechanisms for attention tracking data",
+              "reasoning": "The backlash and removal of the feature suggest potential gaps in accountability regarding user privacy and data protection.",
               "related_questions": [
-                "What accountability mechanisms were in place for privacy violations?",
-                "How did Zoom address the privacy concerns raised by users?"
+                "Who was responsible for overseeing the attention tracking feature?",
+                "Were there any accountability measures in place for data handling?"
               ]
             }
           ]

@@ -3,27 +3,27 @@
     "11": {
       "states": {
         "Collection Limitation": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Excessive data collection from non-consenting users",
-              "reasoning": "Third-party applications were able to collect data not only from users who installed the app but also from their friends without explicit consent from those friends.",
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
               "related_questions": [
-                "What specific data was collected from users' friends?",
-                "Were users aware that their friends' data could be collected?"
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
               ]
             }
           ]
         },
         "Data Quality": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Potential inaccuracies in user data collected",
-              "reasoning": "The mass collection of data, including inferred psychological profiles, may lead to inaccuracies in user profiles.",
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
               "related_questions": [
-                "How is the accuracy of collected data ensured?",
-                "Are users able to correct inaccuracies in their data?"
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
               ]
             }
           ]
@@ -32,11 +32,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Insufficient clarity on data use purposes",
-              "reasoning": "Data was used to create psychological profiles and target political advertisements, but users were likely not fully informed of these specific purposes.",
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
               "related_questions": [
-                "Were users informed about the specific purposes for their data usage?",
-                "How are purposes communicated to users before data collection?"
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
               ]
             }
           ]
@@ -45,10 +45,10 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Data used beyond initially specified purposes",
-              "reasoning": "Data collected for app functionality was used for political profiling and advertising, which may not align with users' initial understanding.",
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
               "related_questions": [
-                "Are there checks in place to ensure data is only used for agreed purposes?",
+                "What controls are in place to prevent unauthorized data use?",
                 "How does the platform monitor compliance with use limitations?"
               ]
             }
@@ -58,50 +58,41 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Lack of adequate encryption and security measures",
-              "reasoning": "User data was accessed by third parties without sufficient encryption or safeguarding measures, leading to unauthorized uses.",
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
               "related_questions": [
-                "What encryption measures are now in place to protect user data?",
-                "How frequently are security protocols updated and reviewed?"
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
               ]
             }
           ]
         },
         "Openness": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Limited transparency about data practices",
-              "reasoning": "Users were likely not fully informed about the extent of data sharing and access granted to third-party applications.",
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
               "related_questions": [
-                "How are users informed about data sharing practices?",
-                "What information is provided to users regarding data access by third parties?"
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
               ]
             }
           ]
         },
         "Individual Participation": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Accountability": {
           "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Challenges in user control over data sharing",
-              "reasoning": "Although users can now manage settings, historical issues with lack of control highlight potential ongoing challenges.",
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
               "related_questions": [
-                "Are users able to easily withdraw consent for data sharing?",
-                "How effectively can users manage third-party access to their data?"
-              ]
-            }
-          ]
-        },
-        "Accountability": {
-          "state": "Has Issue",
-          "concerns": [
-            {
-              "description": "Insufficient accountability for third-party data practices",
-              "reasoning": "The incident highlighted a lack of oversight and accountability for how third-party developers handled user data.",
-              "related_questions": [
-                "What measures are in place to hold third parties accountable for data misuse?",
-                "How does the platform audit third-party data practices?"
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
               ]
             }
           ]
@@ -113,27 +104,27 @@
     "12": {
       "states": {
         "Collection Limitation": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Excessive data collection from non-consenting users",
-              "reasoning": "Third-party applications were able to collect data not only from users who installed the app but also from their friends without explicit consent from those friends.",
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
               "related_questions": [
-                "What specific data was collected from users' friends?",
-                "Were users aware that their friends' data could be collected?"
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
               ]
             }
           ]
         },
         "Data Quality": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Potential inaccuracies in user data collected",
-              "reasoning": "The mass collection of data, including inferred psychological profiles, may lead to inaccuracies in user profiles.",
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
               "related_questions": [
-                "How is the accuracy of collected data ensured?",
-                "Are users able to correct inaccuracies in their data?"
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
               ]
             }
           ]
@@ -142,11 +133,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Insufficient clarity on data use purposes",
-              "reasoning": "Data was used to create psychological profiles and target political advertisements, but users were likely not fully informed of these specific purposes.",
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
               "related_questions": [
-                "Were users informed about the specific purposes for their data usage?",
-                "How are purposes communicated to users before data collection?"
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
               ]
             }
           ]
@@ -155,10 +146,10 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Data used beyond initially specified purposes",
-              "reasoning": "Data collected for app functionality was used for political profiling and advertising, which may not align with users' initial understanding.",
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
               "related_questions": [
-                "Are there checks in place to ensure data is only used for agreed purposes?",
+                "What controls are in place to prevent unauthorized data use?",
                 "How does the platform monitor compliance with use limitations?"
               ]
             }
@@ -168,50 +159,41 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Lack of adequate encryption and security measures",
-              "reasoning": "User data was accessed by third parties without sufficient encryption or safeguarding measures, leading to unauthorized uses.",
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
               "related_questions": [
-                "What encryption measures are now in place to protect user data?",
-                "How frequently are security protocols updated and reviewed?"
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
               ]
             }
           ]
         },
         "Openness": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Limited transparency about data practices",
-              "reasoning": "Users were likely not fully informed about the extent of data sharing and access granted to third-party applications.",
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
               "related_questions": [
-                "How are users informed about data sharing practices?",
-                "What information is provided to users regarding data access by third parties?"
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
               ]
             }
           ]
         },
         "Individual Participation": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Accountability": {
           "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Challenges in user control over data sharing",
-              "reasoning": "Although users can now manage settings, historical issues with lack of control highlight potential ongoing challenges.",
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
               "related_questions": [
-                "Are users able to easily withdraw consent for data sharing?",
-                "How effectively can users manage third-party access to their data?"
-              ]
-            }
-          ]
-        },
-        "Accountability": {
-          "state": "Has Issue",
-          "concerns": [
-            {
-              "description": "Insufficient accountability for third-party data practices",
-              "reasoning": "The incident highlighted a lack of oversight and accountability for how third-party developers handled user data.",
-              "related_questions": [
-                "What measures are in place to hold third parties accountable for data misuse?",
-                "How does the platform audit third-party data practices?"
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
               ]
             }
           ]
@@ -223,14 +205,14 @@
     "13": {
       "states": {
         "Collection Limitation": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Excessive data collection from non-consenting users",
-              "reasoning": "Third-party applications were able to collect data not only from users who installed the app but also from their friends without explicit consent from those friends.",
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
               "related_questions": [
-                "What specific data was collected from users' friends?",
-                "Were users aware that their friends' data could be collected?"
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
               ]
             }
           ]
@@ -239,11 +221,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Potential inaccuracies in user data collected",
-              "reasoning": "The mass collection of data, including inferred psychological profiles, may lead to inaccuracies in user profiles.",
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
               "related_questions": [
-                "How is the accuracy of collected data ensured?",
-                "Are users able to correct inaccuracies in their data?"
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
               ]
             }
           ]
@@ -252,11 +234,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Insufficient clarity on data use purposes",
-              "reasoning": "Data was used to create psychological profiles and target political advertisements, but users were likely not fully informed of these specific purposes.",
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
               "related_questions": [
-                "Were users informed about the specific purposes for their data usage?",
-                "How are purposes communicated to users before data collection?"
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
               ]
             }
           ]
@@ -265,10 +247,10 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Data used beyond initially specified purposes",
-              "reasoning": "Data collected for app functionality was used for political profiling and advertising, which may not align with users' initial understanding.",
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
               "related_questions": [
-                "Are there checks in place to ensure data is only used for agreed purposes?",
+                "What controls are in place to prevent unauthorized data use?",
                 "How does the platform monitor compliance with use limitations?"
               ]
             }
@@ -278,50 +260,41 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Lack of adequate encryption and security measures",
-              "reasoning": "User data was accessed by third parties without sufficient encryption or safeguarding measures, leading to unauthorized uses.",
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
               "related_questions": [
-                "What encryption measures are now in place to protect user data?",
-                "How frequently are security protocols updated and reviewed?"
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
               ]
             }
           ]
         },
         "Openness": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Limited transparency about data practices",
-              "reasoning": "Users were likely not fully informed about the extent of data sharing and access granted to third-party applications.",
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
               "related_questions": [
-                "How are users informed about data sharing practices?",
-                "What information is provided to users regarding data access by third parties?"
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
               ]
             }
           ]
         },
         "Individual Participation": {
-          "state": "Potential Issue",
-          "concerns": [
-            {
-              "description": "Challenges in user control over data sharing",
-              "reasoning": "Although users can now manage settings, historical issues with lack of control highlight potential ongoing challenges.",
-              "related_questions": [
-                "Are users able to easily withdraw consent for data sharing?",
-                "How effectively can users manage third-party access to their data?"
-              ]
-            }
-          ]
+          "state": "No Issue",
+          "concerns": []
         },
         "Accountability": {
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Insufficient accountability for third-party data practices",
-              "reasoning": "The incident highlighted a lack of oversight and accountability for how third-party developers handled user data.",
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
               "related_questions": [
-                "What measures are in place to hold third parties accountable for data misuse?",
-                "How does the platform audit third-party data practices?"
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
               ]
             }
           ]
@@ -333,14 +306,14 @@
     "14": {
       "states": {
         "Collection Limitation": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Excessive data collection from non-consenting users",
-              "reasoning": "Third-party applications were able to collect data not only from users who installed the app but also from their friends without explicit consent from those friends.",
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
               "related_questions": [
-                "What specific data was collected from users' friends?",
-                "Were users aware that their friends' data could be collected?"
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
               ]
             }
           ]
@@ -349,11 +322,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Potential inaccuracies in user data collected",
-              "reasoning": "The mass collection of data, including inferred psychological profiles, may lead to inaccuracies in user profiles.",
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
               "related_questions": [
-                "How is the accuracy of collected data ensured?",
-                "Are users able to correct inaccuracies in their data?"
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
               ]
             }
           ]
@@ -362,11 +335,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Insufficient clarity on data use purposes",
-              "reasoning": "Data was used to create psychological profiles and target political advertisements, but users were likely not fully informed of these specific purposes.",
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
               "related_questions": [
-                "Were users informed about the specific purposes for their data usage?",
-                "How are purposes communicated to users before data collection?"
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
               ]
             }
           ]
@@ -375,10 +348,10 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Data used beyond initially specified purposes",
-              "reasoning": "Data collected for app functionality was used for political profiling and advertising, which may not align with users' initial understanding.",
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
               "related_questions": [
-                "Are there checks in place to ensure data is only used for agreed purposes?",
+                "What controls are in place to prevent unauthorized data use?",
                 "How does the platform monitor compliance with use limitations?"
               ]
             }
@@ -388,50 +361,41 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Lack of adequate encryption and security measures",
-              "reasoning": "User data was accessed by third parties without sufficient encryption or safeguarding measures, leading to unauthorized uses.",
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
               "related_questions": [
-                "What encryption measures are now in place to protect user data?",
-                "How frequently are security protocols updated and reviewed?"
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
               ]
             }
           ]
         },
         "Openness": {
-          "state": "Has Issue",
+          "state": "No Issue",
           "concerns": [
             {
-              "description": "Limited transparency about data practices",
-              "reasoning": "Users were likely not fully informed about the extent of data sharing and access granted to third-party applications.",
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
               "related_questions": [
-                "How are users informed about data sharing practices?",
-                "What information is provided to users regarding data access by third parties?"
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
               ]
             }
           ]
         },
         "Individual Participation": {
-          "state": "Potential Issue",
-          "concerns": [
-            {
-              "description": "Challenges in user control over data sharing",
-              "reasoning": "Although users can now manage settings, historical issues with lack of control highlight potential ongoing challenges.",
-              "related_questions": [
-                "Are users able to easily withdraw consent for data sharing?",
-                "How effectively can users manage third-party access to their data?"
-              ]
-            }
-          ]
+          "state": "No Issue",
+          "concerns": []
         },
         "Accountability": {
           "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Insufficient accountability for third-party data practices",
-              "reasoning": "The incident highlighted a lack of oversight and accountability for how third-party developers handled user data.",
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
               "related_questions": [
-                "What measures are in place to hold third parties accountable for data misuse?",
-                "How does the platform audit third-party data practices?"
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
               ]
             }
           ]
@@ -443,14 +407,14 @@
     "15": {
       "states": {
         "Collection Limitation": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Excessive data collection from non-consenting users",
-              "reasoning": "Third-party applications were able to collect data not only from users who installed the app but also from their friends without explicit consent from those friends.",
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
               "related_questions": [
-                "What specific data was collected from users' friends?",
-                "Were users aware that their friends' data could be collected?"
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
               ]
             }
           ]
@@ -459,11 +423,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Potential inaccuracies in user data collected",
-              "reasoning": "The mass collection of data, including inferred psychological profiles, may lead to inaccuracies in user profiles.",
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
               "related_questions": [
-                "How is the accuracy of collected data ensured?",
-                "Are users able to correct inaccuracies in their data?"
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
               ]
             }
           ]
@@ -472,11 +436,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Insufficient clarity on data use purposes",
-              "reasoning": "Data was used to create psychological profiles and target political advertisements, but users were likely not fully informed of these specific purposes.",
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
               "related_questions": [
-                "Were users informed about the specific purposes for their data usage?",
-                "How are purposes communicated to users before data collection?"
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
               ]
             }
           ]
@@ -485,10 +449,10 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Data used beyond initially specified purposes",
-              "reasoning": "Data collected for app functionality was used for political profiling and advertising, which may not align with users' initial understanding.",
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
               "related_questions": [
-                "Are there checks in place to ensure data is only used for agreed purposes?",
+                "What controls are in place to prevent unauthorized data use?",
                 "How does the platform monitor compliance with use limitations?"
               ]
             }
@@ -498,50 +462,41 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Lack of adequate encryption and security measures",
-              "reasoning": "User data was accessed by third parties without sufficient encryption or safeguarding measures, leading to unauthorized uses.",
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
               "related_questions": [
-                "What encryption measures are now in place to protect user data?",
-                "How frequently are security protocols updated and reviewed?"
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
               ]
             }
           ]
         },
         "Openness": {
-          "state": "Has Issue",
+          "state": "No Issue",
           "concerns": [
             {
-              "description": "Limited transparency about data practices",
-              "reasoning": "Users were likely not fully informed about the extent of data sharing and access granted to third-party applications.",
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
               "related_questions": [
-                "How are users informed about data sharing practices?",
-                "What information is provided to users regarding data access by third parties?"
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
               ]
             }
           ]
         },
         "Individual Participation": {
-          "state": "Potential Issue",
-          "concerns": [
-            {
-              "description": "Challenges in user control over data sharing",
-              "reasoning": "Although users can now manage settings, historical issues with lack of control highlight potential ongoing challenges.",
-              "related_questions": [
-                "Are users able to easily withdraw consent for data sharing?",
-                "How effectively can users manage third-party access to their data?"
-              ]
-            }
-          ]
+          "state": "No Issue",
+          "concerns": []
         },
         "Accountability": {
           "state": "No Issue",
           "concerns": [
             {
-              "description": "Insufficient accountability for third-party data practices",
-              "reasoning": "The incident highlighted a lack of oversight and accountability for how third-party developers handled user data.",
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
               "related_questions": [
-                "What measures are in place to hold third parties accountable for data misuse?",
-                "How does the platform audit third-party data practices?"
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
               ]
             }
           ]
@@ -553,14 +508,14 @@
     "16": {
       "states": {
         "Collection Limitation": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Excessive data collection from non-consenting users",
-              "reasoning": "Third-party applications were able to collect data not only from users who installed the app but also from their friends without explicit consent from those friends.",
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
               "related_questions": [
-                "What specific data was collected from users' friends?",
-                "Were users aware that their friends' data could be collected?"
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
               ]
             }
           ]
@@ -569,11 +524,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Potential inaccuracies in user data collected",
-              "reasoning": "The mass collection of data, including inferred psychological profiles, may lead to inaccuracies in user profiles.",
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
               "related_questions": [
-                "How is the accuracy of collected data ensured?",
-                "Are users able to correct inaccuracies in their data?"
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
               ]
             }
           ]
@@ -582,11 +537,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Insufficient clarity on data use purposes",
-              "reasoning": "Data was used to create psychological profiles and target political advertisements, but users were likely not fully informed of these specific purposes.",
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
               "related_questions": [
-                "Were users informed about the specific purposes for their data usage?",
-                "How are purposes communicated to users before data collection?"
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
               ]
             }
           ]
@@ -595,10 +550,10 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Data used beyond initially specified purposes",
-              "reasoning": "Data collected for app functionality was used for political profiling and advertising, which may not align with users' initial understanding.",
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
               "related_questions": [
-                "Are there checks in place to ensure data is only used for agreed purposes?",
+                "What controls are in place to prevent unauthorized data use?",
                 "How does the platform monitor compliance with use limitations?"
               ]
             }
@@ -608,50 +563,41 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Lack of adequate encryption and security measures",
-              "reasoning": "User data was accessed by third parties without sufficient encryption or safeguarding measures, leading to unauthorized uses.",
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
               "related_questions": [
-                "What encryption measures are now in place to protect user data?",
-                "How frequently are security protocols updated and reviewed?"
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
               ]
             }
           ]
         },
         "Openness": {
-          "state": "Has Issue",
+          "state": "No Issue",
           "concerns": [
             {
-              "description": "Limited transparency about data practices",
-              "reasoning": "Users were likely not fully informed about the extent of data sharing and access granted to third-party applications.",
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
               "related_questions": [
-                "How are users informed about data sharing practices?",
-                "What information is provided to users regarding data access by third parties?"
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
               ]
             }
           ]
         },
         "Individual Participation": {
-          "state": "Potential Issue",
-          "concerns": [
-            {
-              "description": "Challenges in user control over data sharing",
-              "reasoning": "Although users can now manage settings, historical issues with lack of control highlight potential ongoing challenges.",
-              "related_questions": [
-                "Are users able to easily withdraw consent for data sharing?",
-                "How effectively can users manage third-party access to their data?"
-              ]
-            }
-          ]
+          "state": "No Issue",
+          "concerns": []
         },
         "Accountability": {
-          "state": "Potential Issue",
+          "state": "No Issue",
           "concerns": [
             {
-              "description": "Insufficient accountability for third-party data practices",
-              "reasoning": "The incident highlighted a lack of oversight and accountability for how third-party developers handled user data.",
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
               "related_questions": [
-                "What measures are in place to hold third parties accountable for data misuse?",
-                "How does the platform audit third-party data practices?"
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
               ]
             }
           ]
@@ -663,14 +609,14 @@
     "17": {
       "states": {
         "Collection Limitation": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Excessive data collection from non-consenting users",
-              "reasoning": "Third-party applications were able to collect data not only from users who installed the app but also from their friends without explicit consent from those friends.",
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
               "related_questions": [
-                "What specific data was collected from users' friends?",
-                "Were users aware that their friends' data could be collected?"
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
               ]
             }
           ]
@@ -679,11 +625,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Potential inaccuracies in user data collected",
-              "reasoning": "The mass collection of data, including inferred psychological profiles, may lead to inaccuracies in user profiles.",
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
               "related_questions": [
-                "How is the accuracy of collected data ensured?",
-                "Are users able to correct inaccuracies in their data?"
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
               ]
             }
           ]
@@ -692,11 +638,11 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Insufficient clarity on data use purposes",
-              "reasoning": "Data was used to create psychological profiles and target political advertisements, but users were likely not fully informed of these specific purposes.",
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
               "related_questions": [
-                "Were users informed about the specific purposes for their data usage?",
-                "How are purposes communicated to users before data collection?"
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
               ]
             }
           ]
@@ -705,10 +651,10 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Data used beyond initially specified purposes",
-              "reasoning": "Data collected for app functionality was used for political profiling and advertising, which may not align with users' initial understanding.",
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
               "related_questions": [
-                "Are there checks in place to ensure data is only used for agreed purposes?",
+                "What controls are in place to prevent unauthorized data use?",
                 "How does the platform monitor compliance with use limitations?"
               ]
             }
@@ -718,50 +664,849 @@
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Lack of adequate encryption and security measures",
-              "reasoning": "User data was accessed by third parties without sufficient encryption or safeguarding measures, leading to unauthorized uses.",
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
               "related_questions": [
-                "What encryption measures are now in place to protect user data?",
-                "How frequently are security protocols updated and reviewed?"
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
               ]
             }
           ]
         },
         "Openness": {
+          "state": "No Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
+              "related_questions": [
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Accountability": {
+          "state": "No Issue",
+          "concerns": [
+            {
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
+              "related_questions": [
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "18": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
+              "related_questions": [
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
           "state": "Has Issue",
           "concerns": [
             {
-              "description": "Limited transparency about data practices",
-              "reasoning": "Users were likely not fully informed about the extent of data sharing and access granted to third-party applications.",
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
               "related_questions": [
-                "How are users informed about data sharing practices?",
-                "What information is provided to users regarding data access by third parties?"
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
+              "related_questions": [
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
+              "related_questions": [
+                "What controls are in place to prevent unauthorized data use?",
+                "How does the platform monitor compliance with use limitations?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
+              "related_questions": [
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "No Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
+              "related_questions": [
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Accountability": {
+          "state": "No Issue",
+          "concerns": [
+            {
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
+              "related_questions": [
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "19": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
+              "related_questions": [
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
+              "related_questions": [
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
+              "related_questions": [
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
+              "related_questions": [
+                "What controls are in place to prevent unauthorized data use?",
+                "How does the platform monitor compliance with use limitations?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
+              "related_questions": [
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
+              "related_questions": [
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
+              "related_questions": [
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "20": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
+              "related_questions": [
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
+              "related_questions": [
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
+              "related_questions": [
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
+              "related_questions": [
+                "What controls are in place to prevent unauthorized data use?",
+                "How does the platform monitor compliance with use limitations?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
+              "related_questions": [
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "No Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
+              "related_questions": [
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
+              "related_questions": [
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "21": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
+              "related_questions": [
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
+              "related_questions": [
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
+              "related_questions": [
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
+              "related_questions": [
+                "What controls are in place to prevent unauthorized data use?",
+                "How does the platform monitor compliance with use limitations?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
+              "related_questions": [
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "No Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
+              "related_questions": [
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
+              "related_questions": [
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "22": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
+              "related_questions": [
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
+              "related_questions": [
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
+              "related_questions": [
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
+              "related_questions": [
+                "What controls are in place to prevent unauthorized data use?",
+                "How does the platform monitor compliance with use limitations?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
+              "related_questions": [
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "No Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
+              "related_questions": [
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
+              "related_questions": [
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "23": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
+              "related_questions": [
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
+              "related_questions": [
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
+              "related_questions": [
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
+              "related_questions": [
+                "What controls are in place to prevent unauthorized data use?",
+                "How does the platform monitor compliance with use limitations?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "No Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
+              "related_questions": [
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "No Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
+              "related_questions": [
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
+              "related_questions": [
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "24": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
+              "related_questions": [
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
+              "related_questions": [
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
+              "related_questions": [
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
+              "related_questions": [
+                "What controls are in place to prevent unauthorized data use?",
+                "How does the platform monitor compliance with use limitations?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "No Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
+              "related_questions": [
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "No Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
+              "related_questions": [
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Individual Participation": {
+          "state": "No Issue",
+          "concerns": []
+        },
+        "Accountability": {
+          "state": "Potential Issue",
+          "concerns": [
+            {
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
+              "related_questions": [
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "25": {
+      "states": {
+        "Collection Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Excessive data collection by third-party apps.",
+              "reasoning": "Third-party apps collected not only basic profile information but also detailed activity logs and friend lists, including data from users who did not directly interact with the app.",
+              "related_questions": [
+                "What specific types of data are collected without direct user interaction?",
+                "Are there categories of data that are prohibited from collection?"
+              ]
+            }
+          ]
+        },
+        "Data Quality": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data may not be accurate or up-to-date.",
+              "reasoning": "The retention of data indefinitely could lead to data becoming outdated, which affects its quality and relevance.",
+              "related_questions": [
+                "How often is the data reviewed for accuracy?",
+                "What processes are in place to ensure data quality?"
+              ]
+            }
+          ]
+        },
+        "Purpose Specification": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data collected for unspecified or unauthorized purposes.",
+              "reasoning": "User data was used for political advertising without explicit consent for such purposes.",
+              "related_questions": [
+                "Are users informed of all potential purposes for data collection?",
+                "How are purposes for data collection communicated to users?"
+              ]
+            }
+          ]
+        },
+        "Use Limitation": {
+          "state": "Has Issue",
+          "concerns": [
+            {
+              "description": "Data was used beyond the original intent without user consent.",
+              "reasoning": "Data collected by third-party apps was shared with unauthorized third parties like Cambridge Analytica.",
+              "related_questions": [
+                "What controls are in place to prevent unauthorized data use?",
+                "How does the platform monitor compliance with use limitations?"
+              ]
+            }
+          ]
+        },
+        "Security Safeguards": {
+          "state": "No Issue",
+          "concerns": [
+            {
+              "description": "Lack of encryption during data sharing.",
+              "reasoning": "Data was shared in plain text, which poses significant security risks.",
+              "related_questions": [
+                "What encryption standards are applied to data during transmission?",
+                "How does the platform ensure the security of user data shared with third parties?"
+              ]
+            }
+          ]
+        },
+        "Openness": {
+          "state": "No Issue",
+          "concerns": [
+            {
+              "description": "Lack of transparency in data collection and sharing practices.",
+              "reasoning": "Users were not adequately informed about the data collected and shared with third parties.",
+              "related_questions": [
+                "What information is provided to users about data sharing practices?",
+                "How are changes to data practices communicated to users?"
               ]
             }
           ]
         },
         "Individual Participation": {
           "state": "Has Issue",
-          "concerns": [
-            {
-              "description": "Challenges in user control over data sharing",
-              "reasoning": "Although users can now manage settings, historical issues with lack of control highlight potential ongoing challenges.",
-              "related_questions": [
-                "Are users able to easily withdraw consent for data sharing?",
-                "How effectively can users manage third-party access to their data?"
-              ]
-            }
-          ]
+          "concerns": []
         },
         "Accountability": {
-          "state": "Has Issue",
+          "state": "Potential Issue",
           "concerns": [
             {
-              "description": "Insufficient accountability for third-party data practices",
-              "reasoning": "The incident highlighted a lack of oversight and accountability for how third-party developers handled user data.",
+              "description": "Insufficient accountability for third-party data practices.",
+              "reasoning": "The unauthorized use of user data by Cambridge Analytica suggests a lack of oversight and accountability measures.",
               "related_questions": [
-                "What measures are in place to hold third parties accountable for data misuse?",
-                "How does the platform audit third-party data practices?"
+                "What accountability measures are in place for third-party apps?",
+                "How does the platform enforce compliance with data protection policies?"
               ]
             }
           ]

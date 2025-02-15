@@ -1,23 +1,23 @@
 [
   {
     "question": {
-      "text": "What types of emotional content data are collected from users' interactions on the social media platform?",
+      "text": "What types of emotional content data are collected from users during the experiment?",
       "options": [
         {
           "id": "option1",
-          "label": "Posts and comments containing emotional expressions"
+          "label": "Posts containing identified positive and negative emotional words"
         },
         {
           "id": "option2",
-          "label": "Reactions to other users' posts (e.g., likes, loves)"
+          "label": "User engagement metrics such as likes and comments"
         },
         {
           "id": "option3",
-          "label": "Direct messages between users"
+          "label": "Demographic data linked to emotional expression"
         },
         {
           "id": "option4",
-          "label": "Time spent on viewing emotional content"
+          "label": "Private messages sent by users"
         }
       ],
       "category": "Data Action",
@@ -27,63 +27,30 @@
       "selected_options": [
         "option1"
       ],
-      "explanation": "The data practice describes how Facebook manipulated users' News Feed content by altering the emotional tone of the posts they saw. This implies that Facebook collected data on the emotional content of posts and comments, as they specifically removed positive or negative posts to study their effects. The study then analyzed the users' own posts to see how their emotional expressions changed as a result, further indicating that the emotional expressions in posts and comments were collected. While the data practice doesn't explicitly mention reactions to posts, the focus was clearly on the posts themselves, which supports the selection of option1.",
+      "explanation": "The data practice describes a psychological experiment conducted by Facebook, where the News Feed content of users was manipulated to study emotional contagion. Specifically, Facebook removed either positive or negative emotional content from users' feeds to observe changes in their subsequent emotional expressions. This indicates that the data collected involved analyzing posts containing identified positive and negative emotional words, as the study focused on the emotional tone of the users' posts after manipulation. There is no mention in the data practice of collecting user engagement metrics, demographic data, or private messages, so these options are not selected.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:18:53.098263"
+    "timestamp": "2025-02-13T15:01:34.456069"
   },
   {
     "question": {
-      "text": "When is the emotional content data collected from users?",
+      "text": "What is the purpose of collecting emotional content data from users in this experiment?",
       "options": [
         {
           "id": "option1",
-          "label": "During active app usage"
+          "label": "To analyze the impact of emotional content on users' emotional expressions"
         },
         {
           "id": "option2",
-          "label": "At random intervals throughout the day"
+          "label": "To improve targeted advertising strategies"
         },
         {
           "id": "option3",
-          "label": "Only during specific research periods"
+          "label": "To enhance user engagement with the platform"
         },
         {
           "id": "option4",
-          "label": "When users engage with emotionally tagged content"
-        }
-      ],
-      "category": "Data Action",
-      "related_dimensions": []
-    },
-    "answer": {
-      "selected_options": [
-        "option3"
-      ],
-      "explanation": "The data practice describes a specific research period in January 2012 when Facebook conducted a psychological experiment over one week. During this time, the News Feed content was manipulated to study emotional contagion. This indicates that the emotional content data was collected specifically during these research periods. The description does not mention continuous data collection outside of this research period or at random intervals, nor does it indicate that the collection was linked to users engaging with emotionally tagged content. Therefore, 'Only during specific research periods' is the most accurate option based on the described data practice.",
-      "impact_analysis": {}
-    },
-    "timestamp": "2025-02-13T13:18:55.982957"
-  },
-  {
-    "question": {
-      "text": "What is the purpose of collecting emotional content data from users?",
-      "options": [
-        {
-          "id": "option1",
-          "label": "To study emotional contagion effects on user behavior"
-        },
-        {
-          "id": "option2",
-          "label": "To improve personalized content recommendations"
-        },
-        {
-          "id": "option3",
-          "label": "For marketing and advertising purposes"
-        },
-        {
-          "id": "option4",
-          "label": "To enhance user experience through mood tracking"
+          "label": "To develop new social networking features"
         }
       ],
       "category": "Data Action",
@@ -93,30 +60,30 @@
       "selected_options": [
         "option1"
       ],
-      "explanation": "The data practice involved Facebook conducting a psychological experiment to study emotional contagion effects on user behavior by manipulating the emotional content of users' News Feeds. The purpose was explicitly to analyze if exposure to certain emotional content would influence the emotional expressions of users in their subsequent posts. There is no indication in the data practice that the data was collected to improve personalized content recommendations, for marketing and advertising purposes, or to enhance user experience through mood tracking. The primary focus was on understanding emotional contagion, as demonstrated by the research findings that users' own posts were influenced by the emotional tone of the content they were exposed to.",
+      "explanation": "The purpose of collecting emotional content data from users in this experiment was specifically to analyze the impact of emotional content on users' emotional expressions. This is clearly stated in the data practice, where Facebook manipulated the News Feed content to study emotional contagion and observed how changes in exposure to emotional content affected users' subsequent posts. There is no mention of the data being used to improve advertising strategies, enhance user engagement, or develop new features, making 'option1' the most accurate choice. The controversy and discussions around the study also focused on the ethical implications of manipulating emotional states without informed consent, further supporting that the primary intent was research on emotional expressions, not commercial objectives.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:18:59.144709"
+    "timestamp": "2025-02-13T15:01:36.617724"
   },
   {
     "question": {
-      "text": "How is the collected emotional content data processed?",
+      "text": "Is user data anonymized during the processing phase of the experiment?",
       "options": [
         {
           "id": "option1",
-          "label": "Using natural language processing to detect sentiment"
+          "label": "Yes, data is fully anonymized to prevent identification of individual users"
         },
         {
           "id": "option2",
-          "label": "Aggregated and analyzed for trend patterns"
+          "label": "No, user identifiers are retained for detailed analysis"
         },
         {
           "id": "option3",
-          "label": "Stored in raw format for later manual review"
+          "label": "Data is pseudonymized, with identifiers replaced by codes"
         },
         {
           "id": "option4",
-          "label": "Filtered and categorized by emotional type"
+          "label": "Anonymization is not applied, but data access is restricted"
         }
       ],
       "category": "Data Action",
@@ -126,30 +93,63 @@
       "selected_options": [
         "option2"
       ],
-      "explanation": "The data practice describes how Facebook conducted a psychological experiment by manipulating News Feed content and then analyzing users' subsequent posts to see if emotional contagion occurred. The study's goal was to observe whether changes in the emotional tone of the News Feed would influence the emotional tone of users' own posts. This suggests that the data was aggregated and analyzed for trend patterns to determine the overall effect of the manipulated content on users' emotional expressions. There is no indication in the data practice that natural language processing was used specifically to detect sentiment, nor that the data was stored in raw format for later manual review or filtered and categorized by emotional type. Therefore, option 2 is the most appropriate choice, as it aligns with the described practice of analyzing user behavior for trends related to emotional contagion.",
+      "explanation": "The data practice does not mention any anonymization or pseudonymization of user data during the experiment. It indicates that Facebook manipulated the News Feeds of 689,003 users and analyzed their subsequent posts, suggesting that user identifiers were likely retained for detailed analysis. This retention would have allowed the researchers to track changes in individual users' emotional expressions in response to the manipulated content. Additionally, the controversy over the experiment highlights concerns about research ethics and user consent, but does not suggest that anonymization was part of the data processing. Therefore, option 2 is the most appropriate choice given the available information.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:19:03.494378"
+    "timestamp": "2025-02-13T15:01:38.957061"
   },
   {
     "question": {
-      "text": "Is the collected emotional content data anonymized during processing?",
+      "text": "Is data aggregated as part of the processing of emotional content data?",
       "options": [
         {
           "id": "option1",
-          "label": "Yes, all user identifiers are removed"
+          "label": "Yes, data is aggregated to analyze trends across groups of users"
         },
         {
           "id": "option2",
-          "label": "Partially anonymized, with some identifiers retained for analysis"
+          "label": "No, data is analyzed on an individual basis"
         },
         {
           "id": "option3",
-          "label": "No, data is processed with user identifiers intact"
+          "label": "Data is partially aggregated, with some individual-level analysis"
         },
         {
           "id": "option4",
-          "label": "Anonymization depends on the data use context"
+          "label": "Aggregation is performed only for summarized reporting"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The data practice describes an experiment conducted by Facebook where the emotional content in users' News Feeds was manipulated to analyze emotional contagion. The study involved a large sample size of 689,003 users, and the findings were reported in terms of general trends across groups, such as users in the positive condition posting more positive content when exposed to fewer negative posts. This suggests that the data was aggregated to identify trends and effects at the group level rather than focusing solely on individual behaviors. Therefore, option1 is selected as it accurately reflects the aggregation of data to analyze trends across groups of users, which aligns with the reported outcomes of the experiment.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T15:01:41.819142"
+  },
+  {
+    "question": {
+      "text": "How is user data handled after the retention period for the experiment?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Data is permanently deleted from all systems"
+        },
+        {
+          "id": "option2",
+          "label": "Data is anonymized and archived for future research"
+        },
+        {
+          "id": "option3",
+          "label": "Data is retained indefinitely for historical analysis"
+        },
+        {
+          "id": "option4",
+          "label": "Data is transferred to third-party researchers"
         }
       ],
       "category": "Data Action",
@@ -159,30 +159,30 @@
       "selected_options": [
         "option2"
       ],
-      "explanation": "The data practice describes a psychological experiment where Facebook manipulated users' News Feed content to study emotional contagion. However, the provided description does not specify whether the collected emotional content data was fully anonymized during processing. Given the context of the study, where user behavior was analyzed to assess emotional changes based on manipulated News Feed content, it is reasonable to infer that some identifiers were retained to correlate specific users' exposure to content and their subsequent posts. This suggests partial anonymization, where some identifiers are likely kept for analysis purposes, aligning with option 2. The lack of explicit mention of anonymization or removal of all user identifiers in the practice supports this conclusion.",
+      "explanation": "The data practice describes Facebook's psychological experiment on users' News Feeds without explicit consent, which raised ethical concerns. However, the practice itself does not detail specific procedures for handling user data post-retention period. Given the lack of explicit information on deletion or indefinite retention, and considering the industry practice of anonymizing data for future research to address ethical concerns, option 2 (Data is anonymized and archived for future research) is a plausible action. This approach aligns with user expectations for privacy by removing identifiable information while allowing researchers to use the data ethically in the future.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:19:09.401242"
+    "timestamp": "2025-02-13T15:01:44.628701"
   },
   {
     "question": {
-      "text": "How long is the emotional content data retained in the system?",
+      "text": "Who has access to the emotional content data collected from users?",
       "options": [
         {
           "id": "option1",
-          "label": "Retained indefinitely for ongoing research"
+          "label": "Only the research team conducting the experiment"
         },
         {
           "id": "option2",
-          "label": "Deleted after a predefined research period ends"
+          "label": "Service providers assisting with data processing"
         },
         {
           "id": "option3",
-          "label": "Stored for one year before anonymization and archiving"
+          "label": "Third-party researchers upon approval"
         },
         {
           "id": "option4",
-          "label": "Purged immediately after analysis is complete"
+          "label": "All employees of the social media platform"
         }
       ],
       "category": "Data Action",
@@ -192,30 +192,30 @@
       "selected_options": [
         "option1"
       ],
-      "explanation": "The data practice described does not specify a limit on how long the emotional content data is retained, nor does it mention any deletion or anonymization process. Facebook defended the research under their data use policy, which suggests that the data could be retained indefinitely for ongoing research. This aligns with option 1, 'Retained indefinitely for ongoing research,' as there is no indication of a predefined research period after which data is deleted, nor any mention of immediate purging after analysis or a one-year retention period followed by anonymization and archiving. The lack of explicit consent and transparency in data retention practices raises significant privacy concerns and does not align with typical user expectations for data handling, leading to controversy over the ethics of the study.",
+      "explanation": "The data practice describes a psychological experiment conducted by Facebook's research team, indicating that the access to the emotional content data was likely limited to this team. The practice does not mention involvement from service providers assisting with data processing or third-party researchers, nor does it suggest that all employees of the social media platform had access. Given the controversy and ethical concerns surrounding the study, it is unlikely that access was broadly shared beyond the research team, aligning with privacy expectations that sensitive user data would be restricted to those directly involved in the study.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:19:18.916249"
+    "timestamp": "2025-02-13T15:01:51.323035"
   },
   {
     "question": {
-      "text": "Who can access the collected emotional content data?",
+      "text": "What specific user data can be shared with third parties during the experiment?",
       "options": [
         {
           "id": "option1",
-          "label": "Only the research team conducting the study"
+          "label": "Aggregated emotional content metrics"
         },
         {
           "id": "option2",
-          "label": "Service providers involved in data processing"
+          "label": "Individual user emotional expression data"
         },
         {
           "id": "option3",
-          "label": "Third-party partners for related research projects"
+          "label": "Anonymized user demographic information"
         },
         {
           "id": "option4",
-          "label": "All employees within the organization"
+          "label": "Complete user interaction histories"
         }
       ],
       "category": "Data Action",
@@ -225,64 +225,30 @@
       "selected_options": [
         "option1"
       ],
-      "explanation": "The data practice specifically mentions a research team conducting the study, indicating that the primary access to the emotional content data was likely restricted to the researchers involved in the study. The practice does not mention service providers involved in data processing or third-party partners for related research projects, nor does it suggest that all employees within the organization had access to the data. Therefore, option 1 is the most appropriate choice, reflecting the intended use and access as described in the data practice. While there is an implication that Facebook as an organization might have broader access capabilities, the specific context of the research suggests it was primarily the research team accessing the data for the study.",
+      "explanation": "The data practice involved analyzing users' subsequent posts to study the effect of manipulated News Feed content on emotional expressions. While the study itself didn't explicitly mention sharing data with third parties, it is likely that aggregated emotional content metrics could be shared as they anonymize individual data points and are typically used in research to report findings without exposing individual user data. Sharing individual user emotional expression data would have significant privacy implications and would not align with user expectations, especially given the controversy over the lack of informed consent. Therefore, aggregated emotional content metrics is the most appropriate option that aligns with the described practice.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:19:22.992373"
+    "timestamp": "2025-02-13T15:01:53.628434"
   },
   {
     "question": {
-      "text": "What types of emotional content data can be shared with third parties?",
+      "text": "How can users withdraw their consent from participation in the emotional content experiment?",
       "options": [
         {
           "id": "option1",
-          "label": "Anonymized aggregated data sets"
+          "label": "By contacting customer support to opt-out"
         },
         {
           "id": "option2",
-          "label": "Raw data with limited identifiers"
+          "label": "Through privacy settings on their account"
         },
         {
           "id": "option3",
-          "label": "Summary reports with no user identifiers"
+          "label": "Consent withdrawal is not possible once the experiment has started"
         },
         {
           "id": "option4",
-          "label": "No data is shared with third parties"
-        }
-      ],
-      "category": "Data Action",
-      "related_dimensions": []
-    },
-    "answer": {
-      "selected_options": [
-        "option1",
-        "option3"
-      ],
-      "explanation": "The data practice described involved Facebook conducting a psychological experiment by manipulating users' News Feeds without explicit consent, leading to ethical concerns. While the practice does not explicitly mention sharing data with third parties, it emphasizes the analysis of emotional expressions in aggregate. Therefore, it is reasonable to infer that if any data were shared, it would likely be in a form that minimizes privacy risks, such as anonymized aggregated data sets (option1) and summary reports with no user identifiers (option3), to align with typical privacy practices and user expectations. These options reduce the risk of identifying individual users, thereby addressing privacy implications highlighted by the controversy over the experiment's ethics.",
-      "impact_analysis": {}
-    },
-    "timestamp": "2025-02-13T13:19:26.392357"
-  },
-  {
-    "question": {
-      "text": "How can users withdraw their consent for participating in the emotional content study?",
-      "options": [
-        {
-          "id": "option1",
-          "label": "Through the privacy settings in their account"
-        },
-        {
-          "id": "option2",
-          "label": "By contacting customer support via email"
-        },
-        {
-          "id": "option3",
-          "label": "By opting out through a link in the study notification"
-        },
-        {
-          "id": "option4",
-          "label": "Consent cannot be withdrawn once the study begins"
+          "label": "By submitting a consent withdrawal form online"
         }
       ],
       "category": "Consent",
@@ -290,32 +256,32 @@
     },
     "answer": {
       "selected_options": [
-        "option4"
+        "option3"
       ],
-      "explanation": "The data practice describes a study conducted by Facebook in 2012, where users' News Feeds were manipulated without their explicit consent. The practice does not mention any mechanism for users to withdraw their consent once the study begins, nor does it indicate that users were informed of the study or given an option to opt-out. In fact, the study was conducted without users' knowledge, making it impossible for them to withdraw consent during or after the manipulation. Therefore, 'Consent cannot be withdrawn once the study begins' is the most accurate option based on the available information.",
+      "explanation": "The data practice describes a situation in which Facebook conducted an experiment without users' explicit consent. Since the experiment was conducted without informing users or obtaining their prior consent, it implies that users were not given an option to withdraw consent either. Therefore, the most accurate answer is that consent withdrawal is not possible once the experiment has started. This reflects the lack of informed consent and the absence of a mechanism for users to opt-out or withdraw from the experiment once it was underway. Additionally, the controversy surrounding the experiment highlights the ethical concerns about conducting such studies without explicit user consent, further supporting that users were not provided an option to control their participation during the experiment.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:19:29.620468"
+    "timestamp": "2025-02-13T15:01:56.263850"
   },
   {
     "question": {
-      "text": "Can users delete their emotional content data from the study, either partially or entirely?",
+      "text": "Can users control whether their emotional content data is shared with third parties, and if so, how?",
       "options": [
         {
           "id": "option1",
-          "label": "Yes, users can request full deletion of their data"
+          "label": "Yes, through account privacy settings"
         },
         {
           "id": "option2",
-          "label": "Users can delete specific data entries they choose"
+          "label": "No, data sharing is mandatory for all users"
         },
         {
           "id": "option3",
-          "label": "Data deletion is not possible once collected"
+          "label": "Yes, by opting out of the experiment entirely"
         },
         {
           "id": "option4",
-          "label": "Partial deletion is allowed after a review process"
+          "label": "Only if they request a privacy review"
         }
       ],
       "category": "Control",
@@ -323,27 +289,60 @@
     },
     "answer": {
       "selected_options": [
-        "option3"
+        "option2"
       ],
-      "explanation": "The data practice describes a scenario where Facebook conducted a psychological experiment on users without their explicit consent, manipulating their News Feed content. Since the study was carried out in 2012 and published in 2014, there is no mention of users being informed about the possibility of data deletion or having control over their data. The incident led to ethical discussions and changes in research review processes, but there is no indication that users were given the option to delete their data from the study. Therefore, based on the practices described, data deletion is not possible once collected, aligning with option3.",
+      "explanation": "The data practice describes a situation where Facebook conducted a psychological experiment on users without their explicit consent, manipulating News Feed content to study emotional contagion. This indicates that users did not have control over whether their emotional content data was shared or used for this experiment. Facebook defended the research as covered under their data use policy, suggesting that data sharing was considered mandatory under the terms users agreed to when using the platform. Therefore, users did not have the ability to control the sharing of their emotional content data with third parties in this context, aligning with option 2.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:19:37.329434"
+    "timestamp": "2025-02-13T15:01:58.148984"
   },
   {
     "question": {
-      "text": "What measures are in place to ensure the accuracy and relevance of the emotional content data?",
+      "text": "What specific aspects of data practices are included in regular audits of the emotional content experiment?",
       "options": [
         {
           "id": "option1",
-          "label": "Regular validation against external benchmarks or expert reviews"
+          "label": "Data collection methods and user consent practices"
         },
         {
           "id": "option2",
-          "label": "No specific validation measures in place"
+          "label": "The accuracy of emotional content analysis"
+        },
+        {
+          "id": "option3",
+          "label": "Data sharing protocols with third parties"
+        },
+        {
+          "id": "option4",
+          "label": "Financial audits of research funding"
         }
       ],
-      "category": "Data Quality",
+      "category": "Audit",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The Facebook emotional content experiment raised significant ethical concerns around user consent and the methods used to collect and manipulate data. The controversy primarily centered on the lack of explicit user consent for participation in such a psychological study, which is a critical aspect of ethical research practices. Consequently, 'Data collection methods and user consent practices' (option1) would be a primary focus in regular audits to ensure adherence to ethical standards and to address privacy implications and user expectations. While the accuracy of emotional content analysis (option2) is relevant to the study's findings, the controversy and privacy implications are more directly tied to the methods of data collection and user consent.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T15:02:03.870209"
+  },
+  {
+    "question": {
+      "text": "What measures were taken to validate the accuracy of emotional tone classification in user posts during the experiment?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Use of automated sentiment analysis tools with validation by human reviewers"
+        },
+        {
+          "id": "option2",
+          "label": "No specific validation measures were implemented beyond automated tools"
+        }
+      ],
+      "category": "data_quality_assessment",
       "related_dimensions": [
         "Data Quality"
       ]
@@ -352,53 +351,24 @@
       "selected_options": [
         "option2"
       ],
-      "explanation": "The data practice described does not mention any specific validation measures in place to ensure the accuracy and relevance of the emotional content data. The focus was on manipulating the News Feed content and observing the emotional contagion effect without mention of validation against benchmarks or expert reviews.",
+      "explanation": "The data practice description does not mention any specific validation measures that were undertaken to ensure the accuracy of the emotional tone classification in user posts beyond the use of automated tools. Since there is no reference to human reviewers or any additional validation steps, we must conclude that no specific validation measures were implemented beyond the automated tools used for sentiment analysis.",
       "impact_analysis": {
-        "Data Quality": "The lack of specific validation measures for ensuring the accuracy and relevance of the emotional content data can compromise data quality. Without validation, there is a risk that the emotional content manipulated in users' News Feeds may not accurately reflect users' real emotional states or the intended experimental conditions. This could affect the reliability of the study's findings and raise ethical concerns about the validity and accuracy of data used to influence user emotions without their informed consent."
+        "Data Quality": "The lack of specific validation measures beyond automated tools raises concerns about the accuracy and reliability of the emotional tone classification. Automated sentiment analysis tools can have limitations and may misinterpret the context or nuances of human emotion, leading to potential misclassification. This can impact the overall validity of the study's findings and highlight the importance of robust data quality measures, especially in research involving psychological and emotional manipulation."
       }
     },
-    "timestamp": "2025-02-13T13:19:56.920366"
+    "timestamp": "2025-02-13T15:02:25.492172"
   },
   {
     "question": {
-      "text": "What specific security measures are implemented to protect the emotional content data from unauthorized access during the experiment?",
+      "text": "What mechanisms were in place to ensure ethical oversight and accountability during the Facebook emotional content experiment?",
       "options": [
         {
           "id": "option1",
-          "label": "Data encryption and access controls were strictly enforced"
+          "label": "The research team followed an internal review process with ethical guidelines."
         },
         {
           "id": "option2",
-          "label": "Minimal security measures were in place, relying on general company policies"
-        }
-      ],
-      "category": "security_safeguards",
-      "related_dimensions": [
-        "Security Safeguards"
-      ]
-    },
-    "answer": {
-      "selected_options": [
-        "option2"
-      ],
-      "explanation": "The data practice description does not provide any specific details about the security measures implemented during the Facebook emotional contagion experiment. It only mentions the controversy over research ethics, informed consent, and manipulation of users' emotional states. Since there is no mention of strict data encryption or access controls, it is reasonable to conclude that minimal security measures were in place, relying on general company policies.",
-      "impact_analysis": {
-        "Security Safeguards": "Selecting option 2, which suggests minimal security measures, indicates that the emotional content data may not have been adequately protected against unauthorized access during the experiment. This raises significant privacy concerns, as the lack of robust security safeguards could have exposed sensitive emotional data to potential breaches or misuse. It highlights the importance of implementing strong security measures to protect user data, especially when conducting experiments that involve manipulation of personal content."
-      }
-    },
-    "timestamp": "2025-02-13T13:20:11.004884"
-  },
-  {
-    "question": {
-      "text": "How does Facebook ensure compliance with data protection standards in light of the emotional content study?",
-      "options": [
-        {
-          "id": "option1",
-          "label": "Regular audits and reviews of data protection practices"
-        },
-        {
-          "id": "option2",
-          "label": "No formal compliance measures in place"
+          "label": "No formal mechanisms were in place for ethical oversight and accountability."
         }
       ],
       "category": "accountability",
@@ -411,136 +381,41 @@
       "selected_options": [
         "option2"
       ],
-      "explanation": "The data practice described in the emotional content study does not mention any formal compliance measures that Facebook had in place at the time of the experiment. The controversy it sparked, particularly regarding informed consent and ethical concerns, suggests that there were gaps in accountability and openness. The incident led to discussions about ethical standards and resulted in changes to Facebook's research review processes, indicating that prior to this, there might not have been adequate compliance measures.",
+      "explanation": "The description of the Facebook emotional content experiment indicates that there were no formal mechanisms in place for ethical oversight and accountability. The study was conducted without the explicit consent of the users involved, which led to significant controversy over research ethics. There is no mention of an internal review process or adherence to ethical guidelines being in place at the time of the experiment. Instead, the controversy and subsequent discussions highlighted the lack of ethical oversight, ultimately leading to changes in Facebook's research review processes.",
       "impact_analysis": {
-        "Accountability": "The absence of formal compliance measures prior to the controversy suggests a lack of accountability in Facebook's data practices. The emotional content study was conducted without explicit consent, highlighting a failure to uphold ethical standards in research and data protection.",
-        "Openness": "The lack of transparency in conducting the experiment without users' knowledge reflects poorly on Facebook's openness. This incident suggests that users were not fully informed about how their data was being used, leading to significant backlash and prompting Facebook to reevaluate its practices."
+        "Accountability": "The lack of formal ethical oversight and accountability in the experiment reflects poorly on accountability practices. The absence of mechanisms to ensure ethical conduct indicates a gap in responsible data handling and protection of user privacy. This lack of accountability could undermine trust in the platform and its handling of personal data.",
+        "Openness": "The experiment was conducted without transparency, as users were unaware of their participation and the manipulation of their News Feeds. This lack of openness can lead to user mistrust and concerns about privacy, as individuals were not informed or given the opportunity to consent to the study. The controversy that followed highlights the importance of transparent communication and informed consent in research involving user data."
       }
     },
-    "timestamp": "2025-02-13T13:20:30.871105"
+    "timestamp": "2025-02-13T15:02:50.910096"
   },
   {
     "question": {
-      "text": "What mechanisms, if any, were put in place for users to review the collected emotional content data and request corrections if inaccuracies were found?",
+      "text": "What specific security measures were implemented to protect user data during and after the Facebook emotional content experiment?",
       "options": [
         {
           "id": "option1",
-          "label": "Users could review and request corrections at any time during the study"
+          "label": "Data was encrypted and access limited to authorized personnel only"
         },
         {
           "id": "option2",
-          "label": "No mechanisms were available for users to review or correct their data"
+          "label": "No specific security measures were mentioned"
         }
       ],
-      "category": "individual_participation",
+      "category": "Security Safeguards",
       "related_dimensions": [
-        "Individual Participation",
-        "Data Quality"
+        "Security Safeguards"
       ]
     },
     "answer": {
       "selected_options": [
         "option2"
       ],
-      "explanation": "The data practice description does not mention any mechanisms that allowed users to review or request corrections to the emotional content data collected during the study. The experiment was conducted without users' explicit consent, and the controversy highlights a lack of transparency and user control over their data. Therefore, option 2 is selected as it accurately reflects the absence of mechanisms for user participation in reviewing or correcting their data.",
+      "explanation": "The data practice description does not mention any specific security measures implemented during or after the Facebook emotional content experiment. The focus of the controversy was on the ethical aspects of informed consent and emotional manipulation, rather than on the technical details of data security. Therefore, based on the information provided, the appropriate choice is that no specific security measures were mentioned.",
       "impact_analysis": {
-        "Individual Participation": "The lack of mechanisms for users to review or correct their data significantly impacts individual participation. Users were not informed of the study or its objectives, nor were they given the opportunity to engage with or challenge the data collected about them. This lack of transparency and control undermines users' ability to participate actively in managing their data and ensuring its accuracy.",
-        "Data Quality": "Without user involvement in reviewing or correcting data, the quality of emotional content data could be compromised. Errors or misinterpretations in data collection could go unchallenged, affecting the study's findings and trust in such research practices. User feedback could have provided valuable insights into the accuracy and context of emotional expressions, potentially enhancing data quality."
+        "Security Safeguards": "The lack of mention of specific security measures raises concerns about the protection of user data during the experiment. Without explicit security safeguards, users' personal data could be at risk of unauthorized access or misuse, especially given the sensitive nature of manipulating emotional content. This highlights the importance of transparency and robust security practices in research involving user data."
       }
     },
-    "timestamp": "2025-02-13T13:20:57.256704"
-  },
-  {
-    "question": {
-      "text": "What transparency measures were in place to disclose the emotional content study to users prior to its execution?",
-      "options": [
-        {
-          "id": "option1",
-          "label": "Detailed disclosures were provided to users before the study began"
-        },
-        {
-          "id": "option2",
-          "label": "No transparency measures were in place prior to the study"
-        }
-      ],
-      "category": "transparency_and_disclosure",
-      "related_dimensions": [
-        "Openness",
-        "Individual Participation"
-      ]
-    },
-    "answer": {
-      "selected_options": [
-        "option2"
-      ],
-      "explanation": "The data practice indicates that Facebook conducted the emotional contagion study without explicit consent from users. There is no mention of any transparency measures or detailed disclosures provided to users before the study began. This lack of transparency led to controversy over research ethics and informed consent, highlighting that users were not aware of the manipulation of their News Feed content prior to the study's execution.",
-      "impact_analysis": {
-        "Openness": "The lack of transparency measures before the study reflects a low level of openness in Facebook's data practices. Users were not informed about the manipulation of their emotional states, which raises concerns about the ethical implications of conducting experiments without user awareness or consent.",
-        "Individual Participation": "Without transparency measures, users were unable to participate in or opt-out of the study knowingly. This impacted their ability to make informed decisions about their involvement, undermining the principle of individual participation in research where users should be aware and have control over their engagement."
-      }
-    },
-    "timestamp": "2025-02-13T13:21:12.215814"
-  },
-  {
-    "question": {
-      "text": "How did the researchers ensure that the emotional content data was only used for the specified study and not for other purposes?",
-      "options": [
-        {
-          "id": "option1",
-          "label": "Data usage was strictly monitored with access logs and audits"
-        },
-        {
-          "id": "option2",
-          "label": "No specific measures were in place to restrict data use to the study"
-        }
-      ],
-      "category": "use_limitation",
-      "related_dimensions": [
-        "Use Limitation",
-        "Accountability"
-      ]
-    },
-    "answer": {
-      "selected_options": [
-        "option2"
-      ],
-      "explanation": "The data practice description does not mention any specific measures such as access logs or audits to ensure that the emotional content data was only used for the specified study. The focus of the description is on the lack of informed consent and ethical implications rather than on data governance or use limitation practices. Thus, it is reasonable to conclude that no specific measures were mentioned as being in place to restrict data use to the study.",
-      "impact_analysis": {
-        "Use Limitation": "The selection of option2 implies that there were no explicit controls mentioned to ensure the data was used solely for the study, raising concerns about adherence to the principle of use limitation. Without clear restrictions, there is a risk that the data could be used for purposes beyond the original intent, which can affect user privacy.",
-        "Accountability": "The absence of mentioned measures for restricting data use indicates a potential lack of accountability in the research process. Without specific controls and monitoring, it is challenging to hold parties accountable for misuse or unauthorized data access, thus impacting trust and ethical standards."
-      }
-    },
-    "timestamp": "2025-02-13T13:21:36.534613"
-  },
-  {
-    "question": {
-      "text": "What accountability measures were implemented to address potential ethical issues and ensure transparency after the emotional content study was conducted?",
-      "options": [
-        {
-          "id": "option1",
-          "label": "Formal review processes and accountability frameworks were established post-study"
-        },
-        {
-          "id": "option2",
-          "label": "No specific accountability measures were implemented post-study"
-        }
-      ],
-      "category": "Accountability",
-      "related_dimensions": [
-        "Accountability",
-        "Openness"
-      ]
-    },
-    "answer": {
-      "selected_options": [
-        "option1"
-      ],
-      "explanation": "The data practice indicates that the emotional content study led to discussions about the ethics of conducting large-scale social experiments on unwitting users and resulted in changes to Facebook's research review processes. This implies that formal review processes and accountability frameworks were established post-study to address these ethical concerns and ensure better transparency in future research endeavors.",
-      "impact_analysis": {
-        "Accountability": "By establishing formal review processes and accountability frameworks, Facebook aimed to ensure that future research adheres to ethical standards, thereby increasing its accountability in how user data is handled and experiments are conducted.",
-        "Openness": "The implementation of new review processes suggests a move towards greater transparency in Facebook's research activities, addressing public concerns and controversies raised by the study. This openness can help build trust with users by demonstrating a commitment to ethical research practices."
-      }
-    },
-    "timestamp": "2025-02-13T13:22:05.343638"
+    "timestamp": "2025-02-13T15:03:12.525856"
   }
 ]

@@ -1,0 +1,1043 @@
+{
+  "start_state": {
+    "Collection Limitation": {
+      "state": "Has Issue",
+      "description": "The data practice allowed third-party applications to collect not only the data of users who installed the apps but also their friends' data without explicit consent, indicating a lack of limitations on data collection.",
+      "areas_to_investigate": [
+        "Extent of data collected from non-consenting users",
+        "Mechanisms for obtaining user consent"
+      ]
+    },
+    "Data Quality": {
+      "state": "Has Issue",
+      "description": "There is no explicit mention of the accuracy, completeness, or relevance of the data collected by third-party applications, which could affect data quality.",
+      "areas_to_investigate": [
+        "Processes ensuring data accuracy and relevance",
+        "Impact of data inaccuracies on profiling"
+      ],
+      "latest_reasoning": "The explanation provided in option 3 highlights a significant historical issue related to Facebook's data sharing practices, particularly concerning third-party applications. It underscores the absence of adequate processes for ensuring the accuracy and relevance of data collected by these applications, as exemplified by the Cambridge Analytica scandal. This lack of oversight and robust accuracy checks directly impacts the quality of data, demonstrating that there are indeed issues with how data quality was managed in the past. The reference to historical inadequacies and subsequent policy changes indicates that the issue was significant enough to trigger widespread criticism and necessitate reforms. Therefore, the state should be updated to 'Has Issue' to reflect the serious shortcomings in data quality management by third-party applications during that period."
+    },
+    "Purpose Specification": {
+      "state": "Has Issue",
+      "description": "The collected data was used for purposes such as creating psychological profiles for political campaigns, which may not have been clearly specified to users at the time of data collection.",
+      "areas_to_investigate": [
+        "Clarity and transparency of communicated data usage purposes",
+        "Alignment of data use with specified purposes"
+      ]
+    },
+    "Use Limitation": {
+      "state": "Has Issue",
+      "description": "Data was used to create psychological profiles and targeted political advertisements, potentially exceeding the limitations of originally intended uses.",
+      "areas_to_investigate": [
+        "Extent of data usage beyond initial consent",
+        "Controls over third-party use of data"
+      ]
+    },
+    "Security Safeguards": {
+      "state": "Has Issue",
+      "description": "There is no mention of security measures in place to protect user data once accessed by third-party applications.",
+      "areas_to_investigate": [
+        "Security protocols for data protection",
+        "Incidents of data breaches or misuse"
+      ],
+      "latest_reasoning": "The explanation provided confirms that, at the time of the Cambridge Analytica scandal, there were no specific security protocols in place to protect user data once accessed by third-party applications. This indicates a direct and significant issue in the Security Safeguards dimension. Previously, the dimension was in a 'Potential Issue' state due to the lack of explicit mention of security measures for third-party applications. The confirmation that there were indeed no sufficient security protocols suggests that the dimension should move to a 'Has Issue' state, reflecting a clear deficiency in protecting user data from third-party misuse."
+    },
+    "Openness": {
+      "state": "Has Issue",
+      "description": "The practices described indicate a lack of transparency regarding data collection and sharing with third-party applications.",
+      "areas_to_investigate": [
+        "Disclosure practices of data sharing with third parties",
+        "User awareness of data flows and access"
+      ]
+    },
+    "Individual Participation": {
+      "state": "Has Issue",
+      "description": "Initially, users had limited control over their data being shared by third-party applications, especially regarding data collected through friends.",
+      "areas_to_investigate": [
+        "Mechanisms for user control over data sharing",
+        "Options for users to withdraw consent"
+      ]
+    },
+    "Accountability": {
+      "state": "Has Issue",
+      "description": "The lack of clear accountability for third-party applications accessing and using user data contributed to significant privacy concerns.",
+      "areas_to_investigate": [
+        "Accountability measures for third-party data usage",
+        "Enforcement of data protection policies"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": {
+        "text": "What types of data are collected by the attendee attention tracking feature in the video conferencing application?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data on whether the Zoom application is the active window on a participant's computer."
+          },
+          {
+            "id": "option2",
+            "label": "Time stamps indicating when a participant's attention shifts away from the video conferencing application."
+          },
+          {
+            "id": "option3",
+            "label": "Audio and video recordings of participants during the meeting."
+          },
+          {
+            "id": "option4",
+            "label": "Chat messages sent between participants during the meeting."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes a feature that monitors whether Zoom is the active application on a participant's computer. This is indicated by the application being in focus, which is specifically mentioned as a criterion for the attention tracking feature. The feature tracked whether the Zoom application was the active window for over 30 seconds during screen sharing and generated reports on the percentage of time the window was in focus. There is no mention of collecting time stamps, audio and video recordings, or chat messages for this feature, thus those options are not selected.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "2",
+      "question": {
+        "text": "What is the purpose of collecting data on participants' attention during a video conference?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "To provide meeting hosts with feedback on participant engagement levels."
+          },
+          {
+            "id": "option2",
+            "label": "To improve the video conferencing software's user interface for better focus."
+          },
+          {
+            "id": "option3",
+            "label": "To generate analytical reports for third-party service providers."
+          },
+          {
+            "id": "option4",
+            "label": "To ensure compliance with legal requirements for remote learning and work."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The purpose of collecting data on participants' attention during a video conference was to provide meeting hosts with feedback on participant engagement levels. According to the data practice, Zoom developed a feature that allowed the host to monitor the attendees' attention by showing a clock icon next to a participant's name if Zoom was not the application in focus for over 30 seconds. Furthermore, Zoom generated a report for the host listing the percentage of time each participant had the presentation window in focus during the meeting. This indicates that the primary intention was to inform hosts about how engaged participants were during the meeting.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "3",
+      "question": {
+        "text": "How is the data on participant attention processed during a video conference?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "The data is automatically analyzed in real-time to update the host's participant panel."
+          },
+          {
+            "id": "option2",
+            "label": "The data is stored for post-meeting analysis and report generation."
+          },
+          {
+            "id": "option3",
+            "label": "The data is sent to external servers for detailed behavioral analysis."
+          },
+          {
+            "id": "option4",
+            "label": "The data is manually reviewed by platform moderators for quality assurance."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes how Zoom used a feature that allowed hosts to monitor attendees' attention in real-time. Specifically, if Zoom was not the application in focus on a participant's computer for more than 30 seconds, a clock icon would appear next to their name in the host's participant panel. This indicates that the data was automatically analyzed in real-time to update the participant panel, aligning with option 1. There is no mention of the data being stored for post-meeting analysis or being sent to external servers, nor is there any indication that it was manually reviewed by platform moderators, thus excluding options 2, 3, and 4.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "4",
+      "question": {
+        "text": "Is the data collected on participant attention anonymized during processing?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, all data is anonymized and aggregated before processing."
+          },
+          {
+            "id": "option2",
+            "label": "No, data is processed with identifiable information to maintain individual records."
+          },
+          {
+            "id": "option3",
+            "label": "Anonymization is optional and can be enabled by the meeting host."
+          },
+          {
+            "id": "option4",
+            "label": "Data is partially anonymized, with only certain identifiers removed."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The data practice describes that Zoom generated a report for the host listing the percentage of time each participant had the presentation window in focus during the meeting. This indicates that the data was processed with identifiable information to maintain individual records, as the report was specific to each participant. Therefore, the data on participant attention was not anonymized during processing, aligning with option 2, where identifiable information was used to maintain individual records.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "5",
+      "question": {
+        "text": "How long is the attention tracking data retained by the video conferencing application?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is retained for 30 days before automatic deletion."
+          },
+          {
+            "id": "option2",
+            "label": "Data is retained indefinitely unless the user requests deletion."
+          },
+          {
+            "id": "option3",
+            "label": "Data is stored only for the duration of the meeting and deleted immediately after."
+          },
+          {
+            "id": "option4",
+            "label": "Data retention period can be configured by the meeting host."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice described that Zoom generated a report for the host listing the percentage of time each participant had the presentation window in focus during the meeting, implying that the tracking data was only relevant for the duration of the meeting. There is no mention of the data being retained beyond the meeting or for any specified time period. The backlash and subsequent removal of the feature suggest that any associated data would have been deleted immediately after the meeting to address privacy concerns. Therefore, 'Data is stored only for the duration of the meeting and deleted immediately after' is the most accurate reflection of the described practice.",
+      "target_dimension": "Data Storage",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "6",
+      "question": {
+        "text": "Who can access the data collected by the attention tracking feature?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Only the meeting host has access to the data."
+          },
+          {
+            "id": "option2",
+            "label": "Participants can view their own data, but not others'."
+          },
+          {
+            "id": "option3",
+            "label": "The data is accessible to authorized third-party service providers."
+          },
+          {
+            "id": "option4",
+            "label": "Data is shared with internal teams for product improvement."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice described indicates that the attention tracking feature generated a report for the meeting host, specifically listing the percentage of time each participant had the presentation window in focus during the meeting. This implies that only the meeting host has access to the data collected by the attention tracking feature. There is no mention of participants having access to their own data, third-party service providers accessing the data, or the data being shared with internal teams for product improvement. Therefore, the most appropriate option is that only the meeting host has access to the data.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "7",
+      "question": {
+        "text": "How can users withdraw their consent for the attention tracking feature?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Users can adjust their privacy settings within their account preferences."
+          },
+          {
+            "id": "option2",
+            "label": "Users must contact customer support to revoke consent."
+          },
+          {
+            "id": "option3",
+            "label": "Consent is automatically withdrawn after each session."
+          },
+          {
+            "id": "option4",
+            "label": "Users can disable the feature through a notification prompt at the start of each meeting."
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice indicates that the attention tracking feature was permanently removed by Zoom after receiving backlash. Therefore, there is no need for users to withdraw consent for this feature, as it no longer exists. None of the available options accurately reflect this situation, as they all suggest methods for withdrawing consent for a feature that has already been eliminated. Thus, no options are selected.",
+      "target_dimension": "Consent",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "8",
+      "question": {
+        "text": "Can users delete their attention tracking data from the system, either partially or entirely?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, users can delete all their data through their account settings."
+          },
+          {
+            "id": "option2",
+            "label": "Users can only delete data upon request to the support team."
+          },
+          {
+            "id": "option3",
+            "label": "Data deletion is not allowed to maintain meeting records."
+          },
+          {
+            "id": "option4",
+            "label": "Users can delete data after a certain retention period has passed."
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice indicates that the attention tracking feature was removed permanently by Zoom due to privacy concerns. Since the feature no longer exists, there is no attention tracking data to delete. Therefore, none of the options provided are applicable as they all assume the existence of data that can be managed or deleted by users. As such, the question is not relevant to the current state of Zoom's data practices regarding attention tracking.",
+      "target_dimension": "Control",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "9",
+      "question": {
+        "text": "Is the attention tracking feature for participants Opt-in or Opt-out?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "The feature is Opt-in, requiring explicit consent from participants."
+          },
+          {
+            "id": "option2",
+            "label": "The feature is Opt-out, enabled by default but can be disabled by participants."
+          },
+          {
+            "id": "option3",
+            "label": "The feature is mandatory for all users, with no opt-out available."
+          },
+          {
+            "id": "option4",
+            "label": "The feature is Opt-in only for certain types of meetings, as defined by the host."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice does not mention any requirement for participants to give explicit consent for the attention tracking feature, nor does it indicate that participants could disable the feature themselves. The feature was implemented in such a way that the host could monitor the attention of all participants without any indication that participants had the option to opt-in or opt-out. This suggests that the feature was mandatory for all users, with no opt-out available. This aligns with option3, indicating that the feature was not optional for participants and was applied universally during meetings.",
+      "target_dimension": "Consent",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "10",
+      "question": {
+        "text": "How is participant attention inferred by the video conferencing application?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "By tracking if the application remains the active window."
+          },
+          {
+            "id": "option2",
+            "label": "Through facial recognition using the participant's camera."
+          },
+          {
+            "id": "option3",
+            "label": "By monitoring keyboard and mouse activity during the meeting."
+          },
+          {
+            "id": "option4",
+            "label": "Using audio cues to detect participant engagement."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes that Zoom inferred participant attention by checking if the Zoom application was the active window on a participant's computer. If Zoom was not the application in focus for over 30 seconds while someone else was sharing their screen, it indicated this by showing a clock icon next to the participant's name. Additionally, a report was generated showing the percentage of time the presentation window was in focus. This practice aligns directly with option1, which states that participant attention is inferred by tracking if the application remains the active window.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "11",
+      "question": {
+        "text": "What measures are currently in place to protect the data collected by the attention tracking feature from unauthorized access or breaches?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is encrypted and accessible only to authorized personnel"
+          },
+          {
+            "id": "option2",
+            "label": "Regular audits and monitoring are conducted to prevent unauthorized access"
+          },
+          {
+            "id": "option3",
+            "label": "No specific measures are currently implemented to protect the data"
+          },
+          {
+            "id": "option4",
+            "label": "Access is controlled via strict user role permissions and multi-factor authentication"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice indicates that the attention tracking feature was removed after receiving significant backlash. Since the feature is no longer in place, there are no current measures needed to protect the data collected by it, as the data collection itself has ceased. Therefore, 'No specific measures are currently implemented to protect the data' is the appropriate option, reflecting that the feature\u2014and any associated data\u2014no longer exists, thus negating the need for protection measures.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "No Issue",
+        "reasoning": "The attention tracking feature, which previously may have posed a risk to data security, has been removed due to backlash. As the feature is no longer collecting data, there is no longer a potential issue regarding the protection of such data from unauthorized access or breaches. Consequently, there is no need for security safeguards specific to this feature, eliminating concerns about the absence of measures to protect its data. Therefore, the state of security safeguards related to this feature can be considered as 'No Issue'."
+      }
+    },
+    {
+      "id": "12",
+      "question": {
+        "text": "How does the company ensure transparency about data collection and usage policies related to the participant engagement feature?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "The company provides detailed documentation accessible to all users."
+          },
+          {
+            "id": "option2",
+            "label": "Users are informed via a pop-up notification before the feature is activated."
+          },
+          {
+            "id": "option3",
+            "label": "Transparency is ensured through periodic updates in the Terms of Service."
+          },
+          {
+            "id": "option4",
+            "label": "There is currently no specific mechanism in place for transparency."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice describes a scenario where Zoom developed an attention tracking feature that received backlash for privacy concerns. The company later removed this feature, but the practice does not mention any specific mechanisms for ensuring transparency about data collection and usage policies related to the participant engagement feature. There is no indication of detailed documentation, pop-up notifications, or updates in the Terms of Service to inform users about the feature. Therefore, the most appropriate option reflecting the described practice is that there is currently no specific mechanism in place for transparency.",
+      "target_dimension": "Openness",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue",
+        "reasoning": "The explanation highlights that there is no specific mechanism in place for ensuring transparency about data collection and usage policies related to the participant engagement feature. This lack of transparency mechanisms, such as documentation, notifications, or updates in the Terms of Service, indicates a more concrete issue rather than a potential issue. Previously, the state was 'Potential Issue' because it was uncertain if there were any transparency measures. The current analysis confirms the absence of such measures, escalating the state to 'Has Issue' as it clearly shows a lack of openness in the company's data practices."
+      }
+    },
+    {
+      "id": "13",
+      "question": {
+        "text": "What measures are currently in place to ensure that hosts and the company do not use participant data beyond its intended purpose?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "There are strict contractual agreements limiting data use to its intended purpose."
+          },
+          {
+            "id": "option2",
+            "label": "Hosts are given guidelines, but there are no formal restrictions on data use."
+          },
+          {
+            "id": "option3",
+            "label": "The company has internal policies, but they are not enforced or monitored."
+          },
+          {
+            "id": "option4",
+            "label": "No specific measures are in place to restrict further use of participant data."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice described does not mention any specific measures or policies that were in place to ensure that hosts and the company do not use participant data beyond its intended purpose. The backlash and subsequent removal of the attention tracker feature suggest that there was a lack of adequate privacy measures or restrictions on data use initially. Therefore, 'No specific measures are in place to restrict further use of participant data' is the most accurate option based on the information provided.",
+      "target_dimension": "Use Limitation",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue",
+        "reasoning": "The current state of 'Potential Issue' was based on the lack of information regarding restrictions on the use of participant data. The provided answer confirms that there are indeed no specific measures in place to restrict further use of participant data by hosts or the company. This lack of measures indicates a clear issue with the use limitation of participant data, as it can potentially be used beyond its intended purpose without any checks. Therefore, the state should be changed to 'Has Issue' to reflect the confirmed absence of use limitation controls."
+      }
+    },
+    {
+      "id": "14",
+      "question": {
+        "text": "How are participants informed about the data collection related to the active window status during screen sharing?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Participants are informed through a detailed privacy policy before using the feature."
+          },
+          {
+            "id": "option2",
+            "label": "Participants receive a pop-up notification the first time they use the screen sharing feature."
+          },
+          {
+            "id": "option3",
+            "label": "There is no specific notification or consent obtained from participants regarding this data collection."
+          },
+          {
+            "id": "option4",
+            "label": "Participants are informed during the installation process of the application."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice information indicates that the attention tracker feature was implemented without adequate notification or consent from participants, as it received significant backlash for privacy concerns. The removal of the feature and the apology from Zoom's team for not meeting privacy expectations suggest that participants were not specifically informed or consented to this data collection. Therefore, 'There is no specific notification or consent obtained from participants regarding this data collection' is the most accurate reflection of the practice described.",
+      "target_dimension": "Collection Limitation",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue",
+        "reasoning": "The current state of 'Potential Issue' was based on limited information about the notification and consent practices for the data collection related to the active window status during screen sharing. The selected option indicates that there was no specific notification or consent obtained from participants regarding this data collection. This lack of transparency and consent aligns more closely with a 'Has Issue' state, as it directly contravenes the principles of collection limitation, which require that individuals be informed and provide consent for data collection. The historical context of Zoom's apology and removal of the feature further supports the conclusion that this was a significant privacy issue, prompting a shift from 'Potential Issue' to 'Has Issue'."
+      }
+    },
+    {
+      "id": "15",
+      "question": {
+        "text": "What processes does the company have in place to address privacy concerns before they escalate into public backlash?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "The company has a dedicated privacy team that proactively monitors and addresses potential concerns."
+          },
+          {
+            "id": "option2",
+            "label": "The company relies on external audits to identify and address privacy issues."
+          },
+          {
+            "id": "option3",
+            "label": "The company addresses privacy concerns reactively, primarily in response to public criticism."
+          },
+          {
+            "id": "option4",
+            "label": "There are no formal processes in place for addressing privacy concerns prior to public feedback."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice describes Zoom's handling of the attention tracker feature, which was introduced and subsequently met with significant backlash due to privacy concerns. The company responded to this backlash by apologizing and permanently removing the feature. This indicates that Zoom addressed the privacy concerns reactively, primarily in response to public criticism, rather than having proactive measures in place to anticipate and mitigate such issues before they became public controversies. Therefore, option 3 is the most accurate reflection of Zoom's practices as described in the data practice.",
+      "target_dimension": "Accountability",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue",
+        "reasoning": "The answer highlights that Zoom's approach to addressing privacy concerns was largely reactive, relying on public backlash to trigger accountability measures. This suggests a lack of proactive processes to anticipate and mitigate privacy issues before they become public. The described practice of responding only after significant criticism indicates that the company may not have had sufficient internal mechanisms or processes to ensure accountability in handling privacy concerns. Consequently, this shifts the state from 'Potential Issue' to 'Has Issue' because it confirms the absence of proactive accountability measures, thus signaling a more definite problem in their accountability practices."
+      }
+    },
+    {
+      "id": "16",
+      "question": {
+        "text": "What types of user data can third-party applications collect from the social media platform?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Basic user profile data such as name, email, and profile picture."
+          },
+          {
+            "id": "option2",
+            "label": "User-generated content including posts, photos, and videos."
+          },
+          {
+            "id": "option3",
+            "label": "Behavioral data including user interactions, likes, and shares."
+          },
+          {
+            "id": "option4",
+            "label": "Friend network data, allowing access to the user\u2019s friends list and associated data."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1",
+        "option4"
+      ],
+      "explanation": "The data practice describes how Facebook allowed third-party developers to collect data through apps and quizzes. Specifically, these developers could access not only the data of users who installed the apps but also the data of their Facebook friends. This aligns with 'option1', as basic user profile data such as name, email, and profile picture would typically be part of the data shared with third-party applications. 'Option4' is also selected because the data practice explicitly mentions that Cambridge Analytica gained access to millions more users' data through Facebook's friend data sharing API policy, which indicates that friend network data was available to third-party applications.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "17",
+      "question": {
+        "text": "What is the intended purpose of collecting user data by third-party applications?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Enhancing user experience by providing personalized content and features."
+          },
+          {
+            "id": "option2",
+            "label": "Generating targeted advertisements based on user interests and behavior."
+          },
+          {
+            "id": "option3",
+            "label": "Conducting research or analytics to improve app functionalities."
+          },
+          {
+            "id": "option4",
+            "label": "Developing psychological profiles for specific marketing or political campaigns."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice describes how Cambridge Analytica used data obtained from Facebook to create psychological profiles of voters for targeted political advertisements. This aligns with the option 'Developing psychological profiles for specific marketing or political campaigns.' The practice involved collecting data not just from users who installed the app, but also from their friends, allowing Cambridge Analytica to access data on up to 87 million Facebook users. The psychological profiles were specifically used to influence the 2016 US presidential election and other political campaigns, which directly supports the selection of option 4.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "18",
+      "question": {
+        "text": "How is the collected user data processed by third-party applications?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is aggregated and analyzed to identify trends and insights."
+          },
+          {
+            "id": "option2",
+            "label": "Data is processed in real-time for immediate use in app functionalities."
+          },
+          {
+            "id": "option3",
+            "label": "Data is stored temporarily and processed later for reporting purposes."
+          },
+          {
+            "id": "option4",
+            "label": "Data is combined with external data sources for comprehensive profiling."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice described involves Cambridge Analytica collecting user data through Facebook's API, which included not only data from users who installed the app but also their friends' data. This data was then used to create psychological profiles of voters. This process involves combining collected data with external data sources, such as voter registration records or demographic data, to build comprehensive profiles for targeted political advertisements. This matches the description of 'Data is combined with external data sources for comprehensive profiling,' making option 4 the most appropriate choice.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "19",
+      "question": {
+        "text": "Is the user data anonymized during the processing stage by third-party applications?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, all user data is fully anonymized to protect user identities."
+          },
+          {
+            "id": "option2",
+            "label": "Only sensitive data is anonymized while other data remains identifiable."
+          },
+          {
+            "id": "option3",
+            "label": "Data is pseudonymized, allowing re-identification with additional information."
+          },
+          {
+            "id": "option4",
+            "label": "No, user data is processed without anonymization to maintain data integrity."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice described indicates that Facebook allowed third-party developers to collect user data through apps without any mention of anonymization. This includes data from users who installed apps and their Facebook friends. The fact that Cambridge Analytica used this data to create psychological profiles of voters suggests that the data was processed without anonymization to maintain its integrity and usability for targeted political advertisements. The practice led to significant criticism and regulatory actions, implying that user data was not anonymized, aligning with option 4.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "20",
+      "question": {
+        "text": "How long do third-party applications retain user data collected from the social media platform?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is retained indefinitely unless users explicitly request deletion."
+          },
+          {
+            "id": "option2",
+            "label": "Data is retained for a fixed period, such as one year, after which it is deleted."
+          },
+          {
+            "id": "option3",
+            "label": "Data is retained only as long as necessary to fulfill the app\u2019s purpose."
+          },
+          {
+            "id": "option4",
+            "label": "Data retention policies vary based on the type of data collected."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice described does not specify a fixed retention period or conditions for data retention related to third-party applications. Since Cambridge Analytica was able to retain and use data from up to 87 million Facebook users through the app, it suggests that the data was retained indefinitely. The lack of explicit mention of deletion policies implies that data was kept indefinitely unless users explicitly requested deletion. This aligns with option1, which states that 'Data is retained indefinitely unless users explicitly request deletion.' Thus, this option best reflects the practices described in the data practice.",
+      "target_dimension": "Data Storage",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "21",
+      "question": {
+        "text": "Who can access the user data collected by third-party applications?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Only the app developers and essential service providers."
+          },
+          {
+            "id": "option2",
+            "label": "App developers, service providers, and authorized third-party partners."
+          },
+          {
+            "id": "option3",
+            "label": "App developers and any third parties involved in data processing."
+          },
+          {
+            "id": "option4",
+            "label": "Access is restricted to app developers and regulatory bodies if required."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice described indicates that third-party developers, such as those who created the 'this is your digital life' app, were able to access not only the data of users who installed the app but also the data of their Facebook friends through Facebook's friend data sharing API policy at the time. This access allowed Cambridge Analytica to obtain data from up to 87 million users, which implies that app developers and any third parties involved in data processing, like Cambridge Analytica, could access the data. Therefore, option 3 is the most accurate reflection of the described practices.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "22",
+      "question": {
+        "text": "What specific user data can be shared with third-party applications?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Only anonymized aggregate data for analysis purposes."
+          },
+          {
+            "id": "option2",
+            "label": "All collected data, including personal identifiers and social interactions."
+          },
+          {
+            "id": "option3",
+            "label": "Only data necessary for the app\u2019s core functionalities."
+          },
+          {
+            "id": "option4",
+            "label": "Data specified by the user during the consent process."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice described indicates that Facebook initially allowed third-party applications to access extensive user data, including data from users' friends without their explicit consent. However, after the Cambridge Analytica scandal and the subsequent criticism and regulatory actions, Facebook changed its policies to restrict third-party access to user data. The new policies focus on limiting data sharing to only what is necessary for the app's core functionalities. This aligns with option 3, which states that only data necessary for the app's core functionalities can be shared. The changes reflect a shift towards more controlled and purposeful data sharing practices.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "23",
+      "question": {
+        "text": "How can users withdraw their consent for data collection and sharing by third-party applications?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Users can withdraw consent via the app\u2019s settings or privacy dashboard."
+          },
+          {
+            "id": "option2",
+            "label": "Users must contact customer support to request withdrawal of consent."
+          },
+          {
+            "id": "option3",
+            "label": "Withdrawal of consent is possible through the social media platform\u2019s privacy settings."
+          },
+          {
+            "id": "option4",
+            "label": "Consent withdrawal is not possible once data has been shared."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice describes a scenario where third-party applications could collect data not only from users who installed the apps but also from their friends. This extensive data sharing led to significant privacy concerns and regulatory actions against Facebook. In response, Facebook changed its policies to restrict third-party access to user data and implemented stricter data sharing controls. These changes likely include options for users to control data sharing through Facebook's privacy settings, allowing them to withdraw consent for data collection and sharing by third-party applications. Therefore, option 3, which suggests that withdrawal of consent is possible through the social media platform\u2019s privacy settings, reflects the current practices implied by the changes Facebook implemented.",
+      "target_dimension": "Consent",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "24",
+      "question": {
+        "text": "Can users control whether their data is shared with third-party applications, and if so, how?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, users can choose which data to share during app installation."
+          },
+          {
+            "id": "option2",
+            "label": "Yes, users have ongoing control via privacy settings and permissions."
+          },
+          {
+            "id": "option3",
+            "label": "No, data sharing is mandatory for app functionality."
+          },
+          {
+            "id": "option4",
+            "label": "Partial control is available, with some data shared by default."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "Following the Cambridge Analytica scandal, Facebook changed its policies to restrict third-party access to user data and implemented stricter data sharing controls. This suggests that users now have more control over their data, including ongoing control via privacy settings and permissions. While the data practice initially allowed broad access through a friend data sharing API, the subsequent policy changes indicate that users can manage their data sharing preferences, aligning with option 2.",
+      "target_dimension": "Control",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue",
+        "reasoning": ""
+      }
+    },
+    {
+      "id": "25",
+      "question": {
+        "text": "What processes are in place to ensure the accuracy and relevance of data collected by third-party applications?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Regular audits and data verification steps are conducted"
+          },
+          {
+            "id": "option2",
+            "label": "Data is validated by the third-party applications themselves without oversight"
+          },
+          {
+            "id": "option3",
+            "label": "There are no specific processes in place for data accuracy checks"
+          },
+          {
+            "id": "option4",
+            "label": "Data quality is ensured through automated error detection systems"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice highlights that Facebook allowed third-party developers to collect extensive data without adequate oversight or restrictions. The situation with Cambridge Analytica shows that there were significant gaps in Facebook's data sharing policies, which allowed third parties to access data of users and their friends without robust accuracy checks in place. The lack of initial processes to ensure data accuracy and relevance contributed to the misuse of data, leading to widespread criticism and subsequent policy changes. Thus, option 3 reflects the historical context where there were no specific processes in place for data accuracy checks before the exposure of the Cambridge Analytica scandal.",
+      "target_dimension": "Data Quality",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue",
+        "reasoning": "The explanation provided in option 3 highlights a significant historical issue related to Facebook's data sharing practices, particularly concerning third-party applications. It underscores the absence of adequate processes for ensuring the accuracy and relevance of data collected by these applications, as exemplified by the Cambridge Analytica scandal. This lack of oversight and robust accuracy checks directly impacts the quality of data, demonstrating that there are indeed issues with how data quality was managed in the past. The reference to historical inadequacies and subsequent policy changes indicates that the issue was significant enough to trigger widespread criticism and necessitate reforms. Therefore, the state should be updated to 'Has Issue' to reflect the serious shortcomings in data quality management by third-party applications during that period."
+      }
+    },
+    {
+      "id": "26",
+      "question": {
+        "text": "What security protocols are in place to protect user data once accessed by third-party applications?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Third-party applications are required to use end-to-end encryption"
+          },
+          {
+            "id": "option2",
+            "label": "Periodic security audits are conducted with third parties"
+          },
+          {
+            "id": "option3",
+            "label": "There are no specific security protocols for third-party applications"
+          },
+          {
+            "id": "option4",
+            "label": "Third-party applications must comply with industry-standard security certifications"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice describes a situation where Facebook allowed third-party developers to access user data without adequate security protocols, resulting in a significant data breach involving Cambridge Analytica. The practice indicates a lack of specific security protocols for third-party applications at the time, as evidenced by the widespread access to user data through the Facebook friend data sharing API policy. This led to significant criticism and regulatory action against Facebook, suggesting that prior to these events, there were insufficient security measures in place. Therefore, 'option3' is the most accurate reflection of the practices described, as it states that there are no specific security protocols for third-party applications.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue",
+        "reasoning": "The explanation provided confirms that, at the time of the Cambridge Analytica scandal, there were no specific security protocols in place to protect user data once accessed by third-party applications. This indicates a direct and significant issue in the Security Safeguards dimension. Previously, the dimension was in a 'Potential Issue' state due to the lack of explicit mention of security measures for third-party applications. The confirmation that there were indeed no sufficient security protocols suggests that the dimension should move to a 'Has Issue' state, reflecting a clear deficiency in protecting user data from third-party misuse."
+      }
+    }
+  ],
+  "final_state": {
+    "Collection Limitation": {
+      "state": "Has Issue",
+      "description": "The data practice allowed third-party applications to collect not only the data of users who installed the apps but also their friends' data without explicit consent, indicating a lack of limitations on data collection.",
+      "areas_to_investigate": [
+        "Extent of data collected from non-consenting users",
+        "Mechanisms for obtaining user consent"
+      ]
+    },
+    "Data Quality": {
+      "state": "Has Issue",
+      "description": "There is no explicit mention of the accuracy, completeness, or relevance of the data collected by third-party applications, which could affect data quality.",
+      "areas_to_investigate": [
+        "Processes ensuring data accuracy and relevance",
+        "Impact of data inaccuracies on profiling"
+      ],
+      "latest_reasoning": "The explanation provided in option 3 highlights a significant historical issue related to Facebook's data sharing practices, particularly concerning third-party applications. It underscores the absence of adequate processes for ensuring the accuracy and relevance of data collected by these applications, as exemplified by the Cambridge Analytica scandal. This lack of oversight and robust accuracy checks directly impacts the quality of data, demonstrating that there are indeed issues with how data quality was managed in the past. The reference to historical inadequacies and subsequent policy changes indicates that the issue was significant enough to trigger widespread criticism and necessitate reforms. Therefore, the state should be updated to 'Has Issue' to reflect the serious shortcomings in data quality management by third-party applications during that period."
+    },
+    "Purpose Specification": {
+      "state": "Has Issue",
+      "description": "The collected data was used for purposes such as creating psychological profiles for political campaigns, which may not have been clearly specified to users at the time of data collection.",
+      "areas_to_investigate": [
+        "Clarity and transparency of communicated data usage purposes",
+        "Alignment of data use with specified purposes"
+      ]
+    },
+    "Use Limitation": {
+      "state": "Has Issue",
+      "description": "Data was used to create psychological profiles and targeted political advertisements, potentially exceeding the limitations of originally intended uses.",
+      "areas_to_investigate": [
+        "Extent of data usage beyond initial consent",
+        "Controls over third-party use of data"
+      ]
+    },
+    "Security Safeguards": {
+      "state": "Has Issue",
+      "description": "There is no mention of security measures in place to protect user data once accessed by third-party applications.",
+      "areas_to_investigate": [
+        "Security protocols for data protection",
+        "Incidents of data breaches or misuse"
+      ],
+      "latest_reasoning": "The explanation provided confirms that, at the time of the Cambridge Analytica scandal, there were no specific security protocols in place to protect user data once accessed by third-party applications. This indicates a direct and significant issue in the Security Safeguards dimension. Previously, the dimension was in a 'Potential Issue' state due to the lack of explicit mention of security measures for third-party applications. The confirmation that there were indeed no sufficient security protocols suggests that the dimension should move to a 'Has Issue' state, reflecting a clear deficiency in protecting user data from third-party misuse."
+    },
+    "Openness": {
+      "state": "Has Issue",
+      "description": "The practices described indicate a lack of transparency regarding data collection and sharing with third-party applications.",
+      "areas_to_investigate": [
+        "Disclosure practices of data sharing with third parties",
+        "User awareness of data flows and access"
+      ]
+    },
+    "Individual Participation": {
+      "state": "Has Issue",
+      "description": "Initially, users had limited control over their data being shared by third-party applications, especially regarding data collected through friends.",
+      "areas_to_investigate": [
+        "Mechanisms for user control over data sharing",
+        "Options for users to withdraw consent"
+      ]
+    },
+    "Accountability": {
+      "state": "Has Issue",
+      "description": "The lack of clear accountability for third-party applications accessing and using user data contributed to significant privacy concerns.",
+      "areas_to_investigate": [
+        "Accountability measures for third-party data usage",
+        "Enforcement of data protection policies"
+      ]
+    }
+  },
+  "state_changes": {
+    "Collection Limitation": [],
+    "Data Quality": [
+      {
+        "original": "Potential Issue",
+        "now": "Has Issue",
+        "reasoning": "The explanation provided in option 3 highlights a significant historical issue related to Facebook's data sharing practices, particularly concerning third-party applications. It underscores the absence of adequate processes for ensuring the accuracy and relevance of data collected by these applications, as exemplified by the Cambridge Analytica scandal. This lack of oversight and robust accuracy checks directly impacts the quality of data, demonstrating that there are indeed issues with how data quality was managed in the past. The reference to historical inadequacies and subsequent policy changes indicates that the issue was significant enough to trigger widespread criticism and necessitate reforms. Therefore, the state should be updated to 'Has Issue' to reflect the serious shortcomings in data quality management by third-party applications during that period."
+      }
+    ],
+    "Purpose Specification": [],
+    "Use Limitation": [],
+    "Security Safeguards": [
+      {
+        "original": "Potential Issue",
+        "now": "Has Issue",
+        "reasoning": "The explanation provided confirms that, at the time of the Cambridge Analytica scandal, there were no specific security protocols in place to protect user data once accessed by third-party applications. This indicates a direct and significant issue in the Security Safeguards dimension. Previously, the dimension was in a 'Potential Issue' state due to the lack of explicit mention of security measures for third-party applications. The confirmation that there were indeed no sufficient security protocols suggests that the dimension should move to a 'Has Issue' state, reflecting a clear deficiency in protecting user data from third-party misuse."
+      }
+    ],
+    "Openness": [],
+    "Individual Participation": [],
+    "Accountability": []
+  }
+}

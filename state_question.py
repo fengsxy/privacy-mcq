@@ -1,4 +1,3 @@
-# models.py
 from enum import Enum
 from typing import List, Dict, Optional, Tuple
 from dataclasses import dataclass, field
@@ -46,6 +45,20 @@ class QAPair:
     answer: Answer
     timestamp: str = field(default_factory=lambda: datetime.now().isoformat())
 
+@dataclass
+class StateChange:
+    original: str
+    now: str
+    reasoning: str = ""
+
+    def to_dict(self) -> Dict:
+        """Convert StateChange to dictionary for JSON serialization"""
+        return {
+            "original": self.original,
+            "now": self.now,
+            "reasoning": self.reasoning
+        }
+
 class StateTracker:
     def __init__(self):
         self.questions = []
@@ -53,11 +66,32 @@ class StateTracker:
         self.start_state = {}
         self.current_state = {}
         self.final_state = {}
+        self.state_changes = {}  # Track state changes with reasoning
 
     def set_initial_states(self, initial_states: Dict[str, Dict]):
         """Set the initial states of all dimensions"""
         self.start_state = initial_states
         self.current_state = initial_states.copy()
+        # Initialize state changes tracking
+        self.state_changes = {dim: [] for dim in initial_states.keys()}
+
+    def set_final_states(self, final_states: Dict[str, Dict]):
+        """Set the final states after analysis is complete"""
+        self.final_state = final_states.copy()  # Make a copy to ensure independence
+        
+        # Add a final state change record for any dimensions that changed
+        for dimension, state_info in final_states.items():
+            current_state = self.current_state.get(dimension, {}).get("state", "")
+            final_state = state_info.get("state", "")
+            
+            if current_state != final_state:
+                self.state_changes[dimension].append(
+                    StateChange(
+                        original=current_state,
+                        now=final_state,
+                        reasoning="Final state determination at analysis completion"
+                    )
+                )
 
     def add_question(self, qa_pair: QAPair):
         """Add a question with target dimension and state changes"""
@@ -67,7 +101,8 @@ class StateTracker:
         target_dim = qa_pair.question.target_dimension
         target_state_change = {
             "original": self.current_state.get(target_dim, {}).get("state", "Potential Issue"),
-            "now": self.current_state.get(target_dim, {}).get("state", "Potential Issue")
+            "now": self.current_state.get(target_dim, {}).get("state", "Potential Issue"),
+            "reasoning": ""  # Will be updated when state changes
         } if target_dim else None
         
         question_state = {
@@ -84,25 +119,51 @@ class StateTracker:
         
         self.questions.append(question_state)
 
-    def update_dimension_state(self, dimension: str, new_state: str):
-        """Update a dimension's state and record the change"""
+    def update_dimension_state(self, dimension: str, new_state: str, reasoning: str = ""):
+        """Update a dimension's state and record the change with reasoning"""
         if dimension in self.current_state:
+            old_state = self.current_state[dimension]["state"]
+            
+            # Record state change with reasoning
+            state_change = StateChange(
+                original=old_state,
+                now=new_state,
+                reasoning=reasoning
+            )
+            self.state_changes[dimension].append(state_change)
+            
             # Update the last question's target dimension state if it matches
             if self.questions and self.questions[-1]["target_dimension"] == dimension:
-                self.questions[-1]["target_dimension_state"]["now"] = new_state
+                self.questions[-1]["target_dimension_state"].update({
+                    "now": new_state,
+                    "reasoning": reasoning
+                })
             
             # Update current state
             self.current_state[dimension]["state"] = new_state
+            self.current_state[dimension]["latest_reasoning"] = reasoning
 
-    def set_final_states(self, final_states: Dict[str, Dict]):
-        """Set the final states after all analysis is complete"""
-        self.final_state = final_states
+    def get_dimension_history(self, dimension: str) -> List[Dict]:
+        """Get the complete history of state changes for a dimension"""
+        return [
+            change.to_dict()  # Use to_dict() method instead of direct conversion
+            for change in self.state_changes.get(dimension, [])
+        ]
 
     def to_json(self) -> Dict:
+        # Convert state changes to serializable format using to_dict()
+        serialized_changes = {}
+        for dim, changes in self.state_changes.items():
+            serialized_changes[dim] = [
+                change.to_dict()  # Use to_dict() method for serialization
+                for change in changes
+            ]
+
         return {
             "start_state": self.start_state,
             "questions": self.questions,
-            "final_state": self.final_state
+            "final_state": self.final_state,
+            "state_changes": serialized_changes
         }
 
 class BaseQuestionPhase:
@@ -243,7 +304,7 @@ Return in JSON format:
             )
             for q in result["questions"]
         ]
-    
+
 class AnswerGenerator:
     def __init__(self, client: AsyncOpenAI):
         self.client = client
@@ -311,6 +372,8 @@ Use Limitation, Security Safeguards, Openness, Individual Participation, Account
 1. Determine initial state (No Issue/Has Issue/Potential Issue)
 2. Provide reasoning for the state
 3. Identify areas needing investigation
+4. If without enough information, mark as Potential Issue
+5. The has issue  state should have enough information to justify the issue
 
 Return in JSON format:
 {{
@@ -340,7 +403,8 @@ class FollowUpPhaseAnalyzer:
         self,
         current_states: Dict[str, Dict],
         qa_history: List[QAPair],
-        design_purpose: str
+        design_purpose: str,
+        state_changes: Dict[str, List[StateChange]]  # Type hint updated
     ) -> Question:
         """Generate follow-up question for potential issues"""
         potential_issues = {
@@ -348,11 +412,23 @@ class FollowUpPhaseAnalyzer:
             if info["state"] == "Potential Issue"
         }
         
+        # Convert StateChange objects to dictionaries for serialization
+        serialized_changes = {
+            dim: [change.to_dict() for change in changes]
+            for dim, changes in state_changes.items()
+        }
+        
+        qs_context = "\n".join([
+            f"- {qa.question.text} (Selected Answer: {qa.answer.selected_options[0]})"
+            for qa in qa_history
+        ]) if qa_history else "No previous questions"
+        print(qs_context)
         state_context = "\n".join([
             f"Dimension: {dim}\n"
             f"Current State: {info['state']}\n"
             f"Description: {info['description']}\n"
             f"Areas to Investigate: {info.get('areas_to_investigate', [])}\n"
+            f"State Change History: {json.dumps(serialized_changes.get(dim, []), indent=2)}\n"
             f"---"
             for dim, info in potential_issues.items()
         ])
@@ -363,11 +439,14 @@ Your task is to generate a targeted question for a dimension that needs investig
 Current Potential Issues:
 {state_context}
 
+QA History:
+{qs_context}
 Generate a question that:
 1. Targets one specific dimension with potential issues
 2. Addresses one of its areas needing investigation
-3. Will help determine if there is a real issue
-4. Has 4-5 clear answer options
+3. Takes into account the previous state changes and their reasoning
+4. Will help determine if there is a real issue
+5. Has 4-5 clear answer options
 
 Return in JSON format:
 {{
@@ -402,11 +481,18 @@ Return in JSON format:
     async def analyze_impact(
         self,
         qa_pair: QAPair,
-        current_states: Dict[str, Dict]
+        current_states: Dict[str, Dict],
+        state_changes: Dict[str, List[StateChange]]  # Type hint updated
     ) -> Tuple[str, str]:
         """Analyze how a follow-up answer impacts the target dimension"""
         target_dim = qa_pair.question.target_dimension
         current_state = current_states[target_dim]
+        
+        # Convert StateChange objects to dictionaries for serialization
+        change_history = [
+            change.to_dict() 
+            for change in state_changes.get(target_dim, [])
+        ]
 
         system_prompt = f"""You are a Privacy Impact Analyzer.
 Your task is to analyze how this answer affects the target dimension's state.
@@ -414,6 +500,7 @@ Your task is to analyze how this answer affects the target dimension's state.
 Target Dimension: {target_dim}
 Current State: {current_state['state']}
 Current Description: {current_state['description']}
+State Change History: {json.dumps(change_history, indent=2)}
 
 Question: {qa_pair.question.text}
 Selected Options: {qa_pair.answer.selected_options}
@@ -421,7 +508,8 @@ Explanation: {qa_pair.answer.explanation}
 
 Determine:
 1. Whether this answer changes the dimension's state
-2. Justify any state change
+2. Consider the previous state changes and their reasoning
+3. Justify any state change in the context of the history
 
 Return in JSON format:
 {{
@@ -451,7 +539,7 @@ class PrivacyAnalyzer:
     async def analyze(self, design_purpose: str, data_practice: str) -> Dict:
         """Run complete privacy analysis"""
         try:
-            # Phase 1: Base Questions (without dimension analysis)
+            # Phase 1: Base Questions
             print("\nPhase 1: Processing base questions...")
             qa_pairs = []
             
@@ -465,7 +553,7 @@ class PrivacyAnalyzer:
                 data_practice
             )
             
-            # Process base questions (without dimension analysis)
+            # Process base questions
             for question in contextualized_questions:
                 answer = await self.answer_generator.generate_answer(
                     data_practice,
@@ -492,7 +580,6 @@ class PrivacyAnalyzer:
             follow_up_count = 0
             
             while follow_up_count < max_follow_ups:
-                # Check if any dimensions still need investigation
                 potential_issues = [
                     dim for dim, info in self.state_tracker.current_state.items()
                     if info["state"] == "Potential Issue"
@@ -502,11 +589,12 @@ class PrivacyAnalyzer:
                     print("Analysis complete - no potential issues remain")
                     break
 
-                # Generate and process follow-up question
+                # Get state changes for follow-up question generation
                 question = await self.follow_up_phase.generate_follow_up_question(
                     self.state_tracker.current_state,
                     qa_pairs,
-                    design_purpose
+                    design_purpose,
+                    self.state_tracker.state_changes  # Pass state changes history
                 )
                 
                 answer = await self.answer_generator.generate_answer(
@@ -516,17 +604,19 @@ class PrivacyAnalyzer:
                 
                 qa_pair = QAPair(question=question, answer=answer)
                 
-                # Analyze impact on target dimension
+                # Analyze impact with state changes history
                 new_state, reasoning = await self.follow_up_phase.analyze_impact(
                     qa_pair,
-                    self.state_tracker.current_state
+                    self.state_tracker.current_state,
+                    self.state_tracker.state_changes  # Pass state changes history
                 )
                 
-                # Update state tracking
+                # Update state tracking with reasoning
                 self.state_tracker.add_question(qa_pair)
                 self.state_tracker.update_dimension_state(
                     question.target_dimension,
-                    new_state
+                    new_state,
+                    reasoning
                 )
                 
                 qa_pairs.append(qa_pair)
@@ -535,7 +625,6 @@ class PrivacyAnalyzer:
                 print(f"\nProcessed follow-up question {follow_up_count} for {question.target_dimension}")
                 print(f"New state: {new_state} - {reasoning[:100]}...")
 
-                # Break if we've reached the maximum questions
                 if follow_up_count >= max_follow_ups:
                     print("Reached maximum follow-up questions limit")
                     break
@@ -574,17 +663,14 @@ async def main():
     
     # Process each case
     for _, case in cases_df.iterrows():
-        try:
-            print(f"\nProcessing case: {case['Case']}")
-            results = await analyzer.analyze(
-                case['Design Purpose'],
-                case['Data Practice']
-            )
-            analyzer.save_results(case['Case'], results)
-            print(f"Completed case: {case['Case']}")
-        except Exception as e:
-            print(f"Error processing case {case['Case']}: {e}")
-            continue
+        print(f"\nProcessing case: {case['Case']}")
+        results = await analyzer.analyze(
+            case['Design Purpose'],
+            case['Data Practice']
+        )
+        analyzer.save_results(case['Case'], results)
+        print(f"Completed case: {case['Case']}")
+        
 
     print("\nAll cases processed.")
 

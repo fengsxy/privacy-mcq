@@ -1,23 +1,23 @@
 [
   {
     "question": {
-      "text": "What types of user data can third-party applications collect from the social media platform?",
+      "text": "What types of user data are collected by third-party apps integrated with the social media platform?",
       "options": [
         {
           "id": "option1",
-          "label": "Personal information (e.g., name, email, phone number)"
+          "label": "Basic profile information such as name and email address"
         },
         {
           "id": "option2",
-          "label": "Behavioral data (e.g., likes, shares, interactions)"
+          "label": "Detailed activity logs and friend lists"
         },
         {
           "id": "option3",
-          "label": "Social connections (e.g., friend lists, groups)"
+          "label": "Only data explicitly shared by the user with the app"
         },
         {
           "id": "option4",
-          "label": "Content data (e.g., posts, photos, comments)"
+          "label": "Public data visible on the user's profile"
         }
       ],
       "category": "Data Action",
@@ -26,91 +26,32 @@
     "answer": {
       "selected_options": [
         "option1",
-        "option3"
+        "option2"
       ],
-      "explanation": "The data practice described involves third-party applications collecting not only the personal information of users who installed the app but also the social connections of those users. The Cambridge Analytica scandal highlighted that user data, including personal information such as name and other personal identifiers, was accessed. Additionally, data from users' friends (social connections) was collected due to Facebook's API policy at the time, which allowed apps to access friend lists and other social connection data. This practice led to privacy concerns as users' data was shared without their explicit consent, especially when it came to the data of friends who did not directly interact with the app. Behavioral data and content data are not explicitly mentioned in the data practice description provided, so they are not selected.",
+      "explanation": "The data practice describes a scenario where Facebook allowed third-party developers to collect not only basic user data such as that typically found in a user's profile (e.g., name, email address) but also more detailed information including activity logs and friend lists. This is supported by the fact that Cambridge Analytica was able to access data from millions of users, not just those who directly interacted with the app, through Facebook's friend data sharing API. This implies that third-party apps could access comprehensive data sets that included users' friend connections and possibly their interactions, beyond just the information explicitly shared with the app by the user. The privacy implications of this practice were significant, leading to criticisms and regulatory actions against Facebook. Therefore, options 'Basic profile information such as name and email address' and 'Detailed activity logs and friend lists' are selected as they reflect the types of data collected according to the described practices.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:06:30.869320"
+    "timestamp": "2025-02-13T14:44:18.347855"
   },
   {
     "question": {
-      "text": "What is the collection mode for data by third-party applications from the social media platform?",
+      "text": "What is the purpose of the data collected by the third-party application integration system?",
       "options": [
         {
           "id": "option1",
-          "label": "Implicit collection through background processes"
+          "label": "To improve user experience and provide personalized content"
         },
         {
           "id": "option2",
-          "label": "Explicit collection through user consent forms"
+          "label": "For targeted advertising and marketing campaigns"
         },
         {
           "id": "option3",
-          "label": "Automatic collection based on app permissions"
-        }
-      ],
-      "category": "Data Action",
-      "related_dimensions": []
-    },
-    "answer": {
-      "selected_options": [
-        "option3"
-      ],
-      "explanation": "The data practice describes how third-party developers were able to collect user data through Facebook's friend data sharing API policy. Although only around 270,000 users installed the app, Cambridge Analytica was able to access data from up to 87 million users because the app had permissions to collect data not only from the users who explicitly installed it but also from their friends. This indicates that the data collection was automatic based on the permissions granted to the app, rather than through explicit user consent forms for each friend's data. Therefore, 'Automatic collection based on app permissions' is the most appropriate option reflecting the practice where app permissions allowed wide data access without direct user action for each data point collected.",
-      "impact_analysis": {}
-    },
-    "timestamp": "2025-02-13T13:06:34.927053"
-  },
-  {
-    "question": {
-      "text": "What is the purpose of the data collected by third-party apps from the social media platform?",
-      "options": [
-        {
-          "id": "option1",
-          "label": "To enhance user experience within the app"
-        },
-        {
-          "id": "option2",
-          "label": "To deliver targeted advertisements"
-        },
-        {
-          "id": "option3",
-          "label": "To conduct research and analysis"
+          "label": "To share insights with the social media platform"
         },
         {
           "id": "option4",
-          "label": "To share with other entities for marketing purposes"
-        }
-      ],
-      "category": "Data Action",
-      "related_dimensions": []
-    },
-    "answer": {
-      "selected_options": [
-        "option2",
-        "option3"
-      ],
-      "explanation": "The data practice describes how Cambridge Analytica used data collected from Facebook users to create psychological profiles of voters, which were then used to target political advertisements. This aligns with option 2, as the primary use of the data was to deliver targeted advertisements during political campaigns. Additionally, the use of the data to create profiles suggests analysis and research, which aligns with option 3. The practice does not specifically mention enhancing user experience within the app or sharing data with other entities for marketing purposes, so options 1 and 4 are not selected.",
-      "impact_analysis": {}
-    },
-    "timestamp": "2025-02-13T13:06:37.084416"
-  },
-  {
-    "question": {
-      "text": "Is the user data anonymized during processing by third-party applications?",
-      "options": [
-        {
-          "id": "option1",
-          "label": "Yes, data is fully anonymized"
-        },
-        {
-          "id": "option2",
-          "label": "No, data remains identifiable"
-        },
-        {
-          "id": "option3",
-          "label": "Partially, only sensitive information is anonymized"
+          "label": "For research and development of new features"
         }
       ],
       "category": "Data Action",
@@ -120,26 +61,63 @@
       "selected_options": [
         "option2"
       ],
-      "explanation": "Based on the data practice described, user data was not anonymized during processing by third-party applications. The practice allowed third-party developers to collect identifiable user data, not just from users who installed the apps, but also from their Facebook friends. This data included personal information that was used by Cambridge Analytica to create psychological profiles of voters, indicating that the data remained identifiable. The scandal and subsequent criticism highlighted the lack of anonymization and control over user data, leading to significant changes in Facebook's data sharing policies.",
+      "explanation": "The data practice described involves the collection of user data through third-party apps, which was then used by Cambridge Analytica to create psychological profiles of voters. These profiles were specifically used to target political advertisements during the 2016 US presidential election and other campaigns. This aligns with the purpose outlined in option 2, 'For targeted advertising and marketing campaigns.' The practice exposed significant privacy implications as it involved the unauthorized access and use of a large number of users' data for political marketing purposes without their explicit consent. Therefore, option 2 is the most appropriate choice based on the data practice described.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:06:38.759821"
+    "timestamp": "2025-02-13T14:44:20.986729"
   },
   {
     "question": {
-      "text": "How long do third-party applications retain user data collected from the social media platform?",
+      "text": "Is the user data anonymized during processing by third-party apps?",
       "options": [
         {
           "id": "option1",
-          "label": "Data is retained indefinitely"
+          "label": "Yes, all data is anonymized before processing"
         },
         {
           "id": "option2",
-          "label": "Data is retained for a fixed period (e.g., 1 year)"
+          "label": "No, data is processed in its original form"
         },
         {
           "id": "option3",
-          "label": "Data is deleted upon user request"
+          "label": "Only sensitive data is anonymized"
+        },
+        {
+          "id": "option4",
+          "label": "Anonymization is optional and dependent on the app"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice described indicates that user data was not anonymized during processing by third-party apps such as the one developed by Aleksandr Kogan, which collected data for Cambridge Analytica. The data was used to create psychological profiles of voters, implying that it was processed in its original form rather than being anonymized. This lack of anonymization allowed Cambridge Analytica to target political advertisements effectively, which would not have been possible with anonymized data. Therefore, the appropriate option reflecting the practice is 'No, data is processed in its original form.'",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T14:44:22.771629"
+  },
+  {
+    "question": {
+      "text": "How long is user data retained by third-party apps integrated with the social media platform?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Indefinitely, until the user requests deletion"
+        },
+        {
+          "id": "option2",
+          "label": "For a period specified by the app, typically up to two years"
+        },
+        {
+          "id": "option3",
+          "label": "Only as long as necessary to fulfill the app's purposes"
+        },
+        {
+          "id": "option4",
+          "label": "Data is deleted immediately after use"
         }
       ],
       "category": "Data Action",
@@ -149,59 +127,30 @@
       "selected_options": [
         "option1"
       ],
-      "explanation": "The data practice described indicates that third-party developers were able to collect and retain user data through Facebook's API without clear restrictions on how long they could retain this data. The fact that Cambridge Analytica was able to use this data for political campaigns suggests that the data was retained for an extended period of time, possibly indefinitely, without explicit time limits or deletion protocols. This aligns with the option that data is retained indefinitely. The practice highlights the lack of adequate controls or policies to enforce data retention limits at the time, leading to significant privacy implications and criticism.",
+      "explanation": "The data practice described indicates that Facebook allowed third-party developers to collect and retain user data through apps and quizzes. This collection included not only the data of users who installed the apps but also their Facebook friends' data. The fact that Cambridge Analytica was able to access data from up to 87 million users, despite only 270,000 installing the app, suggests that user data was retained by these third-party apps indefinitely, at least until the exposure of these practices led to policy changes. This aligns with option1, 'Indefinitely, until the user requests deletion,' as there was no indication in the data practice that a specific retention period or immediate deletion was enforced prior to the policy changes. This indefinite retention posed significant privacy implications and was a major factor in the criticism and subsequent changes to Facebook's data sharing policies.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:06:40.954813"
+    "timestamp": "2025-02-13T14:44:25.056120"
   },
   {
     "question": {
-      "text": "What encryption measures do third-party applications use to protect user data at rest?",
+      "text": "Who can see the user data collected by third-party apps?",
       "options": [
         {
           "id": "option1",
-          "label": "Advanced encryption standard (AES)"
+          "label": "Only the app developers"
         },
         {
           "id": "option2",
-          "label": "No encryption measures are used"
+          "label": "App developers and authorized third parties"
         },
         {
           "id": "option3",
-          "label": "Basic encryption methods (e.g., SSL/TLS)"
-        }
-      ],
-      "category": "Data Action",
-      "related_dimensions": []
-    },
-    "answer": {
-      "selected_options": [
-        "option2"
-      ],
-      "explanation": "The data practice indicates that Facebook allowed third-party developers to collect user data through apps and quizzes, including data of users' friends, without sufficient controls or protections at the time. The fact that Cambridge Analytica was able to access data from millions of users without their direct consent suggests that there were inadequate encryption or security measures in place to protect user data at rest. Given the lack of mention of any encryption measures in the data practice and the subsequent criticism and investigations faced by Facebook, it can be inferred that no strong encryption measures were used by third-party applications to protect user data at rest. This aligns with historical privacy concerns and user expectations for data security that were not met, leading to significant scrutiny and changes in Facebook's data policies post-incident.",
-      "impact_analysis": {}
-    },
-    "timestamp": "2025-02-13T13:06:44.195035"
-  },
-  {
-    "question": {
-      "text": "Who has access to the user data collected by third-party applications from the social media platform?",
-      "options": [
-        {
-          "id": "option1",
-          "label": "Only the data owner"
-        },
-        {
-          "id": "option2",
-          "label": "Service providers associated with the app"
-        },
-        {
-          "id": "option3",
-          "label": "Authorized third-party partners"
+          "label": "Anyone with access to the social media platform"
         },
         {
           "id": "option4",
-          "label": "All employees of the app developer"
+          "label": "Only users who have permission from the data owner"
         }
       ],
       "category": "Data Action",
@@ -209,29 +158,33 @@
     },
     "answer": {
       "selected_options": [
-        "option2",
-        "option3"
+        "option1",
+        "option2"
       ],
-      "explanation": "The data practice describes how third-party developers, such as Cambridge Analytica, were able to access user data through apps on Facebook. This access was not limited to the data of the users who installed the app but extended to their friends' data via Facebook's API. This suggests that 'Service providers associated with the app' (option2) and 'Authorized third-party partners' (option3) had access to the data. The data owner's control over their data was not exclusive, hence 'Only the data owner' (option1) is not selected. The practice does not specify that all employees of the app developer had access, making 'All employees of the app developer' (option4) less relevant. The exposure of this practice led to significant backlash and policy changes, highlighting the privacy implications and the importance of stricter data access controls.",
+      "explanation": "The data practice described involves third-party developers collecting user data through apps, as well as data from users' Facebook friends, via Facebook's previous API policy. This indicates that the app developers certainly had access to the data, which aligns with 'Only the app developers.' However, the data was also shared with Cambridge Analytica, a third party, which implies that 'App developers and authorized third parties' also had access to the data. This reflects the reality that app developers and parties they work with could access the collected data, leading to significant privacy concerns and eventual policy changes by Facebook to restrict such access. The other options are not supported as the data was not limited to users with permission or anyone with access to the platform.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:06:47.129171"
+    "timestamp": "2025-02-13T14:44:27.697051"
   },
   {
     "question": {
-      "text": "How is the user data shared by third-party applications from the social media platform?",
+      "text": "What user data can be shared with third parties via the application integration system?",
       "options": [
         {
           "id": "option1",
-          "label": "Shared over public networks"
+          "label": "Only anonymized and aggregated data"
         },
         {
           "id": "option2",
-          "label": "Shared via secure internal networks"
+          "label": "Any data the user has consented to share"
         },
         {
           "id": "option3",
-          "label": "Shared through encrypted channels"
+          "label": "All data collected by the app"
+        },
+        {
+          "id": "option4",
+          "label": "Data necessary for third-party services"
         }
       ],
       "category": "Data Action",
@@ -241,26 +194,97 @@
       "selected_options": [
         "option2"
       ],
-      "explanation": "The data practice describes how third-party developers were able to collect user data through Facebook's API, which implies the use of internal networks rather than public networks or explicit encryption channels. Facebook's data sharing with third-party applications was facilitated through their internal API, which allowed developers to access not only the data of users who installed their apps but also the data of friends of those users. While the practice was criticized for its lack of proper privacy controls and oversight, it was conducted through Facebook's internal systems rather than public or explicitly encrypted channels. The description of third-party access through the API suggests the use of Facebook's secure internal networks for data sharing with developers, even though the security and privacy measures were insufficient at the time.",
+      "explanation": "The data practice described involved Facebook allowing third-party developers to collect data from users through apps and quizzes. Initially, this included not only the data of users who installed these apps but also the data of their friends, due to the API policy at the time. However, this practice was criticized, and Facebook changed its policies to restrict third-party access and implemented stricter data sharing controls. Therefore, it is most appropriate to select the option 'Any data the user has consented to share,' as it aligns with the idea of user consent being a key factor in data sharing practices post-2018 policy changes. This reflects a shift towards respecting user privacy and expectations regarding data sharing, where explicit consent is necessary for sharing with third parties.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:06:51.094522"
+    "timestamp": "2025-02-13T14:44:30.158058"
   },
   {
     "question": {
-      "text": "How can users withdraw their consent for data collection by third-party applications?",
+      "text": "Is user data encrypted during sharing between third-party apps and the social media platform?",
       "options": [
         {
           "id": "option1",
-          "label": "Through the social media platform's settings"
+          "label": "Yes, using end-to-end encryption"
         },
         {
           "id": "option2",
-          "label": "Directly contacting the app developer"
+          "label": "No, data is shared in plain text"
         },
         {
           "id": "option3",
-          "label": "Notifying the social media platform's support team"
+          "label": "Encryption is optional, based on app settings"
+        },
+        {
+          "id": "option4",
+          "label": "Only sensitive data is encrypted"
+        }
+      ],
+      "category": "Data Action",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice described indicates that Facebook allowed third-party developers to collect user data through apps and quizzes without any mention of encryption. The ease with which Cambridge Analytica accessed data from millions of users through the Facebook platform suggests that the data was likely shared in plain text. The practice led to significant privacy breaches and criticism, which aligns with the implication that user data was not adequately protected through encryption during sharing. Therefore, option2, 'No, data is shared in plain text,' is the most appropriate choice based on the data practice described.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T14:44:31.901290"
+  },
+  {
+    "question": {
+      "text": "What specific details are included in the notice provided to users about data collection?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Types of data collected and purposes"
+        },
+        {
+          "id": "option2",
+          "label": "Third parties with whom data is shared"
+        },
+        {
+          "id": "option3",
+          "label": "Data retention period and user rights"
+        },
+        {
+          "id": "option4",
+          "label": "All of the above"
+        }
+      ],
+      "category": "Notice",
+      "related_dimensions": []
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "The data practice indicates that Facebook allowed third-party developers to collect user data, including information about Facebook friends, through apps and quizzes. This aligns with the need to inform users about the 'Types of data collected and purposes' (option1). Additionally, since Cambridge Analytica, a third party, obtained data through the app, it is crucial for users to be informed about the 'Third parties with whom data is shared' (option2). These selections reflect the actual practices described, where data was collected and shared without explicit user consent or knowledge, leading to significant privacy concerns and subsequent changes to Facebook's data sharing policies.",
+      "impact_analysis": {}
+    },
+    "timestamp": "2025-02-13T14:44:34.159005"
+  },
+  {
+    "question": {
+      "text": "How can users withdraw their consent for data collection by third-party apps?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Through the social media platform's privacy settings"
+        },
+        {
+          "id": "option2",
+          "label": "By directly contacting the app developers"
+        },
+        {
+          "id": "option3",
+          "label": "Via a withdrawal request form provided by the app"
+        },
+        {
+          "id": "option4",
+          "label": "Consent cannot be withdrawn once given"
         }
       ],
       "category": "Consent",
@@ -270,10 +294,10 @@
       "selected_options": [
         "option1"
       ],
-      "explanation": "The data practice highlights that Facebook's data sharing policies allowed third-party developers to collect not only user data but also the data of users' friends. After the Cambridge Analytica incident, Facebook changed its policies to restrict third-party access and implemented stricter controls. Users can typically manage and withdraw their consent for data collection by third-party applications through the platform's settings, as platforms like Facebook have since prioritized giving users more control over their data privacy through their settings. Contacting the app developer directly (option2) or notifying the social media platform's support team (option3) are less direct and reliable means of withdrawing consent compared to changing settings on the platform itself.",
+      "explanation": "The data practice highlights that Facebook revised its policies to impose stricter data sharing controls after the Cambridge Analytica scandal. These controls likely include mechanisms for users to manage their data sharing preferences through Facebook's privacy settings. Therefore, 'Through the social media platform's privacy settings' is the most appropriate option as it aligns with the changes Facebook implemented to enhance user control over third-party access to their data. Although contacting app developers directly might be possible, the data practice focuses on platform-level changes, making option1 the more relevant choice. Option2 is not selected because the data practice does not indicate that contacting developers is a standard or effective method for withdrawing consent in this context.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:06:54.662235"
+    "timestamp": "2025-02-13T14:44:37.134575"
   },
   {
     "question": {
@@ -281,15 +305,19 @@
       "options": [
         {
           "id": "option1",
-          "label": "Yes, by adjusting privacy settings on the social media platform"
+          "label": "Yes, through privacy settings on the social media platform"
         },
         {
           "id": "option2",
-          "label": "No, data sharing is automatic and cannot be controlled"
+          "label": "Yes, by configuring settings within each third-party app"
         },
         {
           "id": "option3",
-          "label": "Yes, through specific app permissions"
+          "label": "No, data sharing is automatic and cannot be controlled"
+        },
+        {
+          "id": "option4",
+          "label": "Control is limited to specific types of data only"
         }
       ],
       "category": "Control",
@@ -297,59 +325,241 @@
     },
     "answer": {
       "selected_options": [
-        "option1",
-        "option3"
+        "option1"
       ],
-      "explanation": "The data practice describes a situation where Facebook allowed third-party developers to collect user data not only from users who installed their apps but also from the friends of those users through the API policy in place at that time. However, after the Cambridge Analytica scandal, Facebook changed its policies to restrict third-party access to user data and implemented stricter data sharing controls. This suggests that users can now control whether their data is shared with third parties by adjusting privacy settings on the platform (option1) and through specific app permissions (option3). This aligns with user expectations for privacy control and reflects the changes Facebook made to address the criticism and regulatory pressure it faced. Option2 is not selected because the current practice indicates that users do have some control over their data sharing, contrary to the automatic sharing that occurred prior to policy changes.",
+      "explanation": "The data practice described reveals that Facebook initially allowed extensive data sharing through third-party apps, including access to data of users' friends without explicit consent. However, following the Cambridge Analytica scandal and the subsequent backlash, Facebook implemented stricter data sharing controls. This implies that users can now control whether their data is shared with third parties through updated privacy settings on the social media platform itself. This aligns with users' expectations for greater control over their personal information. The practice does not mention configuring settings within each third-party app as a means of control, thus option 2 is not selected.",
       "impact_analysis": {}
     },
-    "timestamp": "2025-02-13T13:06:57.570250"
+    "timestamp": "2025-02-13T14:44:38.888256"
   },
   {
     "question": {
-      "text": "What methods are in place to verify the accuracy of user data collected by third-party applications?",
+      "text": "What measures are in place to ensure third-party apps do not collect more data than disclosed to users?",
       "options": [
         {
           "id": "option1",
-          "label": "Regular audits and cross-checks with external data sources"
+          "label": "Regular audits and compliance checks of third-party apps"
         },
         {
           "id": "option2",
-          "label": "Rely on user-provided corrections and updates"
+          "label": "Relying on user reports and feedback mechanisms"
         }
       ],
-      "category": "Data Quality Verification",
+      "category": "Data Practice Compliance",
       "related_dimensions": [
-        "Data Quality"
+        "Collection Limitation",
+        "Openness"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "Option 1 is selected because regular audits and compliance checks can help ensure that third-party apps adhere to the data collection policies that Facebook implemented after the Cambridge Analytica scandal. This aligns with the need to restrict third-party access and implement stricter data sharing controls, as mentioned in the data practice. Option 2 is also selected because relying on user reports and feedback mechanisms is a practical approach to identify potential violations of data collection policies that may not be caught during audits. This user-driven feedback is crucial in detecting undisclosed data collection activities by third-party apps.",
+      "impact_analysis": {
+        "Collection Limitation": "Implementing regular audits and compliance checks ensures that third-party apps do not collect more data than disclosed, thus adhering to the principle of collection limitation. This restricts data collection to only what is necessary and consented to by users.",
+        "Openness": "Relying on user reports and feedback mechanisms promotes transparency and openness. It empowers users to participate in the oversight process, ensuring that any discrepancies or unauthorized data collection practices are reported and addressed promptly."
+      }
+    },
+    "timestamp": "2025-02-13T14:45:01.789350"
+  },
+  {
+    "question": {
+      "text": "How does the platform verify that third-party apps adhere to stated data usage policies?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "By conducting automated compliance checks regularly"
+        },
+        {
+          "id": "option2",
+          "label": "Through manual reviews and audits by the platform's team"
+        }
+      ],
+      "category": "Use Limitation",
+      "related_dimensions": [
+        "Use Limitation",
+        "Accountability"
       ]
     },
     "answer": {
       "selected_options": [
         "option2"
       ],
-      "explanation": "The data practice described does not mention any specific methods in place for verifying the accuracy of user data collected by third-party applications. The practice focuses on the collection and sharing of user data by third-party apps through Facebook's API, which allowed access to data without explicit verification of its accuracy. Therefore, it is more aligned with option 2, which relies on user-provided corrections and updates, as there is no mention of regular audits or cross-checks with external data sources being conducted.",
+      "explanation": "The data practice described focuses on the lack of initial oversight and the subsequent changes made by Facebook to restrict third-party access to user data. While the practice does not explicitly mention automated compliance checks, the significant emphasis on Facebook's policy changes and the $5 billion fine suggest a shift towards stricter controls, potentially involving manual reviews and audits. The implementation of stricter data sharing controls implies a need for more direct and accountable oversight, likely through manual processes.",
       "impact_analysis": {
-        "Data Quality": "Relying on user-provided corrections and updates can lead to inaccuracies if users do not actively manage their data. This approach places the responsibility on users to ensure data accuracy, which may not always be reliable, leading to potential privacy and data quality issues."
+        "Use Limitation": "Manual reviews and audits ensure that third-party apps adhere to use limitations by allowing for direct observation and intervention if discrepancies are found. This direct oversight helps maintain the integrity of user data and ensures it is used only as intended.",
+        "Accountability": "By conducting manual reviews and audits, the platform can hold third-party developers accountable for their data usage practices. This approach provides a clear mechanism for enforcing compliance with data usage policies and addressing any violations directly."
       }
     },
-    "timestamp": "2025-02-13T13:07:17.956649"
+    "timestamp": "2025-02-13T14:45:23.207089"
   },
   {
     "question": {
-      "text": "What options do users have to control their data sharing preferences with third-party applications?",
+      "text": "What mechanisms are in place to ensure data accuracy and prevent the use of outdated information by third-party apps?",
       "options": [
         {
           "id": "option1",
-          "label": "Users can manage data sharing through platform privacy settings"
+          "label": "Regular updates and synchronization with the social media platform's data"
         },
         {
           "id": "option2",
-          "label": "Users have no control over data sharing with third-party applications"
+          "label": "User notifications to verify and update their information if necessary"
         }
       ],
-      "category": "Individual Participation",
+      "category": "Data Quality Verification",
       "related_dimensions": [
-        "Individual Participation",
+        "Data Quality",
+        "Use Limitation"
+      ]
+    },
+    "answer": {
+      "selected_options": [],
+      "explanation": "The data practice description does not provide any specific mechanisms in place for ensuring data accuracy or preventing the use of outdated information by third-party apps. The focus of the described issue was on the extensive data sharing that occurred through Facebook's API, which allowed third-party apps to access user and friend data without adequate oversight. The enforcement of data accuracy and the prevention of outdated information use were not mentioned as part of the practices or the changes implemented post-incident.",
+      "impact_analysis": {
+        "Data Quality": "The data practice does not mention any measures for maintaining data quality through regular updates or synchronization, nor does it mention user notifications for verifying their data's accuracy. Therefore, there is a lack of mechanisms ensuring that third-party apps have access to accurate and current data.",
+        "Use Limitation": "The data practice highlights a lack of limitation on how third-party apps used the data, but does not address whether outdated information was a concern or how it was managed. The focus was more on the extent of data sharing and the lack of adequate controls to prevent misuse."
+      }
+    },
+    "timestamp": "2025-02-13T14:45:46.084546"
+  },
+  {
+    "question": {
+      "text": "How does the platform ensure that third-party apps transparently disclose their data practices to users?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "By requiring standardized and easily understandable privacy policies"
+        },
+        {
+          "id": "option2",
+          "label": "Through periodic reviews and updates to app disclosures"
+        }
+      ],
+      "category": "transparency_and_disclosure",
+      "related_dimensions": [
+        "Openness",
+        "Purpose Specification"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The data practice does not explicitly mention how Facebook ensures transparency in third-party app data practices. However, after the Cambridge Analytica incident, Facebook made changes to its policies to restrict third-party access to user data, which implies an increased emphasis on transparency and user control. Requiring standardized and easily understandable privacy policies would align with these efforts by ensuring that users are informed about how their data is being used and shared by third-party apps. This approach can help in making data practices more transparent and accessible to users, addressing the openness dimension. The option for periodic reviews and updates (option2) is not directly mentioned in the data practice, thus not selected.",
+      "impact_analysis": {
+        "Openness": "Requiring standardized and easily understandable privacy policies impacts the openness dimension by making data practices more transparent and accessible to users. It ensures that users have clear information about how their data is being used, which enhances their ability to make informed decisions.",
+        "Purpose Specification": "Although specific purpose specification practices are not detailed in the data practice, requiring clear privacy policies could also indirectly support this dimension by ensuring that users are aware of the specific purposes for which their data is being accessed or used by third-party apps."
+      }
+    },
+    "timestamp": "2025-02-13T14:46:10.778791"
+  },
+  {
+    "question": {
+      "text": "How does the platform enforce accountability for third-party apps that fail to comply with data protection policies?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Through financial penalties and suspension of access"
+        },
+        {
+          "id": "option2",
+          "label": "By revoking data access and reporting violations to regulatory bodies"
+        }
+      ],
+      "category": "Accountability",
+      "related_dimensions": [
+        "Accountability",
+        "Use Limitation"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice describes a situation where Facebook faced criticism and legal consequences due to third-party apps accessing vast amounts of user data without proper oversight. Following the exposure of these practices, Facebook implemented changes to restrict third-party access and enforce stricter data sharing controls. This aligns with the option of revoking data access and reporting violations to regulatory bodies, as these measures are consistent with improving accountability and enforcing compliance with data protection policies.",
+      "impact_analysis": {
+        "Accountability": "By revoking data access and reporting violations to regulatory bodies, the platform ensures that third-party developers are held accountable for any misuse of data. This approach creates a mechanism for monitoring compliance and enforcing consequences for violations, thus enhancing accountability.",
+        "Use Limitation": "Restricting data access for third-party apps directly addresses the principle of use limitation by ensuring that data is only accessed and used in ways that are compliant with the platform's policies. This reduces the risk of data being exploited for purposes beyond what users consented to."
+      }
+    },
+    "timestamp": "2025-02-13T14:46:36.657539"
+  },
+  {
+    "question": {
+      "text": "What processes are in place to regularly update and maintain the accuracy of user data shared with third-party apps?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Automated synchronization of data with the social media platform"
+        },
+        {
+          "id": "option2",
+          "label": "User-initiated updates through app settings"
+        }
+      ],
+      "category": "Data Quality",
+      "related_dimensions": [
+        "Data Quality",
+        "Collection Limitation"
+      ]
+    },
+    "answer": {
+      "selected_options": [],
+      "explanation": "The data practice described in the scenario does not mention any specific processes in place to regularly update and maintain the accuracy of user data shared with third-party apps. The focus of the scenario is on the historical data sharing policies of Facebook, particularly the unrestricted access third-party developers had to user data through apps and quizzes, and how this data was then used by Cambridge Analytica for political advertising. Post-2018 changes were mentioned, but no specific processes for data accuracy maintenance were described.",
+      "impact_analysis": {
+        "Data Quality": "The lack of a described process for updating and maintaining data accuracy suggests potential issues with data quality, as there is no mechanism mentioned to ensure that data shared with third-parties remains accurate or up-to-date.",
+        "Collection Limitation": "Without specific processes for maintaining data accuracy, there is a risk that unnecessary or outdated data could be retained or shared with third-parties, which goes against the principle of collection limitation that suggests only necessary data should be collected and shared."
+      }
+    },
+    "timestamp": "2025-02-13T14:47:14.104851"
+  },
+  {
+    "question": {
+      "text": "How does the platform verify that third-party apps collect only the data necessary for their specified purpose?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Through automated checks that compare collected data with declared purposes"
+        },
+        {
+          "id": "option2",
+          "label": "By requiring third-party apps to provide detailed data collection logs for review"
+        }
+      ],
+      "category": "Collection Limitation",
+      "related_dimensions": [
+        "Collection Limitation",
+        "Purpose Specification"
+      ]
+    },
+    "answer": {
+      "selected_options": [],
+      "explanation": "The data practice does not provide specific details on the current methods Facebook uses to verify that third-party apps collect only the data necessary for their specified purpose. The practice described primarily focuses on past issues with data collection and the resulting changes, but does not specify the implementation of automated checks or requiring data collection logs.",
+      "impact_analysis": {
+        "Collection Limitation": "The described data practice reflects a failure in collection limitation, as third-party apps accessed more data than necessary, including data from users who did not directly interact with the apps.",
+        "Purpose Specification": "The lack of clear enforcement of purpose specification allowed Cambridge Analytica to use collected data for purposes beyond the original intent of the app, such as creating psychological profiles for political advertising."
+      }
+    },
+    "timestamp": "2025-02-13T14:47:51.266284"
+  },
+  {
+    "question": {
+      "text": "How does the platform ensure that the data collected by third-party apps is only used for the purposes specified and disclosed to users?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Through regular audits and compliance checks"
+        },
+        {
+          "id": "option2",
+          "label": "By implementing automated data usage monitoring tools"
+        }
+      ],
+      "category": "Purpose and Use Limitation",
+      "related_dimensions": [
+        "Purpose Specification",
         "Use Limitation"
       ]
     },
@@ -357,59 +567,28 @@
       "selected_options": [
         "option1"
       ],
-      "explanation": "Following the Cambridge Analytica scandal and subsequent criticism, Facebook revised its policies to restrict third-party access to user data and implemented stronger data sharing controls. This implies that users now have some level of control over their data sharing preferences through platform privacy settings, allowing them to manage which third-party applications can access their data.",
+      "explanation": "The data practice described does not mention the use of automated data usage monitoring tools. Instead, it highlights the exposure and subsequent criticism related to the lack of control over third-party data usage. After the scandal, Facebook implemented stricter data sharing controls, which could imply more rigorous oversight mechanisms such as regular audits and compliance checks to ensure adherence to the new policies. This aligns more closely with option1 as a practical measure to enforce compliance.",
       "impact_analysis": {
-        "Individual Participation": "The ability for users to manage data sharing through privacy settings enhances individual participation by giving users more control over their personal information and decisions about data sharing with third-party applications.",
-        "Use Limitation": "By allowing users to control data sharing, Facebook aligns with the use limitation principle, which restricts data processing to purposes consented to by the user, thereby limiting unauthorized use by third-party applications."
+        "Purpose Specification": "Regular audits and compliance checks help ensure that third-party apps use data strictly for the purposes specified and disclosed to users. This measure aligns with the principle of purpose specification by verifying that data use is consistent with the agreed-upon terms.",
+        "Use Limitation": "By conducting audits and compliance checks, Facebook can limit the use of data to only those activities that users have consented to. This approach prevents unauthorized or excessive data usage, thereby adhering to the principle of use limitation."
       }
     },
-    "timestamp": "2025-02-13T13:07:39.717720"
+    "timestamp": "2025-02-13T14:48:15.422228"
   },
   {
     "question": {
-      "text": "How are users informed about changes in the privacy policy regarding data collection and sharing with third-party applications?",
+      "text": "How does the platform detect and respond to unauthorized data collection by third-party apps?",
       "options": [
         {
           "id": "option1",
-          "label": "Through direct notifications on the platform"
+          "label": "Through real-time monitoring and alerts"
         },
         {
           "id": "option2",
-          "label": "Via updates on the platform's privacy policy page only"
+          "label": "Through periodic audits and user reports"
         }
       ],
-      "category": "user_information_and_notification",
-      "related_dimensions": [
-        "Openness",
-        "Individual Participation"
-      ]
-    },
-    "answer": {
-      "selected_options": [
-        "option2"
-      ],
-      "explanation": "The data practice described focuses on Facebook's historical approach to data sharing and subsequent changes following the Cambridge Analytica scandal. While there is no direct mention of how Facebook specifically informs users about changes in privacy policies, the standard approach for many platforms is to update the privacy policy page. The data practice highlights Facebook's policy changes after the scandal, implying increased transparency, but does not mention direct notifications to users about these changes.",
-      "impact_analysis": {
-        "Openness": "Selecting option2 reflects a focus on transparency through updated policy documentation, which ensures that users have access to the latest information about data practices if they seek it out. However, it may not actively engage users who do not regularly check policy pages.",
-        "Individual Participation": "Option2 indicates a passive approach to user engagement, where users must take initiative to stay informed. This could limit individual participation in understanding and consenting to data practices if users are not proactively notified of changes."
-      }
-    },
-    "timestamp": "2025-02-13T13:08:06.603966"
-  },
-  {
-    "question": {
-      "text": "What steps are taken to ensure third-party developers comply with restrictions on data collection from non-consenting users?",
-      "options": [
-        {
-          "id": "option1",
-          "label": "Regular audits and penalties for non-compliance"
-        },
-        {
-          "id": "option2",
-          "label": "Self-reporting by developers with random checks"
-        }
-      ],
-      "category": "Compliance and Enforcement",
+      "category": "unauthorized_data_collection",
       "related_dimensions": [
         "Collection Limitation",
         "Accountability"
@@ -417,92 +596,93 @@
     },
     "answer": {
       "selected_options": [
-        "option1"
-      ],
-      "explanation": "The data practice describes Facebook's response to the Cambridge Analytica scandal, which involved changing policies to restrict third-party access to user data and implementing stricter data sharing controls. This suggests that Facebook has moved towards more regulatory oversight, which aligns with regular audits and penalties for non-compliance to ensure third-party developers adhere to restrictions on data collection. There is no indication in the data practice that Facebook relied on self-reporting by developers with random checks.",
-      "impact_analysis": {
-        "Collection Limitation": "Regular audits and penalties for non-compliance help enforce strict limits on data collection, ensuring that third-party developers cannot easily access data from non-consenting users. This approach directly addresses the issues that led to the Cambridge Analytica scandal, where excessive data was collected through inadequate restrictions.",
-        "Accountability": "Implementing regular audits and penalties enhances accountability by holding third-party developers responsible for adhering to data collection restrictions. This approach ensures that any violations can be detected and penalized, thus promoting responsible data handling practices among developers."
-      }
-    },
-    "timestamp": "2025-02-13T13:08:32.674517"
-  },
-  {
-    "question": {
-      "text": "What mechanisms are in place to hold third-party developers accountable for data misuse?",
-      "options": [
-        {
-          "id": "option1",
-          "label": "Regular audits and penalties for non-compliance"
-        },
-        {
-          "id": "option2",
-          "label": "Self-reporting by developers with random checks"
-        }
-      ],
-      "category": "Accountability",
-      "related_dimensions": [
-        "Accountability"
-      ]
-    },
-    "answer": {
-      "selected_options": [
-        "option1"
-      ],
-      "explanation": "The data practice description highlights that Facebook faced significant criticism and legal consequences due to inadequate controls over third-party developers, as evidenced by the Cambridge Analytica scandal. After the scandal, Facebook implemented stricter data sharing controls and changed its policies to limit third-party access to user data. This suggests a shift towards more formal mechanisms like regular audits and penalties for non-compliance to hold developers accountable. Option 1 aligns with these measures by emphasizing regular audits and penalties, which are necessary to enforce compliance and prevent data misuse.",
-      "impact_analysis": {
-        "Accountability": "Regular audits and penalties increase accountability by ensuring that third-party developers adhere to data protection policies. This approach allows for systematic oversight and creates consequences for non-compliance, thus promoting responsible data handling practices among developers."
-      }
-    },
-    "timestamp": "2025-02-13T13:09:06.496920"
-  },
-  {
-    "question": {
-      "text": "How are users notified and consent obtained for any changes in the way their data is used by third-party applications?",
-      "options": [
-        {
-          "id": "option1",
-          "label": "Users receive direct notifications and must re-consent to changes in data use."
-        },
-        {
-          "id": "option2",
-          "label": "Users are informed via platform updates and consent is implied unless they opt out."
-        }
-      ],
-      "category": "user_consent_and_notification",
-      "related_dimensions": [
-        "Use Limitation",
-        "Individual Participation"
-      ]
-    },
-    "answer": {
-      "selected_options": [
         "option2"
       ],
-      "explanation": "The data practice described indicates that Facebook allowed apps to collect data not only from users who installed them but also from their friends without explicit consent from those friends. This suggests an implied consent model, where users were not directly notified or required to re-consent when their data was shared with third-party applications. The widespread criticism and subsequent policy changes imply that prior to 2018, Facebook's approach was more aligned with informing users through platform updates and assuming consent unless users opted out.",
+      "explanation": "The data practice described does not indicate any real-time monitoring or alert system in place by Facebook to detect unauthorized data collection by third-party apps. Instead, the unauthorized data collection came to light through external exposure in 2018, leading to investigations. This suggests that unauthorized data collection was not detected in real-time but rather through external scrutiny, which implies a reliance on periodic audits and potentially user reports to identify such issues.",
       "impact_analysis": {
-        "Use Limitation": "The selection of option2 indicates a less stringent approach to use limitation, as data was shared beyond the initial user's direct consent, impacting millions of users whose data was accessed via friends who installed certain apps.",
-        "Individual Participation": "Option2 reflects limited individual participation because users were not actively involved in consenting to or being notified of third-party data use changes, leading to a lack of control over how their data was shared."
+        "Collection Limitation": "The selection of 'Through periodic audits and user reports' reflects a reactive approach rather than proactive limitation of data collection. This has privacy implications as it may allow unauthorized data collection to occur for extended periods before being detected.",
+        "Accountability": "Periodic audits and user reports suggest a form of accountability where the platform responds to breaches after they are identified. This implies that the platform is accountable to some degree but lacks immediate oversight and control over third-party data collection practices."
       }
     },
-    "timestamp": "2025-02-13T13:09:34.927246"
+    "timestamp": "2025-02-13T14:48:36.382354"
   },
   {
     "question": {
-      "text": "What measures are in place to ensure users can easily access and correct their personal data collected by third-party applications?",
+      "text": "What measures are taken to ensure that third-party apps provide clear and comprehensive privacy notices to users?",
       "options": [
         {
           "id": "option1",
-          "label": "Users can access and correct data through app-specific settings within the social media platform."
+          "label": "Requiring standardized privacy notices reviewed by the platform"
         },
         {
           "id": "option2",
-          "label": "Users must contact the third-party developer directly to request data corrections."
+          "label": "Allowing apps to provide their own notices without platform oversight"
         }
       ],
-      "category": "individual_participation",
+      "category": "openness_transparency",
       "related_dimensions": [
-        "Individual Participation",
+        "Openness",
+        "Purpose Specification"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "Facebook's data practice allowed third-party developers to access vast amounts of user data, including data from users who did not directly interact with the apps. This lack of oversight and control led to significant privacy breaches, as exemplified by the Cambridge Analytica scandal. The widespread criticism and regulatory actions following the exposure of these practices suggest a shift towards more stringent oversight, which implies that measures such as requiring standardized privacy notices reviewed by the platform (option1) would be implemented to enhance transparency and control over user data access. Allowing apps to provide their own notices without platform oversight (option2) contradicts the lessons learned from the incident and would not align with improved privacy measures.",
+      "impact_analysis": {
+        "Openness": "Requiring standardized privacy notices reviewed by the platform enhances openness by ensuring that users receive consistent and transparent information about data collection practices. This reduces the risk of misleading or insufficient disclosures.",
+        "Purpose Specification": "Standardized privacy notices help ensure that the purposes for which user data is collected are clearly specified and communicated, preventing misuse of data for purposes not consented to by the users, as was the case with the Cambridge Analytica incident."
+      }
+    },
+    "timestamp": "2025-02-13T14:49:04.504615"
+  },
+  {
+    "question": {
+      "text": "What specific actions are taken against third-party apps if they are found to have collected data beyond what users consented to?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Immediate revocation of data access and imposition of penalties"
+        },
+        {
+          "id": "option2",
+          "label": "Issuance of warnings and requirement for corrective actions"
+        }
+      ],
+      "category": "enforcement_and_compliance",
+      "related_dimensions": [
+        "Accountability",
+        "Use Limitation"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The data practice describes a significant breach of data privacy where Facebook allowed third-party apps to access not only users' data but also the data of their friends without explicit consent. When this practice was exposed, it led to severe consequences, including Facebook paying a $5 billion fine and changing its policies to restrict third-party access. This indicates that the response to such violations involves strict actions. Therefore, 'Immediate revocation of data access and imposition of penalties' is the most appropriate action reflecting the seriousness of the breach and Facebook's response to it.",
+      "impact_analysis": {
+        "Accountability": "By selecting option1, it underscores the importance of holding third-party apps accountable for unauthorized data collection. Immediate revocation of access and penalties ensure that developers understand the serious consequences of overstepping privacy boundaries, thus reinforcing responsible data practices.",
+        "Use Limitation": "This choice emphasizes the principle of use limitation by ensuring that data collected beyond consent is not tolerated. It acts as a deterrent to unauthorized data use and ensures that data is used strictly within the agreed-upon terms, thus protecting user privacy."
+      }
+    },
+    "timestamp": "2025-02-13T14:49:26.609438"
+  },
+  {
+    "question": {
+      "text": "What processes does the platform have in place to verify that third-party apps maintain data accuracy and relevance over time?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Regularly audited data accuracy checks and updates by the platform"
+        },
+        {
+          "id": "option2",
+          "label": "Reliance on user feedback to report inaccuracies"
+        }
+      ],
+      "category": "Data Quality",
+      "related_dimensions": [
         "Data Quality"
       ]
     },
@@ -510,12 +690,104 @@
       "selected_options": [
         "option2"
       ],
-      "explanation": "The data practice described in the case of Facebook and Cambridge Analytica does not mention specific mechanisms that allow users to access or correct their personal data collected by third-party applications directly through the social media platform. Instead, the historical context suggests that Facebook's previous policies allowed third-party developers to collect data in a way that did not prioritize user access or control over their data. Given this context, it is reasonable to infer that users would need to contact the third-party developers directly to address data corrections, as the responsibility for data handling and correction lies with the third parties who collected the data.",
+      "explanation": "The data practice described does not indicate any specific processes Facebook had in place for third-party apps to maintain data accuracy and relevance over time. Instead, the focus was on the broad access third-party apps had to user data, not on ensuring the accuracy of that data once accessed. Given the lack of mention of formal verification processes, it is likely that Facebook relied on user feedback to report any inaccuracies, as there were no proactive measures described.",
       "impact_analysis": {
-        "Individual Participation": "The option selected emphasizes the challenge users face in participating in the management of their personal data. Having to contact third-party developers directly can discourage users from taking action due to the potential complexity and lack of transparency in the process.",
-        "Data Quality": "By requiring users to contact third parties directly for data correction, there is a risk of inaccuracies persisting in users' data due to potential lack of response or cooperation from third-party developers. This practice does not actively support maintaining high data quality."
+        "Data Quality": "The reliance on user feedback to report inaccuracies implies a reactive rather than proactive approach to ensuring data quality. This practice could result in delayed identification and correction of inaccurate or outdated data, potentially affecting the relevance and accuracy of the data used by third-party developers. For users, this means their data could be used in ways that do not accurately reflect their current preferences or situations, impacting the quality of services or advertisements they receive."
       }
     },
-    "timestamp": "2025-02-13T13:10:11.545151"
+    "timestamp": "2025-02-13T14:49:51.783556"
+  },
+  {
+    "question": {
+      "text": "How does the platform ensure that user data shared with third-party apps is encrypted during transmission?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "By implementing mandatory encryption protocols for all data transfers"
+        },
+        {
+          "id": "option2",
+          "label": "By relying on third-party developers to voluntarily use encryption"
+        }
+      ],
+      "category": "security_measures",
+      "related_dimensions": [
+        "Security Safeguards"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The data practice highlights Facebook's initial lack of stringent data sharing controls, which allowed third-party developers to access user data extensively. However, after the Cambridge Analytica scandal, Facebook faced significant backlash and regulatory consequences, leading to changes in their data sharing policies. These circumstances suggest that Facebook has since implemented stricter controls, including mandatory encryption protocols, to ensure data security during transmission to third-party apps.",
+      "impact_analysis": {
+        "Security Safeguards": "Implementing mandatory encryption protocols for all data transfers enhances the security of user data by protecting it from interception and unauthorized access during transmission. This practice aligns with the need to safeguard sensitive information, reflecting Facebook's response to previous inadequacies in their data protection measures."
+      }
+    },
+    "timestamp": "2025-02-13T14:50:10.521979"
+  },
+  {
+    "question": {
+      "text": "What actions are taken if a third-party app uses user data for purposes not disclosed to users?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "The app's access is immediately revoked and legal action is considered."
+        },
+        {
+          "id": "option2",
+          "label": "The app is issued a warning and given a chance to comply."
+        }
+      ],
+      "category": "enforcement_actions",
+      "related_dimensions": [
+        "Purpose Specification",
+        "Use Limitation",
+        "Accountability"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option1"
+      ],
+      "explanation": "The data practice highlights that when the misuse of data by third parties was exposed, Facebook faced significant criticism, legal investigations, and a considerable financial penalty. This indicates that serious breaches, such as using data for undisclosed purposes, lead to severe consequences, including revoking access and potential legal action. Although the specific practice of revoking access and considering legal action is not explicitly detailed in the scenario, the aftermath, including a $5 billion fine, suggests that Facebook would adopt stringent measures to prevent similar occurrences.",
+      "impact_analysis": {
+        "Purpose Specification": "Ensuring that third-party apps do not misuse data is critical to purpose specification. The selection of option 1 implies that any deviation from the specified purpose leads to revocation of access, maintaining the integrity of purpose specification.",
+        "Use Limitation": "Option 1 supports use limitation by revoking access when data is used beyond its intended purpose. This action upholds the principle that data should not be used for any purpose other than what was originally agreed upon by the user.",
+        "Accountability": "The choice of option 1 reinforces accountability by holding third-party apps responsible for unauthorized uses of data. This ensures that developers comply with data usage agreements and face consequences if they fail to do so."
+      }
+    },
+    "timestamp": "2025-02-13T14:50:24.537217"
+  },
+  {
+    "question": {
+      "text": "What mechanisms are in place to verify that third-party apps implement user-requested data deletions promptly?",
+      "options": [
+        {
+          "id": "option1",
+          "label": "Regular compliance audits to ensure timely deletions"
+        },
+        {
+          "id": "option2",
+          "label": "Relying on user reports to identify failures in implementing deletions"
+        }
+      ],
+      "category": "Data Deletion Compliance",
+      "related_dimensions": [
+        "Collection Limitation",
+        "Accountability"
+      ]
+    },
+    "answer": {
+      "selected_options": [
+        "option2"
+      ],
+      "explanation": "The data practice described does not mention any specific mechanisms such as regular compliance audits for verifying that third-party apps implement user-requested data deletions promptly. Instead, the situation with Cambridge Analytica suggests a reliance on external revelations and user reports to identify and address failures in data handling practices. After the exposure of the misuse of data, Facebook faced widespread criticism and subsequently implemented stricter data sharing controls, but there is no mention of structured compliance audits as part of the verification process.",
+      "impact_analysis": {
+        "Collection Limitation": "The reliance on user reports rather than proactive audits suggests a gap in ensuring that data collection is limited to what is necessary and that user data is deleted as requested. This has implications for the Collection Limitation dimension, where proactive measures would be more effective in preventing over-collection and misuse.",
+        "Accountability": "Relying on user reports rather than regular audits means that third-party apps may not be held accountable for data deletion promptly unless users notice and report issues. This approach can undermine accountability, as it places the onus on users rather than the data controllers or processors to ensure compliance with data deletion requests."
+      }
+    },
+    "timestamp": "2025-02-13T14:50:44.398925"
   }
 ]

@@ -389,6 +389,8 @@ Security Safeguards, Openness, Individual Participation, Accountability), determ
 1. Current state (No Issue/Has Issue/Potential Issue)
 2. Any identified concerns
 3. Potential questions that need to be asked
+4. If you do not feel you have enough information to determine the state, mark it as Potential Issue
+5. The has issue bar should be pretty high, has issue does mean the issue is critical and could not use any other design to make it better
 
 Return in JSON format:
 {{
@@ -480,8 +482,6 @@ Return in JSON format:
 Your task is to generate the next question based on the current state of privacy dimensions.
 
 Design Purpose: {design_purpose}
-
-Data Practice: {data_practice}
 
 Current State of Dimensions:
 {state_context}
@@ -575,6 +575,7 @@ Security Safeguards, Openness, Individual Participation, Accountability), determ
 1. Current state (must be exactly one of: "No Issue", "Has Issue", "Potential Issue")
 2. Any identified concerns
 3. Potential questions that need to be asked
+4. Make the initial state "Potential Issue" if not enough information is available, has issue bar should be pretty high
 
 Return in JSON format:
 {{
@@ -913,8 +914,6 @@ async def main():
     
     # Process each case
     for _, case in cases_df.iterrows():
-        if "Zoom" in case['Case'] :
-            continue
         try:
             print(f"\nProcessing case: {case['Case']}")
             results = await analyzer.analyze(

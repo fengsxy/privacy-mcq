@@ -1,0 +1,3531 @@
+{
+  "start_state": {
+    "Collection Limitation": {
+      "state": "Has Issue",
+      "description": "Data collected includes user responses to personality questions and interaction data. The scope of data collection is not fully disclosed, and user consent specifics are unclear.",
+      "areas_to_investigate": [
+        "Extent of data collection",
+        "User consent mechanisms"
+      ]
+    },
+    "Data Quality": {
+      "state": "No Issue",
+      "description": "Data is manipulated in real-time for the experiment, indicating attention to data accuracy relevant to the experiment's purpose.",
+      "areas_to_investigate": []
+    },
+    "Purpose Specification": {
+      "state": "No Issue",
+      "description": "The purpose of data collection is clearly specified as analyzing user behavior in response to manipulated compatibility scores.",
+      "areas_to_investigate": []
+    },
+    "Use Limitation": {
+      "state": "Has Issue",
+      "description": "Data is used beyond original expectations of users, with manipulated scores affecting user experience without explicit consent.",
+      "areas_to_investigate": [
+        "User consent renewal",
+        "User awareness of data usage"
+      ]
+    },
+    "Security Safeguards": {
+      "state": "Has Issue",
+      "description": "There is no mention of specific security measures in place for data handling during or after the experiment.",
+      "areas_to_investigate": [
+        "Data protection protocols",
+        "Anonymization practices"
+      ]
+    },
+    "Openness": {
+      "state": "Has Issue",
+      "description": "The experiment's nature and data handling specifics, including retention and access, are not transparently communicated to users.",
+      "areas_to_investigate": [
+        "Transparency of data practices",
+        "Public disclosure of experiment details"
+      ]
+    },
+    "Individual Participation": {
+      "state": "Has Issue",
+      "description": "Users appear not to have control over data collected during the experiment or informed of their participation in real-time.",
+      "areas_to_investigate": [
+        "User rights to data access and control",
+        "Mechanisms for user data deletion"
+      ]
+    },
+    "Accountability": {
+      "state": "Has Issue",
+      "description": "While internal data access is limited, there is no mention of accountability measures or oversight of data handling practices.",
+      "areas_to_investigate": [
+        "Internal audit practices",
+        "Accountability frameworks for data use"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": {
+        "text": "What types of data are collected by the attendee attention tracking feature in the video conferencing application?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "The duration a participant's focus remains on the video conferencing window."
+          },
+          {
+            "id": "option2",
+            "label": "The specific applications or windows a participant switches to during the meeting."
+          },
+          {
+            "id": "option3",
+            "label": "The participant's IP address and location data during the meeting."
+          },
+          {
+            "id": "option4",
+            "label": "Audio and video recordings of the participant's activities throughout the meeting."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes Zoom's feature that tracked whether the video conferencing application was in focus on a participant's computer. It specifically mentioned that Zoom generated a report listing the percentage of time each participant had the presentation window in focus during the meeting. Therefore, the data collected by the feature included the duration a participant's focus remained on the video conferencing window, which aligns with option1. The other options do not reflect the described data practice, as there is no mention of tracking specific applications or windows switched to, nor is there any mention of collecting IP address, location data, or audio and video recordings.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "2",
+      "question": {
+        "text": "What is the purpose of collecting data on attendee attention during video conferences?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "To provide hosts with insights on participant engagement for improving meeting effectiveness."
+          },
+          {
+            "id": "option2",
+            "label": "To analyze participant multitasking behavior for targeted advertisements."
+          },
+          {
+            "id": "option3",
+            "label": "To ensure participants are not violating meeting protocols or policies."
+          },
+          {
+            "id": "option4",
+            "label": "To compile statistics for research on remote work productivity."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes Zoom's feature that allowed hosts to monitor attendees' attention by indicating whether Zoom was the active application on participants' computers during screen sharing. At the end of meetings, Zoom provided hosts with a report showing the percentage of time each participant had the presentation window in focus. This suggests that the primary purpose of collecting this data was to give hosts insights into participant engagement, which could help improve the effectiveness of the meetings. There is no mention of using this data for advertisements, enforcing policies, or conducting research, which aligns with selecting option 1.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "3",
+      "question": {
+        "text": "How is the data on participant attention processed in the video conferencing application?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "The data is processed in real-time to display attention status to hosts during the meeting."
+          },
+          {
+            "id": "option2",
+            "label": "The data is aggregated and analyzed post-meeting for generating reports."
+          },
+          {
+            "id": "option3",
+            "label": "The data is stored temporarily and deleted immediately after the meeting ends."
+          },
+          {
+            "id": "option4",
+            "label": "The data is encrypted and processed using machine learning algorithms to predict future attention patterns."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1",
+        "option2"
+      ],
+      "explanation": "The data practice describes how Zoom's attention tracking feature worked. It monitored whether Zoom was the application in focus on a participant's computer in real-time and displayed a clock icon next to the participant's name if they were not attentive for over 30 seconds. This indicates that the data was processed in real-time to display attention status to hosts during the meeting, which aligns with option 1. Additionally, at the end of each meeting, Zoom generated a report for the host listing the percentage of time each participant had the presentation window in focus, meaning the data was also aggregated and analyzed post-meeting for generating reports, which corresponds to option 2. Therefore, both options 1 and 2 are selected as they accurately describe the data processing practices detailed in the scenario.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "4",
+      "question": {
+        "text": "Is the data on attendee attention anonymized during processing in the video conferencing application?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, all data is anonymized to prevent identifying specific participants."
+          },
+          {
+            "id": "option2",
+            "label": "No, data is linked to specific user accounts to personalize attention reports."
+          },
+          {
+            "id": "option3",
+            "label": "Data is partially anonymized, with some identifying details removed."
+          },
+          {
+            "id": "option4",
+            "label": "Anonymization is optional and can be enabled by the host for each meeting."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The data practice described indicates that attendee attention data was not anonymized during processing. Instead, it was linked to specific user accounts, as evidenced by the feature that showed a clock icon next to the participant's name and generated a report for the host listing the percentage of time each participant had the presentation window in focus. This indicates that the data was used to personalize attention reports for each participant, thus not anonymized.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "5",
+      "question": {
+        "text": "Who can see the attention data collected from participants in the video conferencing application?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Only the host of the meeting can view the attention data."
+          },
+          {
+            "id": "option2",
+            "label": "Participants can view their own attention data after the meeting."
+          },
+          {
+            "id": "option3",
+            "label": "Third-party analytics companies can access the data for research purposes."
+          },
+          {
+            "id": "option4",
+            "label": "The application provider and authorized service partners can access the data for service improvement."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes that Zoom generated a report for the host listing the percentage of time each participant had the presentation window in focus during the meeting. This indicates that only the host of the meeting could view the attention data. There is no mention of participants being able to view their own attention data, third-party analytics companies accessing the data, or the application provider and partners using the data for service improvement. Therefore, option 1 is the most accurate reflection of the described practice.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "6",
+      "question": {
+        "text": "How long is the attention data retained in the video conferencing application?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "The data is retained for 30 days before being automatically deleted."
+          },
+          {
+            "id": "option2",
+            "label": "The data is stored indefinitely unless the host requests deletion."
+          },
+          {
+            "id": "option3",
+            "label": "The data is deleted immediately after the meeting's conclusion."
+          },
+          {
+            "id": "option4",
+            "label": "The retention period can be customized by the host from a set of options."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice describes that Zoom generated a report at the end of each meeting listing the percentage of time each participant had the presentation window in focus during the meeting. However, it does not specify any retention period for this data, as the feature was removed permanently due to privacy concerns. Given that Zoom removed the feature, it implies that attention data is not retained beyond the meeting, aligning with option 3 which states that the data is deleted immediately after the meeting's conclusion.",
+      "target_dimension": "Data Storage",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "7",
+      "question": {
+        "text": "Is the default setting for the attention tracking feature opt-in or opt-out?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "The feature is enabled by default and requires participants to opt-out."
+          },
+          {
+            "id": "option2",
+            "label": "The feature is disabled by default and requires participants to opt-in."
+          },
+          {
+            "id": "option3",
+            "label": "Hosts can choose the default setting for their meetings."
+          },
+          {
+            "id": "option4",
+            "label": "Participants are prompted to choose their preference before each meeting."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes a feature that automatically tracked participants' attention without any mention of participants opting in or being prompted to choose their preference. The backlash and subsequent apology from Zoom indicate that the feature was enabled by default, implying that users were not given the option to opt-in. Therefore, it is reasonable to conclude that the feature was enabled by default and required participants to opt-out if they did not want to be tracked.",
+      "target_dimension": "Consent",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "8",
+      "question": {
+        "text": "Can users delete their attention data from the video conferencing system, either partially or entirely?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, users can delete all or part of their data through their account settings."
+          },
+          {
+            "id": "option2",
+            "label": "No, once collected, the data is permanently stored and cannot be deleted."
+          },
+          {
+            "id": "option3",
+            "label": "Users can request deletion through customer support, subject to approval."
+          },
+          {
+            "id": "option4",
+            "label": "Partial deletion is possible, but complete data removal is not supported."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The data practice describes that Zoom developed an attention tracking feature where a report was generated for the host indicating the attention level of participants during meetings. However, there is no information provided about the ability for users to delete this data, either partially or entirely. The feature received backlash and was permanently removed by Zoom, which implies that the data related to it may not be accessible or manageable by users. Therefore, based on the information given, it is reasonable to conclude that once the data was collected, it was not designed to be deleted by users, hence option 2 is selected.",
+      "target_dimension": "Control",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "9",
+      "question": {
+        "text": "How can users withdraw their consent for the attention tracking feature?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Users can withdraw consent at any time through their account privacy settings."
+          },
+          {
+            "id": "option2",
+            "label": "Consent can only be withdrawn by contacting customer support."
+          },
+          {
+            "id": "option3",
+            "label": "Consent withdrawal requires approval from the meeting host."
+          },
+          {
+            "id": "option4",
+            "label": "Users cannot withdraw consent once a meeting has started."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes that the attention tracking feature received significant backlash and was later removed permanently due to privacy concerns. Since the feature is no longer active, users do not need to withdraw consent as it is not applicable. However, if the feature were still active, users would typically be able to manage such privacy settings, like withdrawing consent, through their account privacy settings. The other options do not align with the common practice of allowing users to manage their privacy settings independently, as seen in modern web applications.",
+      "target_dimension": "Consent",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "10",
+      "question": {
+        "text": "What encryption measures are used to protect attention tracking data at rest in the video conferencing application?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is encrypted using AES-256 encryption standard."
+          },
+          {
+            "id": "option2",
+            "label": "Data is protected with SSL/TLS encryption protocols."
+          },
+          {
+            "id": "option3",
+            "label": "No encryption is used; data is stored in plain text for easy access."
+          },
+          {
+            "id": "option4",
+            "label": "Encryption methods vary based on the user's subscription level."
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice does not provide any specific information about the encryption measures used for protecting attention tracking data at rest. The description focuses on the functionality of the attention tracking feature and its subsequent removal due to privacy concerns, but does not detail the encryption standards or methods used for data protection. Therefore, none of the provided options can be selected based on the information given.",
+      "target_dimension": "Data Storage",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "11",
+      "question": {
+        "text": "To what extent is user data collected by the video conferencing application when it is in focus?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Only necessary data related to the application's operation is collected."
+          },
+          {
+            "id": "option2",
+            "label": "All activity data within the application is collected, regardless of necessity."
+          },
+          {
+            "id": "option3",
+            "label": "Data collection varies based on user settings or permissions granted."
+          },
+          {
+            "id": "option4",
+            "label": "There is no clear limitation, and all available data is collected when the application is in focus."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes a feature where Zoom monitored whether the application was in focus on a participant's computer, specifically in the context of screen sharing. This suggests that Zoom was collecting specific data related to the application's operation (i.e., focus status) to provide the attention tracking feature. The collection of focus data was directly tied to the functionality of the meeting (screen sharing) and not indiscriminately collecting all user activity data. Therefore, option 1, which states that only necessary data related to the application's operation is collected, is the most appropriate choice. Additionally, the attention tracking feature was removed after receiving backlash, indicating that Zoom reconsidered the necessity and appropriateness of this data collection, further supporting the selection of option 1.",
+      "target_dimension": "Collection Limitation",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "No Issue"
+      }
+    },
+    {
+      "id": "12",
+      "question": {
+        "text": "How is access to the data used for generating reports for hosts controlled to prevent unauthorized use by other parties?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Access is restricted to hosts only through strict access controls."
+          },
+          {
+            "id": "option2",
+            "label": "Data access logs are monitored regularly to detect unauthorized access by other parties."
+          },
+          {
+            "id": "option3",
+            "label": "There is no clear policy preventing other parties from accessing the data."
+          },
+          {
+            "id": "option4",
+            "label": "Other parties are allowed access under certain conditions with host consent."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes Zoom's decision to remove the attention tracker feature permanently, indicating a response to privacy concerns. While the data practice does not explicitly mention how access to the data used for generating reports is controlled, the removal of the feature suggests a commitment to restricting access to sensitive data. This implies that access is likely controlled to hosts only, aligning with strict access controls to ensure privacy. Therefore, option 1 is selected as it best reflects Zoom's approach to handling data access in accordance with privacy expectations.",
+      "target_dimension": "Use Limitation",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "13",
+      "question": {
+        "text": "What measures are in place to ensure that data used for generating reports is not accessed by unauthorized parties?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Strict access controls are implemented with regular audits."
+          },
+          {
+            "id": "option2",
+            "label": "There are no specific measures mentioned for preventing unauthorized access."
+          },
+          {
+            "id": "option3",
+            "label": "Data is anonymized before being shared, but controls are limited."
+          },
+          {
+            "id": "option4",
+            "label": "Data is only accessible by the report generation team, with no external access."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The data practice description does not provide any specific details about measures or controls in place to ensure that data used for generating reports is not accessed by unauthorized parties. It only mentions the existence of the attention tracking feature, its reception, and subsequent removal. Without explicit mention of access controls or data protection measures, option 2, which states that no specific measures are mentioned, is the most accurate reflection of the information provided.",
+      "target_dimension": "Use Limitation",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "14",
+      "question": {
+        "text": "What processes were in place to address privacy concerns related to the feature before its removal?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "There was a dedicated team that regularly reviewed and addressed privacy concerns."
+          },
+          {
+            "id": "option2",
+            "label": "There were documented procedures, but they were not regularly followed."
+          },
+          {
+            "id": "option3",
+            "label": "Privacy concerns were addressed on an ad-hoc basis without formal processes."
+          },
+          {
+            "id": "option4",
+            "label": "No specific processes were in place to address privacy concerns."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice does not mention any specific processes that were in place to address privacy concerns related to the attention tracker feature before its removal. The feature was launched and only after receiving significant backlash did Zoom acknowledge falling short of the community's privacy and security expectations. This suggests that there were no specific processes in place to proactively address privacy concerns prior to the backlash and subsequent removal of the feature.",
+      "target_dimension": "Accountability",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "15",
+      "question": {
+        "text": "What types of user data does the third-party application integration system collect from the social media platform?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Basic profile information such as name, email, and profile picture"
+          },
+          {
+            "id": "option2",
+            "label": "User activity data, including likes, shares, and comments"
+          },
+          {
+            "id": "option3",
+            "label": "Detailed personal data such as friend lists and private messages"
+          },
+          {
+            "id": "option4",
+            "label": "Device and usage data, including IP addresses and session times"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1",
+        "option3"
+      ],
+      "explanation": "The data practice describes how third-party developers were able to collect user data through apps and quizzes on Facebook. Specifically, it mentions that Cambridge Analytica obtained data not only from users who installed the app but also from their friends via Facebook's friend data sharing API. This implies access to detailed personal data such as friend lists. Furthermore, basic profile information such as name and email is typically part of the data shared with third-party apps for identification and communication purposes. Therefore, options 1 and 3 are selected as they reflect the types of data that were collected according to the described practices.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "16",
+      "question": {
+        "text": "What is the purpose of collecting user data through the third-party application integration system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "To enhance user experience by personalizing content and recommendations"
+          },
+          {
+            "id": "option2",
+            "label": "To provide targeted advertising based on user interests and behaviors"
+          },
+          {
+            "id": "option3",
+            "label": "To conduct market research and improve service offerings"
+          },
+          {
+            "id": "option4",
+            "label": "To sell data to third-party companies for additional revenue"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The data practice describes how Cambridge Analytica used data collected through a Facebook app to create psychological profiles of voters, which were then used to target political advertisements. This indicates that the primary purpose of collecting user data through the third-party application was to provide targeted advertising based on user interests and behaviors. The firm used the data to influence political campaigns, which aligns with the goal of targeted advertising. Therefore, option2 is the most appropriate selection given the context of the data practice.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "17",
+      "question": {
+        "text": "Is the user data anonymized during processing by the application system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, all data is anonymized before any processing takes place"
+          },
+          {
+            "id": "option2",
+            "label": "Only specific types of data are anonymized, such as location information"
+          },
+          {
+            "id": "option3",
+            "label": "No, data is processed with user identifiers intact"
+          },
+          {
+            "id": "option4",
+            "label": "Data is anonymized only after initial processing and analysis"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice described does not mention any anonymization of user data during processing by the application system. Instead, it highlights that user data, including identifiable information from users and their friends, was accessed by third-party developers through Facebook's API policy at the time. This data was used to create psychological profiles for targeted political advertisements, indicating that the data was processed with user identifiers intact. Therefore, option 3 is the most accurate reflection of the data practices described.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "18",
+      "question": {
+        "text": "How long does the application system retain user data collected from the social media platform?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is retained indefinitely for continuous improvement of services"
+          },
+          {
+            "id": "option2",
+            "label": "Data is retained for a maximum of 5 years, after which it is deleted"
+          },
+          {
+            "id": "option3",
+            "label": "Data is retained until the user deletes their account or requests deletion"
+          },
+          {
+            "id": "option4",
+            "label": "Data retention period varies based on data type, ranging from 1 to 3 years"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes a situation where user data was collected through Facebook's API and used by Cambridge Analytica to create psychological profiles for political advertising. The practice does not specify any timeline for data retention, implying that the data was retained as long as it was useful for service improvement (i.e., creating voter profiles for targeted ads). This aligns with the option that suggests data is retained indefinitely for continuous improvement of services. Additionally, since the issue was related to excessive data retention and usage without clear deletion policies, the indefinite retention aligns with the lack of restrictions that were in place before the 2018 policy change.",
+      "target_dimension": "Data Storage",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "19",
+      "question": {
+        "text": "Who can access the user data collected by the third-party application integration system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Only the application developer and their designated team members"
+          },
+          {
+            "id": "option2",
+            "label": "The social media platform and approved third-party partners"
+          },
+          {
+            "id": "option3",
+            "label": "Any third-party companies that purchase access to the data"
+          },
+          {
+            "id": "option4",
+            "label": "Users themselves, through a data download request"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The data practice describes how third-party developers could access user data through Facebook's API policies. This access was not limited to the application developers and their team, as they could collect data from users who installed the app and their friends, implying that the social media platform (Facebook) and approved third-party partners (like the app developers and entities like Cambridge Analytica) had access to this data. This aligns with option 2, as it reflects the involvement of both the platform (Facebook) and third-party partners (developers and firms like Cambridge Analytica) in accessing user data.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "20",
+      "question": {
+        "text": "How is user data shared by the third-party application integration system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Through secure internal networks only accessible to authorized personnel"
+          },
+          {
+            "id": "option2",
+            "label": "Via public networks with encryption to ensure data security"
+          },
+          {
+            "id": "option3",
+            "label": "Data is not shared externally, remains within the application system"
+          },
+          {
+            "id": "option4",
+            "label": "Through secure APIs that require authentication for access"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice describes how Facebook's third-party application integration system allowed apps to access user data through Facebook's friend data sharing API policy. This indicates that data sharing occurred through APIs, which typically require some form of authentication for access. The exposure of user data to apps beyond the users who directly installed them suggests that APIs were used to facilitate this sharing. Although the practice led to a major privacy issue, it aligns with the concept described in option 4, where data is shared through secure APIs that require authentication.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "21",
+      "question": {
+        "text": "How can users withdraw their consent for data collection by the third-party application integration system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "By accessing their account settings and adjusting privacy preferences"
+          },
+          {
+            "id": "option2",
+            "label": "By contacting customer support to revoke consent manually"
+          },
+          {
+            "id": "option3",
+            "label": "Consent can only be withdrawn by deleting the user account entirely"
+          },
+          {
+            "id": "option4",
+            "label": "Users can withdraw consent during data collection notifications"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice highlights that Facebook had policies allowing third-party developers to collect data through apps. When users seek to manage or withdraw consent for data collection by third-party applications, they typically do so by accessing their account settings and adjusting privacy preferences. This aligns with standard practices where users can control app permissions and data sharing settings via their account settings, especially after Facebook implemented stricter data sharing controls following the Cambridge Analytica incident.",
+      "target_dimension": "Consent",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "22",
+      "question": {
+        "text": "Can users delete their data from the third-party application integration system, either partially or entirely?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, users can delete specific data categories through their account settings"
+          },
+          {
+            "id": "option2",
+            "label": "Users can request complete data deletion through customer support"
+          },
+          {
+            "id": "option3",
+            "label": "Data deletion is not possible, only account deactivation"
+          },
+          {
+            "id": "option4",
+            "label": "Users can only delete data by uninstalling the application"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The data practice describes a scenario where user data was shared with third parties through Facebook's API policy. After the exposure of these practices, Facebook faced criticism and changed its policies to restrict third-party access to user data. While the data practice does not explicitly state how users can delete their data from third-party applications, it is common for platforms to offer data deletion requests through customer support, especially after regulatory scrutiny and fines. Therefore, option 2, which suggests users can request complete data deletion through customer support, is a plausible answer given the context and typical privacy practices following such incidents.",
+      "target_dimension": "Control",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "23",
+      "question": {
+        "text": "What specific aspects of data practices are included in regular audits of the third-party application integration system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data collection methods and adherence to privacy policies"
+          },
+          {
+            "id": "option2",
+            "label": "Data processing security measures and anonymization practices"
+          },
+          {
+            "id": "option3",
+            "label": "Data sharing protocols and third-party access agreements"
+          },
+          {
+            "id": "option4",
+            "label": "All aspects including data storage, retention, and user consent"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice described in the scenario highlights the issues with Facebook's data sharing protocols and third-party access agreements. Specifically, Cambridge Analytica was able to access data not just of the users who installed the app, but also their friends, due to Facebook's friend data sharing API policy at the time. This suggests that the regular audits should include a focus on data sharing protocols and third-party access agreements to prevent similar unauthorized data access in the future. The subsequent changes Facebook made to restrict third-party access and implement stricter data sharing controls further indicate the importance of auditing these specific aspects.",
+      "target_dimension": "Audit",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "24",
+      "question": {
+        "text": "How frequently is the collected data updated to ensure accuracy?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is updated in real-time as changes occur"
+          },
+          {
+            "id": "option2",
+            "label": "Updates are made on a weekly basis"
+          },
+          {
+            "id": "option3",
+            "label": "Data updates occur monthly"
+          },
+          {
+            "id": "option4",
+            "label": "There is no regular schedule for data updates"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice described does not mention any specific schedule or frequency for updating the collected data to ensure accuracy. The focus of the practice was on how third-party developers, like Cambridge Analytica, accessed user data through Facebook's API. The issue was the extent of data sharing and lack of control over third-party access, not the frequency of data updates. Thus, 'There is no regular schedule for data updates' is the most fitting option, as there is no evidence of a real-time, weekly, or monthly update schedule in the given context.",
+      "target_dimension": "Data Quality",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "25",
+      "question": {
+        "text": "What level of security protocols are currently in place for API authentication to prevent unauthorized access?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Basic authentication with no additional security measures"
+          },
+          {
+            "id": "option2",
+            "label": "API keys with rate limiting but no encryption"
+          },
+          {
+            "id": "option3",
+            "label": "OAuth with token expiration and IP whitelisting"
+          },
+          {
+            "id": "option4",
+            "label": "Multi-factor authentication with encryption and monitoring"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice described a past situation where Facebook allowed third-party access to user data through an API policy that lacked stringent security measures, leading to unauthorized access and misuse of data. In response to the backlash and legal consequences, Facebook implemented stricter data sharing controls. While the data practice does not specify the exact security protocols Facebook currently employs, it is reasonable to infer that Facebook would have adopted more robust security measures to prevent unauthorized access. OAuth with token expiration and IP whitelisting is a well-known approach to secure API access, which aligns with the likely improvements Facebook made to its data sharing policies post-incident. This option reflects a moderate to high level of security, which would be expected after the significant changes Facebook made in response to the data misuse scandal.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "26",
+      "question": {
+        "text": "What level of authentication does your API currently require to ensure security against unauthorized access?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "No authentication required"
+          },
+          {
+            "id": "option2",
+            "label": "Basic authentication (username and password)"
+          },
+          {
+            "id": "option3",
+            "label": "OAuth 2.0 or similar advanced authentication"
+          },
+          {
+            "id": "option4",
+            "label": "Multi-factor authentication with additional security layers"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice described indicates that Facebook's API allowed third-party developers to collect user data with minimal security barriers, as evidenced by the extensive data access granted to Cambridge Analytica through Aleksandr Kogan's app. This suggests that no significant authentication mechanisms were in place to prevent unauthorized access, as even the friends of app users had their data accessed without explicit consent. Therefore, the situation aligns with 'No authentication required' as the level of authentication.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "27",
+      "question": {
+        "text": "How aware are you of the company's data sharing policies with third parties before the recent policy changes?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Very aware and fully informed about all data sharing practices"
+          },
+          {
+            "id": "option2",
+            "label": "Somewhat aware but lacking specific details about third-party data access"
+          },
+          {
+            "id": "option3",
+            "label": "Not very aware, with limited understanding of data sharing policies"
+          },
+          {
+            "id": "option4",
+            "label": "Completely unaware of any data sharing practices with third parties"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice indicates that Facebook's data sharing with third parties was extensive and not transparently communicated to users. Users were likely 'Not very aware, with limited understanding of data sharing policies,' as Cambridge Analytica was able to access data from up to 87 million Facebook users, including those who did not directly consent to the app's data collection. This suggests that users were not fully informed about the extent of data being shared with third parties, especially through the friend data sharing API policy, which was not widely understood by the general public. The subsequent backlash and criticism imply that Facebook's practices were not clearly communicated, leading to a limited user understanding of data sharing policies.",
+      "target_dimension": "Openness",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "28",
+      "question": {
+        "text": "What types of data are collected by the real-time location tracking system for personal items?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Location coordinates and time stamps"
+          },
+          {
+            "id": "option2",
+            "label": "Owner's contact information and device identifiers"
+          },
+          {
+            "id": "option3",
+            "label": "Nearby device information and signal strength data"
+          },
+          {
+            "id": "option4",
+            "label": "User preferences and tracking history"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice for Apple's AirTag involves relaying location data to help users locate personal items through the Find My network. This indicates that the real-time location tracking system collects 'Location coordinates and time stamps' as these are essential for determining and communicating the position of the tracked item. The information provided does not mention the collection of owner's contact information, device identifiers, or user preferences, making option 1 the most accurate choice based on the described practices.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "29",
+      "question": {
+        "text": "What is the frequency of data collection by the tracking system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Continuously in real-time"
+          },
+          {
+            "id": "option2",
+            "label": "Every 5 minutes when in motion"
+          },
+          {
+            "id": "option3",
+            "label": "Hourly, based on user settings"
+          },
+          {
+            "id": "option4",
+            "label": "Only when the item is reported as lost"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The AirTag tracking system leverages a network of over a billion Apple devices worldwide to relay location data. This indicates that the tracking system is designed to collect and relay location information continuously in real-time whenever the AirTag is in proximity to any Apple device. The practice of anonymously relaying the AirTag's location back to the owner through nearby Apple devices supports the notion of continuous real-time data collection, as this is necessary to provide accurate and timely updates on the AirTag's location for the purpose of tracking personal items.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "30",
+      "question": {
+        "text": "What is the purpose of the data collected by the real-time location tracking system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "To locate lost personal items quickly"
+          },
+          {
+            "id": "option2",
+            "label": "To provide usage statistics and improve service quality"
+          },
+          {
+            "id": "option3",
+            "label": "To share location data with advertising partners for targeted marketing"
+          },
+          {
+            "id": "option4",
+            "label": "To track the movement of users for research purposes"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The primary purpose of Apple's AirTag and its real-time location tracking system is to help users locate lost personal items quickly. This is achieved by leveraging Apple's Find My network, which uses a network of over a billion Apple devices to relay location data back to the owner of the AirTag. While the technology was designed for locating lost items, it has been misused for unauthorized tracking of individuals. However, the intended and stated purpose of the data collection by the system is specifically to find lost personal items, as outlined in the data practice description.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "31",
+      "question": {
+        "text": "Is the data anonymized during processing in the tracking system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, location data is anonymized and aggregated"
+          },
+          {
+            "id": "option2",
+            "label": "Partially, only certain data points are anonymized"
+          },
+          {
+            "id": "option3",
+            "label": "No, data is processed with identifiable information"
+          },
+          {
+            "id": "option4",
+            "label": "Anonymization is optional based on user preference"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes that when an AirTag is separated from its owner, it communicates with nearby Apple devices to relay its location back to the owner. This process is done anonymously, as nearby Apple devices relay the location data without identifying the AirTag owner or the device relaying the information. Therefore, the location data is anonymized during processing, aligning with option 1: 'Yes, location data is anonymized and aggregated.' The description of the system's operation supports the claim of anonymization in the tracking process.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "32",
+      "question": {
+        "text": "How long is the data retention period for the tracking system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is retained for 30 days before deletion"
+          },
+          {
+            "id": "option2",
+            "label": "Data is stored indefinitely until the user deletes it"
+          },
+          {
+            "id": "option3",
+            "label": "Data is retained for a year for audit purposes"
+          },
+          {
+            "id": "option4",
+            "label": "Data is deleted immediately after the item is recovered"
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice description does not provide specific information about the data retention period for the AirTag tracking system. Therefore, none of the available options can be accurately selected based on the provided data practice. The description focuses on how AirTags communicate location data and the safety features implemented, but it does not mention how long the data is retained by Apple.",
+      "target_dimension": "Data Storage",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "33",
+      "question": {
+        "text": "What encryption measures are used to protect data at rest in the tracking system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "AES-256 encryption for all stored data"
+          },
+          {
+            "id": "option2",
+            "label": "Data is not encrypted at rest but is protected by access controls"
+          },
+          {
+            "id": "option3",
+            "label": "Encryption is applied only to sensitive data categories"
+          },
+          {
+            "id": "option4",
+            "label": "Data is encrypted with a proprietary algorithm"
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice description does not provide specific details about the encryption measures used to protect data at rest in the AirTag tracking system. Therefore, there is no basis to select any of the available options related to encryption methods from the given information.",
+      "target_dimension": "Data Storage",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "34",
+      "question": {
+        "text": "Who can see the data collected by the tracking system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Only the owner of the device"
+          },
+          {
+            "id": "option2",
+            "label": "The owner and selected service providers"
+          },
+          {
+            "id": "option3",
+            "label": "The owner, service providers, and third-party partners"
+          },
+          {
+            "id": "option4",
+            "label": "Anyone with the correct access credentials"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes that the location data from an AirTag is anonymously relayed back to the owner of the AirTag through nearby Apple devices on the Find My network. This indicates that only the AirTag's owner can see the data collected by the tracking system. The system is designed to protect users' privacy by ensuring that location data is not accessible to service providers, third-party partners, or anyone else without the owner's credentials. Additionally, the emphasis on anonymity and the measures taken to prevent unauthorized tracking further support the conclusion that the location data is exclusively visible to the device's owner.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "35",
+      "question": {
+        "text": "Is the data encrypted during sharing by the tracking system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, end-to-end encryption is used for all data transfers"
+          },
+          {
+            "id": "option2",
+            "label": "Data is encrypted only when shared with third parties"
+          },
+          {
+            "id": "option3",
+            "label": "No encryption is applied during data sharing"
+          },
+          {
+            "id": "option4",
+            "label": "Encryption during sharing is optional for users"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice involving Apple's AirTag indicates that the device communicates with nearby Apple devices, which then anonymously relay the AirTag's location back to the owner. The use of the term 'anonymously' suggests that end-to-end encryption is used to protect the data being transferred, ensuring that location information is not accessible to unauthorized parties. While the practice doesn't explicitly mention 'encryption,' the emphasis on anonymous relaying supports the inference that end-to-end encryption is applied, aligning with Apple's general approach to privacy and data security across its services.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "36",
+      "question": {
+        "text": "How can users withdraw their consent for data collection in the tracking system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Through the app settings by disabling tracking features"
+          },
+          {
+            "id": "option2",
+            "label": "By contacting customer support to request data deletion"
+          },
+          {
+            "id": "option3",
+            "label": "Consent cannot be withdrawn once granted"
+          },
+          {
+            "id": "option4",
+            "label": "By factory resetting the tracking device"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice suggests that Apple's AirTag tracking system relies on the Find My network, which is an app-based system. Users can manage their devices and settings through Apple's app ecosystem. Disabling tracking features through the app settings is a logical method for users to withdraw consent for data collection as it aligns with typical app-based privacy controls. While the data practice did not explicitly mention the exact method for withdrawing consent, app settings are a common avenue for managing privacy preferences in similar technology systems.",
+      "target_dimension": "Consent",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "37",
+      "question": {
+        "text": "What are the mechanisms in place to ensure data accuracy in the real-time data collection process?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Automated validation checks during data entry"
+          },
+          {
+            "id": "option2",
+            "label": "Regular manual audits by data specialists"
+          },
+          {
+            "id": "option3",
+            "label": "Cross-referencing with external data sources"
+          },
+          {
+            "id": "option4",
+            "label": "No specific mechanisms in place for data accuracy"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice description for Apple's AirTag does not mention any specific mechanisms in place for ensuring data accuracy in the real-time data collection process. The focus of the description is on the functionality of AirTags in tracking and the safety concerns related to unauthorized tracking, rather than on data accuracy mechanisms. Therefore, option4, 'No specific mechanisms in place for data accuracy,' is the most accurate choice based on the provided information.",
+      "target_dimension": "Data Quality",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "38",
+      "question": {
+        "text": "What measures are in place to ensure minimal data collection beyond location and timestamps?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Only essential data is collected as defined by strict internal policies"
+          },
+          {
+            "id": "option2",
+            "label": "A range of data types are collected unless specifically restricted by user preferences"
+          },
+          {
+            "id": "option3",
+            "label": "Data collection is minimized through regular audits and assessments"
+          },
+          {
+            "id": "option4",
+            "label": "There are no specific measures in place to limit data collection"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes Apple's AirTag as leveraging a network of over a billion Apple devices to relay location data anonymously back to the owner. The fact that the data is anonymized and the primary focus is on location data suggests that only essential data is collected. Furthermore, Apple's implementation of safety features like alerts and sound notifications indicates an effort to balance functionality with privacy. This aligns with the idea of collecting only essential data as defined by strict internal policies. There is no mention of collecting a range of data types or conducting regular audits and assessments, nor is there an indication of a lack of measures, which supports the selection of option 1.",
+      "target_dimension": "Collection Limitation",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "No Issue"
+      }
+    },
+    {
+      "id": "39",
+      "question": {
+        "text": "What specific encryption measures are implemented for protecting data at rest?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "AES-256 encryption with regular audits"
+          },
+          {
+            "id": "option2",
+            "label": "Basic encryption with no specified standard"
+          },
+          {
+            "id": "option3",
+            "label": "No encryption measures in place"
+          },
+          {
+            "id": "option4",
+            "label": "Data is encrypted, but details are not disclosed"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice description does not provide specific details about the encryption measures employed by Apple's AirTag system. While the technology involves relaying location data through Apple devices, the practice does not mention any specific encryption standards such as AES-256 or any encryption audits. Therefore, the most accurate option is that data is encrypted, but details are not disclosed, as the description lacks specifics on the encryption protocols used for data at rest.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "40",
+      "question": {
+        "text": "What encryption measures do you have in place for data at rest?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "We use AES-256 encryption for all data at rest."
+          },
+          {
+            "id": "option2",
+            "label": "Data at rest is encrypted using AES-128."
+          },
+          {
+            "id": "option3",
+            "label": "We do not currently use encryption for data at rest."
+          },
+          {
+            "id": "option4",
+            "label": "Encryption measures vary depending on the data type."
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice description provided does not include specific information regarding the encryption measures used for data at rest. The focus of the description is on the functionality and safety features of the AirTag device, as well as the misuse and subsequent safety updates made by Apple. Without explicit mention of the encryption methods used for data at rest, it is not possible to accurately select an option from the available choices.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "41",
+      "question": {
+        "text": "What encryption measures are implemented for data at rest within the system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "AES-256 encryption is used for all data at rest."
+          },
+          {
+            "id": "option2",
+            "label": "Data at rest is protected by proprietary encryption methods."
+          },
+          {
+            "id": "option3",
+            "label": "There are no specific encryption measures for data at rest."
+          },
+          {
+            "id": "option4",
+            "label": "Data at rest is encrypted, but the type of encryption is not disclosed."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice description does not provide specific information about the encryption measures used for data at rest within Apple's AirTag system. The focus of the description is on the functionality of AirTags, the network of Apple devices used for location relay, and the safety features implemented to prevent misuse. There is no mention of AES-256 or any proprietary encryption methods specifically for data at rest. Therefore, option 4 is the most appropriate choice, as it acknowledges that data is encrypted but the type of encryption is not disclosed in the provided information.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "42",
+      "question": {
+        "text": "What encryption measures are in place to protect data at rest within your systems?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "AES-256 encryption is used for all data at rest"
+          },
+          {
+            "id": "option2",
+            "label": "We rely on the default encryption provided by our cloud service provider"
+          },
+          {
+            "id": "option3",
+            "label": "Data at rest is not encrypted, but access is restricted through other security protocols"
+          },
+          {
+            "id": "option4",
+            "label": "Encryption measures for data at rest are currently under review and not yet implemented"
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice provided does not explicitly mention any encryption measures used for data at rest within Apple's AirTag system. The focus of the data practice is on the functionality and misuse of AirTags, as well as the safety features implemented by Apple to address privacy concerns. Therefore, there is insufficient information to select an option that accurately reflects the encryption measures in place for data at rest within the described system.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "43",
+      "question": {
+        "text": "What encryption measures are currently implemented for data at rest in your system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "AES-256 encryption is used for all data at rest"
+          },
+          {
+            "id": "option2",
+            "label": "No encryption measures are in place for data at rest"
+          },
+          {
+            "id": "option3",
+            "label": "A combination of AES-128 and RSA encryption is used"
+          },
+          {
+            "id": "option4",
+            "label": "We use proprietary encryption methods but do not disclose specific details"
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice provided does not mention any specific encryption measures, such as AES-256 or any other encryption method, being implemented for data at rest in Apple's AirTag system. The focus of the data practice is on the use of a large network of Apple devices to relay location data and the safety features designed to prevent misuse of the tracking device. Without explicit details regarding encryption methods for data at rest being described in the practice, no option can be accurately selected.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "44",
+      "question": {
+        "text": "What encryption measures are currently implemented for data at rest in your systems?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "AES-256 encryption is used for all data at rest"
+          },
+          {
+            "id": "option2",
+            "label": "Data at rest is stored without encryption"
+          },
+          {
+            "id": "option3",
+            "label": "Encryption is applied selectively based on data type"
+          },
+          {
+            "id": "option4",
+            "label": "Encryption measures are proprietary and confidential"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice description for Apple's AirTag does not explicitly mention the encryption measures for data at rest. While the practice describes the use of a network for relaying location data anonymously, it does not detail specific encryption standards like AES-256. The absence of explicit information about the encryption for data at rest suggests that such measures might be proprietary and confidential, aligning with option 4. Therefore, without specific details on encryption types, option 4 is the most appropriate choice.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "45",
+      "question": {
+        "text": "What specific encryption measures are implemented for data at rest within your system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "AES-256 encryption is used for all data at rest."
+          },
+          {
+            "id": "option2",
+            "label": "We use custom proprietary encryption methods."
+          },
+          {
+            "id": "option3",
+            "label": "Data at rest is not encrypted; we rely on physical security."
+          },
+          {
+            "id": "option4",
+            "label": "Encryption measures vary depending on data sensitivity, but details are not disclosed."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice description does not specifically mention the use of AES-256 encryption or any particular encryption methods for data at rest. The technology discussed, Apple's AirTag, focuses on tracking and the Find My network, with emphasis on the relay of location data through nearby devices. The description highlights concerns about unauthorized tracking and the measures taken to alert users to unknown AirTags, but it does not provide explicit details about encryption measures for data at rest. Therefore, the most appropriate option is that encryption measures may vary depending on data sensitivity, but specific details are not disclosed.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "46",
+      "question": {
+        "text": "What encryption measures are implemented for data at rest in your systems?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "AES-256 encryption is used for all data at rest"
+          },
+          {
+            "id": "option2",
+            "label": "Data is encrypted using AES-128, but only for sensitive information"
+          },
+          {
+            "id": "option3",
+            "label": "Data at rest is not encrypted, but other security measures are in place"
+          },
+          {
+            "id": "option4",
+            "label": "There is no specific encryption for data at rest"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice description for Apple's AirTag does not provide specific details about encryption measures for data at rest. It focuses on the functionality of AirTags, how they communicate with Apple's network, and the privacy concerns associated with their misuse. Without specific information about encryption for data stored on Apple devices or within the Find My network, option 4, 'There is no specific encryption for data at rest,' is the most appropriate choice given the lack of details on this aspect in the provided data practice.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "47",
+      "question": {
+        "text": "How does your organization publicly disclose its data retention policies?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Policies are available on our website in a dedicated privacy section."
+          },
+          {
+            "id": "option2",
+            "label": "We provide data retention details upon user request."
+          },
+          {
+            "id": "option3",
+            "label": "Data retention policies are included in the terms of service agreement."
+          },
+          {
+            "id": "option4",
+            "label": "We do not currently disclose data retention policies publicly."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice description for Apple's AirTag does not mention any public disclosure of data retention policies. It focuses on the functionality of AirTags, the issues around unauthorized tracking, and the safety measures Apple implemented. There is no indication that Apple has a dedicated privacy section on their website, includes data retention details in their terms of service, or provides this information upon user request. Therefore, 'We do not currently disclose data retention policies publicly' is the most appropriate option, based on the information provided.",
+      "target_dimension": "Openness",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "48",
+      "question": {
+        "text": "How clearly does the app provide instructions for users to withdraw their consent for data tracking?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Very clear, with step-by-step guidance"
+          },
+          {
+            "id": "option2",
+            "label": "Somewhat clear, but lacking detailed steps"
+          },
+          {
+            "id": "option3",
+            "label": "Unclear, with only vague instructions"
+          },
+          {
+            "id": "option4",
+            "label": "No instructions provided"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice description does not mention any instructions provided by the app for users to withdraw their consent for data tracking. The focus of the description is on the misuse of AirTags for unauthorized tracking, the safety features implemented by Apple, and the release of an Android app. There is no mention of consent withdrawal or instructions related to it, indicating that no instructions are provided in this context.",
+      "target_dimension": "Individual Participation",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "49",
+      "question": {
+        "text": "How clearly does the app provide instructions for users to withdraw their consent for data tracking?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Very clearly, with step-by-step guidance"
+          },
+          {
+            "id": "option2",
+            "label": "Somewhat clearly, but lacks detailed steps"
+          },
+          {
+            "id": "option3",
+            "label": "Not clearly, instructions are vague or incomplete"
+          },
+          {
+            "id": "option4",
+            "label": "No instructions are provided"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice does not mention any specific instructions provided by Apple for users to withdraw their consent for data tracking related to AirTags. The focus is primarily on the safety features and measures implemented to prevent unauthorized tracking, such as alerting users of unknown AirTags and the release of an Android app. However, there is no mention of instructions or processes for users to withdraw consent or opt-out of data tracking, indicating that no instructions are provided for this specific action.",
+      "target_dimension": "Individual Participation",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "50",
+      "question": {
+        "text": "What type of accountability and oversight frameworks are currently in place to manage privacy concerns within your organization?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "A comprehensive framework with regular audits and clear responsibilities"
+          },
+          {
+            "id": "option2",
+            "label": "A basic framework with occasional reviews and undefined responsibilities"
+          },
+          {
+            "id": "option3",
+            "label": "No formal framework, only ad-hoc measures when issues arise"
+          },
+          {
+            "id": "option4",
+            "label": "Unsure or unaware of any existing framework"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "Apple has implemented safety features and released an Android app to address privacy concerns related to the misuse of AirTags. However, these actions indicate a basic framework rather than a comprehensive one. Apple initially had delayed notifications and lacked an Android detection solution, which suggests that the responsibilities and oversight were not clearly defined from the outset. The company's response to emerging privacy issues has been more reactive than proactive, as they made changes and enhancements to the safety features after the misuse was reported. This aligns with a basic framework that undergoes occasional reviews, rather than a comprehensive framework with regular audits and clear responsibilities.",
+      "target_dimension": "Accountability",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "51",
+      "question": {
+        "text": "What kind of accountability and oversight frameworks are currently in place to ensure privacy compliance?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Comprehensive framework with regular audits and reviews"
+          },
+          {
+            "id": "option2",
+            "label": "Basic framework with occasional oversight activities"
+          },
+          {
+            "id": "option3",
+            "label": "Minimal framework with reactive measures only"
+          },
+          {
+            "id": "option4",
+            "label": "No formal accountability or oversight frameworks in place"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice describes a situation where Apple has implemented some safety features and released an Android app to address privacy concerns related to AirTag misuse. However, these measures seem to be largely reactive, addressing issues such as delayed notifications and the inability of Android users to detect AirTags only after they became apparent problems. There is no mention of a comprehensive or basic framework involving regular audits or reviews. Thus, the situation aligns more closely with a 'Minimal framework with reactive measures only,' where the company responds to privacy concerns as they arise rather than through established, proactive oversight mechanisms.",
+      "target_dimension": "Accountability",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "52",
+      "question": {
+        "text": "What types of customer purchase data are collected for generating personalized coupons and recommendations?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Purchase history including product names, categories, and transaction dates."
+          },
+          {
+            "id": "option2",
+            "label": "Demographic information such as age, gender, and geographic location."
+          },
+          {
+            "id": "option3",
+            "label": "Browsing behavior on the retailer's website or app, including search terms and page views."
+          },
+          {
+            "id": "option4",
+            "label": "Customer feedback and interaction data from surveys and customer service interactions."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice described involves analyzing purchase history to identify pregnant customers. Target's system used specific purchases, such as unscented lotions and supplements, to assign a pregnancy prediction score. This indicates that the primary data collected for generating personalized coupons and recommendations is the purchase history, including product names, categories, and transaction dates. The practice did not mention using demographic information, browsing behavior, or customer feedback for their predictions, making option 1 the most accurate reflection of the data practice.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "53",
+      "question": {
+        "text": "What is the purpose of collecting customer purchase data in this retail analytics system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "To identify purchasing patterns and predict customer needs for personalized marketing."
+          },
+          {
+            "id": "option2",
+            "label": "To improve inventory management by understanding product demand."
+          },
+          {
+            "id": "option3",
+            "label": "To enhance customer experience by tailoring recommendations."
+          },
+          {
+            "id": "option4",
+            "label": "To generate insights for business strategy and market trend analysis."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The primary purpose of collecting customer purchase data in Target's retail analytics system, as described in the data practice, is to identify purchasing patterns and predict customer needs for personalized marketing. The system was specifically designed to analyze purchase history and assign a 'pregnancy prediction' score to customers, enabling Target to send targeted pregnancy and baby-related marketing materials. This indicates a clear focus on personalized marketing, as the data was used to predict personal customer circumstances and cater marketing efforts directly to them, rather than for inventory management, customer experience enhancement, or business strategy insights.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "54",
+      "question": {
+        "text": "Is the customer data anonymized during the processing of generating personalized coupons?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, all customer identifiers are removed before processing."
+          },
+          {
+            "id": "option2",
+            "label": "Partially, only sensitive information such as names and addresses are anonymized."
+          },
+          {
+            "id": "option3",
+            "label": "No, data is processed with full customer identifiers for accuracy."
+          },
+          {
+            "id": "option4",
+            "label": "Only after processing is completed, anonymization is applied for storage."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice described indicates that Target's marketing analytics team uses customer purchase history to generate a pregnancy prediction score, which suggests that data is processed with full customer identifiers. This is because the predictions are linked to specific customers in order to send them targeted marketing materials, as exemplified by the incident where Target sent pregnancy-related coupons to a teenage girl's home, revealing her pregnancy to her family. This implies that data is not anonymized during processing but rather associated with identifiable customer information to ensure accurate targeting of personalized coupons.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "55",
+      "question": {
+        "text": "Is customer data aggregated during the processing to generate recommendations?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, data is aggregated to identify general trends and patterns."
+          },
+          {
+            "id": "option2",
+            "label": "No, data is processed individually for personalized recommendations."
+          },
+          {
+            "id": "option3",
+            "label": "Data is aggregated only for specific analyses that require group-level insights."
+          },
+          {
+            "id": "option4",
+            "label": "Only anonymized data is aggregated to ensure privacy."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The data practice described involves analyzing individual customers' purchase history to assign a 'pregnancy prediction' score, which is used to send personalized marketing materials. This indicates that data is processed on an individual level to generate personalized recommendations, rather than aggregating data to identify general trends or patterns for group-level insights. Therefore, the correct option is that data is processed individually for personalized recommendations.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "56",
+      "question": {
+        "text": "How long is customer data retained in the retail analytics system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is retained for one year after the last purchase."
+          },
+          {
+            "id": "option2",
+            "label": "Data is stored indefinitely unless the customer requests deletion."
+          },
+          {
+            "id": "option3",
+            "label": "Data is retained for five years to allow for long-term trend analysis."
+          },
+          {
+            "id": "option4",
+            "label": "Data is kept for three months to ensure currency and relevance."
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice description does not provide specific details about how long customer data is retained in Target's retail analytics system. The focus is on the development and use of a pregnancy prediction score system and its implications, but there is no mention of data retention policies. Therefore, none of the provided options can be confidently selected based on the information given in the data practice description.",
+      "target_dimension": "Data Storage",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "57",
+      "question": {
+        "text": "What encryption measures are used to protect customer data at rest in the system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Advanced encryption standard (AES) with 256-bit keys."
+          },
+          {
+            "id": "option2",
+            "label": "Data is stored in plain text and secured by controlled access."
+          },
+          {
+            "id": "option3",
+            "label": "Use of public-key cryptography for data encryption."
+          },
+          {
+            "id": "option4",
+            "label": "Encryption is applied only to sensitive fields such as payment details."
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice description does not provide any specific information or details about the encryption measures used to protect customer data at rest in Target's system. The focus of the description is on the marketing analytics process and the use of purchase history for predicting pregnancy, rather than on data security or encryption practices. Therefore, none of the available options can be accurately selected based on the given data practice.",
+      "target_dimension": "Data Storage",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "58",
+      "question": {
+        "text": "Who has access to the customer data used in the retail analytics system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Only the data analytics team within the company for processing and analysis."
+          },
+          {
+            "id": "option2",
+            "label": "Data is accessible by third-party service providers for technical support."
+          },
+          {
+            "id": "option3",
+            "label": "Access is limited to the marketing department for campaign development."
+          },
+          {
+            "id": "option4",
+            "label": "Data is shared with partners for collaborative marketing efforts."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice described indicates that Target's marketing analytics team developed the pregnancy prediction score system, which implies that the customer data was primarily used by the data analytics team within the company for processing and analysis. There is no mention of third-party service providers, marketing department access, or data sharing with partners in the provided data practice, thus supporting the selection of option 1 as the most accurate reflection of who has access to the customer data.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "59",
+      "question": {
+        "text": "What types of customer data can be shared with external parties?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Aggregated purchase trends without personal identifiers."
+          },
+          {
+            "id": "option2",
+            "label": "Individual purchase histories for personalized marketing."
+          },
+          {
+            "id": "option3",
+            "label": "Anonymized demographic profiles for market research."
+          },
+          {
+            "id": "option4",
+            "label": "Real-time transaction data for strategic partnerships."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice described involves analyzing purchase history to predict pregnancy and send targeted marketing materials to customers. However, there is no indication that Target shared individual purchase histories or real-time transaction data with external parties. Instead, the practice focused on using this data internally for targeted marketing. Sharing aggregated purchase trends without personal identifiers aligns with the potential for external sharing, as it allows for insights without compromising individual customer privacy. Anonymized demographic profiles could be shared for market research, but the emphasis in the data practice was on internal use rather than external sharing. Thus, option 1 is the most aligned with the practice described.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "60",
+      "question": {
+        "text": "How can customers withdraw their consent for data collection and processing?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "By updating their preferences in the user account settings online."
+          },
+          {
+            "id": "option2",
+            "label": "By contacting customer service via email or phone."
+          },
+          {
+            "id": "option3",
+            "label": "Consent cannot be withdrawn once given, due to system limitations."
+          },
+          {
+            "id": "option4",
+            "label": "Through written request sent to the company's data protection officer."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The data practice describes a situation where Target used customer purchase history to predict pregnancies and send targeted marketing materials. However, it does not mention any specific mechanism for customers to withdraw consent through user account settings or online platforms. Given the nature of the issue, contacting customer service via email or phone is a common method for customers to address concerns regarding data collection and processing, making option 2 the most plausible choice. The practice does not mention any system limitations preventing consent withdrawal, nor does it specify a process involving a data protection officer, thus ruling out options 3 and 4.",
+      "target_dimension": "Consent",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "61",
+      "question": {
+        "text": "Can customers delete their data from the retail analytics system, either partially or entirely?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, customers can choose to delete specific data points or their entire profile."
+          },
+          {
+            "id": "option2",
+            "label": "No, data is retained permanently for business purposes."
+          },
+          {
+            "id": "option3",
+            "label": "Customers can request deletion of their data through customer support."
+          },
+          {
+            "id": "option4",
+            "label": "Only anonymized data can be deleted, personal identifiers remain in the system."
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice described does not provide any information about whether customers can delete their data from Target's retail analytics system. The focus of the data practice is on how Target used purchase patterns to predict pregnancies and the subsequent marketing strategies employed. There is no mention of data deletion policies or options available to customers, such as the ability to delete specific data points, request deletion through customer support, or whether data is retained permanently. Without specific information on data deletion practices, it is not possible to select any of the provided options as accurately reflecting the described data practice.",
+      "target_dimension": "Control",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "62",
+      "question": {
+        "text": "What processes are in place to verify the accuracy of the purchase data used for analytics?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Regular data audits and accuracy checks are conducted."
+          },
+          {
+            "id": "option2",
+            "label": "Data accuracy is verified only upon identification of issues."
+          },
+          {
+            "id": "option3",
+            "label": "No specific processes are in place for data accuracy verification."
+          },
+          {
+            "id": "option4",
+            "label": "Automated tools are used to continuously monitor data accuracy."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice described does not mention any specific processes in place for verifying the accuracy of the purchase data used for analytics. The focus of the description is on how Target's marketing analytics team developed a prediction score system and how they modified their marketing approach after public backlash. There is no mention of regular data audits, automated tools, or any specific accuracy checks being conducted, nor verification upon identification of issues. This suggests that there were no specific processes in place for data accuracy verification, making option 3 the most appropriate choice.",
+      "target_dimension": "Data Quality",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "63",
+      "question": {
+        "text": "How is information about your data retention policies made available to the public?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Published on the company website"
+          },
+          {
+            "id": "option2",
+            "label": "Provided upon request via customer service"
+          },
+          {
+            "id": "option3",
+            "label": "Included in terms and conditions documents"
+          },
+          {
+            "id": "option4",
+            "label": "Not publicly available"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice describes Target's use of a pregnancy prediction score system to send targeted marketing materials based on customer purchase history, but it does not mention any public disclosure of their data retention policies. The focus of the practice is on the collection and analysis of purchase data to predict pregnancy, and there is no indication that Target publicly shares information about how long they retain customer data. Therefore, 'Not publicly available' is the most appropriate option as there is no evidence in the described practice that data retention policies are published, provided upon request, or included in terms and conditions documents.",
+      "target_dimension": "Openness",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "64",
+      "question": {
+        "text": "How are roles and responsibilities of data protection officers defined within your organization?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Clearly documented with specific duties and responsibilities"
+          },
+          {
+            "id": "option2",
+            "label": "Partially documented with some ambiguity in duties"
+          },
+          {
+            "id": "option3",
+            "label": "Not documented, roles are assumed based on informal agreements"
+          },
+          {
+            "id": "option4",
+            "label": "There is no designated data protection officer"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice described involves Target's marketing analytics team using purchase history to make predictions about customers' pregnancy status. There is no mention of a data protection officer or any data protection roles and responsibilities being defined or documented. Instead, the focus is on marketing strategies, and the subsequent public backlash suggests a lack of formal data protection oversight. Therefore, the most accurate option is that there is no designated data protection officer, as the practice indicates a lack of formal data protection roles within the organization's structure at the time of the incident.",
+      "target_dimension": "Accountability",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "65",
+      "question": {
+        "text": "What types of emotional content data are collected from users' social media interactions during the experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Textual content from users' posts and comments"
+          },
+          {
+            "id": "option2",
+            "label": "Reactions such as likes, loves, and other emojis"
+          },
+          {
+            "id": "option3",
+            "label": "Time spent viewing emotional posts"
+          },
+          {
+            "id": "option4",
+            "label": "Frequency of interactions with emotional posts"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes how Facebook manipulated the News Feed content to study emotional contagion by reducing exposure to positive or negative posts and then analyzing the users' subsequent posts. This indicates that the primary type of emotional content data collected was textual content from users' posts and comments. The study aimed to observe changes in the emotional tone of users' own posts, supporting the selection of option 1, as it directly relates to the textual analysis of posts to determine emotional expressions. The other options are not mentioned in the data practice and thus are not selected.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "66",
+      "question": {
+        "text": "What is the purpose of collecting emotional content data from users during the experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "To analyze patterns in users' emotional expressions"
+          },
+          {
+            "id": "option2",
+            "label": "To improve the emotional intelligence of the platform's algorithm"
+          },
+          {
+            "id": "option3",
+            "label": "To develop targeted advertising strategies"
+          },
+          {
+            "id": "option4",
+            "label": "To enhance user engagement through emotionally relevant content"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The purpose of collecting emotional content data from users during the experiment was to analyze patterns in users' emotional expressions. The data practice involved manipulating the News Feed content to study emotional contagion and observe if exposure to certain emotional content would affect users' emotional expressions in their subsequent posts. This aligns with option 1, as the study aimed to understand how emotional states could be transferred through social networks by analyzing users' emotional responses to the manipulated content.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "67",
+      "question": {
+        "text": "Is emotional content data anonymized during the processing phase of the experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, all user identifiers are removed before analysis"
+          },
+          {
+            "id": "option2",
+            "label": "Only partial anonymization is applied, with some identifiers retained"
+          },
+          {
+            "id": "option3",
+            "label": "No, data is processed with user identifiers intact for accuracy"
+          },
+          {
+            "id": "option4",
+            "label": "Data is anonymized only after the experiment is completed"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice does not mention any anonymization of user identifiers during the processing phase of the experiment. Facebook's experiment involved manipulating the News Feed content of specific users and analyzing their subsequent posts, which implies that the data was processed with user identifiers intact to ensure accuracy in linking the manipulated content to individual users' emotional responses. The controversy surrounding the experiment was primarily about the lack of informed consent and manipulation of users' emotions, rather than data anonymization. Therefore, option 3 is selected as it best reflects the described practice.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "68",
+      "question": {
+        "text": "Is emotional content data aggregated as part of the processing stage in the experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, data is aggregated to provide group-level insights"
+          },
+          {
+            "id": "option2",
+            "label": "Data is aggregated only for specific metrics like average sentiment"
+          },
+          {
+            "id": "option3",
+            "label": "No, data is analyzed individually to maintain precision"
+          },
+          {
+            "id": "option4",
+            "label": "Aggregation occurs only for publication purposes"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The experiment conducted by Facebook involved analyzing the emotional contagion effects on a large group of users. The study aimed to demonstrate how emotional states could be transferred through social networks, indicating that the analysis was focused on group-level insights rather than individual-level precision. The results were generalized to show trends across the user base involved in the experiment, suggesting that data was aggregated to provide group-level insights into emotional contagion, consistent with option 1.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "69",
+      "question": {
+        "text": "How long is the emotional content data retained after the completion of the experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is retained indefinitely for future research"
+          },
+          {
+            "id": "option2",
+            "label": "Data is retained for a fixed period of 5 years"
+          },
+          {
+            "id": "option3",
+            "label": "Data is deleted immediately after analysis"
+          },
+          {
+            "id": "option4",
+            "label": "Data retention period is determined by user consent agreements"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice described does not mention any specific retention period or user consent agreement regarding the emotional content data. Since Facebook defended the research as covered under their data use policy, it suggests that the data use was governed by Facebook's internal policies rather than explicit user consent. The lack of mention of a fixed retention period or immediate deletion implies that the data could be retained indefinitely for future research purposes, aligning with option1: 'Data is retained indefinitely for future research.'",
+      "target_dimension": "Data Storage",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "70",
+      "question": {
+        "text": "What encryption measures are used to protect emotional content data at rest during the experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Advanced encryption standard (AES) is used for all data"
+          },
+          {
+            "id": "option2",
+            "label": "Data is encrypted with RSA encryption for sensitive information"
+          },
+          {
+            "id": "option3",
+            "label": "No encryption is used, relying on physical security measures instead"
+          },
+          {
+            "id": "option4",
+            "label": "Encryption is applied only when data is transferred to external servers"
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice description does not provide any specific details about the encryption measures used to protect emotional content data at rest during the Facebook experiment. Therefore, none of the available options can be selected as reflective of the actual practices described in the data practice. The document focuses on the ethical issues related to consent and emotional manipulation, without mentioning encryption practices.",
+      "target_dimension": "Data Storage",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "71",
+      "question": {
+        "text": "Who can access the emotional content data collected during the experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Only authorized research personnel within the organization"
+          },
+          {
+            "id": "option2",
+            "label": "Third-party researchers collaborating on the project"
+          },
+          {
+            "id": "option3",
+            "label": "Data is accessible to users via their account settings"
+          },
+          {
+            "id": "option4",
+            "label": "Service providers who manage data storage solutions"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes a psychological experiment conducted by Facebook, where the emotional content data was manipulated and analyzed by the organization. The description does not mention any external collaboration or third-party involvement in the data analysis. Therefore, it is most likely that only authorized research personnel within Facebook had access to the emotional content data collected during the experiment. This aligns with standard practices in research where data access is typically restricted to internal research teams to maintain control over the study and protect user privacy. Additionally, there is no indication that users could access this data through their account settings or that service providers were involved in managing the data for this specific research purpose.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "72",
+      "question": {
+        "text": "What is the purpose of sharing the emotional content data with third parties?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "To validate research findings through independent analysis"
+          },
+          {
+            "id": "option2",
+            "label": "To improve platform algorithms via external expertise"
+          },
+          {
+            "id": "option3",
+            "label": "To comply with legal obligations and requests"
+          },
+          {
+            "id": "option4",
+            "label": "For commercial partnerships to enhance user experience"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes a psychological experiment conducted by Facebook to study emotional contagion by manipulating News Feed content, but it does not explicitly mention sharing data with third parties. However, the purpose of the study is inherently research-based, aiming to validate findings about emotional contagion through user behavior analysis. Therefore, the most relevant purpose that aligns with this context, if there were any third-party involvement, would be to validate research findings through independent analysis. The study's publication and subsequent controversy suggest an academic or research context rather than commercial or legal motivations.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "73",
+      "question": {
+        "text": "How can users withdraw their consent from participating in the emotional content experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "By updating privacy settings in their account dashboard"
+          },
+          {
+            "id": "option2",
+            "label": "Through a dedicated consent withdrawal form on the platform"
+          },
+          {
+            "id": "option3",
+            "label": "By contacting customer support via email or phone"
+          },
+          {
+            "id": "option4",
+            "label": "Consent cannot be withdrawn once the experiment has started"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice describes that the Facebook emotional content experiment was conducted without users' explicit consent, under the assumption that it was covered by Facebook's existing data use policy. There is no mention in the data practice of any mechanism for users to withdraw their consent or any process to opt-out once the experiment had started. Therefore, 'Consent cannot be withdrawn once the experiment has started' is the most accurate option, reflecting the lack of user control or withdrawal options during the experiment as described.",
+      "target_dimension": "Consent",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "74",
+      "question": {
+        "text": "Can users delete their emotional content data from the system, either partially or entirely?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, users can delete data through their account settings"
+          },
+          {
+            "id": "option2",
+            "label": "Data can be deleted only upon request to customer support"
+          },
+          {
+            "id": "option3",
+            "label": "Partial data deletion is possible, but complete deletion is not allowed"
+          },
+          {
+            "id": "option4",
+            "label": "Users have no control over data deletion once it is collected"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice describes a situation where Facebook conducted an experiment on users without their explicit consent. There is no mention of users having the ability to delete the data collected from this experiment, indicating that users have no control over data deletion once it is collected. The controversy surrounding the experiment was primarily about the lack of informed consent and manipulation of emotional states, not about data deletion. Therefore, based on the information provided, users do not have control over the deletion of their emotional content data once it is collected by Facebook.",
+      "target_dimension": "Control",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "75",
+      "question": {
+        "text": "What specific encryption practices are currently in place to protect data at rest in your organization?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "We use AES-256 encryption for all data at rest."
+          },
+          {
+            "id": "option2",
+            "label": "Data at rest is not encrypted, but other security measures are in place."
+          },
+          {
+            "id": "option3",
+            "label": "We use a proprietary encryption method for data at rest."
+          },
+          {
+            "id": "option4",
+            "label": "Currently, there are no specific encryption practices for data at rest."
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice described does not provide any information related to encryption practices for data at rest. The experiment conducted by Facebook involved manipulating News Feed content to study emotional contagion and did not mention any specific encryption practices. Therefore, none of the provided options are applicable to the described data practice. As such, no option can be selected based on the details given.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "76",
+      "question": {
+        "text": "What measures are in place to ensure transparency of data practices to users?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "We provide detailed privacy policies published on our website."
+          },
+          {
+            "id": "option2",
+            "label": "We send regular updates and notifications to users about data practices."
+          },
+          {
+            "id": "option3",
+            "label": "We do not have specific measures for transparency in place."
+          },
+          {
+            "id": "option4",
+            "label": "Users are informed about data practices only upon request."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice involving Facebook's psychological experiment on users did not mention any specific measures for transparency of data practices to users. The experiment was conducted without users' explicit consent, and it relied on Facebook's general data use policy rather than clear communication or transparency measures. Therefore, 'We do not have specific measures for transparency in place' is the most accurate reflection of the described practice, as there is no indication that detailed privacy policies or regular updates were provided to users in relation to the experiment.",
+      "target_dimension": "Openness",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "77",
+      "question": {
+        "text": "What encryption practices are currently implemented to protect data at rest within your organization?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is encrypted using AES-256 encryption standard."
+          },
+          {
+            "id": "option2",
+            "label": "Data is encrypted using a proprietary encryption method."
+          },
+          {
+            "id": "option3",
+            "label": "Data is not currently encrypted at rest."
+          },
+          {
+            "id": "option4",
+            "label": "Encryption practices are under review and not fully implemented yet."
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice described pertains to Facebook's psychological experiment conducted in 2014, focusing on manipulating users' News Feed content to study emotional contagion. There is no information provided in the data practice about encryption practices or data protection methods, such as AES-256 encryption or any other encryption methods related to data at rest. Therefore, no option related to encryption practices can be selected based on the provided details.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "78",
+      "question": {
+        "text": "What encryption practices are currently implemented to protect data at rest within your organization?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "We use AES-256 encryption for all data at rest."
+          },
+          {
+            "id": "option2",
+            "label": "Data at rest is encrypted using a combination of hardware and software-based solutions."
+          },
+          {
+            "id": "option3",
+            "label": "Encryption is applied selectively based on data sensitivity."
+          },
+          {
+            "id": "option4",
+            "label": "We do not currently implement encryption for data at rest."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice described involves a psychological experiment conducted by Facebook on user data without explicit consent, focusing on the manipulation of content in users' News Feeds and analyzing their subsequent emotional expressions. There is no mention of encryption practices or measures to protect data at rest in the described scenario. Therefore, the practice reflects a situation where data protection through encryption was not a highlighted concern, aligning with option4, which states that encryption for data at rest is not currently implemented.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "79",
+      "question": {
+        "text": "What internal accountability measures are in place to ensure informed consent is obtained before conducting experiments?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "We have a dedicated ethics review board that evaluates consent procedures."
+          },
+          {
+            "id": "option2",
+            "label": "There are guidelines, but they are not consistently enforced."
+          },
+          {
+            "id": "option3",
+            "label": "Responsibility for consent is left to individual researchers without oversight."
+          },
+          {
+            "id": "option4",
+            "label": "We currently have no specific measures for ensuring informed consent."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice describes a situation where Facebook conducted a psychological experiment on users without their explicit consent, which indicates a lack of specific measures for ensuring informed consent at the time of the experiment. The controversy over research ethics and informed consent mentioned in the data practice suggests that there were no adequate internal accountability measures in place to ensure informed consent was obtained before conducting the experiment. This aligns with option4, which states that there are currently no specific measures for ensuring informed consent.",
+      "target_dimension": "Accountability",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "80",
+      "question": {
+        "text": "What types of data are collected by the integrated email and social networking system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Email addresses, contact lists, and chat histories."
+          },
+          {
+            "id": "option2",
+            "label": "User profile information, including names and profile pictures."
+          },
+          {
+            "id": "option3",
+            "label": "Metadata such as timestamps of communication and frequency of contact."
+          },
+          {
+            "id": "option4",
+            "label": "All the above data types and additional browser and device information."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes that Google's Buzz automatically connected Gmail users with people they frequently emailed or chatted with, implying the collection of email addresses, contact lists, and chat histories. The incident highlighted the exposure of users' most frequent Gmail contacts, aligning with the types of data collected as described in option1. There is no mention in the data practice of collecting user profile information, metadata such as timestamps, or browser and device information, which rules out the other options.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "81",
+      "question": {
+        "text": "What is the purpose of collecting data in the integrated system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "To automatically create social network connections based on email interactions."
+          },
+          {
+            "id": "option2",
+            "label": "To enhance user experience by suggesting relevant connections and content."
+          },
+          {
+            "id": "option3",
+            "label": "To provide targeted advertising based on communication patterns."
+          },
+          {
+            "id": "option4",
+            "label": "To improve system performance and security through usage analytics."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The primary purpose of the integrated system, as described in the data practice, was to automatically create social network connections based on users' email interactions. This is evident from the fact that Buzz automatically connected Gmail users with people they frequently emailed or chatted with, making these connections publicly visible by default. The system exposed users' most frequent Gmail contacts as public 'followers,' which aligns with the objective of automatically establishing social network connections based on existing email interactions. Other purposes, such as targeted advertising or improving system performance, are not mentioned in the data practice description.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "82",
+      "question": {
+        "text": "How is the data processed in the integrated email and social networking system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is analyzed to identify frequent contacts and suggest social connections."
+          },
+          {
+            "id": "option2",
+            "label": "Data is processed to generate user activity summaries and notifications."
+          },
+          {
+            "id": "option3",
+            "label": "Data is encrypted and stored for secure access and retrieval."
+          },
+          {
+            "id": "option4",
+            "label": "Data is aggregated and anonymized for research and development purposes."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes how Google Buzz automatically created a public profile for Gmail users and connected them with people they frequently emailed or chatted with. This indicates that the system analyzed users' email data to identify frequent contacts and suggest these as social connections. This is consistent with Option 1, which states that data is analyzed to identify frequent contacts and suggest social connections. The incident with Google Buzz was primarily about the automatic exposure of users' frequent contacts, supporting the selection of this option.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "83",
+      "question": {
+        "text": "Is the data anonymized during processing in the system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, all data is anonymized before processing."
+          },
+          {
+            "id": "option2",
+            "label": "No, data is processed in its raw form for accuracy."
+          },
+          {
+            "id": "option3",
+            "label": "Only certain data types, like browsing history, are anonymized."
+          },
+          {
+            "id": "option4",
+            "label": "Anonymization is optional and depends on user preferences."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The data practice described indicates that Buzz processed data in its raw form, as it automatically created public profiles and disclosed users' most frequent Gmail contacts without their consent. This exposure of email contact lists, including sensitive relationships, suggests there was no anonymization of data during processing. The system's default settings made these connections publicly visible, demonstrating that data was not anonymized before processing to ensure accuracy in representing actual user connections.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "84",
+      "question": {
+        "text": "How long is user data retained in the integrated system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is retained indefinitely unless the user deletes their account."
+          },
+          {
+            "id": "option2",
+            "label": "Data is retained for a maximum of two years and then deleted."
+          },
+          {
+            "id": "option3",
+            "label": "Data retention varies by data type, with some deleted after six months."
+          },
+          {
+            "id": "option4",
+            "label": "Data is retained as long as necessary for service operation and legal compliance."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice description does not explicitly mention specific data retention policies related to the Google Buzz service. However, given that Buzz was integrated directly into Gmail, it's reasonable to infer that user data associated with Buzz could be retained indefinitely unless users deleted their accounts. The default practice for many online services is to retain data until a user takes action to delete their account, especially since the incident led to privacy concerns about exposed relationships rather than data retention timelines. Thus, option1 is selected as it aligns with typical data retention practices in the absence of specific information indicating otherwise.",
+      "target_dimension": "Data Storage",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "85",
+      "question": {
+        "text": "Who can see the data collected by the system (e.g., owner, service providers, third parties)?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Only the user and the system's service providers."
+          },
+          {
+            "id": "option2",
+            "label": "The user, selected contacts, and authorized third parties."
+          },
+          {
+            "id": "option3",
+            "label": "The user and anyone with access to the user's public profile."
+          },
+          {
+            "id": "option4",
+            "label": "The user, service providers, and third-party advertisers under specific agreements."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option3"
+      ],
+      "explanation": "The data practice describes how Google Buzz automatically made users' frequent Gmail contacts public during its setup process. This implies that anyone with access to the user's public profile could see these connections, as they were publicly visible by default. This exposure included sensitive relationships, such as those of journalists or abuse survivors, and did not restrict visibility to just the user or service providers. Therefore, option 3 accurately reflects that both the user and anyone with access to the user's public profile could see the data collected by the system.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "86",
+      "question": {
+        "text": "What data can be shared with others through the integrated system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Only profile information and public posts."
+          },
+          {
+            "id": "option2",
+            "label": "Contact lists, email addresses, and interaction history."
+          },
+          {
+            "id": "option3",
+            "label": "Only anonymized data for research or advertising."
+          },
+          {
+            "id": "option4",
+            "label": "All collected data, subject to user consent and privacy settings."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The data practice described that Buzz automatically created a public profile for Gmail users and made their frequent email contacts publicly visible as 'followers' without their consent. This indicates that contact lists and potentially interaction history, such as frequent emailing patterns, were shared through the integrated system. This aligns with option 2, which mentions contact lists, email addresses, and interaction history. The exposure of these sensitive relationships supports the selection of this option.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "87",
+      "question": {
+        "text": "How can users withdraw their consent for data processing in the integrated system?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Users can withdraw consent through the account settings menu."
+          },
+          {
+            "id": "option2",
+            "label": "Users must contact customer support to withdraw consent."
+          },
+          {
+            "id": "option3",
+            "label": "Consent withdrawal is not possible once data is shared."
+          },
+          {
+            "id": "option4",
+            "label": "Users can toggle consent options in the privacy dashboard."
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice described involves Google's Buzz service, which automatically created public profiles and connections for users without their consent. However, the data practice does not provide specific information about how users could withdraw consent for data processing within Buzz. It mentions Google's initial defense of the feature and later modifications in response to criticism, but it does not detail the mechanisms for consent withdrawal. Therefore, none of the available options directly reflect the practices or details described in the Buzz incident.",
+      "target_dimension": "Consent",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "88",
+      "question": {
+        "text": "Can users control whether their data is shared with third parties, and if so, how?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, users can manage sharing settings in the privacy dashboard."
+          },
+          {
+            "id": "option2",
+            "label": "No, data sharing is automatically enabled for all users."
+          },
+          {
+            "id": "option3",
+            "label": "Yes, but only for specific data types like profile information."
+          },
+          {
+            "id": "option4",
+            "label": "No, third-party sharing is controlled by service agreements."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "In the described data practice, Google Buzz automatically set up public profiles for users and connected them with their frequent contacts without obtaining consent or adequately informing them. This indicates that data sharing was automatically enabled and users did not have control over managing these settings initially. The automatic nature of the setup and lack of user consent suggest that users could not manage sharing settings through a privacy dashboard or otherwise, leading to the selection of option2.",
+      "target_dimension": "Control",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "89",
+      "question": {
+        "text": "How effectively are security measures implemented to protect sensitive data from unauthorized access?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Highly effective, with strong encryption and access controls in place"
+          },
+          {
+            "id": "option2",
+            "label": "Moderately effective, with basic security measures but some vulnerabilities"
+          },
+          {
+            "id": "option3",
+            "label": "Minimally effective, with several known security gaps"
+          },
+          {
+            "id": "option4",
+            "label": "Ineffective, with no significant protections against unauthorized access"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice describes a situation where Google Buzz automatically exposed users' most frequent contacts without their consent, making sensitive information publicly visible by default. This indicates that there were no significant protections against unauthorized access or exposure of sensitive data, as users' email relationships were made public without adequate security measures. The incident led to privacy complaints and an FTC settlement, further highlighting the ineffectiveness of the security measures at the time. Therefore, option 4 is the most accurate reflection of the situation described.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "90",
+      "question": {
+        "text": "How frequently is the data on identified social connections updated to ensure accuracy?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is updated in real-time with every interaction"
+          },
+          {
+            "id": "option2",
+            "label": "Data is updated once daily based on user activity"
+          },
+          {
+            "id": "option3",
+            "label": "Data is updated weekly, capturing summary of interactions"
+          },
+          {
+            "id": "option4",
+            "label": "Data update frequency is not defined or known"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice involving Google Buzz does not specify how frequently the data on identified social connections was updated to ensure accuracy. The focus of the described issue was on the automatic setup process that exposed users' contacts without consent, rather than on the frequency of data updates. Therefore, the update frequency is not defined or known from the provided information.",
+      "target_dimension": "Data Quality",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "91",
+      "question": {
+        "text": "How frequently does the data on identified social connections get updated to ensure timeliness?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is updated in real-time, ensuring it is always current."
+          },
+          {
+            "id": "option2",
+            "label": "Updates occur daily, providing relatively current information."
+          },
+          {
+            "id": "option3",
+            "label": "Data is updated weekly, which may lead to some delays."
+          },
+          {
+            "id": "option4",
+            "label": "Updates happen monthly or less frequently, risking outdated data."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice for Google Buzz involved automatically connecting Gmail users with their frequent email contacts and making these connections publicly visible by default. This implies that the identification of social connections was being updated in real-time, as it was based on users' most frequent interactions via email or chat. There is no mention of scheduled updates (daily, weekly, or monthly) in the data practice, suggesting that the system continuously updated these connections to reflect the most current interactions. Thus, 'Data is updated in real-time, ensuring it is always current' is the most appropriate choice, as the system would have needed to dynamically reflect the users' latest interaction patterns to automatically establish connections.",
+      "target_dimension": "Data Quality",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "No Issue"
+      }
+    },
+    {
+      "id": "92",
+      "question": {
+        "text": "How does Google respond to user privacy concerns regarding data protection and consent mechanisms?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Google provides timely and transparent responses, including detailed action plans"
+          },
+          {
+            "id": "option2",
+            "label": "Google acknowledges issues but offers vague or delayed responses without specific actions"
+          },
+          {
+            "id": "option3",
+            "label": "Google rarely addresses privacy concerns publicly, offering limited information"
+          },
+          {
+            "id": "option4",
+            "label": "Google consistently denies any issues and does not engage with user concerns"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "Google initially defended the auto-following feature in Buzz as enhancing user experience, despite the privacy concerns it raised. The company faced widespread criticism and privacy complaints, prompting them to make multiple changes to the privacy settings within days. However, these actions were reactive rather than proactive, indicating a pattern of acknowledging issues but offering delayed responses without specific action plans initially. This aligns with option 2, as Google did not provide a timely and transparent response with detailed action plans right away, but rather adapted after facing significant backlash.",
+      "target_dimension": "Accountability",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "93",
+      "question": {
+        "text": "What types of data are collected during the compatibility score experiment on the dating platform?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "User profile information such as age, gender, and interests."
+          },
+          {
+            "id": "option2",
+            "label": "Responses to personality questions and calculated compatibility scores."
+          },
+          {
+            "id": "option3",
+            "label": "User interaction data, including messages sent and received."
+          },
+          {
+            "id": "option4",
+            "label": "Demographic details such as location and education level."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2",
+        "option3"
+      ],
+      "explanation": "The data practice describes OKCupid's experiment involving the manipulation of compatibility scores based on users' responses to personality questions, which indicates that these responses and the calculated compatibility scores were collected (option2). Additionally, the experiment analyzed user behavior and interaction rates, which implies the collection of user interaction data such as messages sent and received to assess how changes in perceived compatibility influenced user engagement (option3).",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "94",
+      "question": {
+        "text": "What is the purpose of collecting data during the compatibility score experimentation?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "To improve the accuracy of compatibility algorithms on the platform."
+          },
+          {
+            "id": "option2",
+            "label": "To analyze how users interact with manipulated compatibility scores."
+          },
+          {
+            "id": "option3",
+            "label": "To gather insights for marketing strategies and user engagement."
+          },
+          {
+            "id": "option4",
+            "label": "To test the effectiveness of different user interface designs."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The purpose of collecting data during the compatibility score experimentation, as described in the data practice, was to analyze how users interact with manipulated compatibility scores. OKCupid deliberately altered compatibility scores to see how these changes affected user behavior and interaction rates. The focus was on understanding user behavior when presented with different compatibility scores, rather than improving the accuracy of the algorithms, gathering marketing insights, or testing user interface designs. This is evidenced by the platform's analysis of user engagement when presented with high compatibility scores that were artificially inflated.",
+      "target_dimension": "Data Collection",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "95",
+      "question": {
+        "text": "How is the data processed during the compatibility score experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is anonymized and aggregated before analysis."
+          },
+          {
+            "id": "option2",
+            "label": "Data is processed in real-time to adjust compatibility scores."
+          },
+          {
+            "id": "option3",
+            "label": "Data is stored in a secured database for later analysis."
+          },
+          {
+            "id": "option4",
+            "label": "Data is manually reviewed by data analysts for insights."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The data practice describes OKCupid manipulating compatibility scores in real-time to test their impact on user behavior. This indicates that data was processed in real-time to adjust compatibility scores, as users were shown altered match percentages directly on the platform during the experiment. The real-time adjustment was crucial for the experiment to observe how these changes affected user interaction immediately. There is no mention of anonymization, aggregation, or manual review in the data practice description, nor is there a focus on securing the data for later analysis, which is why the other options were not selected.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "96",
+      "question": {
+        "text": "Is the data anonymized during the processing stage of the experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, all personal identifiers are removed before processing."
+          },
+          {
+            "id": "option2",
+            "label": "No, data is processed with user identifiers intact."
+          },
+          {
+            "id": "option3",
+            "label": "Only partially, with some identifiers anonymized."
+          },
+          {
+            "id": "option4",
+            "label": "Anonymization depends on the data type and usage."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The data practice described involves OKCupid manipulating the match percentages shown to users to observe changes in behavior. There is no mention of anonymization of data during this experiment. The focus was on altering user experience to study interaction rates, which suggests that user identifiers were intact to track individual behaviors and outcomes. Therefore, it is likely that data was processed with user identifiers intact to analyze the specific effects of altered scores on each user's actions.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "97",
+      "question": {
+        "text": "How are derived metrics such as engagement rates calculated during the experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "By comparing user interactions before and after score manipulation."
+          },
+          {
+            "id": "option2",
+            "label": "Using algorithms that analyze user response patterns."
+          },
+          {
+            "id": "option3",
+            "label": "Through machine learning models trained on historical data."
+          },
+          {
+            "id": "option4",
+            "label": "By statistical analysis of aggregated user data."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes OKCupid's experiment where they manipulated compatibility scores and observed changes in user behavior and interaction rates. This implies that they calculated engagement metrics by comparing user interactions before and after the manipulation, as they analyzed how altered scores affected user behavior. The description does not mention algorithms, machine learning models, or statistical analysis, making 'option1' the most directly supported choice.",
+      "target_dimension": "Data Processing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "98",
+      "question": {
+        "text": "How long is the data retained following the compatibility score experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Data is retained indefinitely for future research purposes."
+          },
+          {
+            "id": "option2",
+            "label": "Data is deleted after the conclusion of the experiment."
+          },
+          {
+            "id": "option3",
+            "label": "Data is retained for one year, then permanently erased."
+          },
+          {
+            "id": "option4",
+            "label": "Data retention period is determined by user consent agreements."
+          }
+        ]
+      },
+      "selectedOptions": [],
+      "explanation": "The data practice description does not provide specific information about how long the data from the compatibility score experiment is retained. Therefore, none of the options can be accurately selected based on the details provided. The data practice only describes the experiment's nature and its public defense, without mentioning data retention policies or periods.",
+      "target_dimension": "Data Storage",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "99",
+      "question": {
+        "text": "Who can access the data collected during the compatibility score experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Only the platform's data analysis team."
+          },
+          {
+            "id": "option2",
+            "label": "Platform developers and authorized third-party researchers."
+          },
+          {
+            "id": "option3",
+            "label": "Selected service providers under strict confidentiality agreements."
+          },
+          {
+            "id": "option4",
+            "label": "Data is accessible to any platform employee with access rights."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option1"
+      ],
+      "explanation": "The data practice describes an experiment conducted by OKCupid, where user compatibility scores were deliberately altered to observe changes in user behavior. However, the practice does not mention any external access or involvement beyond the platform itself. The lack of information about external parties suggests that the data collected during the experiment was likely only accessible to the platform's data analysis team. This is supported by the fact that the experiment was conducted internally by OKCupid, and there is no indication that the data was shared with developers, third-party researchers, service providers, or other employees beyond those involved in the data analysis. Therefore, option 1 is the most appropriate choice as it aligns with the implied internal handling of data described in the practice.",
+      "target_dimension": "Data Sharing",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "100",
+      "question": {
+        "text": "Is user consent required to be renewed periodically for participation in experiments?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, users are asked for consent at regular intervals."
+          },
+          {
+            "id": "option2",
+            "label": "No, initial consent covers all future experiments."
+          },
+          {
+            "id": "option3",
+            "label": "Consent is renewed only when there are significant changes in the experiments."
+          },
+          {
+            "id": "option4",
+            "label": "Users are notified of new experiments but renewal is not required."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice describes OKCupid conducting experiments on users without their explicit consent being renewed for each specific experiment. While the practice sparked debates about informed consent, there is no mention of OKCupid requiring users to renew consent periodically or upon significant changes. Instead, it appears users were not directly informed about the experiment beforehand. Therefore, the most fitting option is that users are notified of new experiments but renewal is not required, reflecting a lack of active, ongoing consent management.",
+      "target_dimension": "Consent",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "101",
+      "question": {
+        "text": "Can users delete their data from the system, either partially or entirely, after the experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Yes, users can request complete data deletion at any time."
+          },
+          {
+            "id": "option2",
+            "label": "No, data cannot be deleted once collected for research."
+          },
+          {
+            "id": "option3",
+            "label": "Users can delete personal information but not derived metrics."
+          },
+          {
+            "id": "option4",
+            "label": "Data deletion is subject to the platform's data retention policy."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice described does not specifically mention the ability of users to delete their data, either partially or entirely, after the experiment. However, it is common for platforms to have data retention policies that govern how long data is kept and under what conditions it can be deleted. Since the data practice focuses on the manipulation of compatibility scores and user behavior analysis, without detailing data deletion options, the most reasonable conclusion is that data deletion would be subject to whatever data retention policy the platform has in place. This aligns with option 4, which suggests that data deletion is contingent on the platform's policies.",
+      "target_dimension": "Control",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Potential Issue"
+      }
+    },
+    {
+      "id": "102",
+      "question": {
+        "text": "What measures are in place to protect the data collected during the experiment?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "We use encryption for data both in transit and at rest"
+          },
+          {
+            "id": "option2",
+            "label": "We rely on basic password protection without additional encryption"
+          },
+          {
+            "id": "option3",
+            "label": "We have a dedicated security team monitoring data access and protection"
+          },
+          {
+            "id": "option4",
+            "label": "There are no specific security measures mentioned"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice description regarding OKCupid's experiments does not provide any specific details or mention about the security measures in place to protect the data collected during the experiment. There is no reference to encryption, password protection, or a dedicated security team. Therefore, the appropriate selection is the option indicating that no specific security measures are mentioned.",
+      "target_dimension": "Security Safeguards",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "103",
+      "question": {
+        "text": "How is user consent for data collection obtained and documented, specifically for personality questions and interaction data?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Consent is obtained through a detailed opt-in process with clear explanations."
+          },
+          {
+            "id": "option2",
+            "label": "Consent is included in general terms of service without specific mention of personality questions."
+          },
+          {
+            "id": "option3",
+            "label": "Consent is assumed through user interaction without explicit agreement."
+          },
+          {
+            "id": "option4",
+            "label": "There is no formal process for obtaining consent for specific data types."
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option2"
+      ],
+      "explanation": "The data practice describes how OKCupid conducted experiments by altering compatibility scores without mentioning any specific consent process for these activities. Since the experiments were conducted without explicit user consent and sparked debates about informed consent, it suggests that the consent for data collection, including personality questions and interaction data, was likely included in the general terms of service without specific mention. This aligns with 'option2', as the experiments reflect a lack of detailed opt-in process or explicit agreement from users for the specific types of data manipulation conducted.",
+      "target_dimension": "Collection Limitation",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    },
+    {
+      "id": "104",
+      "question": {
+        "text": "What internal audit practices are currently in place to ensure accountability in data handling?",
+        "options": [
+          {
+            "id": "option1",
+            "label": "Regular, comprehensive audits with external oversight"
+          },
+          {
+            "id": "option2",
+            "label": "Periodic audits conducted by an internal team"
+          },
+          {
+            "id": "option3",
+            "label": "Ad-hoc audits with no formal schedule"
+          },
+          {
+            "id": "option4",
+            "label": "No formal internal audit practices implemented"
+          }
+        ]
+      },
+      "selectedOptions": [
+        "option4"
+      ],
+      "explanation": "The data practice described does not mention any internal audit practices related to the accountability of data handling. OKCupid's experimentation on users through manipulated compatibility scores was publicly defended by a co-founder, but there is no indication of formal internal or external audits being conducted to ensure accountability or transparency in these experiments. Thus, 'No formal internal audit practices implemented' is the most appropriate option based on the provided information.",
+      "target_dimension": "Accountability",
+      "target_dimension_state": {
+        "original": "Potential Issue",
+        "now": "Has Issue"
+      }
+    }
+  ],
+  "final_state": {
+    "Collection Limitation": {
+      "state": "Has Issue",
+      "description": "Data collected includes user responses to personality questions and interaction data. The scope of data collection is not fully disclosed, and user consent specifics are unclear.",
+      "areas_to_investigate": [
+        "Extent of data collection",
+        "User consent mechanisms"
+      ]
+    },
+    "Data Quality": {
+      "state": "No Issue",
+      "description": "Data is manipulated in real-time for the experiment, indicating attention to data accuracy relevant to the experiment's purpose.",
+      "areas_to_investigate": []
+    },
+    "Purpose Specification": {
+      "state": "No Issue",
+      "description": "The purpose of data collection is clearly specified as analyzing user behavior in response to manipulated compatibility scores.",
+      "areas_to_investigate": []
+    },
+    "Use Limitation": {
+      "state": "Has Issue",
+      "description": "Data is used beyond original expectations of users, with manipulated scores affecting user experience without explicit consent.",
+      "areas_to_investigate": [
+        "User consent renewal",
+        "User awareness of data usage"
+      ]
+    },
+    "Security Safeguards": {
+      "state": "Has Issue",
+      "description": "There is no mention of specific security measures in place for data handling during or after the experiment.",
+      "areas_to_investigate": [
+        "Data protection protocols",
+        "Anonymization practices"
+      ]
+    },
+    "Openness": {
+      "state": "Has Issue",
+      "description": "The experiment's nature and data handling specifics, including retention and access, are not transparently communicated to users.",
+      "areas_to_investigate": [
+        "Transparency of data practices",
+        "Public disclosure of experiment details"
+      ]
+    },
+    "Individual Participation": {
+      "state": "Has Issue",
+      "description": "Users appear not to have control over data collected during the experiment or informed of their participation in real-time.",
+      "areas_to_investigate": [
+        "User rights to data access and control",
+        "Mechanisms for user data deletion"
+      ]
+    },
+    "Accountability": {
+      "state": "Has Issue",
+      "description": "While internal data access is limited, there is no mention of accountability measures or oversight of data handling practices.",
+      "areas_to_investigate": [
+        "Internal audit practices",
+        "Accountability frameworks for data use"
+      ]
+    }
+  }
+}
